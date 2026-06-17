@@ -60,14 +60,14 @@ or alter the authoritative tracker/ledger.
 ## Claude Model Routing
 
 Use Claude Code subagents from `.claude/agents/` when work can run in parallel.
-Choose the lowest-capability model that is reliable for the task:
+Choose the lowest-capability model and effort that are reliable for the task:
 
 | Intensity | Agent | Model | Effort | Use For |
 | --- | --- | --- | --- | --- |
 | Low | `job-discovery-haiku` | `claude-haiku-4-5` | `low` | finding roles, freshness checks, duplicate checks, extracting simple fields |
 | Medium | `job-screening-sonnet` | `claude-sonnet-4-6` | `medium` | eligibility screening, ATS keyword gaps, package review, application-question mapping |
-| High | `job-risk-opus` | `claude-opus-4-8` | `xhigh` | sponsorship/export ambiguity, high-risk answers, novel ATS flows, final forensic audit |
-| Email | `email-verification-sonnet` | `claude-sonnet-4-6` | `medium` | mailbox/portal confirmation inventory after the main session grants explicit scope |
+| High | `job-risk-opus` | `claude-opus-4-8` | `xhigh` | sponsorship/export ambiguity, high-risk answers, novel ATS flows, disputed final audit |
+| Email | `email-verification-sonnet` | `claude-sonnet-4-6` | `low` | mailbox/portal confirmation inventory after the main session grants explicit scope |
 
 Escalate to `job-risk-opus` when a subagent reports uncertainty, conflicting
 evidence, legal/immigration ambiguity, or a risk that could lead to a false
@@ -75,13 +75,30 @@ submission claim.
 
 ## Recommended Main Session Models
 
-- Initial Mac setup and repository migration: start Claude Code with
-  `claude-opus-4-8` at `xhigh` effort.
-- Routine application goal: start with `claude-opus-4-8` at `high` effort for
-  the main orchestrator. It may delegate low/medium tasks to Haiku/Sonnet
+Use the token-efficient default first and escalate only when the evidence or
+risk demands it.
+
+- Initial Mac setup: start Claude Code with `claude-sonnet-4-6` at `medium`
+  effort. This is accurate enough for dependency setup, path fixes, tracker
+  checks, and local verification while avoiding an Opus burn.
+- Routine application goal: start with `claude-sonnet-4-6` at `medium` effort
+  for the main orchestrator. Keep live submission and tracker ownership in the
+  main session, but delegate discovery to Haiku and screening/review to Sonnet
   subagents.
-- Cost-saving exploratory discovery only: `claude-sonnet-4-6` at `medium` is
-  acceptable, but switch to Opus before live submissions or final verification.
+- Discovery-only or tracker-inventory work: `claude-haiku-4-5` at `low` effort
+  is acceptable when there will be no live submission, legal answer, mailbox
+  access, or authoritative tracker write.
+- Opus escalation: switch to `claude-opus-4-8` at `high` effort only for
+  ambiguous sponsorship/export-control language, novel ATS behavior, repeated
+  automation failures, or conflicting evidence. Use `xhigh` only for final
+  forensic audits, high-stakes disputed answers, or a batch that has already
+  shown contradictions.
+- Do not use Opus fast mode for this workflow unless latency matters more than
+  cost. Fast mode is not the token-efficient option.
+
+When Claude Code supports an advisor/escalation workflow, prefer a Sonnet main
+session with an Opus advisor or `job-risk-opus` subagent over running the whole
+batch on Opus.
 
 ## Safety Boundaries
 

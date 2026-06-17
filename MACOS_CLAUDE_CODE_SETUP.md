@@ -7,12 +7,14 @@ job-application automation with Claude Code.
 
 Use Claude Code with:
 
-- Main setup model: `claude-opus-4-8`
-- Effort: `xhigh`
+- Main setup model: `claude-sonnet-4-6`
+- Effort: `medium`
 
-Setup touches local paths, Playwright, tracker migration, browser permissions,
-mailbox access, and artifact validation. That is high-leverage work, so use the
-most reliable model first.
+Setup mostly touches local paths, package installs, Playwright, tracker checks,
+browser permissions, and local-secret restoration. Sonnet 4.6 at medium effort
+is the cost-aware default. Escalate to `claude-opus-4-8` at `high` only if setup
+hits ambiguous migration conflicts, repeated dependency failures, or evidence
+reconciliation that Sonnet cannot resolve.
 
 ## Recommended Claude Model For Application Goals
 
@@ -24,12 +26,21 @@ apply to 10 different jobs related to robotics field, job postings highly releva
 
 use:
 
-- Main orchestrator model: `claude-opus-4-8`
-- Effort: `high`
+- Main orchestrator model: `claude-sonnet-4-6`
+- Effort: `medium`
 
-The main Opus session should own final browser submission, email verification,
-ledger updates, and cleanup. It should delegate discovery and screening to
-Haiku/Sonnet subagents according to `CLAUDE.md`.
+The main Sonnet session should own final browser submission, email
+authorization, ledger updates, tracker writes, and cleanup. It should delegate
+bulk discovery to Haiku and routine screening to Sonnet subagents according to
+`CLAUDE.md`. Escalate only the difficult slices to Opus 4.8:
+
+- `high` effort for ambiguous sponsorship/export-control language, novel ATS
+  behavior, repeated automation failures, or conflicting evidence.
+- `xhigh` effort only for final forensic audits, high-stakes disputed answers,
+  or a batch that has already shown contradictions.
+
+Do not enable Opus fast mode for this workflow when token/cost efficiency is
+the priority.
 
 ## Clone And Install
 

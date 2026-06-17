@@ -2,7 +2,7 @@
 name: email-verification-sonnet
 description: Medium-intensity confirmation email or portal evidence inventory after the main session grants explicit mailbox/portal scope.
 model: claude-sonnet-4-6
-effort: medium
+effort: low
 tools: Read, Grep, Glob, Bash
 ---
 
