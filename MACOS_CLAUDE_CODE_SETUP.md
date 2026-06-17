@@ -3,6 +3,27 @@
 This guide is for cloning the handoff repo on a Mac and running the full
 job-application automation with Claude Code.
 
+## Which Claude App Mode To Use
+
+Use the **Code** tab in Claude Desktop.
+
+- **Use Code, Local session:** this workflow needs direct access to the cloned
+  repo, local files, the integrated terminal, Playwright, Git, browser evidence,
+  and visible diffs. In Claude Desktop, open `Code`, choose `Local`, then select
+  the cloned `Job-application-agent-` folder.
+- **Do not use Chat for the automation:** Chat is for general conversation and
+  does not provide the local repo/file/terminal workflow this project needs.
+- **Do not start with Cowork for this repo:** Cowork is useful for autonomous
+  background tasks, but this workflow has local browser state, mailbox/portal
+  authorization, final-submit safety gates, and tracker writes that are better
+  handled in the Code tab where you can review changes and terminal output.
+  After the repo is proven working, Cowork may be used only for bounded
+  non-submission research or documentation tasks.
+
+The first time you use Claude Desktop, confirm you have a paid Claude plan that
+includes Claude Code, sign in, update the app, open the `Code` tab, and start a
+`Local` session.
+
 ## Recommended Claude Model For Setup
 
 Use Claude Code with:
@@ -47,6 +68,104 @@ bulk discovery to Haiku and routine screening to Sonnet subagents according to
 Do not enable Opus fast mode for this workflow when token/cost efficiency is
 the priority.
 
+## Fresh Mac Prerequisites
+
+Because this may be a new MacBook Air, verify these once before cloning.
+
+### 1. Update macOS And Claude Desktop
+
+1. Open System Settings and install any macOS updates.
+2. Open Claude Desktop.
+3. Use `Claude > Check for Updates`.
+4. Sign in with the Claude account that has Claude Code access.
+5. Open the `Code` tab. If Claude asks you to upgrade or subscribe, complete
+   that before continuing.
+
+### 2. Install Apple's Command Line Tools
+
+Open Terminal and run:
+
+```bash
+xcode-select --install
+```
+
+If it says the tools are already installed, continue.
+
+Verify:
+
+```bash
+git --version
+python3 --version
+```
+
+### 3. Install Homebrew
+
+If `brew --version` fails, install Homebrew:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+After installation, follow Homebrew's terminal output to add `brew` to your
+shell path. On Apple Silicon Macs, that usually means adding this to
+`~/.zprofile`:
+
+```bash
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+Then reload your shell:
+
+```bash
+source ~/.zprofile
+brew --version
+```
+
+### 4. Install Runtime Dependencies
+
+Install the tools this repo expects:
+
+```bash
+brew install node git python
+brew install --cask google-chrome
+```
+
+Verify:
+
+```bash
+node --version
+npm --version
+git --version
+python3 --version
+google-chrome --version || true
+```
+
+If the `google-chrome` command is unavailable, that is usually okay; the app
+should still exist at `/Applications/Google Chrome.app`.
+
+### 5. Set Up GitHub Access
+
+Use either SSH or HTTPS.
+
+Recommended SSH path:
+
+```bash
+ssh-keygen -t ed25519 -C "gjobiper@asu.edu"
+eval "$(ssh-agent -s)"
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+pbcopy < ~/.ssh/id_ed25519.pub
+```
+
+Then add the copied public key in GitHub under `Settings > SSH and GPG keys`.
+
+Test:
+
+```bash
+ssh -T git@github.com
+```
+
+HTTPS is also fine if GitHub prompts you to authenticate in the browser.
+
 ## Clone And Install
 
 ```bash
@@ -82,6 +201,16 @@ cp job-sources.example.json job-sources.json
 Then fill in API keys, alert webhooks, and any mailbox/portal access method you
 intend Claude Code to use.
 
+For a new Mac, create a local-only secrets folder outside the repo, for example:
+
+```bash
+mkdir -p ~/Private/job-application-agent-secrets
+```
+
+Put copies of `.env`, any mailbox access notes, and any Google Drive-downloaded
+secret files there. Copy only the needed files into the repo working directory.
+Do not copy browser profile folders into git.
+
 ## macOS Browser Permissions
 
 Claude Code and Playwright may need macOS permissions for browser automation:
@@ -91,6 +220,16 @@ Claude Code and Playwright may need macOS permissions for browser automation:
 3. Allow the terminal app used by Claude Code under Automation, Accessibility,
    and Full Disk Access if prompted.
 4. Use a dedicated Chrome profile for automation. Do not commit the profile.
+
+If Claude Desktop asks for filesystem access to the cloned repo, allow it. If
+browser automation fails to click/type, grant permissions to Claude Desktop,
+Terminal, and Google Chrome under:
+
+- Privacy & Security > Accessibility
+- Privacy & Security > Automation
+- Privacy & Security > Full Disk Access, only if needed
+- Privacy & Security > Screen & System Audio Recording, only if screenshots or
+  screen inspection are needed
 
 ## Start The Workbench
 
@@ -164,7 +303,13 @@ Sonnet or Haiku may not mark a role `submitted - email verified`,
 
 ## First Claude Code Prompt On Mac
 
-After setup, start Claude Code in the repo and say:
+After setup, open Claude Desktop and:
+
+1. Click `Code`.
+2. Choose `Local`.
+3. Select the cloned `Job-application-agent-` folder.
+4. Select `claude-sonnet-4-6` with medium effort for setup.
+5. Say:
 
 ```text
 Read CLAUDE.md, AGENTS.md, MACOS_CLAUDE_CODE_SETUP.md, and LOCAL_SECRETS_MANIFEST.md. Verify this Mac workspace is ready to run the job-application workbench. Do not submit applications yet.

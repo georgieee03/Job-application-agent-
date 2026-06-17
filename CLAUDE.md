@@ -4,6 +4,19 @@ This repository is a portable job-application automation workspace for George
 Jobi Perangattu. Claude Code should use this file as the primary project
 instruction layer, with `AGENTS.md` as the detailed workflow contract.
 
+## Required Claude Surface
+
+Run this project from the **Code** tab in Claude Desktop as a **Local** session
+pointed at the cloned repository folder.
+
+- Do not run the automation from Chat; Chat is for conversation and lacks the
+  local repo/terminal/diff workflow this project requires.
+- Do not use Cowork as the first setup or live-application surface. Cowork may
+  be used later only for bounded non-submission research or documentation tasks.
+- The Code tab is required for local files, integrated terminal commands,
+  Playwright setup, tracker edits, visible diffs, and safe final-submit
+  supervision.
+
 ## Primary Goal Mode
 
 When George prompts a goal like:
