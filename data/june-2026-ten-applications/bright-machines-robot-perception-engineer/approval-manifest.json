@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-06-08T05:28:23.988620+00:00",
+  "company": "Bright Machines",
+  "role": "Robot Perception Engineer - Smart Robotics",
+  "jobUrl": "https://jobs.lever.co/brightmachines/3e897651-c597-4496-bbd0-aca58afb1c69",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\bright-machines-robot-perception-engineer\\George_Jobi_Resume.pdf",
+      "bytes": 57799,
+      "sha256": "62e4ddae1521fabbf4adba41ac8025cc77277889464ff63932e328bcaf8ececa"
+    },
+    "coverLetter": null,
+    "attachments": []
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\bright-machines-robot-perception-engineer\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 95.0
+  }
+}

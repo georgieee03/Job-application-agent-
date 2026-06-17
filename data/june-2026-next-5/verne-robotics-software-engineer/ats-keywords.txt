@@ -1,0 +1,16 @@
+robotics software
+Python
+C++
+device interfaces
+robot control
+sensor integration
+data collection
+data processing
+PyTorch
+computer vision
+motion planning
+simulation
+physical robots
+testing
+debugging
+performance optimization

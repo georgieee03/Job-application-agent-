@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-06-09T00:38:54.206717+00:00",
+  "company": "Kodiak",
+  "role": "Fall 2026 Intern, Perception",
+  "jobUrl": "https://job-boards.greenhouse.io/kodiak/jobs/4174533009",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\kodiak-fall-2026-perception-intern\\George_Jobi_Resume.pdf",
+      "bytes": 57854,
+      "sha256": "f9422f38bc2a5ad11c8ed6e108c25197b22e01448bdbb2fba38004e0f61ce773"
+    },
+    "coverLetter": null,
+    "attachments": [],
+    "responses": []
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\kodiak-fall-2026-perception-intern\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 95.0,
+    "resume": {
+      "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\kodiak-fall-2026-perception-intern\\validation-report.json",
+      "valid": true,
+      "estimatedAtsAlignment": 95.0
+    },
+    "coverLetter": null
+  }
+}

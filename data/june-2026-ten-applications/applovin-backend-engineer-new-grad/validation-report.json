@@ -1,0 +1,117 @@
+{
+  "valid": true,
+  "pdf": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\applovin-backend-engineer-new-grad\\George_Jobi_Resume.pdf",
+  "filename": {
+    "expected": "George_Jobi_Resume.pdf",
+    "actual": "George_Jobi_Resume.pdf",
+    "ok": true
+  },
+  "pageCount": {
+    "value": 2,
+    "ok": true
+  },
+  "pageSizes": {
+    "values": [
+      [
+        612.0,
+        792.0
+      ],
+      [
+        612.0,
+        792.0
+      ]
+    ],
+    "letter": true
+  },
+  "pageFillRatios": {
+    "values": [
+      0.612,
+      0.572
+    ],
+    "minimum": 0.55,
+    "ok": true
+  },
+  "sections": {
+    "PROFESSIONAL SUMMARY": true,
+    "EDUCATION": true,
+    "TECHNICAL SKILLS": true,
+    "PROJECT EXPERIENCE": true,
+    "WORK EXPERIENCE": true
+  },
+  "preservedContent": {
+    "M.S. Robotics and Autonomous Systems": true,
+    "B.S. Computer Science": true,
+    "Efficient TransFuser": true,
+    "Parrot MiniDrone": true,
+    "3D Motion Planning": true,
+    "Spider CAD Robot": true,
+    "Factory Automation System for Semiconductor Process Simulation": true,
+    "DigiClips Media": true,
+    "Odoo": true,
+    "TicketDex": true
+  },
+  "boldAnchors": {
+    "M.S. Robotics and Autonomous Systems": true,
+    "B.S. Computer Science": true,
+    "Efficient TransFuser": true,
+    "Parrot MiniDrone": true,
+    "3D Motion Planning": true,
+    "Spider CAD Robot": true,
+    "Factory Automation System for Semiconductor Process Simulation": true,
+    "Backend Developer Intern": true,
+    "Full Stack Developer Intern": true
+  },
+  "boldSkillLabels": {
+    "Role Emphasis": true,
+    "Localization & SLAM": true,
+    "Robotic Sensor Systems": true,
+    "Autonomous Robotics Software": true,
+    "Languages & Platforms": true,
+    "ML & Deep Learning": true,
+    "Software Engineering": true
+  },
+  "keywordCoverage": {
+    "rawPercent": 94.4,
+    "estimatedAtsAlignment": 94.4,
+    "targetRange": "89-95",
+    "hits": [
+      "backend engineering",
+      "C++",
+      "Java",
+      "Python",
+      "distributed systems",
+      "high availability",
+      "low latency",
+      "large-scale infrastructure",
+      "data structures",
+      "algorithms",
+      "API integration",
+      "performance optimization",
+      "reliability",
+      "testing",
+      "monitoring",
+      "cross-functional collaboration",
+      "software internship"
+    ],
+    "missing": [
+      "ownership"
+    ],
+    "note": "Local phrase-coverage heuristic only; not an employer ATS score."
+  },
+  "reference": {
+    "path": "F:\\Resume tracker\\George_Jobi_Resume_Kforce.pdf",
+    "exists": true,
+    "pageCount": 2,
+    "pageSizes": [
+      [
+        612.0,
+        792.0
+      ],
+      [
+        612.0,
+        792.0
+      ]
+    ]
+  },
+  "failures": []
+}

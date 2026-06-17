@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-06-08T05:28:19.182579+00:00",
+  "company": "Simbe Robotics",
+  "role": "Robotics Software Engineer (C++ & Python)",
+  "jobUrl": "https://jobs.lever.co/SimbeRobotics/bffe760d-b1fb-49ff-b259-f0724c8661fa",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\simbe-robotics-software-engineer\\George_Jobi_Resume.pdf",
+      "bytes": 57781,
+      "sha256": "01e5e9faeb46585f4c405995740b18f60cf2b697e2d215e36f06da36b77774cc"
+    },
+    "coverLetter": null,
+    "attachments": []
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\simbe-robotics-software-engineer\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 95.0
+  }
+}

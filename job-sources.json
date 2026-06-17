@@ -1,0 +1,377 @@
+{
+  "searches": [
+    {
+      "provider": "adzuna",
+      "query": "Robotics Software Engineer",
+      "location": "United States",
+      "page": 1,
+      "limit": 25
+    },
+    {
+      "provider": "adzuna",
+      "query": "Automation Engineer PLC",
+      "location": "United States",
+      "page": 1,
+      "limit": 25
+    },
+    {
+      "provider": "adzuna",
+      "query": "Controls Engineer PLC",
+      "location": "United States",
+      "page": 1,
+      "limit": 25
+    },
+    {
+      "provider": "adzuna",
+      "query": "Robotics Engineer ROS",
+      "location": "United States",
+      "page": 1,
+      "limit": 25
+    },
+    {
+      "provider": "jooble",
+      "query": "Robotics Software Engineer",
+      "location": "United States",
+      "page": 1,
+      "limit": 50
+    },
+    {
+      "provider": "jooble",
+      "query": "Robotics Engineer ROS",
+      "location": "United States",
+      "page": 1,
+      "limit": 50
+    },
+    {
+      "provider": "jooble",
+      "query": "Autonomous Systems Engineer",
+      "location": "United States",
+      "page": 1,
+      "limit": 50
+    },
+    {
+      "provider": "jooble",
+      "query": "Autonomy Engineer",
+      "location": "United States",
+      "page": 1,
+      "limit": 50
+    },
+    {
+      "provider": "jooble",
+      "query": "Automation Engineer PLC",
+      "location": "United States",
+      "page": 1,
+      "limit": 50
+    },
+    {
+      "provider": "jooble",
+      "query": "Controls Engineer PLC",
+      "location": "United States",
+      "page": 1,
+      "limit": 50
+    },
+    {
+      "provider": "jooble",
+      "query": "PLC Programmer",
+      "location": "United States",
+      "page": 1,
+      "limit": 50
+    },
+    {
+      "provider": "jooble",
+      "query": "ROS Developer",
+      "location": "United States",
+      "page": 1,
+      "limit": 50
+    },
+    {
+      "provider": "jooble",
+      "query": "Robotics Integration Engineer",
+      "location": "United States",
+      "page": 1,
+      "limit": 50
+    },
+    {
+      "provider": "jooble",
+      "query": "Field Robotics Engineer",
+      "location": "United States",
+      "page": 1,
+      "limit": 50
+    },
+    {
+      "provider": "jooble",
+      "query": "Perception Engineer Robotics",
+      "location": "United States",
+      "page": 1,
+      "limit": 50
+    },
+    {
+      "provider": "jooble",
+      "query": "SLAM Engineer",
+      "location": "United States",
+      "page": 1,
+      "limit": 50
+    },
+    {
+      "provider": "jooble",
+      "query": "Computer Vision Engineer Robotics",
+      "location": "United States",
+      "page": 1,
+      "limit": 50
+    }
+  ],
+  "boards": [
+    {
+      "provider": "greenhouse",
+      "source": "locusrobotics",
+      "includeDescription": true
+    },
+    {
+      "provider": "greenhouse",
+      "source": "mavenrobotics",
+      "includeDescription": true
+    },
+    {
+      "provider": "greenhouse",
+      "source": "mvprobotics",
+      "includeDescription": true
+    },
+    {
+      "provider": "greenhouse",
+      "source": "turing",
+      "includeDescription": true
+    },
+    {
+      "provider": "ashby",
+      "source": "corvus-robotics",
+      "includeDescription": true
+    },
+    {
+      "provider": "ashby",
+      "source": "GoVenti",
+      "includeDescription": true
+    },
+    {
+      "provider": "ashby",
+      "source": "robco",
+      "includeDescription": true
+    },
+    {
+      "provider": "ashby",
+      "source": "generalrobotics",
+      "includeDescription": true
+    }
+  ],
+  "filters": {
+    "includeKeywords": [
+      "robotics",
+      "robot",
+      "autonomous",
+      "autonomy",
+      "automation",
+      "controls",
+      "PLC",
+      "ROS",
+      "ROS2",
+      "SLAM",
+      "perception",
+      "computer vision",
+      "localization",
+      "motion planning",
+      "industrial automation",
+      "Python",
+      "C++"
+    ],
+    "excludeKeywords": [
+      "internship",
+      "intern",
+      "co-op",
+      "unpaid",
+      "volunteer",
+      "requires U.S. citizenship",
+      "U.S. citizenship required",
+      "US citizenship required",
+      "must be a U.S. citizen",
+      "must be US citizen",
+      "active security clearance",
+      "requires active clearance",
+      "top secret clearance",
+      "TS/SCI",
+      "polygraph",
+      "clearance required",
+      "Business Development Representative",
+      "Sales Executive",
+      "Account Executive",
+      "Deal Desk",
+      "Pricing Manager",
+      "Recruiter",
+      "Talent Acquisition",
+      "Customer Success",
+      "Marketing Manager",
+      "Product Marketing",
+      "Finance Manager",
+      "Operations Manager"
+    ],
+    "includeCompanies": [],
+    "excludeCompanies": [],
+    "includeLocations": [],
+    "excludeLocations": [],
+    "remoteOnly": false,
+    "workplaceTypes": [],
+    "employmentTypes": [],
+    "maxAgeDays": 60,
+    "onlyWithApplyUrl": false,
+    "preferredProviders": []
+  },
+  "ranking": {
+    "preferCompanyBoards": true,
+    "remoteBoost": 10,
+    "freshnessBoost": 14,
+    "compensationBoost": 6,
+    "keywordBoost": 22,
+    "titleBoosts": [
+      "Robotics Software Engineer",
+      "Robotics Engineer",
+      "Automation Engineer",
+      "PLC Programmer",
+      "Controls Engineer",
+      "Autonomous Systems Engineer",
+      "Autonomy Engineer",
+      "Robotics Integration Engineer",
+      "ROS Developer",
+      "Perception Engineer",
+      "SLAM Engineer",
+      "Computer Vision Engineer",
+      "Field Robotics Engineer"
+    ],
+    "companyBoosts": [
+      "Locus Robotics",
+      "Maven Robotics",
+      "MVP Robotics",
+      "Corvus Robotics",
+      "Venti Technologies",
+      "RobCo",
+      "General Robotics"
+    ],
+    "locationBoosts": [
+      "Remote",
+      "United States",
+      "Phoenix",
+      "Tempe",
+      "Arizona",
+      "California",
+      "Texas",
+      "Massachusetts",
+      "Michigan",
+      "Pittsburgh",
+      "Boston",
+      "San Francisco"
+    ],
+    "skillKeywords": [
+      "Python",
+      "C++",
+      "ROS",
+      "ROS2",
+      "Linux",
+      "Git",
+      "Docker",
+      "Gazebo",
+      "MATLAB",
+      "Simulink",
+      "PLC",
+      "Ladder Logic",
+      "Siemens PLC",
+      "Allen-Bradley PLC",
+      "Control Logic",
+      "Industrial Automation",
+      "Robotics Integration",
+      "SLAM",
+      "Localization",
+      "Motion Planning",
+      "Computer Vision",
+      "OpenCV",
+      "PyTorch",
+      "TensorFlow",
+      "Sensors",
+      "Actuators",
+      "PID Control",
+      "embedded systems",
+      "E-Verify",
+      "OPT",
+      "STEM OPT",
+      "visa sponsorship",
+      "sponsorship"
+    ]
+  },
+  "alerts": [
+    {
+      "id": "robotics-autonomy-core",
+      "name": "Robotics, autonomy, ROS matches",
+      "enabled": true,
+      "minScore": 70,
+      "newOnly": true,
+      "keywords": [
+        "Robotics Software Engineer",
+        "Robotics Engineer",
+        "Autonomous Systems Engineer",
+        "Autonomy Engineer",
+        "ROS",
+        "ROS2",
+        "SLAM",
+        "Perception Engineer",
+        "Computer Vision Engineer",
+        "robotics",
+        "autonomous"
+      ],
+      "providers": [],
+      "companies": [],
+      "browser": true
+    },
+    {
+      "id": "automation-controls-plc",
+      "name": "Automation, controls, PLC matches",
+      "enabled": true,
+      "minScore": 68,
+      "newOnly": true,
+      "keywords": [
+        "Automation Engineer",
+        "Controls Engineer",
+        "PLC Programmer",
+        "PLC",
+        "Ladder Logic",
+        "Industrial Automation",
+        "Robotics Integration",
+        "controls",
+        "automation"
+      ],
+      "providers": [],
+      "companies": [],
+      "browser": true
+    },
+    {
+      "id": "opt-sponsorship-friendly-signals",
+      "name": "OPT/STEM OPT friendly signals",
+      "enabled": true,
+      "minScore": 65,
+      "newOnly": true,
+      "keywords": [
+        "OPT",
+        "STEM OPT",
+        "E-Verify",
+        "visa sponsorship",
+        "sponsorship",
+        "international students"
+      ],
+      "providers": [],
+      "companies": [],
+      "browser": true
+    }
+  ],
+  "schedule": {
+    "enabled": false,
+    "intervalMinutes": 180,
+    "timezone": "America/Phoenix",
+    "quietHoursStart": "22:00",
+    "quietHoursEnd": "08:00"
+  }
+}

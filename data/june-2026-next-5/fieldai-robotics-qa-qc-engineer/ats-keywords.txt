@@ -1,0 +1,18 @@
+robotics QA/QC
+manual testing
+structured testing
+physical robot validation
+system monitoring
+bug reproduction
+edge cases
+test logs
+regression testing
+QA processes
+test procedures
+operational checklists
+Python
+Bash
+cameras
+LiDAR
+GPS
+safety-conscious testing

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-06-12T00:56:16.676040+00:00",
+  "company": "Lila Sciences",
+  "role": "Software Engineer I, Instrument Software",
+  "jobUrl": "https://job-boards.greenhouse.io/lilasciences/jobs/4186444009",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\lila-software-engineer-i-instrument-software\\George_Jobi_Resume.pdf",
+      "bytes": 57903,
+      "sha256": "9e2f47da5b2a5ad14dc13806cf2cc3a94a82c851fcaca228a5c4ce320cca6170"
+    },
+    "coverLetter": null,
+    "attachments": [],
+    "responses": [
+      {
+        "filename": "application-responses.json",
+        "path": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\lila-software-engineer-i-instrument-software\\application-responses.json",
+        "bytes": 960,
+        "sha256": "3eb239e50fc98899bba10a2f974e76ed6d34ff5b5505762c5e64c52b09201585",
+        "kind": "application-response",
+        "upload": false
+      }
+    ]
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\lila-software-engineer-i-instrument-software\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 95.0,
+    "resume": {
+      "report": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\lila-software-engineer-i-instrument-software\\validation-report.json",
+      "valid": true,
+      "estimatedAtsAlignment": 95.0
+    },
+    "coverLetter": null
+  }
+}

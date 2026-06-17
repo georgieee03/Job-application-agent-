@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-06-08T19:27:14.629263+00:00",
+  "company": "Atomic Semi",
+  "role": "Robotics Software Engineer",
+  "jobUrl": "https://jobs.ashbyhq.com/atomicsemi/f30a35c7-4962-459a-bca7-1875f0fc0f8f",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\atomic-semi-robotics-software-engineer\\George_Jobi_Resume.pdf",
+      "bytes": 57735,
+      "sha256": "93104c7c949d71c4bb7d1d7e4f3db1b472bb3d0861961516765cddf6a3cda507"
+    },
+    "coverLetter": null,
+    "attachments": [
+      {
+        "filename": "George_Jobi_Portfolio.pdf",
+        "path": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\atomic-semi-robotics-software-engineer\\George_Jobi_Portfolio.pdf",
+        "bytes": 37170,
+        "sha256": "0da5bf1e349a8365fa7f6194c92c8b070d35ce031941eedc60a1241fd2a13a8c",
+        "kind": "additional"
+      }
+    ],
+    "responses": [
+      {
+        "filename": "application-responses.json",
+        "path": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\atomic-semi-robotics-software-engineer\\application-responses.json",
+        "bytes": 1974,
+        "sha256": "9a39bac5add52f97d358df7ef04daf930b11a7d03b37e15e44593eda1101fdb9",
+        "kind": "application-response",
+        "upload": false
+      }
+    ]
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\atomic-semi-robotics-software-engineer\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 94.4,
+    "resume": {
+      "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\atomic-semi-robotics-software-engineer\\validation-report.json",
+      "valid": true,
+      "estimatedAtsAlignment": 94.4
+    },
+    "coverLetter": null
+  }
+}

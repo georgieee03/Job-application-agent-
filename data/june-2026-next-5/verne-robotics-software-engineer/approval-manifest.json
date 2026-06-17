@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-06-12T00:56:15.924975+00:00",
+  "company": "Verne Robotics",
+  "role": "Robotics Software Engineer",
+  "jobUrl": "https://jobs.ashbyhq.com/Verne%20Robotics/34b8ec26-2bb0-47b0-912c-09fa0389b2c6",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\verne-robotics-software-engineer\\George_Jobi_Resume.pdf",
+      "bytes": 57804,
+      "sha256": "c8d97932663cfeab94b82eb9420018ba64a59d736170b66236a8fe6cc64e1114"
+    },
+    "coverLetter": null,
+    "attachments": [],
+    "responses": [
+      {
+        "filename": "application-responses.json",
+        "path": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\verne-robotics-software-engineer\\application-responses.json",
+        "bytes": 724,
+        "sha256": "9603ffa73c1281bb853d0444b63cf293dce16b422199cbbe0227d0e3515cf1da",
+        "kind": "application-response",
+        "upload": false
+      }
+    ]
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\verne-robotics-software-engineer\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 93.8,
+    "resume": {
+      "report": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\verne-robotics-software-engineer\\validation-report.json",
+      "valid": true,
+      "estimatedAtsAlignment": 93.8
+    },
+    "coverLetter": null
+  }
+}

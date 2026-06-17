@@ -1,0 +1,42 @@
+GEORGE JOBI PERANGATTU
+Tempe, AZ 85281 | (480) 742-9855 | gjobiper@asu.edu
+
+# PROFESSIONAL SUMMARY
+Robotics and ML systems engineer pursuing an M.S. in Robotics and Autonomous Systems with experience turning research models into reliable training and inference pipelines. Strong Python and C++ foundation, practical PyTorch experience with GPU-accelerated training, data loading, batching-aware model evaluation, mixed precision debugging, and robotics workloads spanning perception, planning, navigation, and sensor fusion. Well aligned with ML infrastructure, model serving, edge deployment, low latency/high throughput robotics inference, foundation model fundamentals, and productionizing research code for autonomous systems.
+
+# EDUCATION
+M.S. Robotics and Autonomous Systems, AI Concentration, Arizona State University, Tempe, AZ - Graduating Jul 2026
+B.S. Computer Science, Arizona State University, Tempe, AZ - Graduated May 2025
+
+# TECHNICAL SKILLS
+ML Systems: PyTorch, TensorFlow, GPU training, mixed precision, data loading pipelines, training pipelines, batching, memory-aware debugging, serialization-aware data handling, model evaluation, transformers, CNNs, foundation model fundamentals, multi-task learning, model optimization, latency reduction, low latency, high throughput
+Robotics Workloads: ROS/ROS 2, robot navigation, sensor fusion, camera-LiDAR fusion, localization, motion planning, controls, CARLA, Gazebo, LiDAR, RGB cameras, RGB-D cameras, point cloud processing
+Production Engineering: Python, C++, Docker, Linux/Ubuntu, Git, CMake, CI/CD, testing, debugging, technical documentation, backend systems, async-ready service design fundamentals, production services
+Computer Vision: Object detection, segmentation, depth estimation, BEV perception, pose estimation, scene understanding, OpenCV fundamentals, perception for autonomous systems
+
+# ML AND ROBOTICS EXPERIENCE
+Efficient TransFuser: Multi-Task Sensor Fusion for Autonomous Navigation, ASU CSE 598 Research Project - Spring 2026
+- Built a robotics ML pipeline for camera-LiDAR fusion, replacing a RegNetY backbone with EfficientNetV2-S and reducing parameters by 70% while improving held-out loss by 8.7%.
+- Developed multi-task training across navigation, depth estimation, semantic segmentation, detection, and BEV mapping in CARLA, using reusable data loaders and structured evaluation code.
+- Implemented multi-scale transformer fusion for RGB and LiDAR point cloud features, improving BEV segmentation by 25.4% and strengthening real-time robotics perception readiness.
+- Investigated FP16 AMP instability in CenterNet focal loss, connecting PyTorch internals, numerical stability, GPU training, and model architecture choices.
+- Used cosine LR scheduling, gradient clipping, and Kendall uncertainty weighting to run controlled experiments and organize model-performance results.
+
+Backend Developer Intern, DigiClips Media, Tempe, AZ - Aug 2024 to May 2025
+- Developed image-recognition ML models with Python and PyTorch for systems handling 10M+ daily queries.
+- Optimized data loading and GPU-aware training/inference paths, reducing latency by 45%.
+- Improved computer vision detection accuracy by 30% through model evaluation, reusable code, and iterative analysis.
+
+Parrot MiniDrone: Autonomous Robot Navigation on Real Hardware, ASU Robotics Coursework - Spring 2026
+- Built navigation and model-inference pipelines for real hardware, combining inertial and visual sensor data with closed-loop PID control.
+- Logged sensor and performance data for repeatable diagnostics, reliability evaluation, and robotics system debugging.
+
+3D Motion Planning for Robot Navigation in Gazebo, ASU Robotics Coursework - Fall 2025
+- Developed Python 3D RRT motion planning and integrated ROS/Gazebo simulation tests for collision-free robot navigation.
+
+# ADDITIONAL EXPERIENCE
+Full Stack Developer Intern, Odoo, Dubai, UAE - May 2025 to Aug 2025
+- Refactored Python backend code for production applications and contributed to reusable infrastructure.
+
+Full Stack Developer Intern, TicketDex, Tempe, AZ - Jan 2025 to May 2025
+- Built backend services and testing infrastructure, reducing latency by 30% through algorithmic optimization.

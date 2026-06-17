@@ -1,0 +1,14 @@
+industrial robotics
+motion planning
+path planning
+collision detection
+collision avoidance
+geometric reasoning
+robot kinematics
+multi-arm coordination
+shared workspace
+C++
+Python
+ROS2
+custom planners
+robot hardware

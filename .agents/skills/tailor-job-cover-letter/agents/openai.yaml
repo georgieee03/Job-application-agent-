@@ -1,0 +1,7 @@
+interface:
+  display_name: "Tailor Job Cover Letter"
+  short_description: "Create truthful role-specific cover letters"
+  default_prompt: "Use $tailor-job-cover-letter to create and validate a role-specific cover letter for this application."
+
+policy:
+  allow_implicit_invocation: true

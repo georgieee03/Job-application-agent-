@@ -1,0 +1,18 @@
+robot bring-up
+functional validation
+manufacturing test
+Python
+Bash
+Linux
+sensors
+actuators
+automated test sequences
+data acquisition
+fault diagnosis
+hardware-software integration
+documentation
+safety checks
+physical robot
+testing
+validation
+PLC

@@ -1,0 +1,18 @@
+C++
+Python
+kinematics
+rigid-body dynamics
+SO(3)
+SE(3)
+motion planning
+PID control
+closed-loop control
+Gazebo
+simulation
+PyTorch
+machine learning
+trajectory optimization
+sim-to-real
+sensor fusion
+physical robot
+controls

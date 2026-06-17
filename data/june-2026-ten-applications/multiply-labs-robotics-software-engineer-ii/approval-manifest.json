@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-06-08T05:28:20.269694+00:00",
+  "company": "Multiply Labs",
+  "role": "Robotics Software Engineer II",
+  "jobUrl": "https://jobs.lever.co/multiplylabs/9f0b3551-9565-4eef-95a6-6ad36eaf9837",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\multiply-labs-robotics-software-engineer-ii\\George_Jobi_Resume.pdf",
+      "bytes": 57795,
+      "sha256": "4ca30435466b273dc3ddc2c498ddf554f78625c9d4c59eb946416b3a3498653f"
+    },
+    "coverLetter": null,
+    "attachments": []
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\multiply-labs-robotics-software-engineer-ii\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 95.0
+  }
+}

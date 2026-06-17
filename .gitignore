@@ -1,0 +1,30 @@
+node_modules
+dist
+
+# Local credentials and auth state
+.env
+.env.*
+!.env.example
+playwright/.auth
+.chrome-*
+*.cookies.json
+*.credentials.json
+credentials.json
+secrets.json
+tokens.json
+
+# Runtime caches and temporary outputs
+.venv
+.corepack
+.npm-cache
+.pip-cache
+.pw-browsers
+.tmp
+playwright-report
+test-results
+workbench.*.log
+**/__pycache__/
+*.pyc
+
+# Mac/local noise
+.DS_Store

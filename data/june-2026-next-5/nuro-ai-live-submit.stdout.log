@@ -1,0 +1,41 @@
+[
+  {
+    "company": "Skild AI",
+    "role": "Robotics Software Engineer",
+    "folder": "skild-ai-robotics-software-engineer",
+    "applicationUrl": "https://job-boards.greenhouse.io/skildai-careers/jobs/4136373008",
+    "attemptedAt": "2026-06-12T00:28:53.344Z",
+    "status": "submitted",
+    "success": true,
+    "notes": "",
+    "screenshot": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\skild-ai-robotics-software-engineer\\submission-confirmation.png",
+    "afterUrl": "https://job-boards.greenhouse.io/skildai-careers/jobs/4136373008/confirmation",
+    "confirmationText": "thank you for applying",
+    "bodySnippet": "thank you for applying.\n\nyour application has been received. if there is a fit, someone will be getting back to you.\n\nview more jobs at skild ai\nback to job post\n\ngive your application a boost!\n\nsign in to mygreenhouse and flag this as your dream job to stand out, track your status, and more.\n\nsign in to mygreenhouse\n\npowered by"
+  },
+  {
+    "company": "Nuro",
+    "role": "Software Engineer, AI Platform - New Grad",
+    "folder": "nuro-software-engineer-ai-platform-new-grad",
+    "applicationUrl": "https://www.nuro.ai/careersitem?gh_jid=7351066",
+    "attemptedAt": "2026-06-12T00:31:17.909Z",
+    "status": "submitted",
+    "success": true,
+    "notes": "",
+    "screenshot": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-ai-platform-new-grad\\submission-confirmation.png",
+    "afterUrl": "https://job-boards.greenhouse.io/embed/job_app/confirmation?for=nuro&token=7351066",
+    "confirmationText": "thank you for applying",
+    "bodySnippet": "thank you for applying!\n\nyour application has been received. if there is a fit, someone will be getting back to you.\n\nteam nuro\n\nview more jobs at nuro\nback to job post\n\ngive your application a boost!\n\nsign in to mygreenhouse and flag this as your dream job to stand out, track your status, and more.\n\nsign in to mygreenhouse"
+  },
+  {
+    "company": "Nuro",
+    "role": "Software Engineer, Performance - New Grad",
+    "folder": "nuro-software-engineer-performance-new-grad",
+    "applicationUrl": "https://www.nuro.ai/careersitem?gh_jid=7978432",
+    "attemptedAt": "2026-06-12T00:30:28.325Z",
+    "status": "awaiting-security-code",
+    "success": false,
+    "notes": "Greenhouse emailed a security code; user input required.",
+    "screenshot": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-performance-new-grad\\submission-awaiting-security-code.png"
+  }
+]

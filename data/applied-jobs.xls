@@ -1,0 +1,420 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+ <Styles>
+  <Style ss:ID="Header"><Font ss:Bold="1" ss:Color="#FFFFFF"/><Interior ss:Color="#15303B" ss:Pattern="Solid"/></Style>
+  <Style ss:ID="Text"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style>
+ </Styles>
+ <Worksheet ss:Name="Applied Jobs">
+  <Table>
+   <Column ss:Width="110"/>
+   <Column ss:Width="170"/>
+   <Column ss:Width="260"/>
+   <Column ss:Width="180"/>
+   <Column ss:Width="420"/>
+   <Row>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Date Applied</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Company Name</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Job Title</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Status</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Job URL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-12</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Applied Intuition</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Software Engineer - C++</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/applied/c9473dcb-f651-47bb-9a59-4150bddcdaa8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-12</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">CircuitHub</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Full-Stack Robotics Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/circuithub/6ce5e5f2-7dd4-4c5c-8978-ab6f3e2e1e1d</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-12</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Molg</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Engineer (Path Planning)</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/Molg/ed85e53f-dcb9-4f83-8044-01baa29313fd</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-12</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Standard Subsea</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">SWE, Robotics</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/standardsubsea/6689c77a-fccf-47df-abb4-8bca5b28cf2a</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-12</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Corvus Robotics</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Product Implementation Engineer I, II</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/corvus-robotics/e180a9e8-6611-485b-b76a-bbf995b69e7f</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-12</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Verne Robotics</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Software Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/Verne%20Robotics/34b8ec26-2bb0-47b0-912c-09fa0389b2c6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-12</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Nuro</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Software Engineer, Performance - New Grad</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://www.nuro.ai/careersitem?gh_jid=7978432</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-12</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Nuro</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Software Engineer, AI Platform - New Grad</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://www.nuro.ai/careersitem?gh_jid=7351066</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-14</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Skild AI</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Software Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/-5924648674397756480</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-09</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Arxlight</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Newgrad Engineering Role (Various)</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/arxlight-ai/ca17abfe-c253-4cc8-95ec-027a471ac734</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-09</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Scout AI</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Software Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://job-boards.greenhouse.io/scoutai/jobs/5137118008</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-09</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">RoboForce</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">AI Resident</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://job-boards.greenhouse.io/roboforce/jobs/5196164008</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-09</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Kodiak</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Fall 2026 Intern, Perception</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://job-boards.greenhouse.io/kodiak/jobs/4174533009</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-09</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Figure</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Embedded Software Intern [Fall 2026]</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://job-boards.greenhouse.io/figureai/jobs/4397706006</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-09</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Metamorphic</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Engineer (Simulation, Hardware &amp; Deployment)</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/metamorphic/c58ddc03-4887-4add-855c-bcf6391ef575</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-09</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Elevate Robotics</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Software Engineer - Intern Summer 2026</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://job-boards.greenhouse.io/elevaterobotics/jobs/4207387009</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-09</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">AppLovin</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Backend Engineer, New Grad</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://job-boards.greenhouse.io/applovin/jobs/4451556006</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-09</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Quince</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Software Development Engineer [New Grad]</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted - pending email verification</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://job-boards.greenhouse.io/quince/jobs/5226786008</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-08</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Path Robotics</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Software Engineer - Robotics &amp; Systems</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://job-boards.greenhouse.io/pathrobotics/jobs/8500622002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-06-08</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">RoboForce</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Software Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">submitted</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://job-boards.greenhouse.io/roboforce/jobs/5181554008</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-27</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Orchard Robotics</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Software Engineer (Perception &amp; Localization)</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/orchard/4f81b000-c82a-4285-b05d-a7861a576d6f</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-27</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Charge Robotics</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Field Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/charge-robotics/ff699232-5b36-40c2-8496-87b5534714bf</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-27</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Standard Bots</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Technical Support Specialist</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/standardbots/5d49c4d1-3127-4e2b-9da5-ca1ea6c8e5af</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-27</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">AeroVect</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Software Engineer, ML Ops</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/aerovect/20b9d482-1913-4718-ac0a-1b0a7e5b0f92</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-27</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">AeroVect</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Software Engineer, Localization, Calibration &amp; Mapping</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/aerovect/73a42f00-af59-4439-8ff5-531b7c355745</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-27</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Nidus Technologies</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/nidus-technologies/daba56ea-48ff-46ed-a573-aad8a4f10604</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-27</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Reflex Robotics</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Electrical Engineer (Hiring at all Levels)</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/ReflexRobotics/2976b48e-2df3-431f-a851-60e093280adc</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-27</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Physical Intelligence</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Forward Deployed Robotics Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/physicalintelligence/567d620f-7600-4e35-9edd-f41ed4db45ce</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-27</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Built Robotics</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/built-robotics/dbdb976d-99e5-42cc-9888-893b92251b52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-27</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">General Robotics</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Systems Engineer - Machine Learning</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/generalrobotics/1df8cd97-2a12-4f02-abf6-25549401b01b</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-27</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">General Robotics</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/generalrobotics/78abd116-9842-4c40-9649-a73e1573f2e8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-26</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Edison Smart®</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Software Engineer - Perception &amp; Navigation</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/4897001746278275789</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-26</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Skydio</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Autonomy Engineer - Deep Learning Model Acceleration</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/-6767638513360211683</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-26</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Remitly</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Autonomous Systems Engineer: AI‑Driven, Multi‑Service</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/4213733091161760386</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-26</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Scale AI, Inc.</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Software Engineer - Robotics &amp; Autonomous Systems Engineering San Francisco, CA</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/7315754556264621568</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-26</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">generalrobotics</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Engineer - Navigation focus</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jobs.ashbyhq.com/generalrobotics/f20e520c-e259-4f4d-9d38-142b57495d3f</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-26</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Kforce Technology Staffing</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Software Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://www.adzuna.com/land/ad/5730840728?se=kIUyEqBY8RGihojqnTXbVQ&amp;utm_medium=api&amp;utm_source=f2780cf4&amp;v=2E98E67D1E325986CDA83C506C385E6B1D693A4A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-26</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">TEKsystems</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Software Engineer Tester</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://www.adzuna.com/land/ad/5738155082?se=CiV1MI9Y8RGvjPD20Sc1wQ&amp;utm_medium=api&amp;utm_source=f2780cf4&amp;v=B7A01D0CBF698DEF892F3650B418E35FC88C73AD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-20</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Advanced Construction Robotics</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Software Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/1197567491040921945</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-20</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Field AI</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Autonomy Engineer: Simulation</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/7787731541993615643</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-20</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Vecna Robotics</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Software Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/4327367647311092378</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-20</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Dover Corporation</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">PLC Programmer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/-7981562305052985261</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-20</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Apple</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">3D Perception/Computer Vision Algorithm Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/5325563679763589108</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-20</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">University of Texas</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Autonomy Engineer: Underwater Robotics &amp; Systems</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/-4315908454631033517</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-20</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Insight Global</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Software Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/-1132857799916977215</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-19</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Komatsu North America</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Software Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/7761499614674420265</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-19</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Field AI</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Software Engineer - Robot Integrations</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/7008654593249135067</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-19</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Optimal CAE</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics software Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/-2107545103057048699</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-14</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">The O&apos;Connor Group</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Software Engineer - Controls</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/6156579892919969920</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-19</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">LVI Associates</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">PLC Automation Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://www.adzuna.com/details/5733593280?utm_medium=api&amp;utm_source=f2780cf4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-19</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Optimal Inc.</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Software Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://www.adzuna.com/details/5730715399?utm_medium=api&amp;utm_source=f2780cf4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-14</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Maven Robotics</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Embedded Software Engineer - Real-Time Linux</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/2134657511099917444</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-19</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Recruiting from Scratch</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Computer Vision / Perception Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/6299846798218528136</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-19</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">HTC Global Services Inc</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">PLC Controls Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://www.adzuna.com/land/ad/5731140245?se=REVk9SFT8RG8Dpg80W0a8g&amp;utm_medium=api&amp;utm_source=f2780cf4&amp;v=655F9358C05B90A0C2BDFE23291F21459D13ADEC</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-19</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Avala</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">3D Computer Vision Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://jooble.org/jdp/5668743126145855443</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">2026-05-14</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">GE Vernova</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">Robotics Software Engineer</Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="Text"><Data ss:Type="String">https://www.adzuna.com/land/ad/5727569630?se=Al8OmS1P8RGWTMrFp3SO-w&amp;utm_medium=api&amp;utm_source=f2780cf4&amp;v=86D639289E1576840CE7D165192BD1F570B3B9CC</Data></Cell>
+   </Row>
+  </Table>
+  <AutoFilter x:Range="R1C1:R57C5" xmlns="urn:schemas-microsoft-com:office:excel"/>
+ </Worksheet>
+</Workbook>

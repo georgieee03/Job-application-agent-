@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-06-12T01:10:27.041431+00:00",
+  "company": "Applied Intuition",
+  "role": "Software Engineer - C++",
+  "jobUrl": "https://jobs.ashbyhq.com/applied/c9473dcb-f651-47bb-9a59-4150bddcdaa8",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\applied-intuition-software-engineer-cpp\\George_Jobi_Resume.pdf",
+      "bytes": 57956,
+      "sha256": "af6018f70ac02b6efd3e993f09f7bfb0963c123246232e0e9700a41660b554d3"
+    },
+    "coverLetter": null,
+    "attachments": [],
+    "responses": [
+      {
+        "filename": "application-responses.json",
+        "path": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\applied-intuition-software-engineer-cpp\\application-responses.json",
+        "bytes": 862,
+        "sha256": "35e86dc70f0a8b143d893986de0bd59b277bb31a770073b1341b82a97944a060",
+        "kind": "application-response",
+        "upload": false
+      }
+    ]
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\applied-intuition-software-engineer-cpp\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 95.0,
+    "resume": {
+      "report": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\applied-intuition-software-engineer-cpp\\validation-report.json",
+      "valid": true,
+      "estimatedAtsAlignment": 95.0
+    },
+    "coverLetter": null
+  }
+}

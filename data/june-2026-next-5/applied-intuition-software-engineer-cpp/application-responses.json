@@ -1,0 +1,11 @@
+{
+  "linkedin": "https://www.linkedin.com/in/george-j-1829112a2/",
+  "current_company": "Arizona State University",
+  "onsite_five_days": "Yes",
+  "source": "Search engine",
+  "source_detail": "Company job page",
+  "why_applied_intuition": "Applied Intuition's work on the software infrastructure and autonomy stacks behind physical AI closely matches my focus on robotics software that must perform on real systems. At ASU, I built camera-LiDAR perception and localization in CARLA, implemented ROS/Gazebo motion planning, and developed closed-loop control and sensor fusion on a physical MiniDrone. I want to bring that C++/Python autonomy experience and production software discipline to onboard systems used across vehicles and machines.",
+  "interview_language": "C++",
+  "future_sponsorship": "Yes",
+  "race": "Asian (Not Hispanic or Latino)"
+}

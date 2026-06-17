@@ -1,0 +1,48 @@
+GEORGE JOBI PERANGATTU
+Tempe, AZ 85281 | (480) 742-9855 | gjobiper@asu.edu
+
+# PROFESSIONAL SUMMARY
+Robotics and autonomous systems graduate student with software, controls, sensor integration, and robot-systems experience relevant to electrical and cross-functional robotics engineering. Hands-on background with cameras, LiDAR, RGB-D sensors, actuators, electronics-adjacent integration, PID control, closed-loop control, kinematics, CAD-to-URDF workflows, ROS/Gazebo simulation, and real-hardware robot testing. Comfortable working across mechanical, electrical, hardware, and software boundaries to prototype, debug, test, document, deploy, and improve robotic systems in manufacturing and logistics contexts.
+
+# EDUCATION
+M.S. Robotics and Autonomous Systems, AI Concentration, Arizona State University, Tempe, AZ - Graduating Jul 2026
+B.S. Computer Science, Arizona State University, Tempe, AZ - Graduated May 2025
+
+# TECHNICAL SKILLS
+Robotics Systems: Sensors, actuators, cameras, LiDAR, RGB-D cameras, sensor integration, kinematics, PID control, closed-loop control, robot navigation, ROS/ROS 2, Gazebo, CARLA, URDF
+Hardware-Adjacent Engineering: CAD robot design, constrained joints, robotics data logging, simulation-to-real validation, control logic, manufacturing-process simulation, electronics integration context, sensors, actuators, testing, deployment, debugging, test planning, technical documentation
+Software: Python, C++, C, Linux/Ubuntu, Git, CMake, Docker, CI/CD, GDB, testing, algorithms, data structures
+Perception and ML: PyTorch, TensorFlow, computer vision, point cloud processing, object detection, segmentation, depth estimation, tracking, BEV perception
+
+# ROBOTICS PROJECTS
+Spider CAD Robot: Multi-Legged Robot Design, ASU Robotics Coursework - Spring 2026
+- Designed a multi-legged robot in CAD with constrained joints, validating kinematics and preparing a URDF-exportable model for simulation, controls, and hardware-software integration experiments.
+- Considered actuator, motor, sensor, and joint constraints while preparing the model for ROS/Gazebo workflows.
+
+Parrot MiniDrone: Autonomous Robot Navigation on Real Hardware, ASU Robotics Coursework - Spring 2026
+- Developed real-hardware autonomous navigation using PID control and sensor fusion of inertial and visual data.
+- Built automated test sequences, logged sensor data, and evaluated navigation performance under real-world constraints.
+- Added safety systems for reliable autonomous operation and validated behavior in simulation and deployment settings.
+
+Factory Automation System for Semiconductor Process Simulation, ASU Applied Project - Starting Jun 2026
+- Planned an industrial automation system integrating robotic sensors, LiDAR, cameras, actuators, and control logic for manufacturing-process simulation.
+- Focused on efficient robotics pipelines connecting sensing, control, and automated system behavior.
+
+3D Motion Planning for Robot Navigation in Gazebo, ASU Robotics Coursework - Fall 2025
+- Developed Python 3D RRT motion planning and integrated the planner with ROS/Gazebo for collision-free robot navigation tests.
+- Ran evaluations across simulated environments and optimized trajectory quality through post-processing.
+
+Efficient TransFuser: Multi-Task Sensor Fusion for Autonomous Navigation, ASU CSE 598 Research Project - Spring 2026
+- Designed a camera-LiDAR fusion architecture for autonomous navigation, improving BEV segmentation by 25.4% and held-out loss by 8.7%.
+- Worked with LiDAR, RGB, point clouds, depth estimation, and robotics perception pipelines relevant to intelligent robot feedback loops.
+
+# WORK EXPERIENCE
+Backend Developer Intern, DigiClips Media, Tempe, AZ - Aug 2024 to May 2025
+- Developed Python/PyTorch computer vision models and optimized data/training pipelines handling 10M+ daily queries.
+- Reduced latency by 45% and improved detection accuracy by 30% through testing and performance-oriented debugging.
+
+Full Stack Developer Intern, Odoo, Dubai, UAE - May 2025 to Aug 2025
+- Refactored Python backend systems for production applications and collaborated with engineering teams.
+
+Full Stack Developer Intern, TicketDex, Tempe, AZ - Jan 2025 to May 2025
+- Delivered backend features and testing infrastructure, reducing latency by 30%.

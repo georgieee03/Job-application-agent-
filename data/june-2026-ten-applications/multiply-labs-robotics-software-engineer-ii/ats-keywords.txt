@@ -1,0 +1,18 @@
+Python
+hardware-software integration
+machine interfaces
+robotic arms
+trajectory planning
+motion control
+kinematics
+coordinate transforms
+Gazebo
+simulation
+automated test suites
+Git
+CI/CD
+system-level debugging
+sensors
+actuators
+documentation
+code review

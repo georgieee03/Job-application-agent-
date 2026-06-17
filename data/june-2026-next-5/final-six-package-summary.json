@@ -1,0 +1,317 @@
+[
+  {
+    "folder": "mvp-robotics-software-engineer",
+    "company": "MVP Robotics",
+    "role": "Robotics Software Engineer",
+    "location": "Bradford, VT - On-site",
+    "listingUrl": "https://job-boards.greenhouse.io/mvprobotics/jobs/4218213009",
+    "applicationUrl": "https://job-boards.greenhouse.io/mvprobotics/jobs/4218213009",
+    "resume": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\mvp-robotics-software-engineer\\George_Jobi_Resume.pdf",
+    "previewPages": [
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\mvp-robotics-software-engineer\\resume-preview-page-1.png",
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\mvp-robotics-software-engineer\\resume-preview-page-2.png"
+    ],
+    "approvalPreview": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\mvp-robotics-software-engineer\\approval-preview.png",
+    "formatComparison": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\mvp-robotics-software-engineer\\format-comparison-page-1.png",
+    "analysis": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\mvp-robotics-software-engineer\\package-analysis.md",
+    "validation": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\mvp-robotics-software-engineer\\validation-report.json",
+    "approvalManifest": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\mvp-robotics-software-engineer\\approval-manifest.json",
+    "responses": [],
+    "ats": {
+      "rawPercent": 90.0,
+      "estimatedAtsAlignment": 90.0,
+      "targetRange": "89-95",
+      "hits": [
+        "embedded systems",
+        "C++",
+        "Linux",
+        "Python",
+        "ROS",
+        "ROS 2",
+        "SLAM",
+        "state estimation",
+        "Kalman filter",
+        "sensor fusion",
+        "camera",
+        "LiDAR",
+        "radar",
+        "path planning",
+        "obstacle detection",
+        "collision avoidance",
+        "machine learning",
+        "deep learning"
+      ],
+      "missing": [
+        "visual inertial odometry",
+        "multi-agent autonomy"
+      ],
+      "note": "Local phrase-coverage heuristic only; not an employer ATS score."
+    },
+    "pageFillRatios": {
+      "values": [
+        0.627,
+        0.572
+      ],
+      "minimum": 0.55,
+      "ok": true
+    },
+    "confirm": [
+      "Current U.S. work authorization: Yes, through OPT eligibility.",
+      "Future employment sponsorship required: Yes.",
+      "Earliest start date: two weeks.",
+      "Willing to relocate and work on-site for this role.",
+      "No cover letter is required or materially useful for this application."
+    ]
+  },
+  {
+    "folder": "verne-robotics-software-engineer",
+    "company": "Verne Robotics",
+    "role": "Robotics Software Engineer",
+    "location": "San Francisco, CA - On-site",
+    "listingUrl": "https://jobs.ashbyhq.com/Verne%20Robotics/34b8ec26-2bb0-47b0-912c-09fa0389b2c6",
+    "applicationUrl": "https://jobs.ashbyhq.com/Verne%20Robotics/34b8ec26-2bb0-47b0-912c-09fa0389b2c6/application",
+    "resume": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\verne-robotics-software-engineer\\George_Jobi_Resume.pdf",
+    "previewPages": [
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\verne-robotics-software-engineer\\resume-preview-page-1.png",
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\verne-robotics-software-engineer\\resume-preview-page-2.png"
+    ],
+    "approvalPreview": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\verne-robotics-software-engineer\\approval-preview.png",
+    "formatComparison": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\verne-robotics-software-engineer\\format-comparison-page-1.png",
+    "analysis": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\verne-robotics-software-engineer\\package-analysis.md",
+    "validation": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\verne-robotics-software-engineer\\validation-report.json",
+    "approvalManifest": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\verne-robotics-software-engineer\\approval-manifest.json",
+    "responses": [
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\verne-robotics-software-engineer\\application-responses.json"
+    ],
+    "ats": {
+      "rawPercent": 93.8,
+      "estimatedAtsAlignment": 93.8,
+      "targetRange": "89-95",
+      "hits": [
+        "robotics software",
+        "Python",
+        "C++",
+        "device interfaces",
+        "robot control",
+        "sensor integration",
+        "data collection",
+        "data processing",
+        "PyTorch",
+        "computer vision",
+        "motion planning",
+        "simulation",
+        "testing",
+        "debugging",
+        "performance optimization"
+      ],
+      "missing": [
+        "physical robots"
+      ],
+      "note": "Local phrase-coverage heuristic only; not an employer ATS score."
+    },
+    "pageFillRatios": {
+      "values": [
+        0.627,
+        0.558
+      ],
+      "minimum": 0.55,
+      "ok": true
+    },
+    "confirm": [
+      "Current U.S. work authorization: Yes, through OPT eligibility.",
+      "Future employment sponsorship required: Yes.",
+      "Earliest start date: two weeks.",
+      "Willing to relocate and work on-site for this role.",
+      "The form asks whether authorization exists without sponsorship now or in the future; the truthful answer is No because future sponsorship is required.",
+      "A required role-specific motivation response is included and approval-bound; no optional cover-letter PDF is needed."
+    ]
+  },
+  {
+    "folder": "lila-software-engineer-i-instrument-software",
+    "company": "Lila Sciences",
+    "role": "Software Engineer I, Instrument Software",
+    "location": "Cambridge, MA - On-site",
+    "listingUrl": "https://job-boards.greenhouse.io/lilasciences/jobs/4186444009",
+    "applicationUrl": "https://job-boards.greenhouse.io/lilasciences/jobs/4186444009",
+    "resume": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\lila-software-engineer-i-instrument-software\\George_Jobi_Resume.pdf",
+    "previewPages": [
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\lila-software-engineer-i-instrument-software\\resume-preview-page-1.png",
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\lila-software-engineer-i-instrument-software\\resume-preview-page-2.png"
+    ],
+    "approvalPreview": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\lila-software-engineer-i-instrument-software\\approval-preview.png",
+    "formatComparison": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\lila-software-engineer-i-instrument-software\\format-comparison-page-1.png",
+    "analysis": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\lila-software-engineer-i-instrument-software\\package-analysis.md",
+    "validation": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\lila-software-engineer-i-instrument-software\\validation-report.json",
+    "approvalManifest": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\lila-software-engineer-i-instrument-software\\approval-manifest.json",
+    "responses": [
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\lila-software-engineer-i-instrument-software\\application-responses.json"
+    ],
+    "ats": {
+      "rawPercent": 100.0,
+      "estimatedAtsAlignment": 95.0,
+      "targetRange": "89-95",
+      "hits": [
+        "instrument software",
+        "laboratory automation",
+        "robotics",
+        "hardware integration",
+        "Python",
+        "C#",
+        ".NET",
+        "device drivers",
+        "cloud",
+        "edge",
+        "APIs",
+        "testing",
+        "debugging",
+        "troubleshooting",
+        "technical documentation",
+        "Git",
+        "end users",
+        "AI driven development"
+      ],
+      "missing": [],
+      "note": "Local phrase-coverage heuristic only; not an employer ATS score."
+    },
+    "pageFillRatios": {
+      "values": [
+        0.612,
+        0.572
+      ],
+      "minimum": 0.55,
+      "ok": true
+    },
+    "confirm": [
+      "Current U.S. work authorization: Yes, through OPT eligibility.",
+      "Future employment sponsorship required: Yes.",
+      "Earliest start date: two weeks.",
+      "Willing to relocate and work on-site for this role.",
+      "A required role-specific motivation response is included and approval-bound; no optional cover-letter PDF is needed."
+    ]
+  },
+  {
+    "folder": "standard-subsea-swe-robotics",
+    "company": "Standard Subsea",
+    "role": "SWE, Robotics",
+    "location": "El Segundo, CA - On-site",
+    "listingUrl": "https://jobs.ashbyhq.com/standardsubsea/6689c77a-fccf-47df-abb4-8bca5b28cf2a",
+    "applicationUrl": "https://jobs.ashbyhq.com/standardsubsea/6689c77a-fccf-47df-abb4-8bca5b28cf2a/application",
+    "resume": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\standard-subsea-swe-robotics\\George_Jobi_Resume.pdf",
+    "previewPages": [
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\standard-subsea-swe-robotics\\resume-preview-page-1.png",
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\standard-subsea-swe-robotics\\resume-preview-page-2.png"
+    ],
+    "approvalPreview": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\standard-subsea-swe-robotics\\approval-preview.png",
+    "formatComparison": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\standard-subsea-swe-robotics\\format-comparison-page-1.png",
+    "analysis": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\standard-subsea-swe-robotics\\package-analysis.md",
+    "validation": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\standard-subsea-swe-robotics\\validation-report.json",
+    "approvalManifest": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\standard-subsea-swe-robotics\\approval-manifest.json",
+    "responses": [
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\standard-subsea-swe-robotics\\application-responses.json"
+    ],
+    "ats": {
+      "rawPercent": 100.0,
+      "estimatedAtsAlignment": 95.0,
+      "targetRange": "89-95",
+      "hits": [
+        "marine robotics",
+        "robotics engineering",
+        "C++",
+        "Python",
+        "ROS",
+        "ROS2",
+        "Linux",
+        "embedded systems",
+        "sensor integration",
+        "state estimation",
+        "controls",
+        "navigation",
+        "hardware software integration",
+        "field testing",
+        "logging",
+        "system debugging",
+        "reliability"
+      ],
+      "missing": [],
+      "note": "Local phrase-coverage heuristic only; not an employer ATS score."
+    },
+    "pageFillRatios": {
+      "values": [
+        0.612,
+        0.572
+      ],
+      "minimum": 0.55,
+      "ok": true
+    },
+    "confirm": [
+      "Current U.S. work authorization: Yes, through OPT eligibility.",
+      "Future employment sponsorship required: Yes.",
+      "Earliest start date: two weeks.",
+      "Willing to relocate and work on-site for this role.",
+      "The current U.S. work authorization selection is Work Visa, reflecting current F-1 OPT authorization.",
+      "A required project response is included and approval-bound; no optional cover-letter PDF is needed."
+    ]
+  },
+  {
+    "folder": "molg-robotics-engineer-path-planning",
+    "company": "Molg",
+    "role": "Robotics Engineer (Path Planning)",
+    "location": "Sterling, VA - On-site",
+    "listingUrl": "https://jobs.ashbyhq.com/Molg/ed85e53f-dcb9-4f83-8044-01baa29313fd",
+    "applicationUrl": "https://jobs.ashbyhq.com/Molg/ed85e53f-dcb9-4f83-8044-01baa29313fd/application",
+    "resume": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\molg-robotics-engineer-path-planning\\George_Jobi_Resume.pdf",
+    "previewPages": [
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\molg-robotics-engineer-path-planning\\resume-preview-page-1.png",
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\molg-robotics-engineer-path-planning\\resume-preview-page-2.png"
+    ],
+    "approvalPreview": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\molg-robotics-engineer-path-planning\\approval-preview.png",
+    "formatComparison": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\molg-robotics-engineer-path-planning\\format-comparison-page-1.png",
+    "analysis": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\molg-robotics-engineer-path-planning\\package-analysis.md",
+    "validation": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\molg-robotics-engineer-path-planning\\validation-report.json",
+    "approvalManifest": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\molg-robotics-engineer-path-planning\\approval-manifest.json",
+    "responses": [
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\molg-robotics-engineer-path-planning\\application-responses.json"
+    ],
+    "ats": {
+      "rawPercent": 100.0,
+      "estimatedAtsAlignment": 95.0,
+      "targetRange": "89-95",
+      "hits": [
+        "industrial robotics",
+        "motion planning",
+        "path planning",
+        "collision detection",
+        "collision avoidance",
+        "geometric reasoning",
+        "robot kinematics",
+        "multi-arm coordination",
+        "shared workspace",
+        "C++",
+        "Python",
+        "ROS2",
+        "custom planners",
+        "robot hardware"
+      ],
+      "missing": [],
+      "note": "Local phrase-coverage heuristic only; not an employer ATS score."
+    },
+    "pageFillRatios": {
+      "values": [
+        0.612,
+        0.572
+      ],
+      "minimum": 0.55,
+      "ok": true
+    },
+    "confirm": [
+      "Current U.S. work authorization: Yes, through OPT eligibility.",
+      "Future employment sponsorship required: Yes.",
+      "Earliest start date: two weeks.",
+      "Willing to relocate and work on-site for this role.",
+      "The truthful visa-sponsorship answer is Yes.",
+      "Salary expectation is 150000, within the posted 130000-175000 base range.",
+      "Notice period is two weeks.",
+      "No optional cover-letter response is needed beyond the required form fields."
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+modern C++
+C++11
+autonomous systems
+onboard application software
+physical AI
+robotics
+interface contracts
+execution models
+cross-stack integration
+embedded software
+real-time systems
+Python
+testing
+debugging

@@ -1,0 +1,18 @@
+robotics software
+navigation
+motion planning
+controls
+SLAM
+perception
+computer vision
+high-level behaviors
+C++
+Python
+ROS
+ROS 2
+real robots
+machine learning integration
+robot monitoring
+performance optimization
+reliability
+scalability

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Tailor Job Resume"
+  short_description: "Tailor, validate, and approve ATS-ready resumes"
+  default_prompt: "Use $tailor-job-resume to build and validate George Jobi's exact application package for this job, then show every page and the approval checklist."
+policy:
+  allow_implicit_invocation: true

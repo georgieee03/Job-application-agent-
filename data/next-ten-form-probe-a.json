@@ -1,0 +1,291 @@
+[
+  {
+    "key": "generalrobotics-navigation",
+    "ok": true,
+    "info": {
+      "url": "https://jobs.ashbyhq.com/generalrobotics/f20e520c-e259-4f4d-9d38-142b57495d3f/application",
+      "title": "Robotics Engineer - Navigation focus @ General Robotics",
+      "text": "",
+      "buttons": [],
+      "inputs": []
+    }
+  },
+  {
+    "key": "locus-manufacturing-test",
+    "ok": true,
+    "info": {
+      "url": "https://job-boards.greenhouse.io/locusrobotics/jobs/5145588007",
+      "title": "Job Application for Senior Manufacturing Test Engineer (Electrical) at Locus Robotics",
+      "text": "Back to jobs New Senior Manufacturing Test Engineer (Electrical) Wilmington, MA Apply Locus Robotics designs and deploys autonomous mobile robots (AMRs) that work alongside human associates in warehouse and fulfillment environments to dramatically increase picking efficiency and throughput. Our LocusBots navigate complex, dynamic warehouse floors and integrate tightly with warehouse management systems to drive real operational results for some of the world's largest retailers and 3PLs. As we scale our hardware platform, we need sharp engineers who can ensure every robot that leaves our factory is ready to perform from day one. We’re looking for a Senior Manufacturing Test Engineer to own and optimize end-of-line testing for our autonomous robots, ensuring high quality, reliability, and manufacturing efficiency at scale. This is an onsite position located at our Wilmington MA headquarters. Responsibilities Own and improve end of line test infrastructure for LocusBot subassemblies and fully integrated robots, including software, calibration, and functional verification Develop and maintain automated test sequences that validate drivetrain, sensor, compute, and power systems against defined acceptance criteria Spend regular time on the manufacturing floor to understand technician pain points, investigate test failures, and implement solutions that improve first-pass yield (FPY) and reduce cycle time Collaborate cross functionally with mechanical, electrical, and software engineering teams to translate design intent into robust, measurable test specifications Perform data analy",
+      "buttons": [
+        "Back to jobs",
+        "Apply",
+        "Create alert",
+        "Autofill with MyGreenhouse",
+        "Toggle flyout",
+        "Select country",
+        "Attach",
+        "Dropbox",
+        "Google Drive",
+        "Enter manually",
+        "Attach",
+        "Dropbox",
+        "Google Drive",
+        "Enter manually",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Submit application",
+        "https://www.greenhouse.com/"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "id": "first_name",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "id": "last_name",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "id": "email",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "id": "country",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "search",
+          "id": "iti-0__search-input",
+          "name": null,
+          "placeholder": "Search"
+        },
+        {
+          "tag": "INPUT",
+          "type": "tel",
+          "id": "phone",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "file",
+          "id": "resume",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "file",
+          "id": "cover_letter",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "question_12094796007",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094797007",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094798007",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094799007",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094800007",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094801007",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094802007",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094803007",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094804007",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094805007",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "g-recaptcha-response-100000",
+          "name": "g-recaptcha-response",
+          "placeholder": null
+        }
+      ]
+    }
+  },
+  {
+    "key": "kforce",
+    "ok": true,
+    "info": {
+      "url": "https://www.adzuna.com/land/ad/5730840728?se=GgAdoYBZ8RGIceqnUvMPfg&utm_medium=api&utm_source=f2780cf4&v=2E98E67D1E325986CDA83C506C385E6B1D693A4A",
+      "title": "Uh oh, something isn't right",
+      "text": "Well this is embarrassing... Something, somewhere has gone wrong. Sorry for the inconvenience! Our developers have been notified and are working furiously to fix this. Please try refreshing this page in a few minutes. Error 503 Backend fetch failed Guru meditation: 85917747",
+      "buttons": [],
+      "inputs": []
+    }
+  },
+  {
+    "key": "teksystems",
+    "ok": true,
+    "info": {
+      "url": "https://www.adzuna.com/land/ad/5738155082?se=GgAdoYBZ8RGIceqnUvMPfg&utm_medium=api&utm_source=f2780cf4&v=B7A01D0CBF698DEF892F3650B418E35FC88C73AD",
+      "title": "Access Denied",
+      "text": "Our systems have detected suspicious behaviour associated with this request. We've noticed some unusual behaviour from your connection, which can be caused by using a VPN or a company internet gateway. Login to continue Return to the home page Contact us if you believe this is an error",
+      "buttons": [
+        "Login to continue",
+        "Return to the home page",
+        "Contact us"
+      ],
+      "inputs": []
+    }
+  },
+  {
+    "key": "mavensoft",
+    "ok": true,
+    "info": {
+      "url": "https://www.adzuna.com/land/ad/5721789497?se=GgAdoYBZ8RGIceqnUvMPfg&utm_medium=api&utm_source=f2780cf4&v=38CE1DF8E3D379FA734F4814654ABA41C48F3653",
+      "title": "Uh oh, something isn't right",
+      "text": "Well this is embarrassing... Something, somewhere has gone wrong. Sorry for the inconvenience! Our developers have been notified and are working furiously to fix this. Please try refreshing this page in a few minutes. Error 503 Backend fetch failed Guru meditation: 64585780",
+      "buttons": [],
+      "inputs": []
+    }
+  }
+]

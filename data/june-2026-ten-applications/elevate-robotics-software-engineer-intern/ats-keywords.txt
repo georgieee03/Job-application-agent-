@@ -1,0 +1,18 @@
+C++
+Python
+Linux
+ROS
+ROS2
+control system tuning
+robot modeling
+autonomy integration
+perception
+navigation
+manipulation
+production robot bring-up
+hardware integration
+Git
+testing
+reliability
+sensors
+actuators

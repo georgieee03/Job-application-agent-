@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-06-08T19:37:37.205723+00:00",
+  "company": "Benchling",
+  "role": "Software Engineer, New Grad (2026)",
+  "jobUrl": "https://job-boards.greenhouse.io/benchling/jobs/7386982",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\benchling-software-engineer-new-grad-2026\\George_Jobi_Resume.pdf",
+      "bytes": 57926,
+      "sha256": "4df0d61a86a5cdf96198b2d7bade06ed1743ccc2f17ece72435cc907744f0127"
+    },
+    "coverLetter": null,
+    "attachments": [],
+    "responses": []
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\benchling-software-engineer-new-grad-2026\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 95.0,
+    "resume": {
+      "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\benchling-software-engineer-new-grad-2026\\validation-report.json",
+      "valid": true,
+      "estimatedAtsAlignment": 95.0
+    },
+    "coverLetter": null
+  }
+}

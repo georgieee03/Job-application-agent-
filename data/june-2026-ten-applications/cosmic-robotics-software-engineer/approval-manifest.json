@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-06-08T05:28:26.612011+00:00",
+  "company": "Cosmic Robotics",
+  "role": "Robotics Software Engineer",
+  "jobUrl": "https://jobs.ashbyhq.com/cosmic-robotics/d2a32cb4-b8f1-4622-b170-6e485e214a9f",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\cosmic-robotics-software-engineer\\George_Jobi_Resume.pdf",
+      "bytes": 57763,
+      "sha256": "b928a145079b6e8e88b7c78e54fc9bef6c37317c5ac2180b10320e01a046c201"
+    },
+    "coverLetter": null,
+    "attachments": []
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\cosmic-robotics-software-engineer\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 95.0
+  }
+}

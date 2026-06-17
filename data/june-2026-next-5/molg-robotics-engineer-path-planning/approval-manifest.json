@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-06-12T00:56:18.177724+00:00",
+  "company": "Molg",
+  "role": "Robotics Engineer (Path Planning)",
+  "jobUrl": "https://jobs.ashbyhq.com/Molg/ed85e53f-dcb9-4f83-8044-01baa29313fd",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\molg-robotics-engineer-path-planning\\George_Jobi_Resume.pdf",
+      "bytes": 57839,
+      "sha256": "53cf011b6ed5016320efc7411bd94e357bf43f15475236541a1c8b63306a275e"
+    },
+    "coverLetter": null,
+    "attachments": [],
+    "responses": [
+      {
+        "filename": "application-responses.json",
+        "path": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\molg-robotics-engineer-path-planning\\application-responses.json",
+        "bytes": 229,
+        "sha256": "06582edfae6676667dd0a18afd80b238dff58a3ff6de916045b12ffd42d988ab",
+        "kind": "application-response",
+        "upload": false
+      }
+    ]
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\molg-robotics-engineer-path-planning\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 95.0,
+    "resume": {
+      "report": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\molg-robotics-engineer-path-planning\\validation-report.json",
+      "valid": true,
+      "estimatedAtsAlignment": 95.0
+    },
+    "coverLetter": null
+  }
+}

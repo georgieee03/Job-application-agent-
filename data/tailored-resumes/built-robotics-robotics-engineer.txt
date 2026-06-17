@@ -1,0 +1,46 @@
+GEORGE JOBI PERANGATTU
+Tempe, AZ 85281 | (480) 742-9855 | gjobiper@asu.edu
+
+# PROFESSIONAL SUMMARY
+Robotics software engineer pursuing an M.S. in Robotics and Autonomous Systems with a B.S. in Computer Science and practical experience in Python, C++, controls, robot navigation, autonomy, testing, debugging, software development, and performance evaluation. Strong fit for autonomous construction equipment software: developing and testing robotics features, analyzing robot performance, improving performance upgrades, optimizing controls and cycle time behavior, and maintaining code quality and best practices in fast-moving engineering environments.
+
+# EDUCATION
+M.S. Robotics and Autonomous Systems, AI Concentration, Arizona State University, Tempe, AZ - Graduating Jul 2026
+B.S. Computer Science, Arizona State University, Tempe, AZ - Graduated May 2025
+
+# TECHNICAL SKILLS
+Robotics Software: Python, C++, ROS/ROS 2, robot navigation, localization, motion planning, path planning, trajectory optimization, collision avoidance, controls, PID control, sensor fusion
+Robot Performance: CARLA, Gazebo, synthetic data generation, simulation validation, field testing, data logging, telemetry-style analysis, experiment design, root-cause debugging
+Software Engineering: Git, Docker, Linux/Ubuntu, CMake, CI/CD, code review, code quality, best practices, testing, debugging, algorithms, data structures, technical documentation, Agile, distributed systems fundamentals
+Perception and ML: PyTorch, TensorFlow, computer vision, object detection, segmentation, tracking, depth estimation, point clouds, LiDAR, RGB/RGB-D cameras
+
+# ROBOTICS PROJECTS
+Parrot MiniDrone: Autonomous Robot Navigation on Real Hardware, ASU Robotics Coursework - Spring 2026
+- Developed autonomous navigation software on a physical robotic platform using closed-loop PID control and sensor fusion of inertial and visual data.
+- Built repeatable automated test sequences, logged sensor data, and evaluated navigation behavior to prioritize reliability improvements.
+- Engineered safety systems and validated autonomous behavior in both simulation and real-world deployment environments.
+
+3D Motion Planning for Robot Navigation in Gazebo, ASU Robotics Coursework - Fall 2025
+- Implemented 3D RRT path planning in Python for collision-free trajectory computation.
+- Integrated the motion planner with ROS and Gazebo and tested robot behavior across multiple environment configurations.
+- Applied path post-processing to improve trajectory quality and navigation performance.
+
+Efficient TransFuser: Multi-Task Sensor Fusion for Autonomous Navigation, ASU CSE 598 Research Project - Spring 2026
+- Designed a camera-LiDAR fusion model for autonomous navigation and reduced model parameters by 70% while improving held-out loss by 8.7%.
+- Built training and evaluation pipelines for navigation, depth estimation, semantic segmentation, detection, and BEV mapping in CARLA.
+- Improved BEV segmentation by 25.4% using multi-scale transformer fusion over RGB and LiDAR point cloud data.
+- Diagnosed mixed-precision training instability, connecting software debugging with model-performance and compute constraints.
+
+Spider CAD Robot: Multi-Legged Robot Design, ASU Robotics Coursework - Spring 2026
+- Designed a multi-legged mechanical robot model with constrained joints and prepared a URDF-exportable simulation workflow for controls, navigation, and product-road-map-style iteration experiments.
+
+# WORK EXPERIENCE
+Backend Developer Intern, DigiClips Media, Tempe, AZ - Aug 2024 to May 2025
+- Developed Python/PyTorch image-recognition models and optimized data loading and GPU-aware training pipelines handling 10M+ daily queries.
+- Reduced system latency by 45% and improved detection accuracy by 30% through measurement-driven optimization.
+
+Full Stack Developer Intern, Odoo, Dubai, UAE - May 2025 to Aug 2025
+- Refactored production Python backend code and collaborated on reusable engineering infrastructure.
+
+Full Stack Developer Intern, TicketDex, Tempe, AZ - Jan 2025 to May 2025
+- Delivered backend and testing infrastructure, reducing latency by 30% with algorithmic optimization.

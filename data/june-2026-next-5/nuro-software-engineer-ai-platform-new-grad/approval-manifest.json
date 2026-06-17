@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-06-09T19:42:07.533436+00:00",
+  "company": "Nuro",
+  "role": "Software Engineer, AI Platform - New Grad",
+  "jobUrl": "https://www.nuro.ai/careersitem?gh_jid=7351066",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-ai-platform-new-grad\\George_Jobi_Resume.pdf",
+      "bytes": 57883,
+      "sha256": "e123cf8e2dd2eb47652985862c328884e47f5589314da337da2abc80003ba055"
+    },
+    "coverLetter": null,
+    "attachments": [],
+    "responses": []
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-ai-platform-new-grad\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 95.0,
+    "resume": {
+      "report": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-ai-platform-new-grad\\validation-report.json",
+      "valid": true,
+      "estimatedAtsAlignment": 95.0
+    },
+    "coverLetter": null
+  }
+}

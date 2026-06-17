@@ -1,0 +1,16 @@
+{
+  "contact": {
+    "email": "your-email@example.com",
+    "phone": "555-555-5555",
+    "linkedin": "https://www.linkedin.com/in/your-profile",
+    "github": "https://github.com/your-handle",
+    "website": "https://your-site.example.com"
+  },
+  "textAnswers": {
+    "Why are you interested in this role?": "Replace this with a specific, truthful answer.",
+    "Will you now or in the future require visa sponsorship?": "No"
+  },
+  "selectAnswers": {
+    "Work authorization": "Authorized to work in the United States"
+  }
+}

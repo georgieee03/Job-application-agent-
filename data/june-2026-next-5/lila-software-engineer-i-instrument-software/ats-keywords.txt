@@ -1,0 +1,18 @@
+instrument software
+laboratory automation
+robotics
+hardware integration
+Python
+C#
+.NET
+device drivers
+cloud
+edge
+APIs
+testing
+debugging
+troubleshooting
+technical documentation
+Git
+end users
+AI driven development

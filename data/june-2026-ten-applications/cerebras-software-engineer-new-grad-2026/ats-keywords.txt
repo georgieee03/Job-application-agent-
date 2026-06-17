@@ -1,0 +1,18 @@
+C
+C++
+Python
+Linux systems
+distributed systems
+systems programming
+networking
+socket programming
+embedded systems
+hardware interfaces
+concurrent programming
+performance optimization
+debugging
+observability
+reliability
+Docker
+CI/CD
+GPU

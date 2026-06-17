@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Job Search Workbench</title>
+  <meta name="description"
+    content="Job search operations workbench — run searches, review ranked listings, track applications, and configure sources." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body class="workbench-app">
+  <!-- ─── ONBOARDING OVERLAY ──────────────────────────────────── -->
+  <div id="onboardingOverlay" class="onboarding-overlay" role="dialog" aria-modal="true"
+    aria-labelledby="onboardingTitle0" aria-hidden="true" hidden inert>
+    <div class="onboarding-backdrop"></div>
+
+    <div class="onboarding-container">
+      <div class="onboarding-progress-track">
+        <div id="onboardingProgressFill" class="onboarding-progress-fill" style="width:0%"></div>
+      </div>
+
+      <section class="onboarding-step active" data-onboarding-step="0" id="onboardingStep0">
+        <div class="onboarding-icon-wrap">
+          <svg aria-hidden="true" class="onboarding-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="40" cy="40" r="38" stroke="url(#welcomeGrad)" stroke-width="3" opacity="0.3" />
+            <path d="M25 42L36 53L56 28" stroke="url(#welcomeGrad)" stroke-width="4" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <defs>
+              <linearGradient id="welcomeGrad" x1="0" y1="0" x2="80" y2="80">
+                <stop stop-color="#f05b3d" />
+                <stop offset="1" stop-color="#f8b84e" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <h2 class="onboarding-title" id="onboardingTitle0">Welcome to Job Search Workbench</h2>
+        <p class="onboarding-subtitle">Let's set up your personalised job pipeline in under 2 minutes.</p>
+        <div class="onboarding-features">
+          <div class="onboarding-feature"><span class="onboarding-feature-icon" aria-hidden="true">Search</span>
+            <div><strong>Smart Discovery</strong><span>Search across Adzuna, Jooble & company boards</span></div>
+          </div>
+          <div class="onboarding-feature"><span class="onboarding-feature-icon" aria-hidden="true">Fit</span>
+            <div><strong>Precision Filters</strong><span>Only see jobs that actually match your goals</span></div>
+          </div>
+          <div class="onboarding-feature"><span class="onboarding-feature-icon" aria-hidden="true">Alert</span>
+            <div><strong>Real-time Alerts</strong><span>Get notified the moment top matches appear</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="onboarding-step" data-onboarding-step="1" id="onboardingStep1">
+        <div class="onboarding-icon-wrap">
+          <svg aria-hidden="true" class="onboarding-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="14" y="20" width="52" height="40" rx="8" stroke="url(#rolesGrad)" stroke-width="3" opacity="0.3" />
+            <path d="M28 34H52M28 42H44M28 50H48" stroke="url(#rolesGrad)" stroke-width="2.5" stroke-linecap="round" />
+            <defs>
+              <linearGradient id="rolesGrad" x1="14" y1="20" x2="66" y2="60">
+                <stop stop-color="#f05b3d" />
+                <stop offset="1" stop-color="#f8b84e" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <h2 class="onboarding-title" id="onboardingTitle1">What are you looking for?</h2>
+        <p class="onboarding-subtitle">Tell us about your ideal roles.</p>
+        <div class="onboarding-form">
+          <div class="onboarding-field"><label for="obTargetRoles">Target roles</label><textarea id="obTargetRoles"
+              rows="2" placeholder="e.g. backend engineer, platform engineer, SRE"></textarea><span
+              class="onboarding-hint">Comma-separated. These become search phrases and title boosts.</span></div>
+          <div class="onboarding-field"><label for="obSkills">Skills & technologies</label><textarea id="obSkills"
+              rows="2" placeholder="e.g. TypeScript, Node.js, Kubernetes"></textarea><span
+              class="onboarding-hint">Keywords that should make a job rank higher.</span></div>
+        </div>
+      </section>
+
+      <section class="onboarding-step" data-onboarding-step="2" id="onboardingStep2">
+        <div class="onboarding-icon-wrap">
+          <svg aria-hidden="true" class="onboarding-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="40" cy="34" r="14" stroke="url(#locGrad)" stroke-width="3" opacity="0.3" />
+            <path d="M40 48L40 66" stroke="url(#locGrad)" stroke-width="3" stroke-linecap="round" />
+            <circle cx="40" cy="34" r="5" fill="url(#locGrad)" opacity="0.5" />
+            <path d="M22 66H58" stroke="url(#locGrad)" stroke-width="3" stroke-linecap="round" />
+            <defs>
+              <linearGradient id="locGrad" x1="22" y1="20" x2="58" y2="66">
+                <stop stop-color="#f05b3d" />
+                <stop offset="1" stop-color="#f8b84e" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <h2 class="onboarding-title" id="onboardingTitle2">Where & how do you want to work?</h2>
+        <p class="onboarding-subtitle">Location preferences and work style.</p>
+        <div class="onboarding-form">
+          <div class="onboarding-field"><label for="obLocations">Preferred locations</label><input id="obLocations"
+              type="text" placeholder="e.g. Remote, United States, Phoenix" /><span
+              class="onboarding-hint">Comma-separated. Leave blank for widest coverage.</span></div>
+          <div class="onboarding-row">
+            <div class="onboarding-field onboarding-field-half"><label for="obSearchStyle">Search style</label><select
+                id="obSearchStyle">
+                <option value="balanced">Balanced — boards + discovery</option>
+                <option value="companies-only">Companies only</option>
+                <option value="broad">Broad — wide API search</option>
+              </select></div>
+            <div class="onboarding-field onboarding-field-half"><label for="obInterval">Auto-run
+                frequency</label><select id="obInterval">
+                <option value="manual">Manual only</option>
+                <option value="60">Every hour</option>
+                <option value="180">Every 3 hours</option>
+                <option value="360">Twice a day</option>
+              </select></div>
+          </div>
+          <div class="onboarding-toggles">
+            <label class="onboarding-toggle"><input type="checkbox" id="obRemoteOnly" /><span
+                class="onboarding-toggle-track"><span class="onboarding-toggle-thumb"></span></span><span>Remote
+                only</span></label>
+            <label class="onboarding-toggle"><input type="checkbox" id="obEnableAlerts" checked /><span
+                class="onboarding-toggle-track"><span class="onboarding-toggle-thumb"></span></span><span>Auto-create
+                alert rules</span></label>
+          </div>
+        </div>
+      </section>
+
+      <section class="onboarding-step" data-onboarding-step="3" id="onboardingStep3">
+        <div class="onboarding-icon-wrap">
+          <svg aria-hidden="true" class="onboarding-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="10" y="16" width="26" height="22" rx="6" stroke="url(#boardGrad)" stroke-width="2.5"
+              opacity="0.3" />
+            <rect x="44" y="16" width="26" height="22" rx="6" stroke="url(#boardGrad)" stroke-width="2.5"
+              opacity="0.3" />
+            <rect x="10" y="44" width="26" height="22" rx="6" stroke="url(#boardGrad)" stroke-width="2.5"
+              opacity="0.3" />
+            <rect x="44" y="44" width="26" height="22" rx="6" stroke="url(#boardGrad)" stroke-width="2.5"
+              opacity="0.3" />
+            <defs>
+              <linearGradient id="boardGrad" x1="10" y1="16" x2="70" y2="66">
+                <stop stop-color="#f05b3d" />
+                <stop offset="1" stop-color="#f8b84e" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <h2 class="onboarding-title" id="onboardingTitle3">Track specific companies</h2>
+        <p class="onboarding-subtitle">Paste career page URLs to auto-detect boards.</p>
+        <div class="onboarding-form">
+          <div class="onboarding-field"><label for="obCompanyInput">Company board URLs or names</label><textarea
+              id="obCompanyInput" rows="4"
+              placeholder="https://job-boards.greenhouse.io/stripe&#10;https://jobs.lever.co/openai&#10;Datadog"></textarea><span
+              class="onboarding-hint">One per line. Board URLs are auto-detected.</span></div>
+        </div>
+        <div class="onboarding-board-icons"><span class="onboarding-board-badge">Greenhouse</span><span
+            class="onboarding-board-badge">Lever</span><span class="onboarding-board-badge">Ashby</span><span
+            class="onboarding-board-badge">Workable</span></div>
+      </section>
+
+      <section class="onboarding-step" data-onboarding-step="4" id="onboardingStep4">
+        <div class="onboarding-icon-wrap">
+          <svg aria-hidden="true" class="onboarding-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="16" y="28" width="48" height="30" rx="8" stroke="url(#keyGrad)" stroke-width="3" opacity="0.3" />
+            <circle cx="34" cy="43" r="7" stroke="url(#keyGrad)" stroke-width="2.5" />
+            <path d="M41 43H56M50 38V48" stroke="url(#keyGrad)" stroke-width="2.5" stroke-linecap="round" />
+            <defs>
+              <linearGradient id="keyGrad" x1="16" y1="28" x2="64" y2="58">
+                <stop stop-color="#f05b3d" />
+                <stop offset="1" stop-color="#f8b84e" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <h2 class="onboarding-title" id="onboardingTitle4">API credentials check</h2>
+        <p class="onboarding-subtitle">Search APIs need credentials in your <code>.env</code> file. You can always add
+          these later.</p>
+        <div id="obCredentialsStatus" class="onboarding-credentials"></div>
+        <div class="onboarding-cred-note"><span class="onboarding-cred-note-icon" aria-hidden="true">Info</span>
+          <p>Company boards work without API keys — only the broad search aggregators need them.</p>
+        </div>
+      </section>
+
+      <section class="onboarding-step" data-onboarding-step="5" id="onboardingStep5">
+        <div class="onboarding-icon-wrap onboarding-icon-done">
+          <svg aria-hidden="true" class="onboarding-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="40" cy="40" r="30" stroke="url(#doneGrad)" stroke-width="3" />
+            <path d="M26 40L36 50L54 30" stroke="url(#doneGrad)" stroke-width="4" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <defs>
+              <linearGradient id="doneGrad" x1="10" y1="10" x2="70" y2="70">
+                <stop stop-color="#83d483" />
+                <stop offset="1" stop-color="#f8b84e" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <h2 class="onboarding-title" id="onboardingTitle5">You're all set</h2>
+        <p class="onboarding-subtitle">Here's what we configured:</p>
+        <div id="obSummary" class="onboarding-summary"></div>
+        <p class="onboarding-subtitle" style="margin-top:12px; font-size:0.9rem; opacity:0.7;">Fine-tune everything in
+          Settings after launch.</p>
+      </section>
+
+      <div class="onboarding-nav">
+        <button id="obBack" class="onboarding-btn onboarding-btn-ghost" style="visibility:hidden">
+          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M10 3L5 8L10 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+          Back
+        </button>
+        <div class="onboarding-dots" id="onboardingDots"></div>
+        <button id="obNext" class="onboarding-btn onboarding-btn-primary">Get Started <svg aria-hidden="true" width="16" height="16"
+            viewBox="0 0 16 16" fill="none">
+            <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg></button>
+      </div>
+      <div id="obStatus" class="onboarding-status" role="status" aria-live="polite" hidden></div>
+      <button id="obSkip" class="onboarding-skip">Skip setup — I know what I'm doing</button>
+    </div>
+  </div>
+
+  <!-- ─── MAIN APP ──────────────────────────────────────────── -->
+  <main class="page-shell workbench-shell" id="mainApp">
+
+    <header class="app-header panel" aria-label="Workbench status and actions">
+      <div class="app-header-left">
+        <p class="app-kicker">Operations</p>
+        <h1 class="app-logo">Job Search Workbench</h1>
+        <dl class="app-header-metrics">
+          <div class="header-metric"><dt class="header-metric-label">Last run</dt><dd><strong
+              id="lastRunMetric">Never</strong></dd></div>
+          <div class="header-metric"><dt class="header-metric-label">Listings</dt><dd><strong
+              id="listingCountMetric">0</strong></dd></div>
+          <div class="header-metric"><dt class="header-metric-label">Alerts</dt><dd><strong
+              id="alertCountMetric">0</strong></dd></div>
+          <div class="header-metric"><dt class="header-metric-label">Next run</dt><dd><strong
+              id="nextRunMetric">Disabled</strong></dd></div>
+        </dl>
+      </div>
+      <div class="app-header-right">
+        <button id="reopenOnboarding" class="ghost-button" title="Re-run the onboarding wizard">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none">
+            <path d="M3 9a6 6 0 1 1 1.76 4.24" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+            <path d="M3 13.5V9.75H6.75" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+          Setup Wizard
+        </button>
+        <button id="notifyPermissionButton" class="ghost-button">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none">
+            <path d="M5 7.5a4 4 0 0 1 8 0v3l1.25 2H3.75L5 10.5v-3Z" stroke="currentColor" stroke-width="1.5"
+              stroke-linejoin="round" />
+            <path d="M7.5 14.25a1.75 1.75 0 0 0 3 0" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" />
+          </svg>
+          Alerts
+        </button>
+        <button id="runButton" class="primary-button">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none">
+            <path d="M6.5 4.5L13 9L6.5 13.5V4.5Z" fill="currentColor" />
+          </svg>
+          Run Search
+        </button>
+      </div>
+    </header>
+
+    <div id="appStatus" class="app-status" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+
+    <!-- ── View Tabs ── -->
+    <nav class="view-tabs" id="viewTabs" role="tablist" aria-label="Workbench views">
+      <a id="dashboardTab" class="view-tab active" href="/dashboard" data-view="dashboard" role="tab"
+        aria-selected="true" aria-controls="dashboardView" tabindex="0">
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none">
+          <rect x="1" y="1" width="6" height="6" rx="1.5" stroke="currentColor" stroke-width="1.5" />
+          <rect x="11" y="1" width="6" height="6" rx="1.5" stroke="currentColor" stroke-width="1.5" />
+          <rect x="1" y="11" width="6" height="6" rx="1.5" stroke="currentColor" stroke-width="1.5" />
+          <rect x="11" y="11" width="6" height="6" rx="1.5" stroke="currentColor" stroke-width="1.5" />
+        </svg>
+        Dashboard
+      </a>
+      <a id="trackerTab" class="view-tab" href="/tracker" data-view="tracker" role="tab" aria-selected="false"
+        aria-controls="trackerView" tabindex="-1">
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none">
+          <rect x="3" y="2" width="12" height="14" rx="2" stroke="currentColor" stroke-width="1.5" />
+          <path d="M6 6H12M6 9H12M6 12H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+        Tracker
+      </a>
+      <a id="settingsTab" class="view-tab" href="/settings" data-view="settings" role="tab" aria-selected="false"
+        aria-controls="settingsView" tabindex="-1">
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none">
+          <circle cx="9" cy="9" r="3" stroke="currentColor" stroke-width="1.5" />
+          <path d="M9 1V3M9 15V17M1 9H3M15 9H17M3.3 3.3L4.7 4.7M13.3 13.3L14.7 14.7M3.3 14.7L4.7 13.3M13.3 4.7L14.7 3.3"
+            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+        Settings
+      </a>
+    </nav>
+
+    <!-- ─── DASHBOARD VIEW ─────────────────────────────────── -->
+    <div id="dashboardView" class="app-view active" role="tabpanel" aria-labelledby="dashboardTab">
+      <div class="results-grid" id="dashboardResultsGrid">
+        <section class="workbench-section panel dashboard-alerts-panel" aria-labelledby="alertsSectionTitle">
+          <header class="section-header">
+            <div>
+              <p class="eyebrow">Live matches</p>
+              <h2 id="alertsSectionTitle">Triggered Alerts</h2>
+            </div>
+          </header>
+          <div id="alertMatches" class="alert-match-list empty-state" role="region" aria-live="polite">
+            Run a search to see alert matches.
+          </div>
+        </section>
+
+        <section class="workbench-section panel dashboard-listings-panel" aria-labelledby="listingsSectionTitle">
+          <header class="section-header">
+            <div>
+              <p class="eyebrow">Ranked results</p>
+              <h2 id="listingsSectionTitle">Job Listings</h2>
+            </div>
+          </header>
+          <div id="resultsList" class="results-list empty-state" role="region" aria-live="polite">
+            No listings loaded yet.
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div id="trackerView" class="app-view" role="tabpanel" aria-labelledby="trackerTab" hidden>
+      <section class="workbench-section panel" aria-labelledby="trackerSectionTitle">
+        <header class="section-header">
+          <div>
+            <p class="eyebrow">Application tracker</p>
+            <h2 id="trackerSectionTitle">Visited &amp; Applied Jobs</h2>
+          </div>
+        </header>
+        <div id="trackerList" class="tracker-list empty-state" role="region" aria-live="polite">
+          Open or apply to a listing to start tracking it here.
+        </div>
+      </section>
+    </div>
+
+    <!-- ─── SETTINGS VIEW ──────────────────────────────────── -->
+    <div id="settingsView" class="app-view" role="tabpanel" aria-labelledby="settingsTab" hidden>
+      <section class="wizard-layout">
+        <aside class="wizard-rail panel">
+          <div>
+            <p class="eyebrow">Configuration</p>
+            <h2 class="rail-title">Fine-tune your setup</h2>
+            <p class="panel-muted">
+              Adjust sources, filters, ranking, alerts, and schedule.
+            </p>
+          </div>
+          <div id="stepRail" class="step-rail"></div>
+          <div id="readinessCard" class="readiness-card"></div>
+        </aside>
+
+        <section class="wizard-main panel">
+          <header class="wizard-header">
+            <div>
+              <p id="stepEyebrow" class="eyebrow">Step 1</p>
+              <h2 id="stepTitle">Start Here</h2>
+              <p id="stepDescription" class="panel-muted">
+                Review how the workbench is configured.
+              </p>
+            </div>
+            <div class="wizard-header-actions">
+              <button id="saveButton" class="secondary-button">
+                <svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path d="M4 2.75h8.25L15.25 5.75V15.25H4V2.75Z" stroke="currentColor" stroke-width="1.5"
+                    stroke-linejoin="round" />
+                  <path d="M6.25 2.75V7h5.5V2.75M6.25 15.25v-4.5h5.5v4.5" stroke="currentColor"
+                    stroke-width="1.5" stroke-linejoin="round" />
+                </svg>
+                Save
+              </button>
+            </div>
+          </header>
+
+          <div id="stepContent" class="step-content"></div>
+
+          <footer class="wizard-footer">
+            <button id="backButton" class="ghost-button">Back</button>
+            <div class="wizard-footer-right">
+              <span id="stepProgressLabel" class="progress-label">Step 1 of 7</span>
+              <button id="nextButton" class="secondary-button">Next Step</button>
+            </div>
+          </footer>
+        </section>
+      </section>
+    </div>
+
+  </main>
+
+  <script type="module" src="/app.js"></script>
+</body>
+
+</html>

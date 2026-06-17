@@ -1,0 +1,18 @@
+C++
+Python
+ROS1
+ROS2
+ROS Nodes
+navigation
+perception
+autonomous behaviors
+hardware drivers
+Bash
+Ubuntu
+Git
+CI/CD
+automated regression testing
+Docker
+cloud integration
+sensor fusion
+Linux

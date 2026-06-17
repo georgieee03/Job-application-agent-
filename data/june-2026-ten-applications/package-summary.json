@@ -1,0 +1,389 @@
+[
+  {
+    "company": "Quince",
+    "role": "Software Development Engineer [New Grad]",
+    "location": "Palo Alto, CA - Hybrid",
+    "listingUrl": "https://job-boards.greenhouse.io/quince/jobs/5226786008",
+    "applicationUrl": "https://job-boards.greenhouse.io/quince/jobs/5226786008",
+    "resume": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\quince-software-development-engineer-new-grad\\George_Jobi_Resume.pdf",
+    "previewPages": [
+      "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\quince-software-development-engineer-new-grad\\resume-preview-page-1.png",
+      "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\quince-software-development-engineer-new-grad\\resume-preview-page-2.png"
+    ],
+    "approvalPreview": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\quince-software-development-engineer-new-grad\\approval-preview.png",
+    "portfolio": null,
+    "portfolioPreviewPages": [],
+    "formatComparison": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\quince-software-development-engineer-new-grad\\format-comparison-page-1.png",
+    "analysis": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\quince-software-development-engineer-new-grad\\package-analysis.md",
+    "validation": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\quince-software-development-engineer-new-grad\\validation-report.json",
+    "approvalManifest": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\quince-software-development-engineer-new-grad\\approval-manifest.json",
+    "ats": {
+      "rawPercent": 100.0,
+      "estimatedAtsAlignment": 95.0,
+      "targetRange": "89-95",
+      "hits": [
+        "software development",
+        "Java",
+        "JavaScript",
+        "Python",
+        "C++",
+        "scalable software systems",
+        "feature ownership",
+        "end-to-end",
+        "monitoring",
+        "debugging",
+        "issue resolution",
+        "documentation",
+        "coding standards",
+        "data quality",
+        "performance",
+        "reliability",
+        "AI-powered development tools",
+        "testing"
+      ],
+      "missing": [],
+      "note": "Local phrase-coverage heuristic only; not an employer ATS score."
+    },
+    "pageFillRatios": {
+      "values": [
+        0.612,
+        0.572
+      ],
+      "minimum": 0.55,
+      "ok": true
+    },
+    "confirm": [
+      "Authorized to work in the United States now: Yes, through OPT eligibility.",
+      "Future employment sponsorship required: Yes.",
+      "Earliest start date: two weeks.",
+      "Willing to relocate: anywhere in the United States.",
+      "Salary expectation: within the posted range.",
+      "Hybrid work and relocation to Palo Alto, California: Yes.",
+      "Current authorization category: F-1 OPT/STEM OPT.",
+      "Future sponsorship category: H-1B.",
+      "Current university: Other - Arizona State University.",
+      "Cover letter is optional and not needed because the resume directly demonstrates the requested evidence."
+    ]
+  },
+  {
+    "company": "Figure",
+    "role": "Embedded Software Intern [Fall 2026]",
+    "location": "San Jose, CA - On-site",
+    "listingUrl": "https://job-boards.greenhouse.io/figureai/jobs/4397706006",
+    "applicationUrl": "https://job-boards.greenhouse.io/figureai/jobs/4397706006",
+    "resume": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\figure-embedded-software-intern-fall-2026\\George_Jobi_Resume.pdf",
+    "previewPages": [
+      "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\figure-embedded-software-intern-fall-2026\\resume-preview-page-1.png",
+      "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\figure-embedded-software-intern-fall-2026\\resume-preview-page-2.png"
+    ],
+    "approvalPreview": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\figure-embedded-software-intern-fall-2026\\approval-preview.png",
+    "portfolio": null,
+    "portfolioPreviewPages": [],
+    "formatComparison": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\figure-embedded-software-intern-fall-2026\\format-comparison-page-1.png",
+    "analysis": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\figure-embedded-software-intern-fall-2026\\package-analysis.md",
+    "validation": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\figure-embedded-software-intern-fall-2026\\validation-report.json",
+    "approvalManifest": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\figure-embedded-software-intern-fall-2026\\approval-manifest.json",
+    "ats": {
+      "rawPercent": 100.0,
+      "estimatedAtsAlignment": 95.0,
+      "targetRange": "89-95",
+      "hits": [
+        "embedded software",
+        "C++",
+        "Python",
+        "Linux",
+        "computer architecture",
+        "Ethernet",
+        "EtherCAT",
+        "serial communication",
+        "CAN",
+        "USB",
+        "hardware-software integration",
+        "test automation",
+        "robot calibration",
+        "CI/CD",
+        "Docker",
+        "debugging tools"
+      ],
+      "missing": [],
+      "note": "Local phrase-coverage heuristic only; not an employer ATS score."
+    },
+    "pageFillRatios": {
+      "values": [
+        0.625,
+        0.572
+      ],
+      "minimum": 0.55,
+      "ok": true
+    },
+    "confirm": [
+      "Authorized to work in the United States now: Yes, through OPT eligibility.",
+      "Future employment sponsorship required: Yes.",
+      "Earliest start date: two weeks.",
+      "Willing to relocate: anywhere in the United States.",
+      "Salary expectation: within the posted range.",
+      "Full-time on-site internship in San Jose for at least 10 weeks beginning Fall 2026: Yes.",
+      "Communication-bus and lab-instrument depth is represented as concepts where direct hands-on evidence is not verified.",
+      "No cover letter is requested by the live form."
+    ]
+  },
+  {
+    "company": "Kodiak",
+    "role": "Fall 2026 Intern, Perception",
+    "location": "Mountain View, CA - On-site",
+    "listingUrl": "https://job-boards.greenhouse.io/kodiak/jobs/4174533009",
+    "applicationUrl": "https://job-boards.greenhouse.io/kodiak/jobs/4174533009",
+    "resume": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\kodiak-fall-2026-perception-intern\\George_Jobi_Resume.pdf",
+    "previewPages": [
+      "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\kodiak-fall-2026-perception-intern\\resume-preview-page-1.png",
+      "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\kodiak-fall-2026-perception-intern\\resume-preview-page-2.png"
+    ],
+    "approvalPreview": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\kodiak-fall-2026-perception-intern\\approval-preview.png",
+    "portfolio": null,
+    "portfolioPreviewPages": [],
+    "formatComparison": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\kodiak-fall-2026-perception-intern\\format-comparison-page-1.png",
+    "analysis": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\kodiak-fall-2026-perception-intern\\package-analysis.md",
+    "validation": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\kodiak-fall-2026-perception-intern\\validation-report.json",
+    "approvalManifest": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\kodiak-fall-2026-perception-intern\\approval-manifest.json",
+    "ats": {
+      "rawPercent": 100.0,
+      "estimatedAtsAlignment": 95.0,
+      "targetRange": "89-95",
+      "hits": [
+        "robotics perception",
+        "C++",
+        "Python",
+        "object detection",
+        "classification",
+        "multi-object tracking",
+        "sensor fusion",
+        "scene estimation",
+        "deep neural networks",
+        "Kalman filter",
+        "particle filter",
+        "point cloud processing",
+        "camera",
+        "LiDAR",
+        "dataset collection",
+        "labeling",
+        "training",
+        "validation",
+        "documentation"
+      ],
+      "missing": [],
+      "note": "Local phrase-coverage heuristic only; not an employer ATS score."
+    },
+    "pageFillRatios": {
+      "values": [
+        0.653,
+        0.558
+      ],
+      "minimum": 0.55,
+      "ok": true
+    },
+    "confirm": [
+      "Authorized to work in the United States now: Yes, through OPT eligibility.",
+      "Future employment sponsorship required: Yes.",
+      "Earliest start date: two weeks.",
+      "Willing to relocate: anywhere in the United States.",
+      "Salary expectation: within the posted range.",
+      "Fall 2026 internship in Mountain View for 12-16 weeks: Yes.",
+      "Future employment sponsorship: Yes.",
+      "Cover letter is optional and not needed because the tailored resume directly demonstrates perception research fit."
+    ]
+  },
+  {
+    "company": "Scout AI",
+    "role": "Robotics Software Engineer",
+    "location": "Sunnyvale, CA - On-site",
+    "listingUrl": "https://job-boards.greenhouse.io/scoutai/jobs/5137118008",
+    "applicationUrl": "https://job-boards.greenhouse.io/scoutai/jobs/5137118008",
+    "resume": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\scout-ai-robotics-software-engineer\\George_Jobi_Resume.pdf",
+    "previewPages": [
+      "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\scout-ai-robotics-software-engineer\\resume-preview-page-1.png",
+      "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\scout-ai-robotics-software-engineer\\resume-preview-page-2.png"
+    ],
+    "approvalPreview": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\scout-ai-robotics-software-engineer\\approval-preview.png",
+    "portfolio": null,
+    "portfolioPreviewPages": [],
+    "formatComparison": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\scout-ai-robotics-software-engineer\\format-comparison-page-1.png",
+    "analysis": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\scout-ai-robotics-software-engineer\\package-analysis.md",
+    "validation": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\scout-ai-robotics-software-engineer\\validation-report.json",
+    "approvalManifest": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\scout-ai-robotics-software-engineer\\approval-manifest.json",
+    "ats": {
+      "rawPercent": 100.0,
+      "estimatedAtsAlignment": 95.0,
+      "targetRange": "89-95",
+      "hits": [
+        "robotics software",
+        "drone autonomy",
+        "perception",
+        "planning",
+        "control systems",
+        "autonomy pipelines",
+        "cameras",
+        "LiDAR",
+        "IMU",
+        "localization",
+        "mapping",
+        "navigation",
+        "simulation infrastructure",
+        "testing environments",
+        "system reliability",
+        "performance",
+        "deployment monitoring",
+        "C++",
+        "Python"
+      ],
+      "missing": [],
+      "note": "Local phrase-coverage heuristic only; not an employer ATS score."
+    },
+    "pageFillRatios": {
+      "values": [
+        0.612,
+        0.572
+      ],
+      "minimum": 0.55,
+      "ok": true
+    },
+    "confirm": [
+      "Authorized to work in the United States now: Yes, through OPT eligibility.",
+      "Future employment sponsorship required: Yes.",
+      "Earliest start date: two weeks.",
+      "Willing to relocate: anywhere in the United States.",
+      "Salary expectation: within the posted range.",
+      "On-site work and relocation to Sunnyvale, California: Yes.",
+      "Legally authorized to work in the United States now: Yes through OPT eligibility.",
+      "Future sponsorship: Yes.",
+      "No cover letter is requested by the live form."
+    ]
+  },
+  {
+    "company": "RoboForce",
+    "role": "AI Resident",
+    "location": "Milpitas, CA - On-site",
+    "listingUrl": "https://job-boards.greenhouse.io/roboforce/jobs/5196164008",
+    "applicationUrl": "https://job-boards.greenhouse.io/roboforce/jobs/5196164008",
+    "resume": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\roboforce-ai-resident\\George_Jobi_Resume.pdf",
+    "previewPages": [
+      "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\roboforce-ai-resident\\resume-preview-page-1.png",
+      "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\roboforce-ai-resident\\resume-preview-page-2.png"
+    ],
+    "approvalPreview": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\roboforce-ai-resident\\approval-preview.png",
+    "portfolio": null,
+    "portfolioPreviewPages": [],
+    "formatComparison": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\roboforce-ai-resident\\format-comparison-page-1.png",
+    "analysis": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\roboforce-ai-resident\\package-analysis.md",
+    "validation": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\roboforce-ai-resident\\validation-report.json",
+    "approvalManifest": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\roboforce-ai-resident\\approval-manifest.json",
+    "ats": {
+      "rawPercent": 93.8,
+      "estimatedAtsAlignment": 93.8,
+      "targetRange": "89-95",
+      "hits": [
+        "embodied AI",
+        "physical intelligence",
+        "Vision-Language-Action",
+        "simulation",
+        "sim-to-real",
+        "reinforcement learning",
+        "imitation learning",
+        "multimodal learning",
+        "PyTorch",
+        "data collection systems",
+        "training pipelines",
+        "evaluation pipelines",
+        "physical robots",
+        "AI-assisted coding",
+        "Python"
+      ],
+      "missing": [
+        "World Models"
+      ],
+      "note": "Local phrase-coverage heuristic only; not an employer ATS score."
+    },
+    "pageFillRatios": {
+      "values": [
+        0.64,
+        0.558
+      ],
+      "minimum": 0.55,
+      "ok": true
+    },
+    "confirm": [
+      "Authorized to work in the United States now: Yes, through OPT eligibility.",
+      "Future employment sponsorship required: Yes.",
+      "Earliest start date: two weeks.",
+      "Willing to relocate: anywhere in the United States.",
+      "Salary expectation: within the posted range.",
+      "Full-time on-site work in Milpitas five days per week: Yes.",
+      "The resume labels VLA, World Models, sim-to-real, reinforcement learning, and imitation learning as concepts rather than completed project ownership.",
+      "No cover letter is requested by the live form."
+    ]
+  },
+  {
+    "company": "The Allen Institute for Artificial Intelligence",
+    "role": "Research Internship, Robotics",
+    "location": "Seattle, WA - On-site",
+    "listingUrl": "https://job-boards.greenhouse.io/thealleninstitute/jobs/7366273",
+    "applicationUrl": "https://job-boards.greenhouse.io/thealleninstitute/jobs/7366273",
+    "resume": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\ai2-robotics-research-intern\\George_Jobi_Resume.pdf",
+    "previewPages": [
+      "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\ai2-robotics-research-intern\\resume-preview-page-1.png",
+      "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\ai2-robotics-research-intern\\resume-preview-page-2.png"
+    ],
+    "approvalPreview": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\ai2-robotics-research-intern\\approval-preview.png",
+    "portfolio": null,
+    "portfolioPreviewPages": [],
+    "formatComparison": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\ai2-robotics-research-intern\\format-comparison-page-1.png",
+    "analysis": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\ai2-robotics-research-intern\\package-analysis.md",
+    "validation": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\ai2-robotics-research-intern\\validation-report.json",
+    "approvalManifest": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\ai2-robotics-research-intern\\approval-manifest.json",
+    "ats": {
+      "rawPercent": 93.8,
+      "estimatedAtsAlignment": 93.8,
+      "targetRange": "89-95",
+      "hits": [
+        "robotics research",
+        "artificial intelligence research",
+        "computer vision",
+        "machine learning",
+        "embodied AI",
+        "open datasets",
+        "benchmarks",
+        "model evaluation",
+        "scientific literature",
+        "experiments",
+        "PyTorch",
+        "CARLA",
+        "Gazebo",
+        "physical robots",
+        "reproducible research"
+      ],
+      "missing": [
+        "foundation models"
+      ],
+      "note": "Local phrase-coverage heuristic only; not an employer ATS score."
+    },
+    "pageFillRatios": {
+      "values": [
+        0.653,
+        0.558
+      ],
+      "minimum": 0.55,
+      "ok": true
+    },
+    "confirm": [
+      "Authorized to work in the United States now: Yes, through OPT eligibility.",
+      "Future employment sponsorship required: Yes.",
+      "Earliest start date: two weeks.",
+      "Willing to relocate: anywhere in the United States.",
+      "Salary expectation: within the posted range.",
+      "On-site work and relocation to Seattle: Yes.",
+      "Legally eligible to work in the United States: Yes.",
+      "Future visa sponsorship: Yes; the posting states sponsorship is available.",
+      "Publication list and any advisor information must be confirmed before submission.",
+      "A cover letter is optional and not needed unless the user requests one."
+    ]
+  }
+]

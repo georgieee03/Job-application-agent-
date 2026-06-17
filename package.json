@@ -1,0 +1,28 @@
+{
+  "name": "job-application-agent-kit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "auth": "tsx src/index.ts auth",
+    "apply": "tsx src/index.ts apply",
+    "search": "tsx src/index.ts search",
+    "ui": "tsx src/workbench-server.ts",
+    "publish:ci-workflow": "node scripts/publish_ci_workflow.mjs",
+    "check": "tsc --noEmit",
+    "check:python": "python3 scripts/check_python_helpers.py",
+    "check:remote-ci": "node scripts/check_remote_ci.mjs",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "ci": "npm run check && npm run check:python && npm test"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "playwright": "^1.55.1",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

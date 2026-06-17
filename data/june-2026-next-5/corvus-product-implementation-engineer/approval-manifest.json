@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-06-09T09:08:22.704439+00:00",
+  "company": "Corvus Robotics",
+  "role": "Product Implementation Engineer I, II",
+  "jobUrl": "https://jobs.ashbyhq.com/corvus-robotics/e180a9e8-6611-485b-b76a-bbf995b69e7f",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\corvus-product-implementation-engineer\\George_Jobi_Resume.pdf",
+      "bytes": 57931,
+      "sha256": "97e8fdc3c0688b255207b5fc52ff3ae7ab5834325821775d0e129b6f4bc4c3e1"
+    },
+    "coverLetter": null,
+    "attachments": [],
+    "responses": []
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\corvus-product-implementation-engineer\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 95.0,
+    "resume": {
+      "report": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\corvus-product-implementation-engineer\\validation-report.json",
+      "valid": true,
+      "estimatedAtsAlignment": 95.0
+    },
+    "coverLetter": null
+  }
+}

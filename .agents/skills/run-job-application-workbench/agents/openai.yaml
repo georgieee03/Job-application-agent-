@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Application Workbench"
+  short_description: "Run a verified end-to-end application workflow"
+  default_prompt: "Use $run-job-application-workbench to autonomously run or resume a verified job-application batch from a plain-language target count."

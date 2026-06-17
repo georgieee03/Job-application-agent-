@@ -1,0 +1,4 @@
+interface:
+  display_name: "Submit Job Application"
+  short_description: "Fill, submit, and confirm approved job forms"
+  default_prompt: "Use $submit-job-application to submit an approved application package and capture authoritative confirmation."

@@ -1,0 +1,96 @@
+# Claude Code Operating Instructions
+
+This repository is a portable job-application automation workspace for George
+Jobi Perangattu. Claude Code should use this file as the primary project
+instruction layer, with `AGENTS.md` as the detailed workflow contract.
+
+## Primary Goal Mode
+
+When George prompts a goal like:
+
+> apply to 10 jobs preferably related to robotics, use AGENTS.md to activate workflow
+
+Claude Code must activate the job-application workbench workflow immediately.
+The requested number means verified applications, not attempts.
+
+Use these files first:
+
+1. `AGENTS.md`
+2. `data/candidate-application-answers.md`
+3. `data/application-tracker.json`
+4. `.agents/skills/run-job-application-workbench/SKILL.md`
+5. `.agents/skills/verify-job-application-state/SKILL.md`
+6. `.agents/skills/tailor-job-resume/SKILL.md`
+7. `.agents/skills/submit-job-application/SKILL.md`
+8. `docs/skills/ui-latency-normalization.md`
+
+## Automation Contract
+
+- Proceed autonomously using confirmed facts already recorded in
+  `data/candidate-application-answers.md`.
+- Ask George only for missing application-specific facts, ambiguous legal or
+  immigration answers, login, OTP/security code, CAPTCHA/human verification, or
+  mailbox/portal authorization.
+- Use `data/application-tracker.json` as the real workbench tracker and
+  duplicate-prevention source of truth.
+- Record every touched role in the tracker, including failed, blocked,
+  CAPTCHA/OTP-gated, duplicate, replaced, not-completed, and not-submitted
+  roles.
+- Copy incomplete Codex/Claude attempts into `DYI applications.md`.
+- Do not mark a role fully verified from a success page alone. A verified
+  submission requires immediate provider evidence plus confirmation email,
+  employer/ATS portal evidence, or provider/API acceptance evidence.
+- If only the success page is available, mark the tracker status as
+  `submitted - pending email verification`.
+
+## Live Submission Ownership
+
+The main Claude session owns all final external side effects:
+
+- final browser submit clicks;
+- email/OTP access;
+- CAPTCHA/human-verification handoffs;
+- authoritative ledger and tracker writes;
+- final audit and cleanup.
+
+Subagents may research, screen, extract requirements, review packages, or audit
+evidence. Subagents must not submit applications, solve CAPTCHA, access OTPs,
+or alter the authoritative tracker/ledger.
+
+## Claude Model Routing
+
+Use Claude Code subagents from `.claude/agents/` when work can run in parallel.
+Choose the lowest-capability model that is reliable for the task:
+
+| Intensity | Agent | Model | Effort | Use For |
+| --- | --- | --- | --- | --- |
+| Low | `job-discovery-haiku` | `claude-haiku-4-5` | `low` | finding roles, freshness checks, duplicate checks, extracting simple fields |
+| Medium | `job-screening-sonnet` | `claude-sonnet-4-6` | `medium` | eligibility screening, ATS keyword gaps, package review, application-question mapping |
+| High | `job-risk-opus` | `claude-opus-4-8` | `xhigh` | sponsorship/export ambiguity, high-risk answers, novel ATS flows, final forensic audit |
+| Email | `email-verification-sonnet` | `claude-sonnet-4-6` | `medium` | mailbox/portal confirmation inventory after the main session grants explicit scope |
+
+Escalate to `job-risk-opus` when a subagent reports uncertainty, conflicting
+evidence, legal/immigration ambiguity, or a risk that could lead to a false
+submission claim.
+
+## Recommended Main Session Models
+
+- Initial Mac setup and repository migration: start Claude Code with
+  `claude-opus-4-8` at `xhigh` effort.
+- Routine application goal: start with `claude-opus-4-8` at `high` effort for
+  the main orchestrator. It may delegate low/medium tasks to Haiku/Sonnet
+  subagents.
+- Cost-saving exploratory discovery only: `claude-sonnet-4-6` at `medium` is
+  acceptable, but switch to Opus before live submissions or final verification.
+
+## Safety Boundaries
+
+Do not commit or publish:
+
+- `.env` or `.env.*`;
+- OAuth tokens, mailbox credentials, app passwords, cookies, Chrome profiles,
+  Playwright auth state, or exported browser profiles;
+- OTP/security-code contents;
+- raw session logs containing secrets.
+
+Use `LOCAL_SECRETS_MANIFEST.md` as a checklist for local setup on the Mac.

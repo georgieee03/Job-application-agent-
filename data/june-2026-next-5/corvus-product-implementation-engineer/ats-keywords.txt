@@ -1,0 +1,15 @@
+robotics implementation
+autonomous robot operations
+customer-site deployment
+Ubuntu
+ROS
+Python
+shell scripting
+Git
+SQL
+incident response
+hardware-software troubleshooting
+electrical diagnosis
+mechanical repair
+data logging
+implementation projects

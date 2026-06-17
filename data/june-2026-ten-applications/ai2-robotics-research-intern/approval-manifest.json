@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-06-09T00:39:15.778107+00:00",
+  "company": "The Allen Institute for Artificial Intelligence",
+  "role": "Research Internship, Robotics",
+  "jobUrl": "https://job-boards.greenhouse.io/thealleninstitute/jobs/7366273",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\ai2-robotics-research-intern\\George_Jobi_Resume.pdf",
+      "bytes": 57900,
+      "sha256": "c653bab3af187483964b73dfed8aa316b552fa44571dbe044fea500fe7f2f7ff"
+    },
+    "coverLetter": null,
+    "attachments": [],
+    "responses": []
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\ai2-robotics-research-intern\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 93.8,
+    "resume": {
+      "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\ai2-robotics-research-intern\\validation-report.json",
+      "valid": true,
+      "estimatedAtsAlignment": 93.8
+    },
+    "coverLetter": null
+  }
+}

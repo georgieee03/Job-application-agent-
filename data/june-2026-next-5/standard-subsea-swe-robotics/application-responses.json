@@ -1,0 +1,6 @@
+{
+  "linkedin_url": "https://www.linkedin.com/in/george-j-1829112a2/",
+  "onsite_or_relocate": "Yes",
+  "current_us_work_authorization_status": "Work Visa",
+  "proud_project": "I am most proud of the autonomous-control system I built for a physical Parrot MiniDrone. I implemented closed-loop PID control for yaw, velocity, and altitude, fused inertial and visual sensor data, and added logging, automated test sequences, safety checks, and failsafes. The project taught me how to diagnose behavior across software, sensors, and hardware and turn repeated physical tests into measurable improvements."
+}

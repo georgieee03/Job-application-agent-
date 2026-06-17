@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-06-09T00:38:58.154892+00:00",
+  "company": "Scout AI",
+  "role": "Robotics Software Engineer",
+  "jobUrl": "https://job-boards.greenhouse.io/scoutai/jobs/5137118008",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\scout-ai-robotics-software-engineer\\George_Jobi_Resume.pdf",
+      "bytes": 57855,
+      "sha256": "4492fcf98ef22f9b5b0764b1e43174f8174fe38c71eb2c7ad2d955c68cd670a1"
+    },
+    "coverLetter": null,
+    "attachments": [],
+    "responses": []
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\scout-ai-robotics-software-engineer\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 95.0,
+    "resume": {
+      "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\scout-ai-robotics-software-engineer\\validation-report.json",
+      "valid": true,
+      "estimatedAtsAlignment": 95.0
+    },
+    "coverLetter": null
+  }
+}

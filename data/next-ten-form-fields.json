@@ -1,0 +1,3159 @@
+[
+  {
+    "company": "Field AI",
+    "role": "Software Engineer, ROS Developer",
+    "title": "FieldAI - Software Engineer, ROS Developer",
+    "url": "https://jobs.lever.co/field-ai/c3650d39-20eb-454e-97f8-4d38494e0fe6/apply",
+    "fields": [
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "name": "resume",
+        "id": "resume-upload-input",
+        "required": false,
+        "placeholder": "",
+        "label": "Resume/CV ✱ ATTACH RESUME/CV",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Full name ✱",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company"
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Email ✱",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "phone",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Phone ✱",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "location",
+        "id": "location-input",
+        "required": false,
+        "placeholder": "",
+        "label": "Current location",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "org",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Current company",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[LinkedIn]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "LinkedIn URL",
+        "text": "",
+        "group": "LinkedIn URL Twitter URL GitHub URL Portfolio URL Field AI"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[Twitter]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Twitter URL",
+        "text": "",
+        "group": "LinkedIn URL Twitter URL GitHub URL Portfolio URL Field AI"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[GitHub]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "GitHub URL",
+        "text": "",
+        "group": "LinkedIn URL Twitter URL GitHub URL Portfolio URL Field AI"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[Portfolio]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Portfolio URL",
+        "text": "",
+        "group": "LinkedIn URL Twitter URL GitHub URL Portfolio URL Field AI"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[Other]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Field AI",
+        "text": "",
+        "group": "LinkedIn URL Twitter URL GitHub URL Portfolio URL Field AI"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[631785a2-31a3-4f63-b226-13d3d23f85e0][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Field AI Website",
+        "text": "",
+        "group": "Field AI Website Employee Referral LinkedIn Indeed ZipRecruiter School or University Professional Organization YouTube, Facebook, or Instagram \"Analytics Insight\", \"AI Magazine\" or other AI publication AI Search Engine, including You.com, Perplexity AI, or other site Referral from a friend, colleague, or professor Other job website Handshake"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[631785a2-31a3-4f63-b226-13d3d23f85e0][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Employee Referral",
+        "text": "",
+        "group": "Field AI Website Employee Referral LinkedIn Indeed ZipRecruiter School or University Professional Organization YouTube, Facebook, or Instagram \"Analytics Insight\", \"AI Magazine\" or other AI publication AI Search Engine, including You.com, Perplexity AI, or other site Referral from a friend, colleague, or professor Other job website Handshake"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[631785a2-31a3-4f63-b226-13d3d23f85e0][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "LinkedIn",
+        "text": "",
+        "group": "Field AI Website Employee Referral LinkedIn Indeed ZipRecruiter School or University Professional Organization YouTube, Facebook, or Instagram \"Analytics Insight\", \"AI Magazine\" or other AI publication AI Search Engine, including You.com, Perplexity AI, or other site Referral from a friend, colleague, or professor Other job website Handshake"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[631785a2-31a3-4f63-b226-13d3d23f85e0][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Indeed",
+        "text": "",
+        "group": "Field AI Website Employee Referral LinkedIn Indeed ZipRecruiter School or University Professional Organization YouTube, Facebook, or Instagram \"Analytics Insight\", \"AI Magazine\" or other AI publication AI Search Engine, including You.com, Perplexity AI, or other site Referral from a friend, colleague, or professor Other job website Handshake"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[631785a2-31a3-4f63-b226-13d3d23f85e0][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "ZipRecruiter",
+        "text": "",
+        "group": "Field AI Website Employee Referral LinkedIn Indeed ZipRecruiter School or University Professional Organization YouTube, Facebook, or Instagram \"Analytics Insight\", \"AI Magazine\" or other AI publication AI Search Engine, including You.com, Perplexity AI, or other site Referral from a friend, colleague, or professor Other job website Handshake"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[631785a2-31a3-4f63-b226-13d3d23f85e0][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "School or University",
+        "text": "",
+        "group": "Field AI Website Employee Referral LinkedIn Indeed ZipRecruiter School or University Professional Organization YouTube, Facebook, or Instagram \"Analytics Insight\", \"AI Magazine\" or other AI publication AI Search Engine, including You.com, Perplexity AI, or other site Referral from a friend, colleague, or professor Other job website Handshake"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[631785a2-31a3-4f63-b226-13d3d23f85e0][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Professional Organization",
+        "text": "",
+        "group": "Professional Organization"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[631785a2-31a3-4f63-b226-13d3d23f85e0][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "YouTube, Facebook, or Instagram",
+        "text": "",
+        "group": "YouTube, Facebook, or Instagram"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[631785a2-31a3-4f63-b226-13d3d23f85e0][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "\"Analytics Insight\", \"AI Magazine\" or other AI publication",
+        "text": "",
+        "group": "\"Analytics Insight\", \"AI Magazine\" or other AI publication"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[631785a2-31a3-4f63-b226-13d3d23f85e0][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "AI Search Engine, including You.com, Perplexity AI, or other site",
+        "text": "",
+        "group": "AI Search Engine, including You.com, Perplexity AI, or other site"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[631785a2-31a3-4f63-b226-13d3d23f85e0][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Referral from a friend, colleague, or professor",
+        "text": "",
+        "group": "Referral from a friend, colleague, or professor"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[631785a2-31a3-4f63-b226-13d3d23f85e0][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Other job website",
+        "text": "",
+        "group": "Field AI Website Employee Referral LinkedIn Indeed ZipRecruiter School or University Professional Organization YouTube, Facebook, or Instagram \"Analytics Insight\", \"AI Magazine\" or other AI publication AI Search Engine, including You.com, Perplexity AI, or other site Referral from a friend, colleague, or professor Other job website Handshake"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[631785a2-31a3-4f63-b226-13d3d23f85e0][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Handshake",
+        "text": "",
+        "group": "Field AI Website Employee Referral LinkedIn Indeed ZipRecruiter School or University Professional Organization YouTube, Facebook, or Instagram \"Analytics Insight\", \"AI Magazine\" or other AI publication AI Search Engine, including You.com, Perplexity AI, or other site Referral from a friend, colleague, or professor Other job website Handshake"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "I can start immediately.",
+        "text": "",
+        "group": "I can start immediately."
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "I can start in two to three weeks.",
+        "text": "",
+        "group": "I can start in two to three weeks."
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "I can start in a month.",
+        "text": "",
+        "group": "I can start in a month."
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "I can start in six weeks to two months.",
+        "text": "",
+        "group": "I can start in six weeks to two months."
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "I can start in eight to twelve weeks.",
+        "text": "",
+        "group": "I can start in eight to twelve weeks."
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "I can start in three to six months.",
+        "text": "",
+        "group": "I can start in three to six months."
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Yes",
+        "text": "",
+        "group": "Are you authorized to work in the United States? ✱ Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "No",
+        "text": "",
+        "group": "Are you authorized to work in the United States? ✱ Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field1]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Yes",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field1]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "No",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field1]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Not applicable",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field2]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Yes",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field2]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "No",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field2]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Not applicable",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field3]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Yes",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field3]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "No",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field3]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Not applicable",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[c30e2b1f-69a9-40c9-a568-bf60c9af8fe7][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Expert",
+        "text": "",
+        "group": "Expert Advanced Intermediate Beginner I haven't used Python."
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[c30e2b1f-69a9-40c9-a568-bf60c9af8fe7][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Advanced",
+        "text": "",
+        "group": "Expert Advanced Intermediate Beginner I haven't used Python."
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[c30e2b1f-69a9-40c9-a568-bf60c9af8fe7][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Intermediate",
+        "text": "",
+        "group": "Expert Advanced Intermediate Beginner I haven't used Python."
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[c30e2b1f-69a9-40c9-a568-bf60c9af8fe7][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Beginner",
+        "text": "",
+        "group": "Expert Advanced Intermediate Beginner I haven't used Python."
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[c30e2b1f-69a9-40c9-a568-bf60c9af8fe7][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "I haven't used Python.",
+        "text": "",
+        "group": "I haven't used Python."
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[d673df62-8fd1-45bb-be45-6f59939e90aa][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Beginner",
+        "text": "",
+        "group": "Beginner Intermediate Advanced I don't use C++"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[d673df62-8fd1-45bb-be45-6f59939e90aa][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Intermediate",
+        "text": "",
+        "group": "Beginner Intermediate Advanced I don't use C++"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[d673df62-8fd1-45bb-be45-6f59939e90aa][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Advanced",
+        "text": "",
+        "group": "Beginner Intermediate Advanced I don't use C++"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[d673df62-8fd1-45bb-be45-6f59939e90aa][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "I don't use C++",
+        "text": "",
+        "group": "Beginner Intermediate Advanced I don't use C++"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "hcaptchaSubmitBtn",
+        "label": "",
+        "text": "",
+        "group": "SUBMIT YOUR APPLICATION Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company LINKS LinkedIn URL Twitter URL GitHub URL Portfolio URL Field AI HOW DID YOU HEAR ABOUT US? How did you learn about this opportunity? ✱ Field AI Website Employee Referral LinkedIn Indeed ZipRecruiter School or University Professional Organization YouTube, Facebook, or Instagram \"Analytics Insight\", \"AI Magazine\" or other AI publication AI Search Engine, including You.com, Perplexity AI, or other site Referral from a friend, colleague, or professor Other job website Handshake START DATE Please let us know you would be able to begin a new opportunity. ✱ I can start immediately. I can start in two to three weeks. I can start in a month. I can start in six weeks to two months. I can start in eight to twelve weeks. I can start in three to six months. ARE YOU AUTHORIZED TO WORK IN THE U.S.? Are you authorized to work in the United States? ✱ Yes No Will you now, or in the future, require sponsorship (i.e. H-1B visa, etc.) to legally work in the U.S.? ✱ Yes No Not applicable Are you currently in a period of Optional Practical Training (OPT)? ✱ Yes No Not applicable Do you hold "
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "consent[marketing]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "FieldAI has my consent to contact me about future job opportunities.",
+        "text": "",
+        "group": "FieldAI has my consent to contact me about future job opportunities."
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "btn-submit",
+        "label": "",
+        "text": "SUBMIT APPLICATION",
+        "group": "SUBMIT YOUR APPLICATION Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company LINKS LinkedIn URL Twitter URL GitHub URL Portfolio URL Field AI HOW DID YOU HEAR ABOUT US? How did you learn about this opportunity? ✱ Field AI Website Employee Referral LinkedIn Indeed ZipRecruiter School or University Professional Organization YouTube, Facebook, or Instagram \"Analytics Insight\", \"AI Magazine\" or other AI publication AI Search Engine, including You.com, Perplexity AI, or other site Referral from a friend, colleague, or professor Other job website Handshake START DATE Please let us know you would be able to begin a new opportunity. ✱ I can start immediately. I can start in two to three weeks. I can start in a month. I can start in six weeks to two months. I can start in eight to twelve weeks. I can start in three to six months. ARE YOU AUTHORIZED TO WORK IN THE U.S.? Are you authorized to work in the United States? ✱ Yes No Will you now, or in the future, require sponsorship (i.e. H-1B visa, etc.) to legally work in the U.S.? ✱ Yes No Not applicable Are you currently in a period of Optional Practical Training (OPT)? ✱ Yes No Not applicable Do you hold "
+      }
+    ]
+  },
+  {
+    "company": "Field AI",
+    "role": "Robotics Software Engineer - Robot Integrations",
+    "title": "FieldAI - Robotics Software Engineer – Robot Integrations",
+    "url": "https://jobs.lever.co/field-ai/b5f58151-9a46-441f-badf-2e91244bfd39/apply",
+    "fields": [
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "name": "resume",
+        "id": "resume-upload-input",
+        "required": false,
+        "placeholder": "",
+        "label": "Resume/CV ✱ ATTACH RESUME/CV",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Full name ✱",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company"
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Email ✱",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "phone",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Phone ✱",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "location",
+        "id": "location-input",
+        "required": false,
+        "placeholder": "",
+        "label": "Current location",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "org",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Current company",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[LinkedIn]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "LinkedIn URL",
+        "text": "",
+        "group": "LinkedIn URL Twitter URL GitHub URL Portfolio URL Field AI"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[Twitter]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Twitter URL",
+        "text": "",
+        "group": "LinkedIn URL Twitter URL GitHub URL Portfolio URL Field AI"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[GitHub]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "GitHub URL",
+        "text": "",
+        "group": "LinkedIn URL Twitter URL GitHub URL Portfolio URL Field AI"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[Portfolio]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Portfolio URL",
+        "text": "",
+        "group": "LinkedIn URL Twitter URL GitHub URL Portfolio URL Field AI"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[Other]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Field AI",
+        "text": "",
+        "group": "LinkedIn URL Twitter URL GitHub URL Portfolio URL Field AI"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Yes",
+        "text": "",
+        "group": "Are you authorized to work in the United States? ✱ Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "No",
+        "text": "",
+        "group": "Are you authorized to work in the United States? ✱ Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field1]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Yes",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field1]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "No",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field1]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Not applicable",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field2]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Yes",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field2]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "No",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field2]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Not applicable",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field3]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Yes",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field3]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "No",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field3]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Not applicable",
+        "text": "",
+        "group": "Yes No Not applicable"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "cards[a3958a48-cdc5-473b-b74c-273b8f748504][field0]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Yes",
+        "text": "",
+        "group": "Are you able to work onsite? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "cards[a3958a48-cdc5-473b-b74c-273b8f748504][field0]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "No",
+        "text": "",
+        "group": "Are you able to work onsite? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "I can start immediately.",
+        "text": "",
+        "group": "I can start immediately."
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "I can start in two to three weeks.",
+        "text": "",
+        "group": "I can start in two to three weeks."
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "I can start in a month.",
+        "text": "",
+        "group": "I can start in a month."
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "I can start in six weeks to two months.",
+        "text": "",
+        "group": "I can start in six weeks to two months."
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "I can start in eight to twelve weeks.",
+        "text": "",
+        "group": "I can start in eight to twelve weeks."
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "I can start in three to six months.",
+        "text": "",
+        "group": "I can start in three to six months."
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "hcaptchaSubmitBtn",
+        "label": "",
+        "text": "",
+        "group": "SUBMIT YOUR APPLICATION Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company LINKS LinkedIn URL Twitter URL GitHub URL Portfolio URL Field AI ARE YOU AUTHORIZED TO WORK IN THE U.S.? Are you authorized to work in the United States? ✱ Yes No Will you now, or in the future, require sponsorship (i.e. H-1B visa, etc.) to legally work in the U.S.? ✱ Yes No Not applicable Are you currently in a period of Optional Practical Training (OPT)? ✱ Yes No Not applicable Do you hold a degree in a Science, Technology, Engineering, or Mathematics (STEM) field from a U.S. accredited institution that would allow you to apply for a 24-month OPT extension? ✱ Yes No Not applicable ONSITE WORK Are you able to work onsite? Yes No START DATE Please let us know you would be able to begin a new opportunity. ✱ I can start immediately. I can start in two to three weeks. I can start in a month. I can start in six weeks to two months. I can start in eight to twelve weeks. I can start in three to six months. By applying for this position, your data will be processed as per FieldAI's privacy policy. FieldAI has my consent to contact me about future job opportunities. SUBMIT APPL"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "consent[marketing]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "FieldAI has my consent to contact me about future job opportunities.",
+        "text": "",
+        "group": "FieldAI has my consent to contact me about future job opportunities."
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "btn-submit",
+        "label": "",
+        "text": "SUBMIT APPLICATION",
+        "group": "SUBMIT YOUR APPLICATION Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company LINKS LinkedIn URL Twitter URL GitHub URL Portfolio URL Field AI ARE YOU AUTHORIZED TO WORK IN THE U.S.? Are you authorized to work in the United States? ✱ Yes No Will you now, or in the future, require sponsorship (i.e. H-1B visa, etc.) to legally work in the U.S.? ✱ Yes No Not applicable Are you currently in a period of Optional Practical Training (OPT)? ✱ Yes No Not applicable Do you hold a degree in a Science, Technology, Engineering, or Mathematics (STEM) field from a U.S. accredited institution that would allow you to apply for a 24-month OPT extension? ✱ Yes No Not applicable ONSITE WORK Are you able to work onsite? Yes No START DATE Please let us know you would be able to begin a new opportunity. ✱ I can start immediately. I can start in two to three weeks. I can start in a month. I can start in six weeks to two months. I can start in eight to twelve weeks. I can start in three to six months. By applying for this position, your data will be processed as per FieldAI's privacy policy. FieldAI has my consent to contact me about future job opportunities. SUBMIT APPL"
+      }
+    ]
+  },
+  {
+    "company": "Simbe Robotics",
+    "role": "Robotics Software Engineer (C++ & Python)",
+    "title": "Simbe Robotics - Robotics Software Engineer (C++ & Python)",
+    "url": "https://jobs.lever.co/SimbeRobotics/bffe760d-b1fb-49ff-b259-f0724c8661fa/apply",
+    "fields": [
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "name": "resume",
+        "id": "resume-upload-input",
+        "required": false,
+        "placeholder": "",
+        "label": "Resume/CV ✱ ATTACH RESUME/CV",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Full name ✱",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone Current location Current company"
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Email ✱",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone Current location Current company"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "phone",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Phone",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone Current location Current company"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "location",
+        "id": "location-input",
+        "required": false,
+        "placeholder": "",
+        "label": "Current location",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone Current location Current company"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "org",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Current company",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone Current location Current company"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[LinkedIn]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "LinkedIn URL ✱",
+        "text": "",
+        "group": "LinkedIn URL ✱ Twitter URL GitHub URL Portfolio URL Simbe Robotics"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[Twitter]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Twitter URL",
+        "text": "",
+        "group": "LinkedIn URL ✱ Twitter URL GitHub URL Portfolio URL Simbe Robotics"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[GitHub]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "GitHub URL",
+        "text": "",
+        "group": "LinkedIn URL ✱ Twitter URL GitHub URL Portfolio URL Simbe Robotics"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[Portfolio]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Portfolio URL",
+        "text": "",
+        "group": "LinkedIn URL ✱ Twitter URL GitHub URL Portfolio URL Simbe Robotics"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[Other]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Simbe Robotics",
+        "text": "",
+        "group": "LinkedIn URL ✱ Twitter URL GitHub URL Portfolio URL Simbe Robotics"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "cards[9d4dd49d-6d4f-40dc-b992-86ec55398d9d][field0]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Yes",
+        "text": "",
+        "group": "Are you authorized to work with any employers in the US? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "cards[9d4dd49d-6d4f-40dc-b992-86ec55398d9d][field0]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "No",
+        "text": "",
+        "group": "Are you authorized to work with any employers in the US? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "cards[9d4dd49d-6d4f-40dc-b992-86ec55398d9d][field1]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Yes",
+        "text": "",
+        "group": "Do you need work visa sponsorship now or in the future? (Simbe provides sponsorship to qualified employees) Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "cards[9d4dd49d-6d4f-40dc-b992-86ec55398d9d][field1]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "No",
+        "text": "",
+        "group": "Do you need work visa sponsorship now or in the future? (Simbe provides sponsorship to qualified employees) Yes No"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "cards[9d4dd49d-6d4f-40dc-b992-86ec55398d9d][field2]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Are you open to relocating to the Bay Area for this opportunity?"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "cards[9d4dd49d-6d4f-40dc-b992-86ec55398d9d][field3]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Please describe your professional experience working with ROS1/2 in detail including specific projects, tools, and your individual contributions. Applications without a substantive response to this question will not be reviewed."
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "cards[9d4dd49d-6d4f-40dc-b992-86ec55398d9d][field4]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Please list your Salary Expectation (please respond in figures, not \"flexible\" or \"TBD\")"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "hcaptchaSubmitBtn",
+        "label": "",
+        "text": "",
+        "group": "SUBMIT YOUR APPLICATION Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone Current location Current company LINKS LinkedIn URL ✱ Twitter URL GitHub URL Portfolio URL Simbe Robotics ROBOT SW ENGINEER Are you authorized to work with any employers in the US? Yes No Do you need work visa sponsorship now or in the future? (Simbe provides sponsorship to qualified employees) Yes No Are you open to relocating to the Bay Area for this opportunity? Please describe your professional experience working with ROS1/2 in detail including specific projects, tools, and your individual contributions. Applications without a substantive response to this question will not be reviewed. Please list your Salary Expectation (please respond in figures, not \"flexible\" or \"TBD\") SUBMIT APPLICATION"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "btn-submit",
+        "label": "",
+        "text": "SUBMIT APPLICATION",
+        "group": "SUBMIT YOUR APPLICATION Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone Current location Current company LINKS LinkedIn URL ✱ Twitter URL GitHub URL Portfolio URL Simbe Robotics ROBOT SW ENGINEER Are you authorized to work with any employers in the US? Yes No Do you need work visa sponsorship now or in the future? (Simbe provides sponsorship to qualified employees) Yes No Are you open to relocating to the Bay Area for this opportunity? Please describe your professional experience working with ROS1/2 in detail including specific projects, tools, and your individual contributions. Applications without a substantive response to this question will not be reviewed. Please list your Salary Expectation (please respond in figures, not \"flexible\" or \"TBD\") SUBMIT APPLICATION"
+      }
+    ]
+  },
+  {
+    "company": "Orchard Robotics",
+    "role": "Robotics Software Engineer (Perception & Localization)",
+    "title": "Robotics Software Engineer (Perception & Localization) @ Orchard Robotics",
+    "url": "https://jobs.ashbyhq.com/orchard/4f81b000-c82a-4285-b05d-a7861a576d6f/application",
+    "fields": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "_systemfield_name",
+        "id": "_systemfield_name",
+        "required": true,
+        "placeholder": "Type here...",
+        "label": "Name",
+        "text": "",
+        "group": "Name Email Resume Upload File or drag and drop here Current Location Phone LinkedIn Profile URL Twitter/X Profile What exceptional work have you done? Although our customers are farmers, many of our employees come from traditional tech backgrounds. What makes you want to work in ag-tech? Work Authorization I am legally authorized to work for any employer in the United States I require, or in the future will require sponsorship to obtain work authorization in the country in which this position is based (e.g. H-1B, TN, etc.) My status to work in the country in which this position is based is unknown. Current/Most Recent Company Name Current/Most Recent Job Title This is a role that may involve a few days of travel each month (1-2 hour drives) to our customer farms, where you can see our technology in action. Is this something you are comfortable with? Yes No What is your favorite fruit? What is your timeline for starting a new job? Immediately Within 2 weeks of an offer Within 1 month of an offer Other (will discuss on call) Are you currently located near our offices (or are willing to relocate or commute)? Yes No Decode the following text and type the answer below. aHR0cHM6Ly9kb2NzL"
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "_systemfield_email",
+        "id": "_systemfield_email",
+        "required": true,
+        "placeholder": "hello@example.com...",
+        "label": "Email",
+        "text": "",
+        "group": "Name Email Resume Upload File or drag and drop here Current Location Phone LinkedIn Profile URL Twitter/X Profile What exceptional work have you done? Although our customers are farmers, many of our employees come from traditional tech backgrounds. What makes you want to work in ag-tech? Work Authorization I am legally authorized to work for any employer in the United States I require, or in the future will require sponsorship to obtain work authorization in the country in which this position is based (e.g. H-1B, TN, etc.) My status to work in the country in which this position is based is unknown. Current/Most Recent Company Name Current/Most Recent Job Title This is a role that may involve a few days of travel each month (1-2 hour drives) to our customer farms, where you can see our technology in action. Is this something you are comfortable with? Yes No What is your favorite fruit? What is your timeline for starting a new job? Immediately Within 2 weeks of an offer Within 1 month of an offer Other (will discuss on call) Are you currently located near our offices (or are willing to relocate or commute)? Yes No Decode the following text and type the answer below. aHR0cHM6Ly9kb2NzL"
+      },
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "name": "",
+        "id": "_systemfield_resume",
+        "required": true,
+        "placeholder": "",
+        "label": "Resume",
+        "text": "",
+        "group": "Upload File or drag and drop here"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Upload File",
+        "group": "Upload File or drag and drop here"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "",
+        "required": false,
+        "placeholder": "Start typing...",
+        "label": "",
+        "text": "",
+        "group": "Name Email Resume Upload File or drag and drop here Current Location Phone LinkedIn Profile URL Twitter/X Profile What exceptional work have you done? Although our customers are farmers, many of our employees come from traditional tech backgrounds. What makes you want to work in ag-tech? Work Authorization I am legally authorized to work for any employer in the United States I require, or in the future will require sponsorship to obtain work authorization in the country in which this position is based (e.g. H-1B, TN, etc.) My status to work in the country in which this position is based is unknown. Current/Most Recent Company Name Current/Most Recent Job Title This is a role that may involve a few days of travel each month (1-2 hour drives) to our customer farms, where you can see our technology in action. Is this something you are comfortable with? Yes No What is your favorite fruit? What is your timeline for starting a new job? Immediately Within 2 weeks of an offer Within 1 month of an offer Other (will discuss on call) Are you currently located near our offices (or are willing to relocate or commute)? Yes No Decode the following text and type the answer below. aHR0cHM6Ly9kb2NzL"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "",
+        "group": "Name Email Resume Upload File or drag and drop here Current Location Phone LinkedIn Profile URL Twitter/X Profile What exceptional work have you done? Although our customers are farmers, many of our employees come from traditional tech backgrounds. What makes you want to work in ag-tech? Work Authorization I am legally authorized to work for any employer in the United States I require, or in the future will require sponsorship to obtain work authorization in the country in which this position is based (e.g. H-1B, TN, etc.) My status to work in the country in which this position is based is unknown. Current/Most Recent Company Name Current/Most Recent Job Title This is a role that may involve a few days of travel each month (1-2 hour drives) to our customer farms, where you can see our technology in action. Is this something you are comfortable with? Yes No What is your favorite fruit? What is your timeline for starting a new job? Immediately Within 2 weeks of an offer Within 1 month of an offer Other (will discuss on call) Are you currently located near our offices (or are willing to relocate or commute)? Yes No Decode the following text and type the answer below. aHR0cHM6Ly9kb2NzL"
+      },
+      {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "63bed4d4-5cdb-4333-9797-cdeaa052c451",
+        "id": "63bed4d4-5cdb-4333-9797-cdeaa052c451",
+        "required": true,
+        "placeholder": "1-415-555-1234...",
+        "label": "Phone",
+        "text": "",
+        "group": "Name Email Resume Upload File or drag and drop here Current Location Phone LinkedIn Profile URL Twitter/X Profile What exceptional work have you done? Although our customers are farmers, many of our employees come from traditional tech backgrounds. What makes you want to work in ag-tech? Work Authorization I am legally authorized to work for any employer in the United States I require, or in the future will require sponsorship to obtain work authorization in the country in which this position is based (e.g. H-1B, TN, etc.) My status to work in the country in which this position is based is unknown. Current/Most Recent Company Name Current/Most Recent Job Title This is a role that may involve a few days of travel each month (1-2 hour drives) to our customer farms, where you can see our technology in action. Is this something you are comfortable with? Yes No What is your favorite fruit? What is your timeline for starting a new job? Immediately Within 2 weeks of an offer Within 1 month of an offer Other (will discuss on call) Are you currently located near our offices (or are willing to relocate or commute)? Yes No Decode the following text and type the answer below. aHR0cHM6Ly9kb2NzL"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "71ea31b8-442c-4c59-9ce2-3eb81667b517",
+        "id": "71ea31b8-442c-4c59-9ce2-3eb81667b517",
+        "required": true,
+        "placeholder": "Type here...",
+        "label": "LinkedIn Profile URL",
+        "text": "",
+        "group": "Name Email Resume Upload File or drag and drop here Current Location Phone LinkedIn Profile URL Twitter/X Profile What exceptional work have you done? Although our customers are farmers, many of our employees come from traditional tech backgrounds. What makes you want to work in ag-tech? Work Authorization I am legally authorized to work for any employer in the United States I require, or in the future will require sponsorship to obtain work authorization in the country in which this position is based (e.g. H-1B, TN, etc.) My status to work in the country in which this position is based is unknown. Current/Most Recent Company Name Current/Most Recent Job Title This is a role that may involve a few days of travel each month (1-2 hour drives) to our customer farms, where you can see our technology in action. Is this something you are comfortable with? Yes No What is your favorite fruit? What is your timeline for starting a new job? Immediately Within 2 weeks of an offer Within 1 month of an offer Other (will discuss on call) Are you currently located near our offices (or are willing to relocate or commute)? Yes No Decode the following text and type the answer below. aHR0cHM6Ly9kb2NzL"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "72445728-4d3f-4747-8cfa-646dbfbf6a71",
+        "id": "72445728-4d3f-4747-8cfa-646dbfbf6a71",
+        "required": false,
+        "placeholder": "Type here...",
+        "label": "Twitter/X Profile",
+        "text": "",
+        "group": "Name Email Resume Upload File or drag and drop here Current Location Phone LinkedIn Profile URL Twitter/X Profile What exceptional work have you done? Although our customers are farmers, many of our employees come from traditional tech backgrounds. What makes you want to work in ag-tech? Work Authorization I am legally authorized to work for any employer in the United States I require, or in the future will require sponsorship to obtain work authorization in the country in which this position is based (e.g. H-1B, TN, etc.) My status to work in the country in which this position is based is unknown. Current/Most Recent Company Name Current/Most Recent Job Title This is a role that may involve a few days of travel each month (1-2 hour drives) to our customer farms, where you can see our technology in action. Is this something you are comfortable with? Yes No What is your favorite fruit? What is your timeline for starting a new job? Immediately Within 2 weeks of an offer Within 1 month of an offer Other (will discuss on call) Are you currently located near our offices (or are willing to relocate or commute)? Yes No Decode the following text and type the answer below. aHR0cHM6Ly9kb2NzL"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "8cc83d65-ab08-4cd7-bf23-4ec7260befb7",
+        "id": "8cc83d65-ab08-4cd7-bf23-4ec7260befb7",
+        "required": true,
+        "placeholder": "Type here...",
+        "label": "What exceptional work have you done?",
+        "text": "",
+        "group": "What exceptional work have you done?"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "74436627-2895-4f78-b556-cf784d17a0c4",
+        "id": "74436627-2895-4f78-b556-cf784d17a0c4",
+        "required": true,
+        "placeholder": "Type here...",
+        "label": "Although our customers are farmers, many of our employees come from traditional tech backgrounds. What makes you want to work in ag-tech?",
+        "text": "",
+        "group": "Although our customers are farmers, many of our employees come from traditional tech backgrounds. What makes you want to work in ag-tech?"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_94b361c9-12be-4ab5-8bad-0fa93d0edee5",
+        "id": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_94b361c9-12be-4ab5-8bad-0fa93d0edee5-labeled-radio-0",
+        "required": false,
+        "placeholder": "",
+        "label": "I am legally authorized to work for any employer in the United States",
+        "text": "",
+        "group": "I am legally authorized to work for any employer in the United States"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_94b361c9-12be-4ab5-8bad-0fa93d0edee5",
+        "id": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_94b361c9-12be-4ab5-8bad-0fa93d0edee5-labeled-radio-1",
+        "required": false,
+        "placeholder": "",
+        "label": "I require, or in the future will require sponsorship to obtain work authorization in the country in which this position is based (e.g. H-1B, TN, etc.)",
+        "text": "",
+        "group": "I require, or in the future will require sponsorship to obtain work authorization in the country in which this position is based (e.g. H-1B, TN, etc.)"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_94b361c9-12be-4ab5-8bad-0fa93d0edee5",
+        "id": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_94b361c9-12be-4ab5-8bad-0fa93d0edee5-labeled-radio-2",
+        "required": false,
+        "placeholder": "",
+        "label": "My status to work in the country in which this position is based is unknown.",
+        "text": "",
+        "group": "My status to work in the country in which this position is based is unknown."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "e22fab38-d1d0-4a2c-b5ed-574978da545b",
+        "id": "e22fab38-d1d0-4a2c-b5ed-574978da545b",
+        "required": true,
+        "placeholder": "Type here...",
+        "label": "Current/Most Recent Company Name",
+        "text": "",
+        "group": "Current/Most Recent Company Name"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "9cb990c7-9ebe-4d22-9d79-afc6ccd341bd",
+        "id": "9cb990c7-9ebe-4d22-9d79-afc6ccd341bd",
+        "required": true,
+        "placeholder": "Type here...",
+        "label": "Current/Most Recent Job Title",
+        "text": "",
+        "group": "Current/Most Recent Job Title"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Yes",
+        "group": "This is a role that may involve a few days of travel each month (1-2 hour drives) to our customer farms, where you can see our technology in action. Is this something you are comfortable with? Yes No"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "No",
+        "group": "This is a role that may involve a few days of travel each month (1-2 hour drives) to our customer farms, where you can see our technology in action. Is this something you are comfortable with? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "fc1b064e-4092-4d94-b2e3-83c61a5fc4c3",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "This is a role that may involve a few days of travel each month (1-2 hour drives) to our customer farms, where you can see our technology in action. Is this something you are comfortable with? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "15309409-cef5-412f-abc8-baf97d1f25a0",
+        "id": "15309409-cef5-412f-abc8-baf97d1f25a0",
+        "required": true,
+        "placeholder": "Type here...",
+        "label": "What is your favorite fruit?",
+        "text": "",
+        "group": "What is your favorite fruit?"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_56d3f46b-114b-4bec-bc66-97cee02f3061",
+        "id": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_56d3f46b-114b-4bec-bc66-97cee02f3061-labeled-radio-0",
+        "required": false,
+        "placeholder": "",
+        "label": "Immediately",
+        "text": "",
+        "group": "What is your timeline for starting a new job? Immediately Within 2 weeks of an offer Within 1 month of an offer Other (will discuss on call)"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_56d3f46b-114b-4bec-bc66-97cee02f3061",
+        "id": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_56d3f46b-114b-4bec-bc66-97cee02f3061-labeled-radio-1",
+        "required": false,
+        "placeholder": "",
+        "label": "Within 2 weeks of an offer",
+        "text": "",
+        "group": "Within 2 weeks of an offer"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_56d3f46b-114b-4bec-bc66-97cee02f3061",
+        "id": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_56d3f46b-114b-4bec-bc66-97cee02f3061-labeled-radio-2",
+        "required": false,
+        "placeholder": "",
+        "label": "Within 1 month of an offer",
+        "text": "",
+        "group": "Within 1 month of an offer"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_56d3f46b-114b-4bec-bc66-97cee02f3061",
+        "id": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_56d3f46b-114b-4bec-bc66-97cee02f3061-labeled-radio-3",
+        "required": false,
+        "placeholder": "",
+        "label": "Other (will discuss on call)",
+        "text": "",
+        "group": "Other (will discuss on call)"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_fdde19f0-2291-4351-9139-dc38a5ab385d",
+        "id": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_fdde19f0-2291-4351-9139-dc38a5ab385d-labeled-radio-0",
+        "required": false,
+        "placeholder": "",
+        "label": "Yes",
+        "text": "",
+        "group": "Are you currently located near our offices (or are willing to relocate or commute)? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_fdde19f0-2291-4351-9139-dc38a5ab385d",
+        "id": "51fd0e35-dd59-406b-a7f9-2ca7a899b5b9_fdde19f0-2291-4351-9139-dc38a5ab385d-labeled-radio-1",
+        "required": false,
+        "placeholder": "",
+        "label": "No",
+        "text": "",
+        "group": "Are you currently located near our offices (or are willing to relocate or commute)? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "7bae9167-c6fd-4ab9-927b-a053caeeaf2b",
+        "id": "7bae9167-c6fd-4ab9-927b-a053caeeaf2b",
+        "required": true,
+        "placeholder": "Type here...",
+        "label": "Decode the following text and type the answer below. aHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vZG9jdW1lbnQvZC8xZ2dyNzFVQzktem1hWjVnVWphV0F0bUZIVmR3NERyQ28xZm02RFh4QVJWSS9lZGl0P3VzcD1zaGFyaW5n",
+        "text": "",
+        "group": "Decode the following text and type the answer below. aHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vZG9jdW1lbnQvZC8xZ2dyNzFVQzktem1hWjVnVWphV0F0bUZIVmR3NERyQ28xZm02RFh4QVJWSS9lZGl0P3VzcD1zaGFyaW5n"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Submit Application",
+        "group": "Name Email Resume Upload File or drag and drop here Current Location Phone LinkedIn Profile URL Twitter/X Profile What exceptional work have you done? Although our customers are farmers, many of our employees come from traditional tech backgrounds. What makes you want to work in ag-tech? Work Authorization I am legally authorized to work for any employer in the United States I require, or in the future will require sponsorship to obtain work authorization in the country in which this position is based (e.g. H-1B, TN, etc.) My status to work in the country in which this position is based is unknown. Current/Most Recent Company Name Current/Most Recent Job Title This is a role that may involve a few days of travel each month (1-2 hour drives) to our customer farms, where you can see our technology in action. Is this something you are comfortable with? Yes No What is your favorite fruit? What is your timeline for starting a new job? Immediately Within 2 weeks of an offer Within 1 month of an offer Other (will discuss on call) Are you currently located near our offices (or are willing to relocate or commute)? Yes No Decode the following text and type the answer below. aHR0cHM6Ly9kb2NzL"
+      }
+    ]
+  },
+  {
+    "company": "Gritt Robotics",
+    "role": "Robotics Software Engineer",
+    "title": "Robotics Software Engineer @ Gritt Robotics Inc",
+    "url": "https://jobs.ashbyhq.com/gritt/731460ed-b7a1-4912-b32a-6dc05744a5a0/application",
+    "fields": [
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "name": "",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Autofill from resume Upload your resume here to autofill key application fields. Upload file"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Upload file",
+        "group": "Autofill from resume Upload your resume here to autofill key application fields. Upload file"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "_systemfield_name",
+        "id": "_systemfield_name",
+        "required": true,
+        "placeholder": "Type here...",
+        "label": "Name",
+        "text": "",
+        "group": "Name Email Resume Upload File or drag and drop here"
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "_systemfield_email",
+        "id": "_systemfield_email",
+        "required": true,
+        "placeholder": "hello@example.com...",
+        "label": "Email",
+        "text": "",
+        "group": "Name Email Resume Upload File or drag and drop here"
+      },
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "name": "",
+        "id": "_systemfield_resume",
+        "required": true,
+        "placeholder": "",
+        "label": "Resume",
+        "text": "",
+        "group": "Upload File or drag and drop here"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Upload File",
+        "group": "Upload File or drag and drop here"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Submit Application",
+        "group": "Autofill from resume Upload your resume here to autofill key application fields. Upload file Name Email Resume Upload File or drag and drop here Submit Application"
+      }
+    ]
+  },
+  {
+    "company": "Skydio",
+    "role": "Autonomy Software Engineer",
+    "title": "Autonomy Software Engineer @ Skydio",
+    "url": "https://jobs.ashbyhq.com/skydio/a48fe41b-030b-4f11-bf25-df7446151854/application",
+    "fields": [
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "name": "",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Autofill from resume Upload your resume here to autofill key application fields. Upload file"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Upload file",
+        "group": "Autofill from resume Upload your resume here to autofill key application fields. Upload file"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "_systemfield_name",
+        "id": "_systemfield_name",
+        "required": true,
+        "placeholder": "Type here...",
+        "label": "Name",
+        "text": "",
+        "group": "Name Email Resume Upload File or drag and drop here Phone Cover Letter Upload File or drag and drop here LinkedIn Profile Website How did you find out about Skydio? Prior Government Employment? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "_systemfield_email",
+        "id": "_systemfield_email",
+        "required": true,
+        "placeholder": "hello@example.com...",
+        "label": "Email",
+        "text": "",
+        "group": "Name Email Resume Upload File or drag and drop here Phone Cover Letter Upload File or drag and drop here LinkedIn Profile Website How did you find out about Skydio? Prior Government Employment? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "name": "",
+        "id": "_systemfield_resume",
+        "required": true,
+        "placeholder": "",
+        "label": "Resume",
+        "text": "",
+        "group": "Upload File or drag and drop here"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Upload File",
+        "group": "Upload File or drag and drop here"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "phone",
+        "id": "phone",
+        "required": true,
+        "placeholder": "Type here...",
+        "label": "Phone",
+        "text": "",
+        "group": "Name Email Resume Upload File or drag and drop here Phone Cover Letter Upload File or drag and drop here LinkedIn Profile Website How did you find out about Skydio? Prior Government Employment? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "name": "",
+        "id": "cover_letter",
+        "required": false,
+        "placeholder": "",
+        "label": "Cover Letter",
+        "text": "",
+        "group": "Upload File or drag and drop here"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Upload File",
+        "group": "Upload File or drag and drop here"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "question_28197609003",
+        "id": "question_28197609003",
+        "required": false,
+        "placeholder": "Type here...",
+        "label": "LinkedIn Profile",
+        "text": "",
+        "group": "Name Email Resume Upload File or drag and drop here Phone Cover Letter Upload File or drag and drop here LinkedIn Profile Website How did you find out about Skydio? Prior Government Employment? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "question_28197610003",
+        "id": "question_28197610003",
+        "required": false,
+        "placeholder": "Type here...",
+        "label": "Website",
+        "text": "",
+        "group": "Name Email Resume Upload File or drag and drop here Phone Cover Letter Upload File or drag and drop here LinkedIn Profile Website How did you find out about Skydio? Prior Government Employment? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "question_28197611003",
+        "id": "question_28197611003",
+        "required": false,
+        "placeholder": "Type here...",
+        "label": "How did you find out about Skydio?",
+        "text": "",
+        "group": "How did you find out about Skydio?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Yes",
+        "group": "Prior Government Employment? Yes No"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "No",
+        "group": "Prior Government Employment? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "question_28197612003",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Prior Government Employment? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_gender",
+        "id": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_gender-labeled-radio-0",
+        "required": false,
+        "placeholder": "",
+        "label": "Male",
+        "text": "",
+        "group": "Gender Input gender Male Female Decline to self-identify"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_gender",
+        "id": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_gender-labeled-radio-1",
+        "required": false,
+        "placeholder": "",
+        "label": "Female",
+        "text": "",
+        "group": "Gender Input gender Male Female Decline to self-identify"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_gender",
+        "id": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_gender-labeled-radio-2",
+        "required": false,
+        "placeholder": "",
+        "label": "Decline to self-identify",
+        "text": "",
+        "group": "Decline to self-identify"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_race",
+        "id": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_race-labeled-radio-0",
+        "required": false,
+        "placeholder": "",
+        "label": "Hispanic or Latino",
+        "text": "",
+        "group": "Race Hispanic or Latino - A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race. White (Not Hispanic or Latino) - A person having origins in any of the original peoples of Europe, the Middle East, or North Africa. Black or African American (Not Hispanic or Latino) - A person having origins in any of the black racial groups of Africa. Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino) - A person having origins in any of the peoples of Hawaii, Guam, Samoa, or other Pacific Islands. Asian (Not Hispanic or Latino) - A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian Subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam. American Indian or Alaska Native (Not Hispanic or Latino) - A person having origins in any of the original peoples of North and South America (including Central America), and who maintain tribal affiliation or community attachment. Two or More Races (Not Hispanic or Latino) - All persons who identify with more than one of the above five races. Hispan"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_race",
+        "id": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_race-labeled-radio-1",
+        "required": false,
+        "placeholder": "",
+        "label": "White (Not Hispanic or Latino)",
+        "text": "",
+        "group": "White (Not Hispanic or Latino)"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_race",
+        "id": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_race-labeled-radio-2",
+        "required": false,
+        "placeholder": "",
+        "label": "Black or African American (Not Hispanic or Latino)",
+        "text": "",
+        "group": "Black or African American (Not Hispanic or Latino)"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_race",
+        "id": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_race-labeled-radio-3",
+        "required": false,
+        "placeholder": "",
+        "label": "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)",
+        "text": "",
+        "group": "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_race",
+        "id": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_race-labeled-radio-4",
+        "required": false,
+        "placeholder": "",
+        "label": "Asian (Not Hispanic or Latino)",
+        "text": "",
+        "group": "Asian (Not Hispanic or Latino)"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_race",
+        "id": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_race-labeled-radio-5",
+        "required": false,
+        "placeholder": "",
+        "label": "American Indian or Alaska Native (Not Hispanic or Latino)",
+        "text": "",
+        "group": "American Indian or Alaska Native (Not Hispanic or Latino)"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_race",
+        "id": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_race-labeled-radio-6",
+        "required": false,
+        "placeholder": "",
+        "label": "Two or More Races (Not Hispanic or Latino)",
+        "text": "",
+        "group": "Two or More Races (Not Hispanic or Latino)"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_race",
+        "id": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_race-labeled-radio-7",
+        "required": false,
+        "placeholder": "",
+        "label": "Decline to self-identify",
+        "text": "",
+        "group": "Decline to self-identify"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_veteran_status",
+        "id": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_veteran_status-labeled-radio-0",
+        "required": false,
+        "placeholder": "",
+        "label": "I identify as one or more of the classifications of protected veteran listed above",
+        "text": "",
+        "group": "I identify as one or more of the classifications of protected veteran listed above"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_veteran_status",
+        "id": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_veteran_status-labeled-radio-1",
+        "required": false,
+        "placeholder": "",
+        "label": "I am not a protected veteran",
+        "text": "",
+        "group": "I am not a protected veteran"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_veteran_status",
+        "id": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_veteran_status-labeled-radio-2",
+        "required": false,
+        "placeholder": "",
+        "label": "I decline to self-identify for protected veteran status",
+        "text": "",
+        "group": "I decline to self-identify for protected veteran status"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_disability_status",
+        "id": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_disability_status-labeled-radio-0",
+        "required": false,
+        "placeholder": "",
+        "label": "Yes, I have a disability, or have had one in the past",
+        "text": "",
+        "group": "Yes, I have a disability, or have had one in the past"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_disability_status",
+        "id": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_disability_status-labeled-radio-1",
+        "required": false,
+        "placeholder": "",
+        "label": "No, I don't have a disability and have not had one in the past",
+        "text": "",
+        "group": "No, I don't have a disability and have not had one in the past"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_disability_status",
+        "id": "9b92411b-c658-4263-b559-a1c92240b77f__systemfield_eeoc_disability_status-labeled-radio-2",
+        "required": false,
+        "placeholder": "",
+        "label": "I do not want to answer",
+        "text": "",
+        "group": "I do not want to answer"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Submit Application",
+        "group": "Autofill from resume Upload your resume here to autofill key application fields. Upload file This job has application limits Please Note: To ensure a fair and thoughtful review process, candidates may submit one application per role every 90 days and up to five total applications across all Skydio roles within any 60-day period. Name Email Resume Upload File or drag and drop here Phone Cover Letter Upload File or drag and drop here LinkedIn Profile Website How did you find out about Skydio? Prior Government Employment? Yes No U.S. EQUAL EMPLOYMENT OPPORTUNITY INFORMATION (Completion is voluntary and will not subject you to adverse treatment) Skydio provides equal employment opportunities to applicants and employees without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, or disability. Skydio is a federal contractor or subcontractor subject to certain governmental recordkeeping and reporting requirements for the administration of civil right laws and regulations. Employment decisions are made on the basis of job-related criteria without regard to race, ethnicity, color, religion, sex, sexual orientation, gender id"
+      }
+    ]
+  },
+  {
+    "company": "Bear Robotics",
+    "role": "Robotics Software Engineer II, Autonomy",
+    "title": "Robotics Software Engineer II, Autonomy at Bear Robotics",
+    "url": "https://bear-robotics.breezy.hr/p/f1b7a8aa0763-robotics-software-engineer-ii-autonomy?source=GoogleJobs",
+    "fields": []
+  },
+  {
+    "company": "Chef Robotics",
+    "role": "Staff Autonomy Engineer",
+    "title": "Chef Robotics - Staff Autonomy Engineer",
+    "url": "https://jobs.lever.co/ChefRobotics/1afd1c21-cfe7-4a0a-8288-963cc806a1a5/apply",
+    "fields": [
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "name": "resume",
+        "id": "resume-upload-input",
+        "required": false,
+        "placeholder": "",
+        "label": "Resume/CV ✱ ATTACH RESUME/CV",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Full name ✱",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company ✱"
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Email ✱",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company ✱"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "phone",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Phone ✱",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company ✱"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "location",
+        "id": "location-input",
+        "required": false,
+        "placeholder": "",
+        "label": "Current location",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company ✱"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "org",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Current company ✱",
+        "text": "",
+        "group": "Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company ✱"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[LinkedIn]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "LinkedIn URL ✱",
+        "text": "",
+        "group": "LinkedIn URL ✱ Twitter URL GitHub URL Portfolio URL Other website"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[Twitter]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Twitter URL",
+        "text": "",
+        "group": "LinkedIn URL ✱ Twitter URL GitHub URL Portfolio URL Other website"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[GitHub]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "GitHub URL",
+        "text": "",
+        "group": "LinkedIn URL ✱ Twitter URL GitHub URL Portfolio URL Other website"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[Portfolio]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Portfolio URL",
+        "text": "",
+        "group": "LinkedIn URL ✱ Twitter URL GitHub URL Portfolio URL Other website"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "urls[Other]",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "Other website",
+        "text": "",
+        "group": "LinkedIn URL ✱ Twitter URL GitHub URL Portfolio URL Other website"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "cards[3304cc1f-dbbd-4c55-9030-cd512b4d04ae][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Yes",
+        "text": "",
+        "group": "Will you now or in the future require sponsorship (e.g., H-1B visa) to work in the United States? ✱ Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "cards[3304cc1f-dbbd-4c55-9030-cd512b4d04ae][field0]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "No",
+        "text": "",
+        "group": "Will you now or in the future require sponsorship (e.g., H-1B visa) to work in the United States? ✱ Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "cards[3304cc1f-dbbd-4c55-9030-cd512b4d04ae][field1]",
+        "id": "",
+        "required": true,
+        "placeholder": "Type your response",
+        "label": "",
+        "text": "",
+        "group": "What's your expected start date? ✱"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "cards[3304cc1f-dbbd-4c55-9030-cd512b4d04ae][field2]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "Yes",
+        "text": "",
+        "group": "Are you willing to work onsite in our office in San Francisco 5 days per week? ✱ Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "cards[3304cc1f-dbbd-4c55-9030-cd512b4d04ae][field2]",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "No",
+        "text": "",
+        "group": "Are you willing to work onsite in our office in San Francisco 5 days per week? ✱ Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "cards[3304cc1f-dbbd-4c55-9030-cd512b4d04ae][field3]",
+        "id": "",
+        "required": false,
+        "placeholder": "Type your response",
+        "label": "",
+        "text": "",
+        "group": "How did you hear about this job?"
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "eeo[gender]",
+        "id": "",
+        "required": false,
+        "label": "Gender Select ... Male Female Decline to self-identify",
+        "text": "Select ... Male Female Decline to self-identify",
+        "group": "Select ... Male Female Decline to self-identify",
+        "options": [
+          {
+            "value": "",
+            "text": "Select ..."
+          },
+          {
+            "value": "Male",
+            "text": "Male"
+          },
+          {
+            "value": "Female",
+            "text": "Female"
+          },
+          {
+            "value": "Decline to self-identify",
+            "text": "Decline to self-identify"
+          }
+        ]
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "eeo[race]",
+        "id": "",
+        "required": false,
+        "label": "Race Select ... Hispanic or Latino White (Not Hispanic or Latino) Black or African American (Not Hispanic or Latino) Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino) Asian (Not Hispanic or Latino) American Indian or Alaska Native (Not Hispanic or Latino) Two or More Races (Not Hispanic or Latino) Decline to self-identify",
+        "text": "Select ... Hispanic or Latino White (Not Hispanic or Latino) Black or African American (Not Hispanic or Latino) Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino) Asian (Not Hispanic or Latino) American Indian or Alaska Native (Not Hispanic or Latino) Two or More Races (Not Hispanic or Latino) Decline to self-identify",
+        "group": "Select ... Hispanic or Latino White (Not Hispanic or Latino) Black or African American (Not Hispanic or Latino) Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino) Asian (Not Hispanic or Latino) American Indian or Alaska Native (Not Hispanic or Latino) Two or More Races (Not Hispanic or Latino) Decline to self-identify",
+        "options": [
+          {
+            "value": "",
+            "text": "Select ..."
+          },
+          {
+            "value": "Hispanic or Latino",
+            "text": "Hispanic or Latino"
+          },
+          {
+            "value": "White (Not Hispanic or Latino)",
+            "text": "White (Not Hispanic or Latino)"
+          },
+          {
+            "value": "Black or African American (Not Hispanic or Latino)",
+            "text": "Black or African American (Not Hispanic or Latino)"
+          },
+          {
+            "value": "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)",
+            "text": "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)"
+          },
+          {
+            "value": "Asian (Not Hispanic or Latino)",
+            "text": "Asian (Not Hispanic or Latino)"
+          },
+          {
+            "value": "American Indian or Alaska Native (Not Hispanic or Latino)",
+            "text": "American Indian or Alaska Native (Not Hispanic or Latino)"
+          },
+          {
+            "value": "Two or More Races (Not Hispanic or Latino)",
+            "text": "Two or More Races (Not Hispanic or Latino)"
+          },
+          {
+            "value": "Decline to self-identify",
+            "text": "Decline to self-identify"
+          }
+        ]
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "eeo[veteran]",
+        "id": "",
+        "required": false,
+        "label": "Veteran status Select ... I am a veteran I am not a veteran Decline to self-identify",
+        "text": "Select ... I am a veteran I am not a veteran Decline to self-identify",
+        "group": "Select ... I am a veteran I am not a veteran Decline to self-identify",
+        "options": [
+          {
+            "value": "",
+            "text": "Select ..."
+          },
+          {
+            "value": "I am a veteran",
+            "text": "I am a veteran"
+          },
+          {
+            "value": "I am not a veteran",
+            "text": "I am not a veteran"
+          },
+          {
+            "value": "Decline to self-identify",
+            "text": "Decline to self-identify"
+          }
+        ]
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "hcaptchaSubmitBtn",
+        "label": "",
+        "text": "",
+        "group": "SUBMIT YOUR APPLICATION Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company ✱ LINKS LinkedIn URL ✱ Twitter URL GitHub URL Portfolio URL Other website LOGISTICS Will you now or in the future require sponsorship (e.g., H-1B visa) to work in the United States? ✱ Yes No What's your expected start date? ✱ Are you willing to work onsite in our office in San Francisco 5 days per week? ✱ Yes No How did you hear about this job? U.S. EQUAL EMPLOYMENT OPPORTUNITY INFORMATION (Completion is voluntary and will not subject you to adverse treatment) Our company values diversity. To ensure that we comply with reporting requirements and to learn more about how we can increase diversity in our candidate pool, we invite you to voluntarily provide demographic information in a confidential survey at the end of this application. Providing this information is optional. It will not be accessible or used in the hiring process, and has no effect on your opportunity for employment. Gender Select ... Male Female Decline to self-identify Race Select ... Hispanic or Latino White (Not Hispanic or Latino) Black or African American (Not Hispanic or Latino) Native Hawaiian or O"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "btn-submit",
+        "label": "",
+        "text": "SUBMIT APPLICATION",
+        "group": "SUBMIT YOUR APPLICATION Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company ✱ LINKS LinkedIn URL ✱ Twitter URL GitHub URL Portfolio URL Other website LOGISTICS Will you now or in the future require sponsorship (e.g., H-1B visa) to work in the United States? ✱ Yes No What's your expected start date? ✱ Are you willing to work onsite in our office in San Francisco 5 days per week? ✱ Yes No How did you hear about this job? U.S. EQUAL EMPLOYMENT OPPORTUNITY INFORMATION (Completion is voluntary and will not subject you to adverse treatment) Our company values diversity. To ensure that we comply with reporting requirements and to learn more about how we can increase diversity in our candidate pool, we invite you to voluntarily provide demographic information in a confidential survey at the end of this application. Providing this information is optional. It will not be accessible or used in the hiring process, and has no effect on your opportunity for employment. Gender Select ... Male Female Decline to self-identify Race Select ... Hispanic or Latino White (Not Hispanic or Latino) Black or African American (Not Hispanic or Latino) Native Hawaiian or O"
+      }
+    ]
+  },
+  {
+    "company": "Gecko Robotics",
+    "role": "Field Software Engineer - Manufacturing",
+    "title": "Field Software Engineer | Manufacturing @ Gecko Robotics",
+    "url": "https://jobs.ashbyhq.com/gecko-robotics/5975c3b1-5360-4f1c-ae79-d633cb22397d/application",
+    "fields": [
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "name": "",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Autofill from resume Upload your resume here to autofill key application fields. Upload file"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Upload file",
+        "group": "Autofill from resume Upload your resume here to autofill key application fields. Upload file"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "_systemfield_name",
+        "id": "_systemfield_name",
+        "required": true,
+        "placeholder": "Type here...",
+        "label": "Full Legal Name",
+        "text": "",
+        "group": "Full Legal Name Preferred Name / Nickname Email Resume PDF preferred Upload File or drag and drop here Are you legally authorized to work in the United States for any employer? Yes No Will you now or will you in the future require employment visa sponsorship? Yes No I acknowledge that Gecko has an in-office culture, and that I am willing and able to work in the office location listed on the job description. Yes, I am able and willing to work in the office location listed in the job description. No, I am unable and/or unwilling to work in the office location listed in the job description. How did you hear about Gecko?"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "187cd0e9-cd4f-4be4-9879-ddfdbc3f0856",
+        "id": "187cd0e9-cd4f-4be4-9879-ddfdbc3f0856",
+        "required": false,
+        "placeholder": "Type here...",
+        "label": "Preferred Name / Nickname",
+        "text": "",
+        "group": "Preferred Name / Nickname"
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "_systemfield_email",
+        "id": "_systemfield_email",
+        "required": true,
+        "placeholder": "hello@example.com...",
+        "label": "Email",
+        "text": "",
+        "group": "Full Legal Name Preferred Name / Nickname Email Resume PDF preferred Upload File or drag and drop here Are you legally authorized to work in the United States for any employer? Yes No Will you now or will you in the future require employment visa sponsorship? Yes No I acknowledge that Gecko has an in-office culture, and that I am willing and able to work in the office location listed on the job description. Yes, I am able and willing to work in the office location listed in the job description. No, I am unable and/or unwilling to work in the office location listed in the job description. How did you hear about Gecko?"
+      },
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "name": "",
+        "id": "_systemfield_resume",
+        "required": true,
+        "placeholder": "",
+        "label": "Resume",
+        "text": "",
+        "group": "Upload File or drag and drop here"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Upload File",
+        "group": "Upload File or drag and drop here"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Yes",
+        "group": "Are you legally authorized to work in the United States for any employer? Yes No"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "No",
+        "group": "Are you legally authorized to work in the United States for any employer? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "ae75ea65-ea1d-4394-8651-15c588cdb458",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Are you legally authorized to work in the United States for any employer? Yes No"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Yes",
+        "group": "Will you now or will you in the future require employment visa sponsorship? Yes No"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "No",
+        "group": "Will you now or will you in the future require employment visa sponsorship? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "ebaea558-baa5-4f90-96b5-6e31f3705d40",
+        "id": "",
+        "required": false,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Will you now or will you in the future require employment visa sponsorship? Yes No"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "00e0875d-a280-42ab-a5b4-c91426ccea47_8b6daa4e-adb5-42c2-93d3-25ca054ffbd6",
+        "id": "00e0875d-a280-42ab-a5b4-c91426ccea47_8b6daa4e-adb5-42c2-93d3-25ca054ffbd6-labeled-radio-0",
+        "required": false,
+        "placeholder": "",
+        "label": "Yes, I am able and willing to work in the office location listed in the job description.",
+        "text": "",
+        "group": "Yes, I am able and willing to work in the office location listed in the job description."
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "00e0875d-a280-42ab-a5b4-c91426ccea47_8b6daa4e-adb5-42c2-93d3-25ca054ffbd6",
+        "id": "00e0875d-a280-42ab-a5b4-c91426ccea47_8b6daa4e-adb5-42c2-93d3-25ca054ffbd6-labeled-radio-1",
+        "required": false,
+        "placeholder": "",
+        "label": "No, I am unable and/or unwilling to work in the office location listed in the job description.",
+        "text": "",
+        "group": "No, I am unable and/or unwilling to work in the office location listed in the job description."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "",
+        "required": false,
+        "placeholder": "Start typing...",
+        "label": "",
+        "text": "",
+        "group": "How did you hear about Gecko?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "",
+        "group": "How did you hear about Gecko?"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_gender",
+        "id": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_gender-labeled-radio-0",
+        "required": false,
+        "placeholder": "",
+        "label": "Male",
+        "text": "",
+        "group": "Gender Input gender Male Female Decline to self-identify"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_gender",
+        "id": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_gender-labeled-radio-1",
+        "required": false,
+        "placeholder": "",
+        "label": "Female",
+        "text": "",
+        "group": "Gender Input gender Male Female Decline to self-identify"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_gender",
+        "id": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_gender-labeled-radio-2",
+        "required": false,
+        "placeholder": "",
+        "label": "Decline to self-identify",
+        "text": "",
+        "group": "Decline to self-identify"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_race",
+        "id": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_race-labeled-radio-0",
+        "required": false,
+        "placeholder": "",
+        "label": "Hispanic or Latino",
+        "text": "",
+        "group": "Race Hispanic or Latino - A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race. White (Not Hispanic or Latino) - A person having origins in any of the original peoples of Europe, the Middle East, or North Africa. Black or African American (Not Hispanic or Latino) - A person having origins in any of the black racial groups of Africa. Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino) - A person having origins in any of the peoples of Hawaii, Guam, Samoa, or other Pacific Islands. Asian (Not Hispanic or Latino) - A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian Subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam. American Indian or Alaska Native (Not Hispanic or Latino) - A person having origins in any of the original peoples of North and South America (including Central America), and who maintain tribal affiliation or community attachment. Two or More Races (Not Hispanic or Latino) - All persons who identify with more than one of the above five races. Hispan"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_race",
+        "id": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_race-labeled-radio-1",
+        "required": false,
+        "placeholder": "",
+        "label": "White (Not Hispanic or Latino)",
+        "text": "",
+        "group": "White (Not Hispanic or Latino)"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_race",
+        "id": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_race-labeled-radio-2",
+        "required": false,
+        "placeholder": "",
+        "label": "Black or African American (Not Hispanic or Latino)",
+        "text": "",
+        "group": "Black or African American (Not Hispanic or Latino)"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_race",
+        "id": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_race-labeled-radio-3",
+        "required": false,
+        "placeholder": "",
+        "label": "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)",
+        "text": "",
+        "group": "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_race",
+        "id": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_race-labeled-radio-4",
+        "required": false,
+        "placeholder": "",
+        "label": "Asian (Not Hispanic or Latino)",
+        "text": "",
+        "group": "Asian (Not Hispanic or Latino)"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_race",
+        "id": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_race-labeled-radio-5",
+        "required": false,
+        "placeholder": "",
+        "label": "American Indian or Alaska Native (Not Hispanic or Latino)",
+        "text": "",
+        "group": "American Indian or Alaska Native (Not Hispanic or Latino)"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_race",
+        "id": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_race-labeled-radio-6",
+        "required": false,
+        "placeholder": "",
+        "label": "Two or More Races (Not Hispanic or Latino)",
+        "text": "",
+        "group": "Two or More Races (Not Hispanic or Latino)"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_race",
+        "id": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_race-labeled-radio-7",
+        "required": false,
+        "placeholder": "",
+        "label": "Decline to self-identify",
+        "text": "",
+        "group": "Decline to self-identify"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_veteran_status",
+        "id": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_veteran_status-labeled-radio-0",
+        "required": false,
+        "placeholder": "",
+        "label": "I identify as one or more of the classifications of protected veteran listed above",
+        "text": "",
+        "group": "I identify as one or more of the classifications of protected veteran listed above"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_veteran_status",
+        "id": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_veteran_status-labeled-radio-1",
+        "required": false,
+        "placeholder": "",
+        "label": "I am not a protected veteran",
+        "text": "",
+        "group": "I am not a protected veteran"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_veteran_status",
+        "id": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_veteran_status-labeled-radio-2",
+        "required": false,
+        "placeholder": "",
+        "label": "I decline to self-identify for protected veteran status",
+        "text": "",
+        "group": "I decline to self-identify for protected veteran status"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_disability_status",
+        "id": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_disability_status-labeled-radio-0",
+        "required": false,
+        "placeholder": "",
+        "label": "Yes, I have a disability, or have had one in the past",
+        "text": "",
+        "group": "Yes, I have a disability, or have had one in the past"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_disability_status",
+        "id": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_disability_status-labeled-radio-1",
+        "required": false,
+        "placeholder": "",
+        "label": "No, I don't have a disability and have not had one in the past",
+        "text": "",
+        "group": "No, I don't have a disability and have not had one in the past"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_disability_status",
+        "id": "fc36c386-315a-4fe3-bb58-f47bad66d46e__systemfield_eeoc_disability_status-labeled-radio-2",
+        "required": false,
+        "placeholder": "",
+        "label": "I do not want to answer",
+        "text": "",
+        "group": "I do not want to answer"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Submit Application",
+        "group": "Autofill from resume Upload your resume here to autofill key application fields. Upload file Full Legal Name Preferred Name / Nickname Email Resume PDF preferred Upload File or drag and drop here Are you legally authorized to work in the United States for any employer? Yes No Will you now or will you in the future require employment visa sponsorship? Yes No I acknowledge that Gecko has an in-office culture, and that I am willing and able to work in the office location listed on the job description. Yes, I am able and willing to work in the office location listed in the job description. No, I am unable and/or unwilling to work in the office location listed in the job description. How did you hear about Gecko? U.S. EQUAL EMPLOYMENT OPPORTUNITY INFORMATION (Completion is voluntary and will not subject you to adverse treatment) Gecko Robotics provides equal employment and affirmative action opportunities to applicants and employees without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, or disability. Gecko Robotics is a federal contractor or subcontractor subject to certain governmental recordkeeping and reporting r"
+      }
+    ]
+  },
+  {
+    "company": "Locus Robotics",
+    "role": "Senior Manufacturing Test Engineer (Electrical)",
+    "title": "Job Application for Senior Manufacturing Test Engineer (Electrical) at Locus Robotics",
+    "url": "https://job-boards.greenhouse.io/locusrobotics/jobs/5145588007",
+    "fields": [
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Apply",
+        "group": "Senior Manufacturing Test Engineer (Electrical) Wilmington, MA Apply"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Autofill with MyGreenhouse",
+        "group": "Autofill with MyGreenhouse"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "first_name",
+        "required": false,
+        "placeholder": "",
+        "label": "First Name*",
+        "text": "",
+        "group": "First Name* Last Name* Email* Phone Country* Phone* Resume/CV* Attach Attach Dropbox Google Drive Enter manually Enter manually Accepted file types: pdf, doc, docx, txt, rtf Cover Letter Attach Attach Dropbox Google Drive Enter manually Enter manually Accepted file types: pdf, doc, docx, txt, rtf"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "last_name",
+        "required": false,
+        "placeholder": "",
+        "label": "Last Name*",
+        "text": "",
+        "group": "First Name* Last Name* Email* Phone Country* Phone* Resume/CV* Attach Attach Dropbox Google Drive Enter manually Enter manually Accepted file types: pdf, doc, docx, txt, rtf Cover Letter Attach Attach Dropbox Google Drive Enter manually Enter manually Accepted file types: pdf, doc, docx, txt, rtf"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "email",
+        "required": false,
+        "placeholder": "",
+        "label": "Email*",
+        "text": "",
+        "group": "First Name* Last Name* Email* Phone Country* Phone* Resume/CV* Attach Attach Dropbox Google Drive Enter manually Enter manually Accepted file types: pdf, doc, docx, txt, rtf Cover Letter Attach Attach Dropbox Google Drive Enter manually Enter manually Accepted file types: pdf, doc, docx, txt, rtf"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "country",
+        "required": false,
+        "placeholder": "",
+        "label": "Country*",
+        "text": "",
+        "group": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "",
+        "group": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Phone Country* Phone*"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "",
+        "group": "244 results foundNo results foundAfghanistan+93Åland Islands+358Albania+355Algeria+213American Samoa+1Andorra+376Angola+244Anguilla+1Antigua & Barbuda+1Argentina+54Armenia+374Aruba+297Ascension Island+247Australia+61Austria+43Azerbaijan+994Bahamas+1Bahrain+973Bangladesh+880Barbados+1Belarus+375Belgium+32Belize+501Benin+229Bermuda+1Bhutan+975Bolivia+591Bosnia & Herzegovina+387Botswana+267Brazil+55British Indian Ocean Territory+246British Virgin Islands+1Brunei+673Bulgaria+359Burkina Faso+226Burundi+257Cambodia+855Cameroon+237Canada+1Cape Verde+238Caribbean Netherlands+599Cayman Islands+1Central African Republic+236Chad+235Chile+56China+86Christmas Island+61Cocos (Keeling) Islands+61Colombia+57Comoros+269Congo - Brazzaville+242Congo - Kinshasa+243Cook Islands+682Costa Rica+506Côte d’Ivoire+225Croatia+385Cuba+53Curaçao+599Cyprus+357Czechia+420Denmark+45Djibouti+253Dominica+1Dominican Republic+1Ecuador+593Egypt+20El Salvador+503Equatorial Guinea+240Eritrea+291Estonia+372Eswatini+268Ethiopia+251Falkland Islands+500Faroe Islands+298Fiji+679Finland+358France+33French Guiana+594French Polynesia+689Gabon+241Gambia+220Georgia+995Germany+49Ghana+233Gibraltar+350Greece+30Greenland+299Grenada+1"
+      },
+      {
+        "tag": "INPUT",
+        "type": "search",
+        "name": "",
+        "id": "iti-0__search-input",
+        "required": false,
+        "placeholder": "Search",
+        "label": "",
+        "text": "",
+        "group": "244 results foundNo results foundAfghanistan+93Åland Islands+358Albania+355Algeria+213American Samoa+1Andorra+376Angola+244Anguilla+1Antigua & Barbuda+1Argentina+54Armenia+374Aruba+297Ascension Island+247Australia+61Austria+43Azerbaijan+994Bahamas+1Bahrain+973Bangladesh+880Barbados+1Belarus+375Belgium+32Belize+501Benin+229Bermuda+1Bhutan+975Bolivia+591Bosnia & Herzegovina+387Botswana+267Brazil+55British Indian Ocean Territory+246British Virgin Islands+1Brunei+673Bulgaria+359Burkina Faso+226Burundi+257Cambodia+855Cameroon+237Canada+1Cape Verde+238Caribbean Netherlands+599Cayman Islands+1Central African Republic+236Chad+235Chile+56China+86Christmas Island+61Cocos (Keeling) Islands+61Colombia+57Comoros+269Congo - Brazzaville+242Congo - Kinshasa+243Cook Islands+682Costa Rica+506Côte d’Ivoire+225Croatia+385Cuba+53Curaçao+599Cyprus+357Czechia+420Denmark+45Djibouti+253Dominica+1Dominican Republic+1Ecuador+593Egypt+20El Salvador+503Equatorial Guinea+240Eritrea+291Estonia+372Eswatini+268Ethiopia+251Falkland Islands+500Faroe Islands+298Fiji+679Finland+358France+33French Guiana+594French Polynesia+689Gabon+241Gambia+220Georgia+995Germany+49Ghana+233Gibraltar+350Greece+30Greenland+299Grenada+1"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "",
+        "group": "244 results foundNo results foundAfghanistan+93Åland Islands+358Albania+355Algeria+213American Samoa+1Andorra+376Angola+244Anguilla+1Antigua & Barbuda+1Argentina+54Armenia+374Aruba+297Ascension Island+247Australia+61Austria+43Azerbaijan+994Bahamas+1Bahrain+973Bangladesh+880Barbados+1Belarus+375Belgium+32Belize+501Benin+229Bermuda+1Bhutan+975Bolivia+591Bosnia & Herzegovina+387Botswana+267Brazil+55British Indian Ocean Territory+246British Virgin Islands+1Brunei+673Bulgaria+359Burkina Faso+226Burundi+257Cambodia+855Cameroon+237Canada+1Cape Verde+238Caribbean Netherlands+599Cayman Islands+1Central African Republic+236Chad+235Chile+56China+86Christmas Island+61Cocos (Keeling) Islands+61Colombia+57Comoros+269Congo - Brazzaville+242Congo - Kinshasa+243Cook Islands+682Costa Rica+506Côte d’Ivoire+225Croatia+385Cuba+53Curaçao+599Cyprus+357Czechia+420Denmark+45Djibouti+253Dominica+1Dominican Republic+1Ecuador+593Egypt+20El Salvador+503Equatorial Guinea+240Eritrea+291Estonia+372Eswatini+268Ethiopia+251Falkland Islands+500Faroe Islands+298Fiji+679Finland+358France+33French Guiana+594French Polynesia+689Gabon+241Gambia+220Georgia+995Germany+49Ghana+233Gibraltar+350Greece+30Greenland+299Grenada+1"
+      },
+      {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "",
+        "id": "phone",
+        "required": false,
+        "placeholder": "",
+        "label": "Phone*",
+        "text": "",
+        "group": "Phone Country* Phone*"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Attach",
+        "group": "Attach Attach Dropbox Google Drive Enter manually Enter manually Accepted file types: pdf, doc, docx, txt, rtf"
+      },
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "name": "",
+        "id": "resume",
+        "required": false,
+        "placeholder": "",
+        "label": "Attach",
+        "text": "",
+        "group": "Attach Attach Dropbox Google Drive Enter manually Enter manually Accepted file types: pdf, doc, docx, txt, rtf"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Dropbox",
+        "group": "Attach Attach Dropbox Google Drive Enter manually Enter manually Accepted file types: pdf, doc, docx, txt, rtf"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Google Drive",
+        "group": "Attach Attach Dropbox Google Drive Enter manually Enter manually Accepted file types: pdf, doc, docx, txt, rtf"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Enter manually",
+        "group": "Enter manually Enter manually"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Attach",
+        "group": "Attach Attach Dropbox Google Drive Enter manually Enter manually Accepted file types: pdf, doc, docx, txt, rtf"
+      },
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "name": "",
+        "id": "cover_letter",
+        "required": false,
+        "placeholder": "",
+        "label": "Attach",
+        "text": "",
+        "group": "Attach Attach Dropbox Google Drive Enter manually Enter manually Accepted file types: pdf, doc, docx, txt, rtf"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Dropbox",
+        "group": "Attach Attach Dropbox Google Drive Enter manually Enter manually Accepted file types: pdf, doc, docx, txt, rtf"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Google Drive",
+        "group": "Attach Attach Dropbox Google Drive Enter manually Enter manually Accepted file types: pdf, doc, docx, txt, rtf"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Enter manually",
+        "group": "Enter manually Enter manually"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "",
+        "id": "question_12094796007",
+        "required": false,
+        "placeholder": "",
+        "label": "What is your LinkedIn profile?*",
+        "text": "",
+        "group": "What is your LinkedIn profile?*"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "question_12094797007",
+        "required": false,
+        "placeholder": "",
+        "label": "Are you authorized to work in the United States? *",
+        "text": "",
+        "group": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "",
+        "group": "Are you authorized to work in the United States? * Select..."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Are you authorized to work in the United States? * Select..."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "question_12094798007",
+        "required": false,
+        "placeholder": "",
+        "label": "Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? *",
+        "text": "",
+        "group": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "",
+        "group": "Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? * Select..."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? * Select..."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "question_12094799007",
+        "required": false,
+        "placeholder": "",
+        "label": "How many years of hands-on experience do you have in manufacturing test, production engineering, or a related field? *",
+        "text": "",
+        "group": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "",
+        "group": "How many years of hands-on experience do you have in manufacturing test, production engineering, or a related field? * Select..."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "How many years of hands-on experience do you have in manufacturing test, production engineering, or a related field? * Select..."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "question_12094800007",
+        "required": false,
+        "placeholder": "",
+        "label": "What state do you live it, currently?*",
+        "text": "",
+        "group": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "",
+        "group": "What state do you live it, currently?* Select..."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "What state do you live it, currently?* Select..."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "question_12094801007",
+        "required": false,
+        "placeholder": "",
+        "label": "Scale 1-10, 10 being an expert, how do you rate yourself working in Linux environment, including Bash scripting and command line debugging? *",
+        "text": "",
+        "group": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "",
+        "group": "Scale 1-10, 10 being an expert, how do you rate yourself working in Linux environment, including Bash scripting and command line debugging? * Select..."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Scale 1-10, 10 being an expert, how do you rate yourself working in Linux environment, including Bash scripting and command line debugging? * Select..."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "question_12094802007",
+        "required": false,
+        "placeholder": "",
+        "label": "Scale 1-10, 10 being an expert, how do you rate yourself in reading and interpreting electrical schematics and PCB layouts to diagnose hardware failures at the component level?*",
+        "text": "",
+        "group": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "",
+        "group": "Scale 1-10, 10 being an expert, how do you rate yourself in reading and interpreting electrical schematics and PCB layouts to diagnose hardware failures at the component level?* Select..."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Scale 1-10, 10 being an expert, how do you rate yourself in reading and interpreting electrical schematics and PCB layouts to diagnose hardware failures at the component level?* Select..."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "question_12094803007",
+        "required": false,
+        "placeholder": "",
+        "label": "Scale 1-10, 10 being an expert, how do you rate your knowledge on embedded communication protocols: Ethernet, USB, SPI, UART, SCPI, and CAN bus?*",
+        "text": "",
+        "group": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "",
+        "group": "Scale 1-10, 10 being an expert, how do you rate your knowledge on embedded communication protocols: Ethernet, USB, SPI, UART, SCPI, and CAN bus?* Select..."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Scale 1-10, 10 being an expert, how do you rate your knowledge on embedded communication protocols: Ethernet, USB, SPI, UART, SCPI, and CAN bus?* Select..."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "question_12094804007",
+        "required": false,
+        "placeholder": "",
+        "label": "Scale 1-10, 10 being an expert how do you rate your coding experience in Python for hardware interfacing, including work with actuators, motor controllers, sensors, relays, and power systems? Please include specific examples*",
+        "text": "",
+        "group": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "",
+        "group": "Scale 1-10, 10 being an expert how do you rate your coding experience in Python for hardware interfacing, including work with actuators, motor controllers, sensors, relays, and power systems? Please include specific examples* Select..."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Scale 1-10, 10 being an expert how do you rate your coding experience in Python for hardware interfacing, including work with actuators, motor controllers, sensors, relays, and power systems? Please include specific examples* Select..."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "question_12094805007",
+        "required": false,
+        "placeholder": "",
+        "label": "Scale 1-10, 10 being an expert, how do you rate your experience with data acquisition hardware and industrial I/O devices (e.g., power meters, current sensors, DAQ cards)?*",
+        "text": "",
+        "group": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "",
+        "group": "Scale 1-10, 10 being an expert, how do you rate your experience with data acquisition hardware and industrial I/O devices (e.g., power meters, current sensors, DAQ cards)?* Select..."
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "id": "",
+        "required": true,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Scale 1-10, 10 being an expert, how do you rate your experience with data acquisition hardware and industrial I/O devices (e.g., power meters, current sensors, DAQ cards)?* Select..."
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "label": "",
+        "text": "Submit application",
+        "group": "First Name* Last Name* Email* Phone Country* Phone* Resume/CV* Attach Attach Dropbox Google Drive Enter manually Enter manually Accepted file types: pdf, doc, docx, txt, rtf Cover Letter Attach Attach Dropbox Google Drive Enter manually Enter manually Accepted file types: pdf, doc, docx, txt, rtf What is your LinkedIn profile?* Are you authorized to work in the United States? * Select... Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? * Select... How many years of hands-on experience do you have in manufacturing test, production engineering, or a related field? * Select... What state do you live it, currently?* Select... Scale 1-10, 10 being an expert, how do you rate yourself working in Linux environment, including Bash scripting and command line debugging? * Select... Scale 1-10, 10 being an expert, how do you rate yourself in reading and interpreting electrical schematics and PCB layouts to diagnose hardware failures at the component level?* Select... Scale 1-10, 10 being an expert, how do you rate your knowledge on embedded communication protocols: Ethernet, USB, SPI, UART, SCPI, and CAN bus?* Select... Scale 1-10, 10 bein"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "g-recaptcha-response",
+        "id": "g-recaptcha-response-100000",
+        "required": false,
+        "placeholder": "",
+        "label": "",
+        "text": "",
+        "group": "Back to jobs New Senior Manufacturing Test Engineer (Electrical) Wilmington, MA Apply Locus Robotics designs and deploys autonomous mobile robots (AMRs) that work alongside human associates in warehouse and fulfillment environments to dramatically increase picking efficiency and throughput. Our LocusBots navigate complex, dynamic warehouse floors and integrate tightly with warehouse management systems to drive real operational results for some of the world's largest retailers and 3PLs. As we scale our hardware platform, we need sharp engineers who can ensure every robot that leaves our factory is ready to perform from day one. We’re looking for a Senior Manufacturing Test Engineer to own and optimize end-of-line testing for our autonomous robots, ensuring high quality, reliability, and manufacturing efficiency at scale. This is an onsite position located at our Wilmington MA headquarters. Responsibilities Own and improve end of line test infrastructure for LocusBot subassemblies and fully integrated robots, including software, calibration, and functional verification Develop and maintain automated test sequences that validate drivetrain, sensor, compute, and power systems against d"
+      }
+    ]
+  }
+]

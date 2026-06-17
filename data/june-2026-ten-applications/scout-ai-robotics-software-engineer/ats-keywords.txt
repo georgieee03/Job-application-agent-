@@ -1,0 +1,19 @@
+robotics software
+drone autonomy
+perception
+planning
+control systems
+autonomy pipelines
+cameras
+LiDAR
+IMU
+localization
+mapping
+navigation
+simulation infrastructure
+testing environments
+system reliability
+performance
+deployment monitoring
+C++
+Python

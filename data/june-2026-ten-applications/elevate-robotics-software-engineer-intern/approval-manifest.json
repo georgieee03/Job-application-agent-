@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-06-08T19:37:08.216212+00:00",
+  "company": "Elevate Robotics",
+  "role": "Software Engineer - Intern Summer 2026",
+  "jobUrl": "https://job-boards.greenhouse.io/elevaterobotics/jobs/4207387009",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\elevate-robotics-software-engineer-intern\\George_Jobi_Resume.pdf",
+      "bytes": 57827,
+      "sha256": "0f5924d835155d939c0fc1474bf63f0a6ba019938839ed5196e62c21df711a09"
+    },
+    "coverLetter": null,
+    "attachments": [],
+    "responses": []
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\elevate-robotics-software-engineer-intern\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 95.0,
+    "resume": {
+      "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\elevate-robotics-software-engineer-intern\\validation-report.json",
+      "valid": true,
+      "estimatedAtsAlignment": 95.0
+    },
+    "coverLetter": null
+  }
+}

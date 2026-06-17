@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-06-08T19:27:15.409981+00:00",
+  "company": "Laminar",
+  "role": "PLC Integration Engineer",
+  "jobUrl": "https://jobs.lever.co/runlaminar/7bfc5681-fbb0-4204-8510-3eb0b0be6181",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\laminar-plc-integration-engineer\\George_Jobi_Resume.pdf",
+      "bytes": 57816,
+      "sha256": "bfa50004ea29ef9a0008ccd874202c77c14d4882b28a8c41f9beceaedc88ec41"
+    },
+    "coverLetter": null,
+    "attachments": [],
+    "responses": [
+      {
+        "filename": "application-responses.json",
+        "path": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\laminar-plc-integration-engineer\\application-responses.json",
+        "bytes": 892,
+        "sha256": "1c0cd0d90dfab32becd1abe1155689cc98f535c4192c2580af4af52f3b2d0e01",
+        "kind": "application-response",
+        "upload": false
+      }
+    ]
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\laminar-plc-integration-engineer\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 95.0,
+    "resume": {
+      "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\laminar-plc-integration-engineer\\validation-report.json",
+      "valid": true,
+      "estimatedAtsAlignment": 95.0
+    },
+    "coverLetter": null
+  }
+}

@@ -1,0 +1,18 @@
+C++
+Python
+Linux expertise
+perception
+planning
+controls
+localization
+state estimation
+system integration
+testing
+validation
+fault handling
+performance tuning
+telemetry
+root cause analysis
+Docker
+CI/CD
+physical robot

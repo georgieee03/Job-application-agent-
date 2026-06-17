@@ -1,0 +1,13 @@
+George Jobi Perangattu
+1900 E Apache Blvd, Tempe, AZ 85281 | (480) 742-9855 | gjobiper@asu.edu
+
+Dear Charge Robotics team,
+
+I am excited to apply for the Robotics Field Engineer role because it combines real robotics work with field troubleshooting, industrial automation, safety-minded operation, and software that improves physical deployment performance. My M.S. work in Robotics and Autonomous Systems at Arizona State University has focused on autonomous navigation, sensor fusion, controls, simulation, and real-world robot validation.
+
+In my Parrot MiniDrone project, I implemented closed-loop PID control with inertial and visual sensor fusion, built automated test sequences, logged sensor data, and evaluated navigation behavior on physical hardware. In my 3D motion planning work, I developed Python RRT planning integrated with ROS and Gazebo. I also have computer vision and ML experience from camera-LiDAR fusion research in CARLA and production-oriented image recognition systems in Python and PyTorch.
+
+Charge Robotics' robotic solar installation system is compelling because the role requires both technical depth and field resilience. I would bring strong debugging habits, comfort with software/hardware interfaces, documentation discipline, and a practical robotics mindset to help operate, troubleshoot, and improve the robotic factory in the field.
+
+Sincerely,
+George Jobi Perangattu

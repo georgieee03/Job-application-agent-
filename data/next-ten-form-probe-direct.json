@@ -1,0 +1,2137 @@
+[
+  {
+    "key": "chef-staff-autonomy",
+    "ok": true,
+    "info": {
+      "url": "https://jobs.lever.co/ChefRobotics/1afd1c21-cfe7-4a0a-8288-963cc806a1a5/apply",
+      "title": "Chef Robotics - Staff Autonomy Engineer",
+      "text": "Staff Autonomy Engineer San FranciscoEngineering – Autonomy /Full Time /On-Site SUBMIT YOUR APPLICATION Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company ✱ LINKS LinkedIn URL ✱ Twitter URL GitHub URL Portfolio URL Other website LOGISTICS Will you now or in the future require sponsorship (e.g., H-1B visa) to work in the United States? ✱ Yes No What's your expected start date? ✱ Are you willing to work onsite in our office in San Francisco 5 days per week? ✱ Yes No How did you hear about this job? U.S. EQUAL EMPLOYMENT OPPORTUNITY INFORMATION (Completion is voluntary and will not subject you to adverse treatment) Our company values diversity. To ensure that we comply with reporting requirements and to learn more about how we can increase diversity in our candidate pool, we invite you to voluntarily provide demographic information in a confidential survey at the end of this application. Providing this information is optional. It will not be accessible or used in the hiring process, and has no effect on your opportunity for employment. Gender Select ... Male Female Decline to self-identify Race Select ... Hispanic or Latino White (Not Hispanic or Latino) Black or African American (Not Hispanic or Latino) Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino) Asian (Not Hispanic or Latino) American Indian or Alaska Native (Not Hispanic or Latino) Two or More Races (Not Hispanic or Latino) Decline to self-identify Veteran status Select ... I am a veteran I am not a veteran Decline to self-identify SUBMIT APPLICATION Chef Robotics Home Page We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us. Jobs powered by",
+      "inputs": [
+        {
+          "i": 0,
+          "tag": "INPUT",
+          "type": "file",
+          "id": "resume-upload-input",
+          "name": "resume",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 1,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "name",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 2,
+          "tag": "INPUT",
+          "type": "email",
+          "id": "",
+          "name": "email",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 3,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "phone",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 4,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "location-input",
+          "name": "location",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 5,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "selected-location",
+          "name": "selectedLocation",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 6,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "org",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 7,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "urls[LinkedIn]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 8,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "urls[Twitter]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 9,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "urls[GitHub]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 10,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "urls[Portfolio]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 11,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "urls[Other]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 12,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "cards[3304cc1f-dbbd-4c55-9030-cd512b4d04ae][baseTemplate]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 13,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "",
+          "name": "cards[3304cc1f-dbbd-4c55-9030-cd512b4d04ae][field0]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 14,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "",
+          "name": "cards[3304cc1f-dbbd-4c55-9030-cd512b4d04ae][field0]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 15,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "cards[3304cc1f-dbbd-4c55-9030-cd512b4d04ae][field1]",
+          "placeholder": "Type your response",
+          "aria": null
+        },
+        {
+          "i": 16,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "",
+          "name": "cards[3304cc1f-dbbd-4c55-9030-cd512b4d04ae][field2]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 17,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "",
+          "name": "cards[3304cc1f-dbbd-4c55-9030-cd512b4d04ae][field2]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 18,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "cards[3304cc1f-dbbd-4c55-9030-cd512b4d04ae][field3]",
+          "placeholder": "Type your response",
+          "aria": null
+        },
+        {
+          "i": 19,
+          "tag": "SELECT",
+          "type": null,
+          "id": "",
+          "name": "eeo[gender]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 20,
+          "tag": "SELECT",
+          "type": null,
+          "id": "",
+          "name": "eeo[race]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 21,
+          "tag": "SELECT",
+          "type": null,
+          "id": "",
+          "name": "eeo[veteran]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 22,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "accountId",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 23,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "linkedInData",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 24,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "origin",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 25,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "referer",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 26,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "applicant-timezone",
+          "name": "timezone",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 27,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "socialReferralKey",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 28,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "socialSource",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 29,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "resumeStorageId",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 30,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "hcaptchaResponseInput",
+          "name": "h-captcha-response",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 31,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "source",
+          "placeholder": null,
+          "aria": null
+        }
+      ],
+      "buttons": [
+        "https://jobs.lever.co/ChefRobotics",
+        "ATTACH RESUME/CV",
+        "javascript:void(0)",
+        "SUBMIT APPLICATION",
+        "Chef Robotics Home Page",
+        "Jobs powered by"
+      ]
+    }
+  },
+  {
+    "key": "orchard-perception-localization",
+    "ok": true,
+    "info": {
+      "url": "https://jobs.ashbyhq.com/orchard/4f81b000-c82a-4285-b05d-a7861a576d6f/application",
+      "title": "Robotics Software Engineer (Perception & Localization) @ Orchard Robotics",
+      "text": "Robotics Software Engineer (Perception & Localization) Location San Francisco; Seattle Employment Type Full time Location Type On-site Department Software Engineering Compensation Estimated Base Salary $130K – $190K • 0.1% – 0.25% Overview Application Name Email Resume Upload File or drag and drop here Current Location Phone LinkedIn Profile URL Twitter/X Profile What exceptional work have you done? Although our customers are farmers, many of our employees come from traditional tech backgrounds. What makes you want to work in ag-tech? Work Authorization I am legally authorized to work for any employer in the United States I require, or in the future will require sponsorship to obtain work authorization in the country in which this position is based (e.g. H-1B, TN, etc.) My status to work in the country in which this position is based is unknown. Current/Most Recent Company Name Current/Most Recent Job Title This is a role that may involve a few days of travel each month (1-2 hour drives) to our customer farms, where you can see our technology in action. Is this something you are comfortable with? Yes No What is your favorite fruit? What is your timeline for starting a new job? Immediately Within 2 weeks of an offer Within 1 month of an offer Other (will discuss on call) Are you currently located near our offices (or are willing to relocate or commute)? Yes No Decode the following text and type the answer below. aHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vZG9jdW1lbnQvZC8xZ2dyNzFVQzktem1hWjVnVWphV0F0bUZIVmR3NERyQ28xZm02RFh4QVJWSS9lZGl0P3VzcD1zaGFyaW5n Submit Application Powered by Privacy PolicySecurityVulnerability Disclosure",
+      "inputs": [
+        {
+          "i": 0,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "_systemfield_name",
+          "name": "_systemfield_name",
+          "placeholder": "Type here...",
+          "aria": null
+        },
+        {
+          "i": 1,
+          "tag": "INPUT",
+          "type": "email",
+          "id": "_systemfield_email",
+          "name": "_systemfield_email",
+          "placeholder": "hello@example.com...",
+          "aria": null
+        },
+        {
+          "i": 2,
+          "tag": "INPUT",
+          "type": "file",
+          "id": "_systemfield_resume",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 3,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": "Start typing...",
+          "aria": null
+        },
+        {
+          "i": 4,
+          "tag": "INPUT",
+          "type": "tel",
+          "id": "63bed4d4-5cdb-4333-9797-cdeaa052c451",
+          "name": "63bed4d4-5cdb-4333-9797-cdeaa052c451",
+          "placeholder": "1-415-555-1234...",
+          "aria": null
+        },
+        {
+          "i": 5,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "71ea31b8-442c-4c59-9ce2-3eb81667b517",
+          "name": "71ea31b8-442c-4c59-9ce2-3eb81667b517",
+          "placeholder": "Type here...",
+          "aria": null
+        },
+        {
+          "i": 6,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "72445728-4d3f-4747-8cfa-646dbfbf6a71",
+          "name": "72445728-4d3f-4747-8cfa-646dbfbf6a71",
+          "placeholder": "Type here...",
+          "aria": null
+        },
+        {
+          "i": 7,
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "8cc83d65-ab08-4cd7-bf23-4ec7260befb7",
+          "name": "8cc83d65-ab08-4cd7-bf23-4ec7260befb7",
+          "placeholder": "Type here...",
+          "aria": null
+        },
+        {
+          "i": 8,
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "74436627-2895-4f78-b556-cf784d17a0c4",
+          "name": "74436627-2895-4f78-b556-cf784d17a0c4",
+          "placeholder": "Type here...",
+          "aria": null
+        },
+        {
+          "i": 9,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "b84d5a46-db27-424f-846d-c974aab7fdeb_94b361c9-12be-4ab5-8bad-0fa93d0edee5-labeled-radio-0",
+          "name": "b84d5a46-db27-424f-846d-c974aab7fdeb_94b361c9-12be-4ab5-8bad-0fa93d0edee5",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 10,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "b84d5a46-db27-424f-846d-c974aab7fdeb_94b361c9-12be-4ab5-8bad-0fa93d0edee5-labeled-radio-1",
+          "name": "b84d5a46-db27-424f-846d-c974aab7fdeb_94b361c9-12be-4ab5-8bad-0fa93d0edee5",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 11,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "b84d5a46-db27-424f-846d-c974aab7fdeb_94b361c9-12be-4ab5-8bad-0fa93d0edee5-labeled-radio-2",
+          "name": "b84d5a46-db27-424f-846d-c974aab7fdeb_94b361c9-12be-4ab5-8bad-0fa93d0edee5",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 12,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "e22fab38-d1d0-4a2c-b5ed-574978da545b",
+          "name": "e22fab38-d1d0-4a2c-b5ed-574978da545b",
+          "placeholder": "Type here...",
+          "aria": null
+        },
+        {
+          "i": 13,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "9cb990c7-9ebe-4d22-9d79-afc6ccd341bd",
+          "name": "9cb990c7-9ebe-4d22-9d79-afc6ccd341bd",
+          "placeholder": "Type here...",
+          "aria": null
+        },
+        {
+          "i": 14,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "fc1b064e-4092-4d94-b2e3-83c61a5fc4c3",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 15,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "15309409-cef5-412f-abc8-baf97d1f25a0",
+          "name": "15309409-cef5-412f-abc8-baf97d1f25a0",
+          "placeholder": "Type here...",
+          "aria": null
+        },
+        {
+          "i": 16,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "b84d5a46-db27-424f-846d-c974aab7fdeb_56d3f46b-114b-4bec-bc66-97cee02f3061-labeled-radio-0",
+          "name": "b84d5a46-db27-424f-846d-c974aab7fdeb_56d3f46b-114b-4bec-bc66-97cee02f3061",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 17,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "b84d5a46-db27-424f-846d-c974aab7fdeb_56d3f46b-114b-4bec-bc66-97cee02f3061-labeled-radio-1",
+          "name": "b84d5a46-db27-424f-846d-c974aab7fdeb_56d3f46b-114b-4bec-bc66-97cee02f3061",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 18,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "b84d5a46-db27-424f-846d-c974aab7fdeb_56d3f46b-114b-4bec-bc66-97cee02f3061-labeled-radio-2",
+          "name": "b84d5a46-db27-424f-846d-c974aab7fdeb_56d3f46b-114b-4bec-bc66-97cee02f3061",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 19,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "b84d5a46-db27-424f-846d-c974aab7fdeb_56d3f46b-114b-4bec-bc66-97cee02f3061-labeled-radio-3",
+          "name": "b84d5a46-db27-424f-846d-c974aab7fdeb_56d3f46b-114b-4bec-bc66-97cee02f3061",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 20,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "b84d5a46-db27-424f-846d-c974aab7fdeb_fdde19f0-2291-4351-9139-dc38a5ab385d-labeled-radio-0",
+          "name": "b84d5a46-db27-424f-846d-c974aab7fdeb_fdde19f0-2291-4351-9139-dc38a5ab385d",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 21,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "b84d5a46-db27-424f-846d-c974aab7fdeb_fdde19f0-2291-4351-9139-dc38a5ab385d-labeled-radio-1",
+          "name": "b84d5a46-db27-424f-846d-c974aab7fdeb_fdde19f0-2291-4351-9139-dc38a5ab385d",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 22,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "7bae9167-c6fd-4ab9-927b-a053caeeaf2b",
+          "name": "7bae9167-c6fd-4ab9-927b-a053caeeaf2b",
+          "placeholder": "Type here...",
+          "aria": null
+        },
+        {
+          "i": 23,
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "g-recaptcha-response-100000",
+          "name": "g-recaptcha-response",
+          "placeholder": null,
+          "aria": null
+        }
+      ],
+      "buttons": [
+        "https://orchard-robotics.com/",
+        "Back to Orchard Robotics’s Job Listings",
+        "Overview",
+        "Application",
+        "Upload File",
+        "Yes",
+        "No",
+        "Submit Application",
+        "Powered by",
+        "Privacy Policy",
+        "Security",
+        "Vulnerability Disclosure"
+      ]
+    }
+  },
+  {
+    "key": "fieldai-robot-integrations",
+    "ok": true,
+    "info": {
+      "url": "https://jobs.lever.co/field-ai/b5f58151-9a46-441f-badf-2e91244bfd39/apply",
+      "title": "FieldAI - Robotics Software Engineer – Robot Integrations",
+      "text": "🍪 denyaccept Privacy Notice This website uses cookies to improve your web experience. By clicking Accept, you agree to the use of cookies. Cookie Policy Robotics Software Engineer – Robot Integrations Irvine, CAEngineering – Autonomy /Full Time /On-Site SUBMIT YOUR APPLICATION Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone ✱ Current location Current company LINKS LinkedIn URL Twitter URL GitHub URL Portfolio URL Field AI ARE YOU AUTHORIZED TO WORK IN THE U.S.? Are you authorized to work in the United States? ✱ Yes No Will you now, or in the future, require sponsorship (i.e. H-1B visa, etc.) to legally work in the U.S.? ✱ Yes No Not applicable Are you currently in a period of Optional Practical Training (OPT)? ✱ Yes No Not applicable Do you hold a degree in a Science, Technology, Engineering, or Mathematics (STEM) field from a U.S. accredited institution that would allow you to apply for a 24-month OPT extension? ✱ Yes No Not applicable ONSITE WORK Are you able to work onsite? Yes No START DATE Please let us know you would be able to begin a new opportunity. ✱ I can start immediately. I can start in two to three weeks. I can start in a month. I can start in six weeks to two months. I can start in eight to twelve weeks. I can start in three to six months. By applying for this position, your data will be processed as per FieldAI's privacy policy. FieldAI has my consent to contact me about future job opportunities. SUBMIT APPLICATION FieldAI Home Page We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us. Jobs powered by",
+      "inputs": [
+        {
+          "i": 0,
+          "tag": "INPUT",
+          "type": "file",
+          "id": "resume-upload-input",
+          "name": "resume",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 1,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "name",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 2,
+          "tag": "INPUT",
+          "type": "email",
+          "id": "",
+          "name": "email",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 3,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "phone",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 4,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "location-input",
+          "name": "location",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 5,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "selected-location",
+          "name": "selectedLocation",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 6,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "org",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 7,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "urls[LinkedIn]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 8,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "urls[Twitter]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 9,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "urls[GitHub]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 10,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "urls[Portfolio]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 11,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "urls[Other]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 12,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][baseTemplate]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 13,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field0]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 14,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field0]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 15,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field1]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 16,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field1]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 17,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field1]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 18,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field2]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 19,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field2]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 20,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field2]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 21,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field3]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 22,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field3]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 23,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "cards[1a118c0e-edbb-485f-a0e2-8481dde47964][field3]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 24,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "cards[a3958a48-cdc5-473b-b74c-273b8f748504][baseTemplate]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 25,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "",
+          "name": "cards[a3958a48-cdc5-473b-b74c-273b8f748504][field0]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 26,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "",
+          "name": "cards[a3958a48-cdc5-473b-b74c-273b8f748504][field0]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 27,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "cards[59debaa2-5176-4710-939f-293b52c27284][baseTemplate]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 28,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 29,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 30,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 31,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 32,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 33,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "cards[59debaa2-5176-4710-939f-293b52c27284][field0]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 34,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "accountId",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 35,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "linkedInData",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 36,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "origin",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 37,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "referer",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 38,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "applicant-timezone",
+          "name": "timezone",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 39,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "socialReferralKey",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 40,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "socialSource",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 41,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "resumeStorageId",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 42,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "hcaptchaResponseInput",
+          "name": "h-captcha-response",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 43,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "source",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 44,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "consent[marketing]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 45,
+          "tag": "INPUT",
+          "type": "checkbox",
+          "id": "",
+          "name": "consent[marketing]",
+          "placeholder": null,
+          "aria": null
+        }
+      ],
+      "buttons": [
+        "deny",
+        "accept",
+        "Cookie Policy",
+        "Deny",
+        "Accept",
+        "https://jobs.lever.co/field-ai",
+        "ATTACH RESUME/CV",
+        "privacy policy",
+        "SUBMIT APPLICATION",
+        "FieldAI Home Page",
+        "Jobs powered by"
+      ]
+    }
+  },
+  {
+    "key": "fieldai-ros-developer",
+    "ok": false,
+    "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://jobs.lever.co/field-ai/c3650d39-20eb-454e-97f8-4d38494e0fe6/apply\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  },
+  {
+    "key": "simbe-robotics-sw",
+    "ok": true,
+    "info": {
+      "url": "https://jobs.lever.co/SimbeRobotics/bffe760d-b1fb-49ff-b259-f0724c8661fa/apply",
+      "title": "Simbe Robotics - Robotics Software Engineer (C++ & Python)",
+      "text": "Robotics Software Engineer (C++ & Python) San Francisco Bay AreaProduct Engineering – Robotics Engineering /Full-Time /Hybrid SUBMIT YOUR APPLICATION Resume/CV ✱ ATTACH RESUME/CV Full name ✱ Email ✱ Phone Current location Current company LINKS LinkedIn URL ✱ Twitter URL GitHub URL Portfolio URL Simbe Robotics ROBOT SW ENGINEER Are you authorized to work with any employers in the US? Yes No Do you need work visa sponsorship now or in the future? (Simbe provides sponsorship to qualified employees) Yes No Are you open to relocating to the Bay Area for this opportunity? Please describe your professional experience working with ROS1/2 in detail including specific projects, tools, and your individual contributions. Applications without a substantive response to this question will not be reviewed. Please list your Salary Expectation (please respond in figures, not \"flexible\" or \"TBD\") SUBMIT APPLICATION Simbe Robotics Home Page We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us. Jobs powered by",
+      "inputs": [
+        {
+          "i": 0,
+          "tag": "INPUT",
+          "type": "file",
+          "id": "resume-upload-input",
+          "name": "resume",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 1,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "name",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 2,
+          "tag": "INPUT",
+          "type": "email",
+          "id": "",
+          "name": "email",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 3,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "phone",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 4,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "location-input",
+          "name": "location",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 5,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "selected-location",
+          "name": "selectedLocation",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 6,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "org",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 7,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "urls[LinkedIn]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 8,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "urls[Twitter]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 9,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "urls[GitHub]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 10,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "urls[Portfolio]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 11,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "",
+          "name": "urls[Other]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 12,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "cards[9d4dd49d-6d4f-40dc-b992-86ec55398d9d][baseTemplate]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 13,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "",
+          "name": "cards[9d4dd49d-6d4f-40dc-b992-86ec55398d9d][field0]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 14,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "",
+          "name": "cards[9d4dd49d-6d4f-40dc-b992-86ec55398d9d][field0]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 15,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "",
+          "name": "cards[9d4dd49d-6d4f-40dc-b992-86ec55398d9d][field1]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 16,
+          "tag": "INPUT",
+          "type": "radio",
+          "id": "",
+          "name": "cards[9d4dd49d-6d4f-40dc-b992-86ec55398d9d][field1]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 17,
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "",
+          "name": "cards[9d4dd49d-6d4f-40dc-b992-86ec55398d9d][field2]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 18,
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "",
+          "name": "cards[9d4dd49d-6d4f-40dc-b992-86ec55398d9d][field3]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 19,
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "",
+          "name": "cards[9d4dd49d-6d4f-40dc-b992-86ec55398d9d][field4]",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 20,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "accountId",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 21,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "linkedInData",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 22,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "origin",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 23,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "referer",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 24,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "applicant-timezone",
+          "name": "timezone",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 25,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "socialReferralKey",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 26,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "socialSource",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 27,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "resumeStorageId",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 28,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "hcaptchaResponseInput",
+          "name": "h-captcha-response",
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 29,
+          "tag": "INPUT",
+          "type": "hidden",
+          "id": "",
+          "name": "source",
+          "placeholder": null,
+          "aria": null
+        }
+      ],
+      "buttons": [
+        "https://jobs.lever.co/SimbeRobotics",
+        "ATTACH RESUME/CV",
+        "SUBMIT APPLICATION",
+        "Simbe Robotics Home Page",
+        "Jobs powered by"
+      ]
+    }
+  },
+  {
+    "key": "bear-autonomy",
+    "ok": true,
+    "info": {
+      "url": "https://bear-robotics.breezy.hr/p/f1b7a8aa0763-robotics-software-engineer-ii-autonomy?source=GoogleJobs",
+      "title": "Robotics Software Engineer II, Autonomy at Bear Robotics",
+      "text": "Company WebsiteEmployees Bear Robotics Robotics Software Engineer II, Autonomy Redwood City, CAFull-TimeRobotics Engineering Job OpeningsRobotics Software Engineer II, Autonomy Apply To Position Use My Indeed Resume Apply Using LinkedIn Job Title: Robotics Software Engineer II, Autonomy Department: Robotics Engineering Level: L4 FLSA: Exempt Job Summary: In this role, you will be responsible for the robotics navigation stack, ranging from control, localization, mapping, path planning, all the way to high-level interaction decision making. The navigation stack is critical for our robot to drive autonomously, safely and smoothly. You will be working with the team to design, prototype, develop, test, deploy, maintain and improve various algorithms of the navigation stack. You are expected to be highly autonomous and to lead technical directions. You are also expected to work with high-level product requirements, and to manage individual project priorities, deadlines and deliverables with your technical expertise Key Duties/Responsibilities: Work on our next generation navigation planner, integrating perception with path planning and navigation behavior Quickly learn and adapt your skills to new projects Own your projects from inception, to development, to deployment Collaborate across teams to make your projects succeed Performs other related duties as assigned Supervisory Responsibilities: None Required Skills/Abilities/Qualifications: Mobile robot navigation stack Mobile robot dynamics modeling and control Kalman/particle filtering, sensor fusion, nonlinear state estimation Path planning (A*, D*, RRT, etc.) Trajectory optimization SLAM+Localization Preferred Skills/Abilities/Qualifications: Python data analysis ROS navigation stack 2D/3D camera and lidar perception pipeline Multi-robot control and coordination ML/DL as applied to mobile robotics Education/Experience: BS/MS in CS or related field and 2+ years of mobile robot industry experiences, or PhD in CS or related field Solid data structures, algorithms, and software design Physical Requirements: The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. Prolonged periods of sitting/standing at a desk and working on a computer. The employee routinely is required to sit; stand, walk; talk and hear; use hands to keyboard Specific vision abilities required by this job include close vision, color",
+      "inputs": [],
+      "buttons": [
+        "Company Website",
+        "Employees",
+        "Twitter",
+        "Facebook",
+        "LinkedIn",
+        "Bear Robotics",
+        "Job Openings",
+        "Apply To Position",
+        "Use My Indeed Resume",
+        "Apply Using LinkedIn",
+        "Twitter",
+        "Facebook",
+        "LinkedIn",
+        "Apply To Position",
+        "Use My Indeed Resume",
+        "Apply Using LinkedIn",
+        "Powered bybreezy"
+      ]
+    }
+  },
+  {
+    "key": "lucid-ground-autonomy",
+    "ok": true,
+    "info": {
+      "url": "https://job-boards.greenhouse.io/lucidbots?error=true",
+      "title": "Jobs at Lucid Bots",
+      "text": "The job you are looking for is no longer open. Current openings at Lucid Bots Create a Job Alert Level-up your career by having opportunities at Lucid Bots sent directly to your inbox. Create alert Featured Jobs Director of Marketing Charlotte, NC; Remote About Lucid Bots Lucid Bots is the leading U.S. AI robotics manufacturer of exterior cleaning drones and robotics for commercial and government applications. Since 2018, we've been building the world's most productive and responsible robots to tackle critical maintenance challenges. With industry-leading engineering and dedicated customer support, we've enabled operators to generate over $75 million in revenue, with a fleet of over 500 robots deployed to accomplish dull, dirty, and dangerous jobs with safety and efficiency. Our mission is simple: extend human reach. Headquartered in Charlotte, North Carolina, we design, engineer, manufacture, and support our products in the United States. Our production-ready robots are deployed by customers around the world — from global enterprises to independent owner-operators — to improve safety, increase productivity, and elevate operational standards. We are one of the fastest-growing manufacturing companies in the United States, recently ranked fourth nationally, and we just closed a $20M Series B to fuel our next chapter at the intersection of AI, hardware, and real-world impact. Backed by leading investors including Y Combinator (S19), Cubit Capital, Idea Fund Partners, Danu Ventures, and others, we're scaling quickly. We're building more than robots—we're building the future of physical AI. Our Core Values and How We Work Together At Lucid Bots, we’re building something extraordinary - and how we work matters just as much as what we build. These values guide how we hire, grow, and show up for one another. Expedition Behavior - We climb as one. No silos, no “that’s not my job.” We protect the team and share the load. Grow with Humility - We’re relentless learners. We seek feedback, own mistakes, and get better every day. Lift People Up - Humans come first. We care fiercely, speak honestly, and design for real people in real conditions. Build the Extraordinary - We take ownership, reject the ordinary, and run toward hard problems. We live Above the Line: we take responsibility, create solutions, and shape the future.If these values energize you, you’ll thrive here. If they feel like too much, this may not be the right climb - and that’s okay. Goal of This Role The Director of Marketing owns the strategy, vision, and performance of Lucid Bots' marketing function",
+      "inputs": [
+        {
+          "i": 0,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "keyword-filter",
+          "name": null,
+          "placeholder": "Search",
+          "aria": "Search"
+        }
+      ],
+      "buttons": [
+        "Create alert",
+        "Director of Marketing Charlotte, NC; Remote About Lucid Bots Lucid Bots is the leading U.S. AI robotics manufacturer of exterior cleaning drones and robotics for commercial and government applications. Since 2018, we've been building the world's most productive and responsible robots to tackle critical maintenance challenges. With industry-leading engineering and dedicated customer support, we've enabled operators to generate over $75 million in revenue, with a fleet of over 500 robots deployed to accomplish dull, dirty, and dangerous jobs with safety and efficiency. Our mission is simple: extend human reach. Headquartered in Charlotte, North Carolina, we design, engineer, manufacture, and support our products in the United States. Our production-ready robots are deployed by customers around the world — from global enterprises to independent owner-operators — to improve safety, increase productivity, and elevate operational standards. We are one of the fastest-growing manufacturing companies in the United States, recently ranked fourth nationally, and we just closed a $20M Series B to fuel our next chapter at the intersection of AI, hardware, and real-world impact. Backed by leading investors including Y Combinator (S19), Cubit Capital, Idea Fund Partners, Danu Ventures, and others, we're scaling quickly. We're building more than robots—we're building the future of physical AI. Our Core Values and How We Work Together At Lucid Bots, we’re building something extraordinary - and how we work matters just as much as what we build. These values guide how we hire, grow, and show up for one another. Expedition Behavior - We climb as one. No silos, no “that’s not my job.” We protect the team and share the load. Grow with Humility - We’re relentless learners. We seek feedback, own mistakes, and get better every day. Lift People Up - Humans come first. We care fiercely, speak honestly, and design for real people in real conditions. Build the Extraordinary - We take ownership, reject the ordinary, and run toward hard problems. We live Above the Line: we take responsibility, create solutions, and shape the future.If these values energize you, you’ll thrive here. If they feel like too much, this may not be the right climb - and that’s okay. Goal of This Role The Director of Marketing owns the strategy, vision, and performance of Lucid Bots' marketing function — across brand, demand generation, events, product marketing, and digital. You'll define how we show up in the market, build the team and systems to execute at scale, and make marketing a measurable driver of pipeline and revenue. This is a strategic leadership role. You'll set the playbook, build the people, and drive alignment across Sales, Product, and Engineering. You'll also know when to roll up your sleeves — because at our stage, the plan doesn't run itself. You'll inherit a talented marketing team on day one. Your job is to get to know them, sharpen the operating cadence, and bring on the additional talent needed to match where the company is headed post–Series B. This is a rare chance to both lead an existing team and design the function that scales with us. We're looking for someone who has scaled B2B marketing for complex hardware + software products, knows how to turn technical differentiation into market-winning positioning, and brings equal strength in digital strategy and high-impact live experiences. If you get energy from building functions, not just running them, this is your climb. Who You Are You've spent 8–12+ years in B2B marketing with increasing strategic and leadership scope — ideally in industrial tech, robotics, or hardware + SaaS 4 years of direct people management experience — you've led, coached, and developed marketers, and you're excited to both inherit a team and make the critical hires that take it to the next level You've owned marketing strategy tied to real pipeline and revenue outcomes — not just top-of-funnel activity You've built and led trade show, industry event, or experiential marketing programs at scale, and you know how to turn a live demo into pipeline You're strong in funnel economics, attribution, and budget planning — you make decisions with data You partner well with Sales leadership and treat the Sales-Marketing relationship as one team, not two You can translate technical differentiation into buyer language — and you know the difference between talking about the product and talking about the problem You're comfortable at the pace and ambiguity of an early-stage company, and you bring both strategic depth and builder energy Bonus if you have: Experience building a marketing function in a growth-stage hardware + software company Background in robotics, automation, aerospace, construction tech, or industrial equipment Experience leading live hardware demonstrations or experiential activations for technical or industrial audiences Familiarity with long sales cycles and enterprise / commercial buyers Why Join Lucid Bots? Work directly with the founder of a fast-growing, venture-backed robotics startup. Be part of a team solving real-world problems with frontier technology. Get a front-row seat to fundraising, company building, and startup strategy at scale. Learn more in one year than most people do in five—this is a career accelerant. Help support the culture, pace, and systems of a company scaling fast and building things that matter. Benefits: Health, dental, and vision insurance 3% retirement match 15 days of paid time off (PTO) 3 sick days 11 paid holidays, with 3 of those being floating holidays Employee stock option plan Additional Notes Charlotte, NC preferred — our HQ is here, most of the team is here, and a lot of what marketing does lives in the building (demos, events, cross-functional work with Engineering and Product). Remote is possible for the right candidate who's willing to travel to Charlotte regularly and be on-site for launches, offsites, and major events. We'd Love to Hear from You! Don't just apply. Stand out. The Reality: On paper, many resumes look the same. We don't hire paper; we hire people. While a video is technically optional, it is the single best way to separate yourself from the stack. The Promise: This is not a black hole. If you take the time to record it, we will take the time to watch it. What to Send (2 mins max) Please do not read a script. Do not worry about editing or production value. Just open your camera and talk to us. Why here? Why are you excited about Lucid Bots specifically? Why you? What is the one thing about you that a resume can't capture? If you want the highest probability of an interview, send a video.",
+        "Chief Financial Officer Charlotte, NC",
+        "Finance Associate Charlotte, NC",
+        "Director of Marketing Charlotte, NC; Remote",
+        "https://www.greenhouse.com/"
+      ]
+    }
+  },
+  {
+    "key": "locus-senior-embedded",
+    "ok": true,
+    "info": {
+      "url": "https://job-boards.greenhouse.io/locusrobotics/jobs/5107586007",
+      "title": "Job Application for Senior Embedded Firmware Engineer at Locus Robotics",
+      "text": "Back to jobs Senior Embedded Firmware Engineer Nashua, NH Apply Locus Robotics is a global leader in warehouse automation, delivering unmatched flexibility and unlimited throughput, and actionable intelligence to optimize operations. Powered by LocusONE, an AI-driven platform, our advanced autonomous mobile robots seamlessly integrate into existing warehouse environments to enhance efficiency, reduce costs, and scale operations with ease. Trusted by over 150 industry leading retail, healthcare, 3PL, and industrial brands in over 350 sites worldwide, Locus enables warehouse operators to achieve rapid ROI, minimize labor costs, and continuously improve productivity. Our industry-first Robots-as-a-Service (RaaS) model ensures ongoing innovation, scalability, and cost-effectiveness without the burden of significant capital investments. With proven capabilities in diverse workflows from picking and replenishment to sorting and pack-out. We empower businesses to meet peak demands and adapt to ever-changing operational needs. Locus Robotics is a leader in the rapidly growing eCommerce order fulfillment optimization space. Our solution helps warehouse owners attain 2-3X efficiency improvement over cart-picking operations, by empowering pickers to work collaboratively with our robots. All this is accomplished while integrating with the operator’s Warehouse Management System, utilizing and optimizing existing facility infrastructure. This is an opportunity to join the ranks of a brilliant, high-performance team, deploying cutting-edge technology to address real-world logistics challenges for major global brands. We are seeking a Senior Embedded Software Engineer for its Advanced Products Group (APG). APG is a forward-thinking cross-functional group that uses emerging technologies to evaluate product opportunities with 2 to 4 year roadmaps. This role will be responsible for contributing to the design, development, and maintenance of firmware for robotics research applications. This hybrid role is based in our Nashua, NH office, with travel to corporate headquarters in Wilmington, MA, as required. Responsibilities Develop software solutions for integrating and enhancing robotic capabilities. Focus on real-time control of multi-degree-of-freedom (DOF) systems and state estimation. Conduct thorough testing of the implemented software to ensure reliability and performance. Provide ongoing maintenance to support the continuous functionality and improvement of the integrated robotic systems. Work closely with a diverse team of professionals from various disciplines. Qual",
+      "inputs": [
+        {
+          "i": 0,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "first_name",
+          "name": null,
+          "placeholder": null,
+          "aria": "First Name"
+        },
+        {
+          "i": 1,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "last_name",
+          "name": null,
+          "placeholder": null,
+          "aria": "Last Name"
+        },
+        {
+          "i": 2,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "email",
+          "name": null,
+          "placeholder": null,
+          "aria": "Email"
+        },
+        {
+          "i": 3,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "country",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 4,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 5,
+          "tag": "INPUT",
+          "type": "search",
+          "id": "iti-0__search-input",
+          "name": null,
+          "placeholder": "Search",
+          "aria": "Search"
+        },
+        {
+          "i": 6,
+          "tag": "INPUT",
+          "type": "tel",
+          "id": "phone",
+          "name": null,
+          "placeholder": null,
+          "aria": "Phone"
+        },
+        {
+          "i": 7,
+          "tag": "INPUT",
+          "type": "file",
+          "id": "resume",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 8,
+          "tag": "INPUT",
+          "type": "file",
+          "id": "cover_letter",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 9,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_11795820007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 10,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 11,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_11787883007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 12,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 13,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_11787718007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 14,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 15,
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "question_11787714007",
+          "name": null,
+          "placeholder": null,
+          "aria": "What is your LinkedIn profile or another professional online presence (e.g., portfolio, website, GitHub) to help us better understand your background?"
+        },
+        {
+          "i": 16,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_11787715007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 17,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 18,
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "question_11787716007",
+          "name": null,
+          "placeholder": null,
+          "aria": "Which microcontroller peripherals have you directly configured and debugged in production? (Select all that apply)\n\n- Interrupts\n- Timers\n- DMA\n- UART / SPI / I2C\n- CAN / USB / Ethernet\n - None\n\n"
+        },
+        {
+          "i": 19,
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "question_11787717007",
+          "name": null,
+          "placeholder": null,
+          "aria": "Which of the following areas have you worked on in robotics systems? (Select all that apply)\n\n- Motor control\n- Sensor interfacing / sensor fusion\n- Battery systems (e.g., lithium)\n- Diagnostics development\n- Bootloaders\n- None\n"
+        },
+        {
+          "i": 20,
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "question_11787884007",
+          "name": null,
+          "placeholder": null,
+          "aria": "Describe a time you diagnosed and resolved a hardware/firmware issue using tools like an oscilloscope or logic analyzer. What was the issue and outcome? (Short answer)"
+        },
+        {
+          "i": 21,
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "question_11787885007",
+          "name": null,
+          "placeholder": null,
+          "aria": "What is your experience working in Linux environments and with ROS (Robot Operating System)? Please describe your level of involvement. (Short answer)"
+        },
+        {
+          "i": 22,
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "g-recaptcha-response-100000",
+          "name": "g-recaptcha-response",
+          "placeholder": null,
+          "aria": null
+        }
+      ],
+      "buttons": [
+        "Back to jobs",
+        "Apply",
+        "Create alert",
+        "Autofill with MyGreenhouse",
+        "Toggle flyout",
+        "Select country",
+        "Attach",
+        "Dropbox",
+        "Google Drive",
+        "Enter manually",
+        "Attach",
+        "Dropbox",
+        "Google Drive",
+        "Enter manually",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Submit application",
+        "https://www.greenhouse.com/"
+      ]
+    }
+  },
+  {
+    "key": "locus-manufacturing-test",
+    "ok": true,
+    "info": {
+      "url": "https://job-boards.greenhouse.io/locusrobotics/jobs/5145588007",
+      "title": "Job Application for Senior Manufacturing Test Engineer (Electrical) at Locus Robotics",
+      "text": "Back to jobs New Senior Manufacturing Test Engineer (Electrical) Wilmington, MA Apply Locus Robotics designs and deploys autonomous mobile robots (AMRs) that work alongside human associates in warehouse and fulfillment environments to dramatically increase picking efficiency and throughput. Our LocusBots navigate complex, dynamic warehouse floors and integrate tightly with warehouse management systems to drive real operational results for some of the world's largest retailers and 3PLs. As we scale our hardware platform, we need sharp engineers who can ensure every robot that leaves our factory is ready to perform from day one. We’re looking for a Senior Manufacturing Test Engineer to own and optimize end-of-line testing for our autonomous robots, ensuring high quality, reliability, and manufacturing efficiency at scale. This is an onsite position located at our Wilmington MA headquarters. Responsibilities Own and improve end of line test infrastructure for LocusBot subassemblies and fully integrated robots, including software, calibration, and functional verification Develop and maintain automated test sequences that validate drivetrain, sensor, compute, and power systems against defined acceptance criteria Spend regular time on the manufacturing floor to understand technician pain points, investigate test failures, and implement solutions that improve first-pass yield (FPY) and reduce cycle time Collaborate cross functionally with mechanical, electrical, and software engineering teams to translate design intent into robust, measurable test specifications Perform data analysis (SPC, yield trending, failure mode analysis) to identify systemic quality issues and drive continuous improvement Build intuitive GUI interfaces for production technicians to operate test stations with minimal training overhead Design and build out of new test fixtures and automated test equipment (ATE) as the product line evolves Author and maintain thorough documentation for all test systems, including schematics, process procedures, and test result databases Support pre production validation, debug efforts, and readiness before introducing new test process to the production environment Qualifications Bachelor's degree or higher in Electrical, or Software Engineering, or Mechatronics Engineering (or equivalent experience) 6+ years of hands-on industry experience in manufacturing test, production engineering, or a closely related discipline Strong proficiency in Python (or nice to have: C++) for hardware interfacing actuators, motor controllers, sensors, relays, and power systems ",
+      "inputs": [
+        {
+          "i": 0,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "first_name",
+          "name": null,
+          "placeholder": null,
+          "aria": "First Name"
+        },
+        {
+          "i": 1,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "last_name",
+          "name": null,
+          "placeholder": null,
+          "aria": "Last Name"
+        },
+        {
+          "i": 2,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "email",
+          "name": null,
+          "placeholder": null,
+          "aria": "Email"
+        },
+        {
+          "i": 3,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "country",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 4,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 5,
+          "tag": "INPUT",
+          "type": "search",
+          "id": "iti-0__search-input",
+          "name": null,
+          "placeholder": "Search",
+          "aria": "Search"
+        },
+        {
+          "i": 6,
+          "tag": "INPUT",
+          "type": "tel",
+          "id": "phone",
+          "name": null,
+          "placeholder": null,
+          "aria": "Phone"
+        },
+        {
+          "i": 7,
+          "tag": "INPUT",
+          "type": "file",
+          "id": "resume",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 8,
+          "tag": "INPUT",
+          "type": "file",
+          "id": "cover_letter",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 9,
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "question_12094796007",
+          "name": null,
+          "placeholder": null,
+          "aria": "What is your LinkedIn profile?"
+        },
+        {
+          "i": 10,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094797007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 11,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 12,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094798007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 13,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 14,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094799007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 15,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 16,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094800007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 17,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 18,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094801007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 19,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 20,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094802007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 21,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 22,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094803007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 23,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 24,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094804007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 25,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 26,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_12094805007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 27,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 28,
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "g-recaptcha-response-100000",
+          "name": "g-recaptcha-response",
+          "placeholder": null,
+          "aria": null
+        }
+      ],
+      "buttons": [
+        "Back to jobs",
+        "Apply",
+        "Create alert",
+        "Autofill with MyGreenhouse",
+        "Toggle flyout",
+        "Select country",
+        "Attach",
+        "Dropbox",
+        "Google Drive",
+        "Enter manually",
+        "Attach",
+        "Dropbox",
+        "Google Drive",
+        "Enter manually",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Submit application",
+        "https://www.greenhouse.com/"
+      ]
+    }
+  },
+  {
+    "key": "locus-senior-software-quality",
+    "ok": true,
+    "info": {
+      "url": "https://job-boards.greenhouse.io/locusrobotics/jobs/5108798007",
+      "title": "Job Application for Deployment Engineer, North America at Locus Robotics",
+      "text": "Back to jobs Deployment Engineer, North America United States Apply Locus Robotics is transforming how the world’s leading brands run their warehouses, using AI and advanced robotics to move faster, smarter, and more efficiently than ever before. Our LocusONE platform powers autonomous mobile robots that integrate seamlessly into existing operations, helping teams scale quickly, reduce costs, and keep up with growing demand. Trusted by more than 150 leading retail, healthcare, 3PL, and industrial organizations across 350+ sites worldwide, we deliver real, measurable impact every day. Our Robots-as-a-Service model removes barriers to adoption and drives continuous innovation, giving customers the flexibility to adapt as their operations evolve. At Locus, you are working on technology that is actively reshaping supply chains and solving complex, real-world challenges at scale. Ready to combine advanced robotics, real-world impact, and nationwide travel? As a Deployment Engineer at Locus Robotics, you’ll be hands-on with autonomous mobile robots in some of the largest fulfillment centers across the U.S., Canada, and Mexico. You’ll map, configure, and launch mission-critical automation systems while building strong customer relationships and seeing the results of your work in real time. This role requires extensive travel (up to 90%) across the U.S., Canada, and Mexico, and candidates must reside near a major airport to support frequent travel needs. Responsibilities Implement and deploy complex robotic order fulfillment solutions at customer sites, including the installation and integration of robotic hardware, software, and supporting server infrastructure. Create and configure SLAM-based maps of warehouse fulfillment centers using AutoCAD or similar CAD software, ensuring accurate representation of the operational environment. Manage onsite customer relationships, coordinating effectively with both internal teams and external stakeholders to ensure alignment and project success. Assist with infrastructure setup, robot and software configuration, and provide support during the initial system deployment phase. Provide on-site customer support following system installation to ensure smooth operation and address any initial issues or adjustments. Perform other duties as required. Qualifications Bachelor’s degree in Robotics Engineering, Computer Science, Engineering, or related technical field. 1+ years of experience working with Autonomous Mobile Robots (AMRs), with demonstrated expertise in deploying warehouse software or logistics systems. Must hold a vali",
+      "inputs": [
+        {
+          "i": 0,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "first_name",
+          "name": null,
+          "placeholder": null,
+          "aria": "First Name"
+        },
+        {
+          "i": 1,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "last_name",
+          "name": null,
+          "placeholder": null,
+          "aria": "Last Name"
+        },
+        {
+          "i": 2,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "email",
+          "name": null,
+          "placeholder": null,
+          "aria": "Email"
+        },
+        {
+          "i": 3,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "country",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 4,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 5,
+          "tag": "INPUT",
+          "type": "search",
+          "id": "iti-0__search-input",
+          "name": null,
+          "placeholder": "Search",
+          "aria": "Search"
+        },
+        {
+          "i": 6,
+          "tag": "INPUT",
+          "type": "tel",
+          "id": "phone",
+          "name": null,
+          "placeholder": null,
+          "aria": "Phone"
+        },
+        {
+          "i": 7,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "candidate-location",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 8,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 9,
+          "tag": "INPUT",
+          "type": "file",
+          "id": "resume",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 10,
+          "tag": "INPUT",
+          "type": "file",
+          "id": "cover_letter",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 11,
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "question_11799998007",
+          "name": null,
+          "placeholder": null,
+          "aria": "Please briefly describe your experience using SLAM (Simultaneous Localization and Mapping)."
+        },
+        {
+          "i": 12,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_11799999007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 13,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 14,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_11800000007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 15,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 16,
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "question_11800001007",
+          "name": null,
+          "placeholder": null,
+          "aria": "Which major US airport are you closest to?"
+        },
+        {
+          "i": 17,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_11800002007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 18,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 19,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_11800003007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 20,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 21,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_11800004007",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 22,
+          "tag": "INPUT",
+          "type": null,
+          "id": "",
+          "name": null,
+          "placeholder": null,
+          "aria": null
+        },
+        {
+          "i": 23,
+          "tag": "INPUT",
+          "type": "text",
+          "id": "question_11800005007",
+          "name": null,
+          "placeholder": null,
+          "aria": "LinkedIn Profile"
+        },
+        {
+          "i": 24,
+          "tag": "TEXTAREA",
+          "type": null,
+          "id": "g-recaptcha-response-100000",
+          "name": "g-recaptcha-response",
+          "placeholder": null,
+          "aria": null
+        }
+      ],
+      "buttons": [
+        "Back to jobs",
+        "Apply",
+        "Create alert",
+        "Autofill with MyGreenhouse",
+        "Toggle flyout",
+        "Select country",
+        "Locate me",
+        "Attach",
+        "Dropbox",
+        "Google Drive",
+        "Enter manually",
+        "Attach",
+        "Dropbox",
+        "Google Drive",
+        "Enter manually",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Toggle flyout",
+        "Submit application",
+        "https://www.greenhouse.com/"
+      ]
+    }
+  }
+]

@@ -1,0 +1,18 @@
+robotic manipulation
+navigation
+path planning
+motor control
+sensor integration
+safety
+reliability
+hardware bring-up
+field deployment
+C++
+Python
+Linux
+ROS2
+Nav2
+MoveIt
+Gazebo
+automated testing
+documentation

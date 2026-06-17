@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-06-08T19:37:09.908690+00:00",
+  "company": "Cerebras",
+  "role": "Software Engineer - New Grad 2026",
+  "jobUrl": "https://job-boards.greenhouse.io/earlytalentcerebras/jobs/7731286003",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\cerebras-software-engineer-new-grad-2026\\George_Jobi_Resume.pdf",
+      "bytes": 57984,
+      "sha256": "39bc2bcef9937bdeabd10f13366ba6e3a01a53564ac7b06c107fac5f58897a4d"
+    },
+    "coverLetter": null,
+    "attachments": [],
+    "responses": []
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\cerebras-software-engineer-new-grad-2026\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 95.0,
+    "resume": {
+      "report": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\cerebras-software-engineer-new-grad-2026\\validation-report.json",
+      "valid": true,
+      "estimatedAtsAlignment": 95.0
+    },
+    "coverLetter": null
+  }
+}

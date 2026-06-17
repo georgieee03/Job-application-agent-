@@ -1,0 +1,16 @@
+robotics research
+artificial intelligence research
+computer vision
+machine learning
+embodied AI
+foundation models
+open datasets
+benchmarks
+model evaluation
+scientific literature
+experiments
+PyTorch
+CARLA
+Gazebo
+physical robots
+reproducible research

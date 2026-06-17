@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-06-12T00:56:15.217528+00:00",
+  "company": "MVP Robotics",
+  "role": "Robotics Software Engineer",
+  "jobUrl": "https://job-boards.greenhouse.io/mvprobotics/jobs/4218213009",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\mvp-robotics-software-engineer\\George_Jobi_Resume.pdf",
+      "bytes": 57879,
+      "sha256": "1e70ab336998181bf3851e3070b603654ce09e6d3f3d1f6397bad13f4506581e"
+    },
+    "coverLetter": null,
+    "attachments": [],
+    "responses": []
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\mvp-robotics-software-engineer\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 90.0,
+    "resume": {
+      "report": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\mvp-robotics-software-engineer\\validation-report.json",
+      "valid": true,
+      "estimatedAtsAlignment": 90.0
+    },
+    "coverLetter": null
+  }
+}

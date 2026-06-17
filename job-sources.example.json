@@ -1,0 +1,140 @@
+{
+  "searches": [],
+  "boards": [
+    {
+      "provider": "ashby",
+      "source": "openai",
+      "companyName": "OpenAI",
+      "includeDescription": false
+    },
+    {
+      "provider": "workday",
+      "source": "intel.wd1.myworkdayjobs.com/intel/External",
+      "companyName": "Intel",
+      "searchText": "software",
+      "limit": 20,
+      "maxPages": 1,
+      "includeDescription": false
+    },
+    {
+      "provider": "smartrecruiters",
+      "source": "smartrecruiters",
+      "limit": 20,
+      "maxPages": 1,
+      "includeDescription": false
+    },
+    {
+      "provider": "recruitee",
+      "source": "bunq",
+      "includeDescription": false
+    },
+    {
+      "provider": "personio",
+      "source": "personio.jobs.personio.de",
+      "language": "en",
+      "includeDescription": false
+    },
+    {
+      "provider": "bamboohr",
+      "source": "zapier",
+      "includeDescription": false
+    },
+    {
+      "provider": "icims-jibe",
+      "source": "careers.example.icims.com",
+      "limit": 25,
+      "includeDescription": false
+    },
+    {
+      "provider": "icims-classic",
+      "source": "careers-example.icims.com",
+      "keyword": "software",
+      "includeDescription": false
+    },
+    {
+      "provider": "oracle-ce",
+      "source": "eeho.fa.us2.oraclecloud.com/jobsearch",
+      "keyword": "software",
+      "limit": 25,
+      "includeDescription": false
+    },
+    {
+      "provider": "taleo",
+      "source": "unifirst.taleo.net/unf_external",
+      "keyword": "software",
+      "lang": "en",
+      "includeDescription": false
+    }
+  ],
+  "filters": {
+    "includeKeywords": [
+      "software engineer",
+      "frontend developer",
+      "React",
+      "TypeScript",
+      "Node.js"
+    ],
+    "excludeKeywords": [
+      "intern"
+    ],
+    "includeCompanies": [],
+    "excludeCompanies": [],
+    "includeLocations": [
+      "Remote",
+      "San Francisco"
+    ],
+    "excludeLocations": [],
+    "remoteOnly": false,
+    "workplaceTypes": [],
+    "employmentTypes": [
+      "fulltime"
+    ],
+    "maxAgeDays": 21,
+    "onlyWithApplyUrl": true,
+    "preferredProviders": []
+  },
+  "ranking": {
+    "preferCompanyBoards": true,
+    "remoteBoost": 8,
+    "freshnessBoost": 12,
+    "compensationBoost": 8,
+    "keywordBoost": 14,
+    "titleBoosts": [
+      "software engineer",
+      "frontend developer"
+    ],
+    "companyBoosts": [],
+    "locationBoosts": [
+      "Remote",
+      "San Francisco"
+    ],
+    "skillKeywords": [
+      "React",
+      "TypeScript",
+      "Node.js"
+    ]
+  },
+  "alerts": [
+    {
+      "id": "recommended-alert",
+      "name": "Software Engineer matches",
+      "enabled": true,
+      "minScore": 75,
+      "newOnly": true,
+      "keywords": [
+        "software engineer",
+        "frontend developer",
+        "React",
+        "TypeScript"
+      ],
+      "providers": [],
+      "companies": [],
+      "browser": true
+    }
+  ],
+  "schedule": {
+    "enabled": false,
+    "intervalMinutes": 60,
+    "timezone": "America/Phoenix"
+  }
+}

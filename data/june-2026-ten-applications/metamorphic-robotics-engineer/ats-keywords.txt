@@ -1,0 +1,18 @@
+Python
+C++
+ROS
+ROS2
+TF
+URDF
+simulation pipelines
+robot hardware
+sensor integration
+calibration
+trajectory data
+synchronization
+sim-to-real
+motion planning
+classical control
+computer vision
+Docker
+RGB-D cameras

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-06-09T19:42:08.906184+00:00",
+  "company": "Skild AI",
+  "role": "Robotics Software Engineer",
+  "jobUrl": "https://job-boards.greenhouse.io/skildai-careers/jobs/4136373008",
+  "approvalAppliesToExactHashes": true,
+  "files": {
+    "resume": {
+      "filename": "George_Jobi_Resume.pdf",
+      "path": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\skild-ai-robotics-software-engineer\\George_Jobi_Resume.pdf",
+      "bytes": 57903,
+      "sha256": "881455812ee6798bf822e1b58fe6e941c3c239613e848998548297e2a0649695"
+    },
+    "coverLetter": null,
+    "attachments": [],
+    "responses": [
+      {
+        "filename": "why-skild-ai.txt",
+        "path": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\skild-ai-robotics-software-engineer\\why-skild-ai.txt",
+        "bytes": 528,
+        "sha256": "40cbc9e7a7bb5dcd62874713e71de4ab226062065d48fa9dc30bf8030fbc9cf8",
+        "kind": "application-response",
+        "upload": false
+      },
+      {
+        "filename": "projects-and-accomplishments.txt",
+        "path": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\skild-ai-robotics-software-engineer\\projects-and-accomplishments.txt",
+        "bytes": 919,
+        "sha256": "ce648e7b6da09b09429fd4260ed98246dbd43edac538eee44609e5fed3c1512a",
+        "kind": "application-response",
+        "upload": false
+      }
+    ]
+  },
+  "validation": {
+    "report": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\skild-ai-robotics-software-engineer\\validation-report.json",
+    "valid": true,
+    "estimatedAtsAlignment": 94.4,
+    "resume": {
+      "report": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\skild-ai-robotics-software-engineer\\validation-report.json",
+      "valid": true,
+      "estimatedAtsAlignment": 94.4
+    },
+    "coverLetter": null
+  }
+}

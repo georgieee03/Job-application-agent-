@@ -1,0 +1,192 @@
+[
+  {
+    "folder": "nuro-software-engineer-ai-platform-new-grad",
+    "company": "Nuro",
+    "role": "Software Engineer, AI Platform - New Grad",
+    "location": "Mountain View, CA - Hybrid",
+    "listingUrl": "https://www.nuro.ai/careersitem?gh_jid=7351066",
+    "applicationUrl": "https://job-boards.greenhouse.io/embed/job_app?for=nuro&token=7351066",
+    "resume": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-ai-platform-new-grad\\George_Jobi_Resume.pdf",
+    "previewPages": [
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-ai-platform-new-grad\\resume-preview-page-1.png",
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-ai-platform-new-grad\\resume-preview-page-2.png"
+    ],
+    "approvalPreview": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-ai-platform-new-grad\\approval-preview.png",
+    "formatComparison": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-ai-platform-new-grad\\format-comparison-page-1.png",
+    "analysis": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-ai-platform-new-grad\\package-analysis.md",
+    "validation": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-ai-platform-new-grad\\validation-report.json",
+    "approvalManifest": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-ai-platform-new-grad\\approval-manifest.json",
+    "responses": [],
+    "ats": {
+      "rawPercent": 100.0,
+      "estimatedAtsAlignment": 95.0,
+      "targetRange": "89-95",
+      "hits": [
+        "AI Platform",
+        "Data Platform",
+        "Onboard Systems",
+        "Technical Infrastructure",
+        "distributed systems",
+        "data processing",
+        "ML infrastructure",
+        "simulation",
+        "C++",
+        "Python",
+        "Linux",
+        "Docker",
+        "CI/CD",
+        "multithreading",
+        "CPU",
+        "GPU",
+        "robotics software frameworks",
+        "performance optimization"
+      ],
+      "missing": [],
+      "note": "Local phrase-coverage heuristic only; not an employer ATS score."
+    },
+    "pageFillRatios": {
+      "values": [
+        0.627,
+        0.558
+      ],
+      "minimum": 0.55,
+      "ok": true
+    },
+    "confirm": [
+      "Current U.S. work authorization: Yes, through OPT eligibility.",
+      "Future employment sponsorship required: Yes.",
+      "Earliest start date: two weeks.",
+      "Willing to relocate and work from Nuro's Bay Area offices.",
+      "No cover letter is required or materially useful for this application.",
+      "Expected M.S. graduation is July 2026; the listing says graduating before July 2026, so timing may be reviewed by Nuro."
+    ]
+  },
+  {
+    "folder": "nuro-software-engineer-performance-new-grad",
+    "company": "Nuro",
+    "role": "Software Engineer, Performance - New Grad",
+    "location": "Mountain View, CA - Hybrid",
+    "listingUrl": "https://www.nuro.ai/careersitem?gh_jid=7978432",
+    "applicationUrl": "https://job-boards.greenhouse.io/embed/job_app?for=nuro&token=7978432",
+    "resume": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-performance-new-grad\\George_Jobi_Resume.pdf",
+    "previewPages": [
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-performance-new-grad\\resume-preview-page-1.png",
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-performance-new-grad\\resume-preview-page-2.png"
+    ],
+    "approvalPreview": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-performance-new-grad\\approval-preview.png",
+    "formatComparison": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-performance-new-grad\\format-comparison-page-1.png",
+    "analysis": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-performance-new-grad\\package-analysis.md",
+    "validation": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-performance-new-grad\\validation-report.json",
+    "approvalManifest": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-performance-new-grad\\approval-manifest.json",
+    "responses": [],
+    "ats": {
+      "rawPercent": 100.0,
+      "estimatedAtsAlignment": 95.0,
+      "targetRange": "89-95",
+      "hits": [
+        "AV software performance",
+        "C++",
+        "Linux",
+        "operating systems",
+        "computer architecture",
+        "concurrent software",
+        "multithreading",
+        "performance profiling",
+        "latency optimization",
+        "memory management",
+        "CPU",
+        "GPU",
+        "ROS",
+        "CUDA",
+        "core libraries",
+        "APIs",
+        "debugging",
+        "monitoring"
+      ],
+      "missing": [],
+      "note": "Local phrase-coverage heuristic only; not an employer ATS score."
+    },
+    "pageFillRatios": {
+      "values": [
+        0.64,
+        0.558
+      ],
+      "minimum": 0.55,
+      "ok": true
+    },
+    "confirm": [
+      "Current U.S. work authorization: Yes, through OPT eligibility.",
+      "Future employment sponsorship required: Yes.",
+      "Earliest start date: two weeks.",
+      "Willing to relocate and work from Nuro's Bay Area offices.",
+      "No cover letter is required or materially useful for this application.",
+      "This is a systems-performance reach role; low-level concurrency and profiler ownership are explicit gaps."
+    ]
+  },
+  {
+    "folder": "skild-ai-robotics-software-engineer",
+    "company": "Skild AI",
+    "role": "Robotics Software Engineer",
+    "location": "Pittsburgh, PA or San Francisco, CA",
+    "listingUrl": "https://job-boards.greenhouse.io/skildai-careers/jobs/4136373008",
+    "applicationUrl": "https://job-boards.greenhouse.io/skildai-careers/jobs/4136373008",
+    "resume": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\skild-ai-robotics-software-engineer\\George_Jobi_Resume.pdf",
+    "previewPages": [
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\skild-ai-robotics-software-engineer\\resume-preview-page-1.png",
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\skild-ai-robotics-software-engineer\\resume-preview-page-2.png"
+    ],
+    "approvalPreview": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\skild-ai-robotics-software-engineer\\approval-preview.png",
+    "formatComparison": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\skild-ai-robotics-software-engineer\\format-comparison-page-1.png",
+    "analysis": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\skild-ai-robotics-software-engineer\\package-analysis.md",
+    "validation": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\skild-ai-robotics-software-engineer\\validation-report.json",
+    "approvalManifest": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\skild-ai-robotics-software-engineer\\approval-manifest.json",
+    "responses": [
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\skild-ai-robotics-software-engineer\\why-skild-ai.txt",
+      "D:\\job-application-agent-kit\\data\\june-2026-next-5\\skild-ai-robotics-software-engineer\\projects-and-accomplishments.txt"
+    ],
+    "ats": {
+      "rawPercent": 94.4,
+      "estimatedAtsAlignment": 94.4,
+      "targetRange": "89-95",
+      "hits": [
+        "robotics software",
+        "navigation",
+        "motion planning",
+        "controls",
+        "SLAM",
+        "perception",
+        "computer vision",
+        "high-level behaviors",
+        "C++",
+        "Python",
+        "ROS",
+        "ROS 2",
+        "machine learning integration",
+        "robot monitoring",
+        "performance optimization",
+        "reliability",
+        "scalability"
+      ],
+      "missing": [
+        "real robots"
+      ],
+      "note": "Local phrase-coverage heuristic only; not an employer ATS score."
+    },
+    "pageFillRatios": {
+      "values": [
+        0.627,
+        0.572
+      ],
+      "minimum": 0.55,
+      "ok": true
+    },
+    "confirm": [
+      "Current U.S. work authorization: Yes, through OPT eligibility.",
+      "Future employment sponsorship required: Yes.",
+      "Earliest start date: two weeks.",
+      "Willing to work in either Pittsburgh or San Francisco.",
+      "No cover letter is required or materially useful for this application.",
+      "No transcript is required because the candidate is a graduate applicant."
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+autonomous systems software
+on-vehicle software
+real-time systems
+low-latency software
+concurrent software
+Linux systems
+sensor integration
+data logging
+compute throughput
+disk I/O
+IPC
+synchronization primitives
+CI
+cross-compilation
+packaging
+deployment
+C++
+Python

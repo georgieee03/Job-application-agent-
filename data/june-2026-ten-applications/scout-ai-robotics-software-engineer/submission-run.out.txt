@@ -1,0 +1,216 @@
+[
+  {
+    "company": "Trener Robotics",
+    "role": "Integration Engineer (Software Focused)",
+    "folder": "trener-software-integration-engineer",
+    "applicationUrl": "https://jobs.ashbyhq.com/Trener-Robotics/0a2b9a81-beb7-4e46-9561-87a8946acebb/application",
+    "attemptedAt": "2026-06-08T19:07:23.661Z",
+    "status": "needs-review",
+    "success": false,
+    "notes": "No authoritative success phrase detected after submission.",
+    "screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\trener-software-integration-engineer\\submission-needs-review.png",
+    "afterUrl": "https://jobs.ashbyhq.com/Trener-Robotics/0a2b9a81-beb7-4e46-9561-87a8946acebb/application",
+    "confirmationText": null,
+    "bodySnippet": "integration engineer (software focused)\nlocation\n\nsan jose (us-hq); trondheim, norway\n\naddress\n\nfremont, california\n\nemployment type\n\nfull time\n\nlocation type\n\non-site\n\ndepartment\n\noperations\n\noverview\napplication\nautofill from resume\n\nupload your resume here to autofill key application fields.\n\nupload file\nname\nemail\nresume\n\ngeorge_jobi_resume.pdf\n\nreplace\n\nor drag and drop here\n\nsubmit application\npowered by \n\nprivacy policysecurityvulnerability disclosure"
+  },
+  {
+    "company": "Multiply Labs",
+    "role": "Robotics Software Engineer II",
+    "folder": "multiply-labs-robotics-software-engineer-ii",
+    "applicationUrl": "https://jobs.lever.co/multiplylabs/9f0b3551-9565-4eef-95a6-6ad36eaf9837/apply",
+    "attemptedAt": "2026-06-08T19:07:59.055Z",
+    "status": "captcha-skipped",
+    "success": false,
+    "notes": "Human-verification challenge detected after submit click; not bypassed.",
+    "screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\multiply-labs-robotics-software-engineer-ii\\submission-captcha.png",
+    "captchaState": {
+      "present": true,
+      "matchedText": [],
+      "visibleFrames": [
+        {
+          "src": "https://newassets.hcaptcha.com/captcha/v1/129151648d8e764ed2e9d497a94e4b90b8f6fc5f/static/hcaptcha-enclave.html#frame=enclave&_channel=10ndz5y2wmp4&_origin=https%3A%2F%2Fjobs.lever.co&host=jobs.lever.co&se=129151648d8e764ed2e9d497a94e4b90b8f6fc5f",
+          "title": "Widget containing checkbox for hCaptcha security challenge",
+          "width": 1350,
+          "height": 900
+        }
+      ]
+    }
+  },
+  {
+    "company": "Cosmic Robotics",
+    "role": "Robotics Software Engineer",
+    "folder": "cosmic-robotics-software-engineer",
+    "applicationUrl": "https://jobs.ashbyhq.com/cosmic-robotics/d2a32cb4-b8f1-4622-b170-6e485e214a9f/application",
+    "attemptedAt": "2026-06-08T19:09:25.359Z",
+    "status": "needs-review",
+    "success": false,
+    "notes": "No authoritative success phrase detected after submission.",
+    "screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\cosmic-robotics-software-engineer\\submission-needs-review.png",
+    "afterUrl": "https://jobs.ashbyhq.com/cosmic-robotics/d2a32cb4-b8f1-4622-b170-6e485e214a9f/application",
+    "confirmationText": null,
+    "bodySnippet": "robotics software engineer\nlocation\n\ncosmic hq\n\nemployment type\n\nfull time\n\nlocation type\n\non-site\n\ndepartment\n\nengineering\n\noverview\napplication\nautofill from resume\n\nupload your resume here to autofill key application fields.\n\nupload file\nname\nemail\nresume\n\ngeorge_jobi_resume.pdf\n\nreplace\n\nor drag and drop here\n\nare you able to work full time at cosmic robotics hq in san francisco?\nyes\nno\nsubmit application\npowered by \n\nprivacy policysecurityvulnerability disclosure"
+  },
+  {
+    "company": "RoboForce",
+    "role": "Robotics Software Engineer",
+    "folder": "roboforce-robotics-software-engineer",
+    "applicationUrl": "https://job-boards.greenhouse.io/roboforce/jobs/5181554008",
+    "attemptedAt": "2026-06-08T19:14:30.906Z",
+    "status": "submitted",
+    "success": true,
+    "notes": "",
+    "screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\roboforce-robotics-software-engineer\\submission-confirmation.png",
+    "afterUrl": "https://job-boards.greenhouse.io/roboforce/jobs/5181554008/confirmation",
+    "confirmationText": "thank you for applying",
+    "bodySnippet": "thank you for applying.\n\nyour application has been received. if there is a fit, someone will be getting back to you.\n\nview more jobs at roboforce\nback to job post\n\ngive your application a boost!\n\nsign in to mygreenhouse and flag this as your dream job to stand out, track your status, and more.\n\nsign in to mygreenhouse\n\npowered by"
+  },
+  {
+    "company": "Bright Machines",
+    "role": "Robot Perception Engineer - Smart Robotics",
+    "folder": "bright-machines-robot-perception-engineer",
+    "applicationUrl": "https://jobs.lever.co/brightmachines/3e897651-c597-4496-bbd0-aca58afb1c69/apply",
+    "attemptedAt": "2026-06-08T19:13:17.902Z",
+    "status": "captcha-skipped",
+    "success": false,
+    "notes": "Human-verification challenge detected after submit click; not bypassed.",
+    "screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\bright-machines-robot-perception-engineer\\submission-captcha.png",
+    "captchaState": {
+      "present": true,
+      "matchedText": [],
+      "visibleFrames": [
+        {
+          "src": "https://newassets.hcaptcha.com/captcha/v1/129151648d8e764ed2e9d497a94e4b90b8f6fc5f/static/hcaptcha-enclave.html#frame=enclave&_channel=1eijbcuc8kk6&_origin=https%3A%2F%2Fjobs.lever.co&host=jobs.lever.co&se=129151648d8e764ed2e9d497a94e4b90b8f6fc5f",
+          "title": "Widget containing checkbox for hCaptcha security challenge",
+          "width": 1350,
+          "height": 900
+        }
+      ]
+    }
+  },
+  {
+    "company": "Path Robotics",
+    "role": "Software Engineer - Robotics & Systems",
+    "folder": "path-robotics-software-engineer-systems",
+    "applicationUrl": "https://job-boards.greenhouse.io/pathrobotics/jobs/8500622002",
+    "attemptedAt": "2026-06-08T19:16:13.894Z",
+    "status": "submitted",
+    "success": true,
+    "notes": "",
+    "screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\path-robotics-software-engineer-systems\\submission-confirmation.png",
+    "afterUrl": "https://job-boards.greenhouse.io/pathrobotics/jobs/8500622002/confirmation",
+    "confirmationText": "thank you for applying",
+    "bodySnippet": "thank you for applying.\n\nyour application has been received. if there is a fit, our people team will be getting back to you.\n\nview more jobs at path robotics\nback to job post\n\ngive your application a boost!\n\nsign in to mygreenhouse and flag this as your dream job to stand out, track your status, and more.\n\nsign in to mygreenhouse\n\npowered by"
+  },
+  {
+    "company": "Quince",
+    "role": "Software Development Engineer [New Grad]",
+    "folder": "quince-software-development-engineer-new-grad",
+    "applicationUrl": "https://job-boards.greenhouse.io/quince/jobs/5226786008",
+    "attemptedAt": "2026-06-09T00:03:10.120Z",
+    "status": "submitted",
+    "success": true,
+    "notes": "",
+    "screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\quince-software-development-engineer-new-grad\\submission-needs-review.png",
+    "afterUrl": "https://job-boards.greenhouse.io/quince/jobs/5226786008/confirmation",
+    "confirmationText": "thank you for your application",
+    "bodySnippet": "thank you for your application and interest in quince! we sincerely apologize in advance, but due to a high volume of applications, we will only be in touch if your experience is a match for the role.\n\nwe encourage you to continue keeping an eye on our careers page for future opportunities. we thank you again and appreciate your time and consideration!\n\nview more jobs at quince\nback to job post\n\npowered by"
+  },
+  {
+    "company": "AppLovin",
+    "role": "Backend Engineer, New Grad",
+    "folder": "applovin-backend-engineer-new-grad",
+    "applicationUrl": "https://job-boards.greenhouse.io/applovin/jobs/4451556006",
+    "attemptedAt": "2026-06-09T00:08:55.389Z",
+    "status": "submitted",
+    "success": true,
+    "notes": "",
+    "screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\applovin-backend-engineer-new-grad\\submission-confirmation.png",
+    "afterUrl": "https://job-boards.greenhouse.io/applovin/jobs/4451556006/confirmation",
+    "confirmationText": "thank you for applying",
+    "bodySnippet": "thank you for applying.\n\nyour application has been received. if there is a fit, someone will be getting back to you.\n\nview more jobs at applovin\nback to job post\n\ngive your application a boost!\n\nsign in to mygreenhouse and flag this as your dream job to stand out, track your status, and more.\n\nsign in to mygreenhouse\n\npowered by"
+  },
+  {
+    "company": "Elevate Robotics",
+    "role": "Software Engineer - Intern Summer 2026",
+    "folder": "elevate-robotics-software-engineer-intern",
+    "applicationUrl": "https://job-boards.greenhouse.io/elevaterobotics/jobs/4207387009",
+    "attemptedAt": "2026-06-09T00:10:46.110Z",
+    "status": "submitted",
+    "success": true,
+    "notes": "",
+    "screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\elevate-robotics-software-engineer-intern\\submission-confirmation.png",
+    "afterUrl": "https://job-boards.greenhouse.io/elevaterobotics/jobs/4207387009/confirmation",
+    "confirmationText": "thank you for applying",
+    "bodySnippet": "thank you for applying.\n\nyour application has been received. if there is a fit, someone will be getting back to you.\n\nview more jobs at elevate robotics\nback to job post\n\npowered by"
+  },
+  {
+    "company": "Metamorphic",
+    "role": "Robotics Engineer (Simulation, Hardware & Deployment)",
+    "folder": "metamorphic-robotics-engineer",
+    "applicationUrl": "https://jobs.ashbyhq.com/metamorphic/c58ddc03-4887-4add-855c-bcf6391ef575/application",
+    "attemptedAt": "2026-06-09T00:34:47.2612276Z",
+    "status": "submitted",
+    "success": true,
+    "notes": "Submitted through the user's logged-in Chrome session after reCAPTCHA connectivity normalized.",
+    "screenshot": null,
+    "afterUrl": "https://jobs.ashbyhq.com/metamorphic/c58ddc03-4887-4add-855c-bcf6391ef575/application",
+    "confirmationText": "Your application was successfully submitted. We'll contact you if there are next steps.",
+    "bodySnippet": "Success\nYour application was successfully submitted. We'll contact you if there are next steps."
+  },
+  {
+    "company": "Figure",
+    "role": "Embedded Software Intern [Fall 2026]",
+    "folder": "figure-embedded-software-intern-fall-2026",
+    "applicationUrl": "https://job-boards.greenhouse.io/figureai/jobs/4397706006",
+    "attemptedAt": "2026-06-09T00:46:46.818Z",
+    "status": "submitted",
+    "success": true,
+    "notes": "",
+    "screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\figure-embedded-software-intern-fall-2026\\submission-confirmation.png",
+    "afterUrl": "https://job-boards.greenhouse.io/figureai/jobs/4397706006/confirmation",
+    "confirmationText": "thank you for applying",
+    "bodySnippet": "thank you for applying.\n\nyour application has been received. if there is a fit, someone will be getting back to you.\n\nview more jobs at figure\nback to job post\n\ngive your application a boost!\n\nsign in to mygreenhouse and flag this as your dream job to stand out, track your status, and more.\n\nsign in to mygreenhouse\n\npowered by"
+  },
+  {
+    "company": "Kodiak",
+    "role": "Fall 2026 Intern, Perception",
+    "folder": "kodiak-fall-2026-perception-intern",
+    "applicationUrl": "https://job-boards.greenhouse.io/kodiak/jobs/4174533009",
+    "attemptedAt": "2026-06-09T00:50:47.141Z",
+    "status": "submitted",
+    "success": true,
+    "notes": "",
+    "screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\kodiak-fall-2026-perception-intern\\submission-confirmation.png",
+    "afterUrl": "https://job-boards.greenhouse.io/kodiak/jobs/4174533009/confirmation",
+    "confirmationText": "thank you for applying",
+    "bodySnippet": "thank you for applying.\n\nthank you for applying to kodiak ai — we appreciate your interest in joining our team.\n\nwe wanted to let you know that your application has been received. while we use ai-powered tools to help us review applications more efficiently, every resume is reviewed by our recruiting team. we do not auto-reject applications, and all qualified candidates are thoughtfully considered for each role.\n\nonce we’ve had the opportunity to review your background, if your experience aligns with the skills and qualifications needed for the role and the needs of the team, a member of our recruiting team will reach out to schedule a conversation.\n\nthank you again for your interest in kodiak. we appreciate the time you took to apply and look forward to being in touch if there’s a potential next step.\n\nwarm regards,\nthe kodiak robotics talent team\n\nview more jobs at kodiak\nback to job post\n\ngive your application a boost!\n\nsign in to mygreenhouse and flag this as your dream job to stand out, track your status, and more.\n\nsign in to mygreenhouse\n\npowered by"
+  },
+  {
+    "company": "RoboForce",
+    "role": "AI Resident",
+    "folder": "roboforce-ai-resident",
+    "applicationUrl": "https://job-boards.greenhouse.io/roboforce/jobs/5196164008",
+    "attemptedAt": "2026-06-09T07:51:51.324Z",
+    "status": "submitted",
+    "success": true,
+    "notes": "",
+    "screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\roboforce-ai-resident\\submission-confirmation.png",
+    "afterUrl": "https://job-boards.greenhouse.io/roboforce/jobs/5196164008/confirmation",
+    "confirmationText": "thank you for applying",
+    "bodySnippet": "thank you for applying.\n\nyour application has been received. if there is a fit, someone will be getting back to you.\n\nview more jobs at roboforce\nback to job post\n\ngive your application a boost!\n\nsign in to mygreenhouse and flag this as your dream job to stand out, track your status, and more.\n\nsign in to mygreenhouse\n\npowered by"
+  },
+  {
+    "company": "Scout AI",
+    "role": "Robotics Software Engineer",
+    "folder": "scout-ai-robotics-software-engineer",
+    "applicationUrl": "https://job-boards.greenhouse.io/scoutai/jobs/5137118008",
+    "attemptedAt": "2026-06-09T07:53:37.791Z",
+    "status": "submitted",
+    "success": true,
+    "notes": "",
+    "screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\scout-ai-robotics-software-engineer\\submission-confirmation.png",
+    "afterUrl": "https://job-boards.greenhouse.io/scoutai/jobs/5137118008/confirmation",
+    "confirmationText": "thank you for applying",
+    "bodySnippet": "thank you for applying.\n\nyour application has been received. if there is a fit, someone will be getting back to you.\n\nview more jobs at scout ai\nback to job post\n\ngive your application a boost!\n\nsign in to mygreenhouse and flag this as your dream job to stand out, track your status, and more.\n\nsign in to mygreenhouse\n\npowered by"
+  }
+]
