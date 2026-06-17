@@ -139,12 +139,13 @@ Claude Code routing mirrors the intensity strategy above:
 - **Medium intensity - `job-screening-sonnet`:** use `claude-sonnet-4-6` with
   medium effort for eligibility, ATS gaps, package review, and form-question
   mapping.
-- **High intensity - `job-risk-opus`:** use `claude-opus-4-8` with xhigh effort
+- **Verification/audit - `verification-audit-opus`:** use `claude-opus-4-8`
+  with high effort for confirmation email/portal evidence, provider/API
+  acceptance evidence, tracker/ledger reconciliation, package-manifest
+  verification review, and final batch audit.
+- **High risk - `job-risk-opus`:** use `claude-opus-4-8` with xhigh effort
   for sponsorship/export ambiguity, novel ATS flows, conflicting evidence,
   high-risk application responses, and final forensic audits.
-- **Email verification - `email-verification-sonnet`:** use
-  `claude-sonnet-4-6` with low effort to inventory confirmation emails or
-  portal evidence only after the main session has explicit authorization.
 
 The main Claude Code session remains the only actor that may click final submit,
 handle OTP/CAPTCHA handoffs, access mailbox verification, update the
@@ -153,9 +154,16 @@ authoritative tracker, or mark a target count complete.
 For token efficiency in Claude Code, default the main session to
 `claude-sonnet-4-6` at medium effort for setup and ordinary application goals.
 Use Haiku subagents for bulk discovery and simple extraction. Escalate to
-`claude-opus-4-8` only for ambiguous legal/sponsorship/export wording, novel ATS
-failures, contradictory evidence, or final forensic audit work; use Opus xhigh
-only when high effort is not enough or the batch evidence is disputed.
+`claude-opus-4-8` for every verification or audit judgment, ambiguous
+legal/sponsorship/export wording, novel ATS failures, contradictory evidence, or
+final forensic audit work; use Opus xhigh only when high effort is not enough or
+the batch evidence is disputed.
+
+Deterministic commands may calculate hashes, run tests, search mailbox metadata,
+or inspect files, but the decision to mark evidence verified, audit-passed, or
+countable must be made by an Opus agent. Sonnet and Haiku must not mark a role
+`submitted - email verified`, `submitted - portal verified`, or complete the
+requested verified target.
 
 ## Job-Workbench Resource Cleanup
 

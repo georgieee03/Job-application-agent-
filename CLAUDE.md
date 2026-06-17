@@ -54,8 +54,10 @@ The main Claude session owns all final external side effects:
 - final audit and cleanup.
 
 Subagents may research, screen, extract requirements, review packages, or audit
-evidence. Subagents must not submit applications, solve CAPTCHA, access OTPs,
-or alter the authoritative tracker/ledger.
+evidence. Any verification or audit judgment must use Opus through
+`verification-audit-opus` or `job-risk-opus`. Subagents must not submit
+applications, solve CAPTCHA, access OTPs, or alter the authoritative
+tracker/ledger.
 
 ## Claude Model Routing
 
@@ -66,12 +68,19 @@ Choose the lowest-capability model and effort that are reliable for the task:
 | --- | --- | --- | --- | --- |
 | Low | `job-discovery-haiku` | `claude-haiku-4-5` | `low` | finding roles, freshness checks, duplicate checks, extracting simple fields |
 | Medium | `job-screening-sonnet` | `claude-sonnet-4-6` | `medium` | eligibility screening, ATS keyword gaps, package review, application-question mapping |
-| High | `job-risk-opus` | `claude-opus-4-8` | `xhigh` | sponsorship/export ambiguity, high-risk answers, novel ATS flows, disputed final audit |
-| Email | `email-verification-sonnet` | `claude-sonnet-4-6` | `low` | mailbox/portal confirmation inventory after the main session grants explicit scope |
+| Verification/Audit | `verification-audit-opus` | `claude-opus-4-8` | `high` | confirmation email/portal evidence, provider acceptance evidence, tracker/ledger reconciliation, package-manifest verification review, final batch audit |
+| High Risk | `job-risk-opus` | `claude-opus-4-8` | `xhigh` | sponsorship/export ambiguity, high-risk answers, novel ATS flows, contradictory evidence, disputed final audit |
 
-Escalate to `job-risk-opus` when a subagent reports uncertainty, conflicting
-evidence, legal/immigration ambiguity, or a risk that could lead to a false
-submission claim.
+Route every verification or audit decision to `verification-audit-opus`, even
+when the main session is Sonnet. Deterministic commands may calculate hashes,
+run tests, search mail metadata, or inspect files, but the judgment that marks
+evidence verified, audit-passed, or countable must be Opus.
+
+Escalate from `verification-audit-opus` to `job-risk-opus` when evidence is
+contradictory, legally sensitive, immigration-related, export-control-related,
+or when a risk could lead to a false submission claim. Use Opus xhigh for final
+batch audits when the evidence is disputed or the batch has shown
+contradictions.
 
 ## Recommended Main Session Models
 
@@ -80,19 +89,20 @@ risk demands it.
 
 - Initial Mac setup: start Claude Code with `claude-sonnet-4-6` at `medium`
   effort. This is accurate enough for dependency setup, path fixes, tracker
-  checks, and local verification while avoiding an Opus burn.
+  checks, and local setup while avoiding an Opus burn. Use
+  `verification-audit-opus` for the final setup verification/audit pass.
 - Routine application goal: start with `claude-sonnet-4-6` at `medium` effort
   for the main orchestrator. Keep live submission and tracker ownership in the
   main session, but delegate discovery to Haiku and screening/review to Sonnet
-  subagents.
+  subagents. Route every verification/audit gate to Opus.
 - Discovery-only or tracker-inventory work: `claude-haiku-4-5` at `low` effort
   is acceptable when there will be no live submission, legal answer, mailbox
-  access, or authoritative tracker write.
+  access, verification decision, audit decision, or authoritative tracker write.
 - Opus escalation: switch to `claude-opus-4-8` at `high` effort only for
-  ambiguous sponsorship/export-control language, novel ATS behavior, repeated
-  automation failures, or conflicting evidence. Use `xhigh` only for final
-  forensic audits, high-stakes disputed answers, or a batch that has already
-  shown contradictions.
+  verification/audit judgments, ambiguous sponsorship/export-control language,
+  novel ATS behavior, repeated automation failures, or conflicting evidence.
+  Use `xhigh` only for final forensic audits, high-stakes disputed answers, or
+  a batch that has already shown contradictions.
 - Do not use Opus fast mode for this workflow unless latency matters more than
   cost. Fast mode is not the token-efficient option.
 
