@@ -3,7 +3,7 @@
   "objective": "Submit 10 compatible US applications, prioritizing robotics roles",
   "target_count": 10,
   "created_at": "2026-06-09T08:14:37+00:00",
-  "updated_at": "2026-06-12T00:38:25+00:00",
+  "updated_at": "2026-06-18T01:23:31+00:00",
   "workspace": "D:\\job-application-agent-kit",
   "candidate_answers": "data/candidate-application-answers.md",
   "workbench_url": "http://localhost:4321/",
@@ -41,7 +41,8 @@
       "confirmation_url": "https://job-boards.greenhouse.io/roboforce/jobs/5181554008/confirmation",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\roboforce-robotics-software-engineer\\submission-confirmation.png",
-      "submitted_at": "2026-06-08T19:14:30.906Z"
+      "submitted_at": "2026-06-08T19:14:30.906Z",
+      "application_report": "data/application-reports/roboforce-robotics-software-engineer.md"
     },
     {
       "role_id": "path-robotics-software-engineer-systems",
@@ -75,7 +76,8 @@
       "confirmation_url": "https://job-boards.greenhouse.io/pathrobotics/jobs/8500622002/confirmation",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\path-robotics-software-engineer-systems\\submission-confirmation.png",
-      "submitted_at": "2026-06-08T19:16:13.894Z"
+      "submitted_at": "2026-06-08T19:16:13.894Z",
+      "application_report": "data/application-reports/path-robotics-software-engineer-systems.md"
     },
     {
       "role_id": "quince-software-development-engineer-new-grad",
@@ -109,7 +111,8 @@
       "confirmation_url": "https://job-boards.greenhouse.io/quince/jobs/5226786008/confirmation",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\quince-software-development-engineer-new-grad\\submission-needs-review.png",
-      "submitted_at": "2026-06-09T00:03:10.120Z"
+      "submitted_at": "2026-06-09T00:03:10.120Z",
+      "application_report": "data/application-reports/quince-software-development-engineer-new-grad.md"
     },
     {
       "role_id": "applovin-backend-engineer-new-grad",
@@ -143,7 +146,8 @@
       "confirmation_url": "https://job-boards.greenhouse.io/applovin/jobs/4451556006/confirmation",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\applovin-backend-engineer-new-grad\\submission-confirmation.png",
-      "submitted_at": "2026-06-09T00:08:55.389Z"
+      "submitted_at": "2026-06-09T00:08:55.389Z",
+      "application_report": "data/application-reports/applovin-backend-engineer-new-grad.md"
     },
     {
       "role_id": "elevate-robotics-software-engineer-intern",
@@ -177,7 +181,8 @@
       "confirmation_url": "https://job-boards.greenhouse.io/elevaterobotics/jobs/4207387009/confirmation",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\elevate-robotics-software-engineer-intern\\submission-confirmation.png",
-      "submitted_at": "2026-06-09T00:10:46.110Z"
+      "submitted_at": "2026-06-09T00:10:46.110Z",
+      "application_report": "data/application-reports/elevate-robotics-software-engineer-intern.md"
     },
     {
       "role_id": "metamorphic-robotics-engineer",
@@ -211,7 +216,8 @@
       "confirmation_url": "https://jobs.ashbyhq.com/metamorphic/c58ddc03-4887-4add-855c-bcf6391ef575/application",
       "confirmation_number": "",
       "confirmation_screenshot": "",
-      "submitted_at": "2026-06-09T00:34:47.2612276Z"
+      "submitted_at": "2026-06-09T00:34:47.2612276Z",
+      "application_report": "data/application-reports/metamorphic-robotics-engineer.md"
     },
     {
       "role_id": "figure-embedded-software-intern-fall-2026",
@@ -245,7 +251,8 @@
       "confirmation_url": "https://job-boards.greenhouse.io/figureai/jobs/4397706006/confirmation",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\figure-embedded-software-intern-fall-2026\\submission-confirmation.png",
-      "submitted_at": "2026-06-09T00:46:46.818Z"
+      "submitted_at": "2026-06-09T00:46:46.818Z",
+      "application_report": "data/application-reports/figure-embedded-software-intern-fall-2026.md"
     },
     {
       "role_id": "kodiak-fall-2026-perception-intern",
@@ -279,7 +286,8 @@
       "confirmation_url": "https://job-boards.greenhouse.io/kodiak/jobs/4174533009/confirmation",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\kodiak-fall-2026-perception-intern\\submission-confirmation.png",
-      "submitted_at": "2026-06-09T00:50:47.141Z"
+      "submitted_at": "2026-06-09T00:50:47.141Z",
+      "application_report": "data/application-reports/kodiak-fall-2026-perception-intern.md"
     },
     {
       "role_id": "roboforce-ai-resident",
@@ -313,7 +321,8 @@
       "confirmation_url": "https://job-boards.greenhouse.io/roboforce/jobs/5196164008/confirmation",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\roboforce-ai-resident\\submission-confirmation.png",
-      "submitted_at": "2026-06-09T07:51:51.324Z"
+      "submitted_at": "2026-06-09T07:51:51.324Z",
+      "application_report": "data/application-reports/roboforce-ai-resident.md"
     },
     {
       "role_id": "scout-ai-robotics-software-engineer",
@@ -347,7 +356,8 @@
       "confirmation_url": "https://job-boards.greenhouse.io/scoutai/jobs/5137118008/confirmation",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-ten-applications\\scout-ai-robotics-software-engineer\\submission-confirmation.png",
-      "submitted_at": "2026-06-09T07:53:37.791Z"
+      "submitted_at": "2026-06-09T07:53:37.791Z",
+      "application_report": "data/application-reports/scout-ai-robotics-software-engineer.md"
     }
   ],
   "questions": [],

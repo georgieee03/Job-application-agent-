@@ -1,6 +1,6 @@
 ---
 name: submit-job-application
-description: Fill, verify, submit, and confirm a live employer application using an already approved job-specific package. Use when Codex must operate Greenhouse, Ashby, Lever, Workday, or another ATS form; upload the exact approved resume and cover letter; answer application questions from durable candidate facts; handle OTP or CAPTCHA handoffs; use logged-in Chrome when needed; or capture authoritative evidence and update the application ledger.
+description: Fill, verify, submit, and confirm a live employer application using an already approved job-specific package. Use when Codex must operate Greenhouse, Ashby, Lever, Workday, or another ATS form; upload the exact approved resume and cover letter; answer application questions from durable candidate facts; record submitted answers in the per-application report; handle OTP or CAPTCHA handoffs; use logged-in Chrome when needed; capture authoritative evidence; or update synced trackers and the application ledger.
 ---
 
 # Submit Job Application
@@ -47,6 +47,11 @@ If any precondition fails, return control to
 7. Verify each upload persisted and the displayed filename is correct.
 8. Record any new required question in the ledger and ask the user. Keep the
    browser tab as a handoff when possible.
+9. Maintain a submitted-answer log for the role. Record every non-secret answer
+   actually entered or selected, including yes/no authorization answers,
+   sponsorship answers, location/work-mode answers, EEO choices when provided,
+   acknowledgements, and custom short or long responses. Do not record
+   passwords, CAPTCHA answers, OTP/security codes, cookies, or raw session data.
 
 ## Friction
 
@@ -71,9 +76,16 @@ overlay, or unstable loading. Never claim a CAPTCHA bypass.
    requires it and the user's prior approval does not narrowly cover this exact
    submission.
 4. Submit once. Avoid duplicate clicks while the page is processing.
-5. Count success only after an authoritative success page, confirmation number,
-   or employer email.
+5. Capture the immediate provider evidence, then require a second signal before
+   marking the role fully verified: confirmation email, employer/ATS portal
+   record, or provider/API acceptance evidence.
 6. Capture confirmation text, URL, timestamp, and screenshot when available.
-7. Mark an ambiguous result `needs-review`, never `submitted`.
-8. Invoke `$verify-job-application-state` to persist the outcome and evidence.
-
+7. If only the success page is available, mark the role
+   `submitted - pending email verification`, not complete.
+8. Mark an ambiguous result `needs-review`, never verified.
+9. Invoke `$verify-job-application-state` to persist the outcome, evidence,
+   submitted answers, application report, tracker update, and Git sync status.
+10. If the application is blocked, CAPTCHA/OTP-gated, impossible to complete, or
+    skipped, persist it as `not completed`, `not submitted`, `manual submit
+    needed`, `blocked`, or `skipped` with the job URL and copy it to
+    `DYI applications.md` when incomplete.

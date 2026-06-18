@@ -13,6 +13,31 @@ credentials.json
 secrets.json
 tokens.json
 
+# Synced tracker/report state lives in git; bulky or sensitive runtime artifacts stay local.
+data/*
+!data/
+!data/application-tracker.json
+!data/*/
+data/*/*
+!data/*/application-workbench.md
+!data/*/application-workbench.json
+!data/application-reports/
+data/application-reports/*
+!data/application-reports/*.md
+data/**/screenshots/
+data/**/*.png
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.webp
+data/**/*.pdf
+data/**/*.docx
+data/**/*.xls
+data/**/*.xlsx
+data/**/*otp*
+data/**/*OTP*
+data/**/*security-code*
+data/**/*Security-Code*
+
 # Runtime caches and temporary outputs
 .venv
 .corepack

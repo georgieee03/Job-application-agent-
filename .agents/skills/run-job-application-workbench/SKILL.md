@@ -1,6 +1,6 @@
 ---
 name: run-job-application-workbench
-description: Orchestrate or resume a verified end-to-end job-application batch for George Jobi Perangattu, from US role discovery and visa/fit screening through truthful resume tailoring, optional cover-letter creation, exact-file approval, Playwright form submission, CAPTCHA or OTP handoff, confirmation capture, and durable Markdown state. Automatically use this skill for plain-language requests such as "apply to 10 jobs," "your goal is to apply to 10 different jobs," "send out 5 applications," or "continue until 20 jobs are submitted," even when the user does not name any skill. Also use when Codex must continue an interrupted batch, coordinate application sub-skills, or hand the complete workflow to another session without losing context.
+description: Orchestrate or resume a verified end-to-end job-application batch for George Jobi Perangattu, from US role discovery and visa/fit screening through truthful resume tailoring, optional cover-letter creation, exact-file approval, Playwright form submission, CAPTCHA or OTP handoff, confirmation capture, synced trackers, per-application reports, and durable Markdown state. Automatically use this skill for plain-language requests such as "apply to 10 jobs," "your goal is to apply to 10 different jobs," "send out 5 applications," or "continue until 20 jobs are submitted," even when the user does not name any skill. Also use when Codex must continue an interrupted batch, coordinate application sub-skills, push tracker/report state for cross-device duplicate prevention, or hand the complete workflow to another session without losing context.
 ---
 
 # Run Job Application Workbench
@@ -32,6 +32,9 @@ When the user gives only a target such as `apply to 10 different jobs`:
 7. Before asking, save the exact question, browser handoff, blocker, and next
    action in `application-workbench.md`. Resume from that point after the
    answer without restarting the batch.
+8. Before sourcing roles, pull/rebase `main` and read the synced trackers and
+   application reports so the batch sees applications attempted from any other
+   device or workspace.
 
 Do not ask the user to select jobs, name a batch, invoke sub-skills, start the
 workbench, or approve routine implementation choices. Browser/plugin safety
@@ -90,15 +93,26 @@ Suggested batch decomposition:
 ## Start Or Resume
 
 1. Read `data/candidate-application-answers.md`.
-2. Find the active run's `application-workbench.md`. If none exists, invoke
+2. Run `git pull --rebase origin main` unless local unrelated changes make it
+   unsafe; if unsafe, record the blocker before role discovery.
+3. Read all duplicate-prevention state:
+   - `data/application-tracker.json`
+   - `application_tracker.md`
+   - `DYI applications.md`
+   - `data/application-reports/*.md`
+   - active or recent `data/<run-name>/application-workbench.*` files
+4. Find the active run's `application-workbench.md`. If none exists, invoke
    `$verify-job-application-state` to initialize one under `data/<run-name>/`.
-3. Read the complete ledger before browser or document work. Continue from the
+5. Read the complete ledger before browser or document work. Continue from the
    recorded `Next action`; do not reconstruct state from chat memory alone.
-4. Read [references/orchestration-state-machine.md](references/orchestration-state-machine.md).
-5. Read [references/role-selection-and-eligibility.md](references/role-selection-and-eligibility.md)
+6. Read [references/orchestration-state-machine.md](references/orchestration-state-machine.md).
+7. Read [references/role-selection-and-eligibility.md](references/role-selection-and-eligibility.md)
    while sourcing or screening roles.
-6. Update the ledger after every material transition, blocker, user answer,
-   approval, upload, and confirmation.
+8. Update the ledger, every tracker, and the per-application report after every
+   material transition, blocker, user answer, approval, upload, submitted
+   answer, and confirmation.
+9. At clean checkpoints, stage only tracker/report artifacts, commit them, and
+   push `main` so the next workspace has the duplicate-prevention state.
 
 ## Route Work
 
@@ -157,8 +171,14 @@ Enforce these gates in order:
    artifact or response change.
 5. **Transmission:** verify hashes immediately before upload. Use only
    user-confirmed durable answers; ask for unresolved legal or factual input.
-6. **Confirmation:** count only an authoritative success page, confirmation
-   number, or employer email. A clicked submit button is not success.
+   Record every answer submitted for the role in its application report.
+6. **Confirmation:** count only immediate provider evidence plus confirmation
+   email, employer/ATS portal evidence, or provider/API acceptance evidence. A
+   clicked submit button or success page alone is not a fully verified
+   submission.
+7. **Cross-device sync:** after tracker/report changes that affect duplicate
+   prevention, push a tracker-only commit to `main` before continuing on another
+   device or ending the batch.
 
 The user may approve a named batch in advance. Record the scope and exact
 manifest hashes. Browser-side confirmations still apply when required by the
@@ -168,7 +188,8 @@ active Browser or Chrome safety contract.
 
 1. Run the verification ledger audit.
 2. Reconcile the Markdown ledger, submission result files, package manifests,
-   screenshots, confirmation text, and the workbench tracker.
+   screenshots, confirmation text, submitted answers, per-application reports,
+   and all trackers.
 3. Delete one-time OTP/security-code files after use; never preserve their
    contents in the ledger.
 4. Clean up batch-owned runtime resources:
@@ -186,5 +207,13 @@ active Browser or Chrome safety contract.
 6. Record cleanup actions, retained handoffs, and any cleanup failure in
    `application-workbench.md`.
 7. Report submitted, blocked, skipped, and input-needed roles separately.
-8. Mark the batch complete only when the requested number has authoritative
-   evidence and the ledger audit passes.
+8. Commit and push the final tracker/report sync to `main`, staging only:
+   - `data/application-tracker.json`
+   - `application_tracker.md`
+   - `DYI applications.md`
+   - `data/application-reports/`
+   - `data/<run-name>/application-workbench.md`
+   - `data/<run-name>/application-workbench.json`
+9. Mark the batch complete only when the requested number has authoritative
+   evidence, the per-application reports are current, the synced trackers are
+   updated, and the ledger audit passes.

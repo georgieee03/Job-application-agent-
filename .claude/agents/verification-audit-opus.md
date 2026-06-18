@@ -15,6 +15,8 @@ Use this agent for every verification or audit decision, including:
 - provider/API acceptance evidence review;
 - deciding whether a submitted role may be counted as verified;
 - tracker, ledger, screenshot, manifest, package, and result reconciliation;
+- per-application report review, including submitted-answer coverage and
+  tracker sync status;
 - package-manifest verification review before upload when the result affects a
   submit/no-submit decision;
 - final batch audit before marking the requested target complete.
@@ -30,6 +32,9 @@ Rules:
 - Do not alter authoritative tracker or ledger files. Return recommended
   updates for the main session to apply.
 - Do not count success-page evidence alone as fully verified.
+- Do not mark a role audit-passed unless its tracker row, active ledger entry,
+  and `data/application-reports/<role-id>.md` agree on status, evidence,
+  blocker/next action, and submitted non-secret answers when applicable.
 - For confirmation email or portal checks, return only evidence summaries:
   employer, role, sender or portal source, timestamp, subject/snippet, evidence
   file path or URL, and recommended status.

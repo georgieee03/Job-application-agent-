@@ -4,7 +4,10 @@ Use this skill when the goal is to record, update, or summarize job applications
 
 ## Default Tracker
 
-- `./application_tracker.md`
+- `data/application-tracker.json` for the workbench UI and duplicate prevention.
+- `./application_tracker.md` as the Markdown tracker mirror when present.
+- `./DYI applications.md` for incomplete or failed Codex attempts.
+- `data/application-reports/<role-id>.md` for one per-application process report.
 
 ## Standard Fields
 
@@ -35,6 +38,14 @@ Use this skill when the goal is to record, update, or summarize job applications
 9. Do not mark a role fully verified from a success page alone. Require a
    second signal: confirmation email, employer/ATS portal record, or provider/API
    acceptance record.
+10. For every role touched, update or create its per-application report with:
+    what was done, submitted answers, files used, evidence captured, blocker,
+    next action, and final status.
+11. Before sourcing or submitting, pull/rebase `main` and read all synced
+    trackers/reports so duplicate prevention includes other devices.
+12. After material tracker/report changes, push a tracker-only commit to
+    GitHub. Stage only tracker/report artifacts, not unrelated code, packages,
+    screenshots, browser profiles, or secrets.
 
 ## Preferred Status Values
 
@@ -59,3 +70,4 @@ Return:
 - which roles were added or changed
 - any duplicates or inconsistencies fixed
 - whether follow-up work is still needed
+- whether tracker/report changes were committed and pushed

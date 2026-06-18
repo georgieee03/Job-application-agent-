@@ -55,8 +55,10 @@ For each attempt record:
 - browser surface;
 - final URL;
 - status;
+- submitted non-secret answers and acknowledgements;
 - exact confirmation phrase or number;
 - screenshot path;
 - blocker or unresolved question;
 - manifest hash verification result.
-
+- application report path under `data/application-reports/`;
+- tracker/report Git sync commit, when pushed.

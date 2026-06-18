@@ -4,9 +4,9 @@
 
 - Objective: Submit 10 unique, confirmed US robotics-preferred job applications
 - Target submitted: 10
-- Authoritatively submitted: 10
+- Authoritatively submitted: 0
 - Created: 2026-06-09T08:51:25+00:00
-- Updated: 2026-06-17T21:09:22+00:00
+- Updated: 2026-06-18T01:23:31+00:00
 - Workspace: `D:\job-application-agent-kit`
 - Candidate answers: `data\candidate-application-answers.md`
 - Workbench URL: [link](http://localhost:4321/)
@@ -25,7 +25,7 @@
 
 ## Verification Panel
 
-- Target met: yes
+- Target met: no
 - Unresolved questions: 0
 - Last audit passed: yes
 - Status counts: skipped=5, submitted=10
@@ -76,6 +76,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://jobs.ashbyhq.com/corvus-robotics/e180a9e8-6611-485b-b76a-bbf995b69e7f/application)
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-next-5\corvus-product-implementation-engineer\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/corvus-product-implementation-engineer.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -103,6 +107,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://jobs.ashbyhq.com/arxlight-ai/ca17abfe-c253-4cc8-95ec-027a471ac734/application)
 - Confirmation screenshot: `data\june-2026-next-5\arxlight-newgrad-engineering\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/arxlight-newgrad-engineering.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -130,6 +138,10 @@
 - Confirmation number: -
 - Confirmation URL: -
 - Confirmation screenshot: `-`
+- Submitted answers: -
+- Application report: `data/application-reports/fieldai-robotics-software-mapping.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: Replaced by a confirmed OTP-free application after form friction or batch reprioritization; not counted
 - Next action: No action required; retained only as historical evidence
 
@@ -157,6 +169,10 @@
 - Confirmation number: -
 - Confirmation URL: -
 - Confirmation screenshot: `-`
+- Submitted answers: -
+- Application report: `data/application-reports/fieldai-robotics-qa-qc-engineer.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: Replaced by a confirmed OTP-free application after form friction or batch reprioritization; not counted
 - Next action: No action required; retained only as historical evidence
 
@@ -184,6 +200,10 @@
 - Confirmation number: -
 - Confirmation URL: -
 - Confirmation screenshot: `-`
+- Submitted answers: -
+- Application report: `data/application-reports/humble-software-engineer-autonomous-systems.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: Replaced by a confirmed OTP-free application after form friction or batch reprioritization; not counted
 - Next action: No action required; retained only as historical evidence
 
@@ -211,6 +231,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://job-boards.greenhouse.io/embed/job_app/confirmation?for=nuro&token=7351066)
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-next-5\nuro-software-engineer-ai-platform-new-grad\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/nuro-software-engineer-ai-platform-new-grad.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -238,6 +262,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://job-boards.greenhouse.io/embed/job_app/confirmation?for=nuro&token=7978432)
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-next-5\nuro-software-engineer-performance-new-grad\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/nuro-software-engineer-performance-new-grad.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -265,6 +293,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://job-boards.greenhouse.io/skildai-careers/jobs/4136373008/confirmation)
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-next-5\skild-ai-robotics-software-engineer\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/skild-ai-robotics-software-engineer.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -292,6 +324,10 @@
 - Confirmation number: -
 - Confirmation URL: -
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-next-5\mvp-robotics-software-engineer\submission-awaiting-security-code.png`
+- Submitted answers: -
+- Application report: `data/application-reports/mvp-robotics-software-engineer.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: Replaced by a confirmed OTP-free application after form friction or batch reprioritization; not counted
 - Next action: No action required; retained only as historical evidence
 
@@ -319,6 +355,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://jobs.ashbyhq.com/Verne%20Robotics/34b8ec26-2bb0-47b0-912c-09fa0389b2c6/application)
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-next-5\verne-robotics-software-engineer\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/verne-robotics-software-engineer.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -346,6 +386,10 @@
 - Confirmation number: -
 - Confirmation URL: -
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-next-5\lila-software-engineer-i-instrument-software\submission-awaiting-security-code.png`
+- Submitted answers: -
+- Application report: `data/application-reports/lila-software-engineer-i-instrument-software.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: Replaced by a confirmed OTP-free application after form friction or batch reprioritization; not counted
 - Next action: No action required; retained only as historical evidence
 
@@ -373,6 +417,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://jobs.ashbyhq.com/standardsubsea/6689c77a-fccf-47df-abb4-8bca5b28cf2a/application)
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-next-5\standard-subsea-swe-robotics\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/standard-subsea-swe-robotics.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -400,6 +448,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://jobs.ashbyhq.com/Molg/ed85e53f-dcb9-4f83-8044-01baa29313fd/application)
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-next-5\molg-robotics-engineer-path-planning\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/molg-robotics-engineer-path-planning.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -427,6 +479,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://jobs.ashbyhq.com/circuithub/6ce5e5f2-7dd4-4c5c-8978-ab6f3e2e1e1d/application)
 - Confirmation screenshot: `data\june-2026-next-5\circuithub-full-stack-robotics-engineer\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/circuithub-full-stack-robotics-engineer.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -454,6 +510,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://jobs.ashbyhq.com/applied/c9473dcb-f651-47bb-9a59-4150bddcdaa8/application)
 - Confirmation screenshot: `data\june-2026-next-5\applied-intuition-software-engineer-cpp\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/applied-intuition-software-engineer-cpp.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 

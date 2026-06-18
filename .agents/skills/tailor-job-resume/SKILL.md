@@ -94,6 +94,8 @@ Before any submission:
 4. Wait for explicit approval of that application package.
 5. After approval, submit exactly the approved files. If the files change, repeat the preview and approval gate.
 6. Verify the current file hashes still match `approval-manifest.json` immediately before upload.
-7. Count an application as submitted only after an authoritative success page, confirmation number, or employer email is captured.
+7. Count an application as fully verified only after immediate provider evidence
+   plus a confirmation email, employer/ATS portal record, or provider/API
+   acceptance record is captured.
 
 Use `$ui-latency-normalization` if browser friction interrupts the later application workflow.

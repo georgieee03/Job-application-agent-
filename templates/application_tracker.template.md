@@ -3,6 +3,9 @@
 Updated: YYYY-MM-DD
 
 Use this file as the source of truth for duplicate prevention.
+Keep it synchronized with `data/application-tracker.json`,
+`DYI applications.md`, `data/application-reports/*.md`, and the active
+`data/<run-name>/application-workbench.*` files before switching devices.
 
 ## Summary Table
 
@@ -37,5 +40,10 @@ Use this file as the source of truth for duplicate prevention.
 - If CAPTCHA, human verification, login, OTP, security code, or site instability prevents completion, mark the role `not submitted` or `not completed` and include the live job posting URL.
 - For future verification, do not treat a success page alone as final verification. Pair it with confirmation email evidence or employer/ATS portal/API evidence before marking it `submitted - email verified` or `submitted - portal verified`.
 - Copy incomplete Codex attempts into `DYI applications.md` using the same table format.
+- Create or update `data/application-reports/<role-id>.md` for every role
+  touched. Include what was done, submitted answers, files used, evidence,
+  blocker, next action, and final status.
+- Pull/rebase `main` before sourcing new roles, then push tracker/report
+  updates to GitHub after clean checkpoints so another workspace sees them.
 - Add a short factual note for each material change.
 - Do not store secrets, cookies, tokens, or raw session data here.

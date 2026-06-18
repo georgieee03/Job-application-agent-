@@ -1,6 +1,6 @@
 # Application Tracker
 
-Updated: 2026-06-17
+Updated: 2026-06-18
 
 Use this file as the source of truth for duplicate prevention and post-submit verification. Every role touched by the workbench must appear here, including roles that were blocked, skipped, CAPTCHA/OTP gated, or otherwise not completed.
 
@@ -8,6 +8,14 @@ Use this file as the source of truth for duplicate prevention and post-submit ve
 
 | Date | Company | Role | Status | Submission Mode | Board | Resume | Cover Letter | Job URL |
 |---|---|---|---|---|---|---|---|---|
+| 2026-06-18 | Physical Intelligence | Robotics Software Engineer | submitted - portal verified | Playwright/browser; Ashby provider response | Ashby | `data/june-2026-next-7/physical-intelligence-robotics-software-engineer/George_Jobi_Resume.pdf` | - | `https://jobs.ashbyhq.com/physicalintelligence/f6bee7a7-57ae-4ec1-9276-ae3bcbdc7327` |
+| 2026-06-18 | Physical Intelligence | Deployments Software Engineer | submitted - portal verified | Playwright/browser; Ashby provider response | Ashby | `data/june-2026-next-7/physical-intelligence-deployments-software-engineer/George_Jobi_Resume.pdf` | - | `https://jobs.ashbyhq.com/physicalintelligence/1e8a741a-d415-4c34-9ac8-eda4c5393e41` |
+| 2026-06-18 | General Robotics | Robotics Engineer | submitted - portal verified | Playwright/browser; Ashby provider response | Ashby | `data/june-2026-next-7/general-robotics-robotics-engineer/George_Jobi_Resume.pdf` | - | `https://jobs.ashbyhq.com/generalrobotics/78abd116-9842-4c40-9649-a73e1573f2e8` |
+| 2026-06-18 | General Robotics | Robotics Engineer - Navigation focus | submitted - portal verified | Playwright/browser; Ashby provider response | Ashby | `data/june-2026-next-7/general-robotics-navigation-engineer/George_Jobi_Resume.pdf` | - | `https://jobs.ashbyhq.com/generalrobotics/f20e520c-e259-4f4d-9d38-142b57495d3f` |
+| 2026-06-18 | Sunday | SLAM Engineer | submitted - portal verified | Playwright/browser; Ashby provider response | Ashby | `data/june-2026-next-7/sunday-slam-engineer/George_Jobi_Resume.pdf` | - | `https://jobs.ashbyhq.com/sunday/f3090c65-6030-4d5d-9ad2-cbb5503afe82` |
+| 2026-06-18 | AeroVect | Field Robotics Engineer (ATL) | submitted - portal verified | Playwright/browser; Ashby provider response | Ashby | `data/june-2026-next-7/aerovect-field-robotics-engineer-atl/George_Jobi_Resume.pdf` | - | `https://jobs.ashbyhq.com/aerovect/cb977feb-dac5-4847-bef7-bb2bc57b6be6` |
+| 2026-06-18 | AeroVect | Software Engineer, Localization, Calibration & Mapping | submitted - portal verified | Playwright/browser; Ashby provider response | Ashby | `data/june-2026-next-7/aerovect-localization-calibration-mapping-engineer/George_Jobi_Resume.pdf` | - | `https://jobs.ashbyhq.com/aerovect/73a42f00-af59-4439-8ff5-531b7c355745` |
+| 2026-06-18 | Foundry Robotics | Robotics Engineer, AI & Software | not submitted | Browser attempt blocked by Ashby possible-spam friction | Ashby | `data/june-2026-next-7/foundry-robotics-ai-software-engineer/George_Jobi_Resume.pdf` | - | `https://jobs.ashbyhq.com/foundry-robotics/681e7d19-5716-4694-b63c-b5a16039bba1` |
 | 2026-06-12 | Corvus Robotics | Product Implementation Engineer I, II | submitted - pending email verification | Playwright/browser | Ashby | `data/june-2026-next-5/corvus-product-implementation-engineer/George_Jobi_Resume.pdf` | - | `https://jobs.ashbyhq.com/corvus-robotics/e180a9e8-6611-485b-b76a-bbf995b69e7f` |
 | 2026-06-09 | Arxlight | Newgrad Engineering Role (Various) | submitted - pending email verification | Playwright/browser | Ashby | `data/june-2026-next-5/arxlight-newgrad-engineering/George_Jobi_Resume.pdf` | - | `https://jobs.ashbyhq.com/arxlight-ai/ca17abfe-c253-4cc8-95ec-027a471ac734` |
 | 2026-06-09 | FieldAI | Robotics Software Engineer, Mapping | not submitted | Not submitted; replaced | Lever | `data/june-2026-next-5/fieldai-robotics-software-mapping/George_Jobi_Resume.pdf` | - | `https://jobs.lever.co/field-ai/92149b57-93b7-4d02-8747-0413718ab81e` |
@@ -26,6 +34,8 @@ Use this file as the source of truth for duplicate prevention and post-submit ve
 
 ## Notes
 
+- 2026-06-18: `data/june-2026-next-7` submitted seven robotics-relevant Ashby applications. Each counted row has both an immediate Ashby success page and a provider `FormSubmitSuccess` response, so the tracker marks them `submitted - portal verified`.
+- 2026-06-18: Foundry Robotics was prepared as a backup but Ashby returned possible-spam friction; it was not counted and was copied to `DYI applications.md`.
 - 2026-06-17: Reconciled this tracker against `data/june-2026-next-5/application-workbench.md`. The tracker previously contained only the template/example row and did not reflect the Codex workbench run.
 - 2026-06-17: The 10 page-confirmed submissions are marked `submitted - pending email verification` because no confirmation email or employer/ATS portal verification has been recorded in this tracker yet.
 - 2026-06-17: FieldAI Mapping, FieldAI QA/QC, Humble Robotics, MVP Robotics, and Lila Sciences were recorded as `not submitted` and copied into `DYI applications.md` for manual follow-up.

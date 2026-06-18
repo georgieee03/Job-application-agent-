@@ -1,4 +1,4 @@
 interface:
   display_name: "Verify Application State"
-  short_description: "Persist and audit application workflow evidence"
-  default_prompt: "Use $verify-job-application-state to create, update, or audit the durable application-workbench handoff."
+  short_description: "Persist, audit, and sync application state"
+  default_prompt: "Use $verify-job-application-state to create, update, audit, and sync the tracker, reports, and durable application-workbench handoff."

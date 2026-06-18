@@ -4,9 +4,9 @@
 
 - Objective: Submit 10 compatible US applications, prioritizing robotics roles
 - Target submitted: 10
-- Authoritatively submitted: 10
+- Authoritatively submitted: 0
 - Created: 2026-06-09T08:14:37+00:00
-- Updated: 2026-06-12T00:38:25+00:00
+- Updated: 2026-06-18T01:23:31+00:00
 - Workspace: `D:\job-application-agent-kit`
 - Candidate answers: `data/candidate-application-answers.md`
 - Workbench URL: [link](http://localhost:4321/)
@@ -25,7 +25,7 @@
 
 ## Verification Panel
 
-- Target met: yes
+- Target met: no
 - Unresolved questions: 0
 - Last audit passed: yes
 - Status counts: submitted=10
@@ -71,6 +71,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://job-boards.greenhouse.io/roboforce/jobs/5181554008/confirmation)
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-ten-applications\roboforce-robotics-software-engineer\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/roboforce-robotics-software-engineer.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -98,6 +102,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://job-boards.greenhouse.io/pathrobotics/jobs/8500622002/confirmation)
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-ten-applications\path-robotics-software-engineer-systems\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/path-robotics-software-engineer-systems.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -125,6 +133,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://job-boards.greenhouse.io/quince/jobs/5226786008/confirmation)
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-ten-applications\quince-software-development-engineer-new-grad\submission-needs-review.png`
+- Submitted answers: -
+- Application report: `data/application-reports/quince-software-development-engineer-new-grad.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -152,6 +164,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://job-boards.greenhouse.io/applovin/jobs/4451556006/confirmation)
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-ten-applications\applovin-backend-engineer-new-grad\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/applovin-backend-engineer-new-grad.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -179,6 +195,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://job-boards.greenhouse.io/elevaterobotics/jobs/4207387009/confirmation)
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-ten-applications\elevate-robotics-software-engineer-intern\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/elevate-robotics-software-engineer-intern.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -206,6 +226,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://jobs.ashbyhq.com/metamorphic/c58ddc03-4887-4add-855c-bcf6391ef575/application)
 - Confirmation screenshot: `-`
+- Submitted answers: -
+- Application report: `data/application-reports/metamorphic-robotics-engineer.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -233,6 +257,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://job-boards.greenhouse.io/figureai/jobs/4397706006/confirmation)
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-ten-applications\figure-embedded-software-intern-fall-2026\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/figure-embedded-software-intern-fall-2026.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -260,6 +288,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://job-boards.greenhouse.io/kodiak/jobs/4174533009/confirmation)
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-ten-applications\kodiak-fall-2026-perception-intern\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/kodiak-fall-2026-perception-intern.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -287,6 +319,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://job-boards.greenhouse.io/roboforce/jobs/5196164008/confirmation)
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-ten-applications\roboforce-ai-resident\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/roboforce-ai-resident.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 
@@ -314,6 +350,10 @@
 - Confirmation number: -
 - Confirmation URL: [link](https://job-boards.greenhouse.io/scoutai/jobs/5137118008/confirmation)
 - Confirmation screenshot: `D:\job-application-agent-kit\data\june-2026-ten-applications\scout-ai-robotics-software-engineer\submission-confirmation.png`
+- Submitted answers: -
+- Application report: `data/application-reports/scout-ai-robotics-software-engineer.md`
+- Tracker sync: - at -
+- Tracker sync commit: `-`
 - Blocker: -
 - Next action: Complete
 

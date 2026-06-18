@@ -40,4 +40,3 @@ Rank shortlisted roles by:
 4. attainable truthful ATS alignment;
 5. new-grad/intern/early-career seniority fit;
 6. application friction and closing risk.
-

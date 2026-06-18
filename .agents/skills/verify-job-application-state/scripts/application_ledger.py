@@ -22,9 +22,30 @@ STATUSES = {
     "form-in-progress",
     "awaiting-user",
     "submitted",
+    "submitted - email verified",
+    "submitted - portal verified",
+    "submitted - pending email verification",
+    "not submitted",
+    "not completed",
+    "manual submit needed",
+    "rejected",
+    "interview",
+    "accepted",
     "needs-review",
     "blocked",
     "skipped",
+}
+
+COUNTABLE_SUBMITTED_STATUSES = {
+    "submitted - email verified",
+    "submitted - portal verified",
+}
+
+SUBMITTED_STATUSES = {
+    "submitted",
+    "submitted - email verified",
+    "submitted - portal verified",
+    "submitted - pending email verification",
 }
 
 APPLICATION_FIELDS = [
@@ -59,6 +80,11 @@ APPLICATION_FIELDS = [
     "confirmation_number",
     "confirmation_screenshot",
     "submitted_at",
+    "submitted_answers",
+    "application_report",
+    "tracker_sync_status",
+    "tracker_synced_at",
+    "tracker_sync_commit",
 ]
 
 RUN_MUTABLE_FIELDS = {
@@ -120,8 +146,10 @@ def atomic_write(path: Path, text: str) -> None:
 def save_state(run_dir: str, state: dict[str, Any]) -> None:
     state["updated_at"] = now()
     json_path, md_path = paths(run_dir)
+    ensure_application_report_paths(state)
     atomic_write(json_path, json.dumps(state, indent=2, ensure_ascii=True) + "\n")
     atomic_write(md_path, render_markdown(state))
+    write_application_reports(state)
 
 
 def md(value: Any) -> str:
@@ -141,7 +169,7 @@ def link_or_text(value: Any) -> str:
 
 def render_markdown(state: dict[str, Any]) -> str:
     apps = state.get("applications", [])
-    submitted = [app for app in apps if app.get("status") == "submitted"]
+    submitted = [app for app in apps if app.get("status") in COUNTABLE_SUBMITTED_STATUSES]
     unresolved = [q for q in state.get("questions", []) if not q.get("answer")]
     status_counts: dict[str, int] = {}
     for app in apps:
@@ -237,6 +265,10 @@ def render_markdown(state: dict[str, Any]) -> str:
                 f"- Confirmation number: {md(app.get('confirmation_number'))}",
                 f"- Confirmation URL: {link_or_text(app.get('confirmation_url'))}",
                 f"- Confirmation screenshot: `{md(app.get('confirmation_screenshot'))}`",
+                f"- Submitted answers: {md(app.get('submitted_answers'))}",
+                f"- Application report: `{md(app.get('application_report'))}`",
+                f"- Tracker sync: {md(app.get('tracker_sync_status'))} at {md(app.get('tracker_synced_at'))}",
+                f"- Tracker sync commit: `{md(app.get('tracker_sync_commit'))}`",
                 f"- Blocker: {md(app.get('blocker'))}",
                 f"- Next action: {md(app.get('next_action'))}",
                 "",
@@ -289,6 +321,95 @@ def render_markdown(state: dict[str, Any]) -> str:
             "",
         ]
     )
+    return "\n".join(lines)
+
+
+def safe_report_name(app: dict[str, Any]) -> str:
+    role_id = str(app.get("role_id") or "unknown-role")
+    safe = "".join(
+        character.lower() if character.isalnum() else "-"
+        for character in role_id.strip()
+    ).strip("-")
+    return safe or "unknown-role"
+
+
+def application_report_path(state: dict[str, Any], app: dict[str, Any]) -> Path:
+    workspace = Path(state["workspace"])
+    return workspace / "data" / "application-reports" / f"{safe_report_name(app)}.md"
+
+
+def ensure_application_report_paths(state: dict[str, Any]) -> None:
+    workspace = Path(state["workspace"])
+    for app in state.get("applications", []):
+        report_path = app.get("application_report")
+        if not report_path:
+            app["application_report"] = str(
+                application_report_path(state, app).relative_to(workspace)
+            ).replace(os.sep, "/")
+
+
+def write_application_reports(state: dict[str, Any]) -> None:
+    for app in state.get("applications", []):
+        atomic_write(application_report_path(state, app), render_application_report(state, app))
+
+
+def render_application_report(state: dict[str, Any], app: dict[str, Any]) -> str:
+    lines = [
+        f"# Application Report - {md(app.get('company'))} - {md(app.get('role'))}",
+        "",
+        "## Identity",
+        "",
+        f"- Role ID: `{md(app.get('role_id'))}`",
+        f"- Company: {md(app.get('company'))}",
+        f"- Role: {md(app.get('role'))}",
+        f"- Job URL: {link_or_text(app.get('job_url'))}",
+        f"- Location: {md(app.get('location'))}",
+        f"- Provider: {md(app.get('provider'))}",
+        f"- Status: {md(app.get('status'))}",
+        "",
+        "## Process Summary",
+        "",
+        f"- Attempted at: {md(app.get('attempted_at'))}",
+        f"- Submitted at: {md(app.get('submitted_at'))}",
+        f"- Approval status: {md(app.get('approval_status'))}",
+        f"- Approval evidence: {md(app.get('approval_evidence'))}",
+        f"- Package directory: `{md(app.get('package_dir'))}`",
+        f"- Resume path: `{md(app.get('resume_path'))}`",
+        f"- Cover letter path: `{md(app.get('cover_letter_path'))}`",
+        f"- ATS heuristic: {md(app.get('ats_score'))}",
+        f"- Fit notes: {md(app.get('fit_notes'))}",
+        f"- Eligibility notes: {md(app.get('eligibility_notes'))}",
+        f"- Blocker: {md(app.get('blocker'))}",
+        f"- Next action: {md(app.get('next_action'))}",
+        "",
+        "## Submitted Answers",
+        "",
+        md(app.get("submitted_answers")),
+        "",
+        "## Evidence",
+        "",
+        f"- Confirmation type: {md(app.get('confirmation_type'))}",
+        f"- Confirmation text: {md(app.get('confirmation_text'))}",
+        f"- Confirmation number: {md(app.get('confirmation_number'))}",
+        f"- Confirmation URL: {link_or_text(app.get('confirmation_url'))}",
+        f"- Confirmation screenshot: `{md(app.get('confirmation_screenshot'))}`",
+        f"- Browser surface: {md(app.get('browser_surface'))}",
+        f"- Browser URL: {link_or_text(app.get('browser_url'))}",
+        f"- Browser account: {md(app.get('browser_account'))}",
+        f"- Browser step: {md(app.get('browser_step'))}",
+        "",
+        "## Tracker Sync",
+        "",
+        f"- Tracker sync status: {md(app.get('tracker_sync_status'))}",
+        f"- Tracker synced at: {md(app.get('tracker_synced_at'))}",
+        f"- Tracker sync commit: `{md(app.get('tracker_sync_commit'))}`",
+        "",
+        "## Notes",
+        "",
+        "- Do not store passwords, cookies, raw session data, CAPTCHA answers, or one-time codes in this report.",
+        "- This report is intended to sync through git with the application trackers for cross-device duplicate prevention.",
+        "",
+    ]
     return "\n".join(lines)
 
 
@@ -420,7 +541,7 @@ def command_upsert(args: argparse.Namespace) -> None:
         if value is not None:
             app[key] = value
     app.update(parse_sets(args.set))
-    if app["status"] == "submitted" and not any(
+    if app["status"] in SUBMITTED_STATUSES and not any(
         app.get(field)
         for field in (
             "confirmation_text",
@@ -465,13 +586,13 @@ def command_audit(args: argparse.Namespace) -> None:
     state = load_state(args.run_dir)
     issues: list[str] = []
     apps = state.get("applications", [])
-    submitted = [app for app in apps if app.get("status") == "submitted"]
+    submitted = [app for app in apps if app.get("status") in COUNTABLE_SUBMITTED_STATUSES]
     if len({app["role_id"] for app in submitted}) != len(submitted):
         issues.append("Duplicate submitted role IDs")
     for app in apps:
-        if app.get("status") in {"approved", "form-in-progress", "submitted"}:
+        if app.get("status") in {"approved", "form-in-progress"} | SUBMITTED_STATUSES:
             verify_manifest(state, app, issues)
-        if app.get("status") == "submitted" and not any(
+        if app.get("status") in SUBMITTED_STATUSES and not any(
             app.get(field)
             for field in (
                 "confirmation_text",
@@ -482,6 +603,10 @@ def command_audit(args: argparse.Namespace) -> None:
             )
         ):
             issues.append(f"{app['role_id']}: submitted without confirmation evidence")
+        if app.get("status") in COUNTABLE_SUBMITTED_STATUSES and not app.get("submitted_answers"):
+            issues.append(f"{app['role_id']}: verified submission missing submitted answers")
+        if app.get("status") in COUNTABLE_SUBMITTED_STATUSES and not app.get("application_report"):
+            issues.append(f"{app['role_id']}: verified submission missing application report")
     if len(submitted) < int(state.get("target_count", 0)):
         issues.append(
             f"Target not met: {len(submitted)}/{int(state.get('target_count', 0))} submitted"

@@ -51,6 +51,19 @@ fill an optional field.
   in `application_tracker.md` with the original job posting URL. Also copy
   incomplete Codex attempts into `DYI applications.md` using the same table
   format.
+- Update every durable tracker before and after application work:
+  `data/application-tracker.json`, `application_tracker.md`,
+  `DYI applications.md` when applicable, the active
+  `data/<run-name>/application-workbench.*` files, and the per-application
+  reports in `data/application-reports/`.
+- Push tracker and report updates to GitHub at every clean batch checkpoint
+  and before handing work to another device or session. Pull/rebase `main`
+  before sourcing new jobs so duplicate prevention includes applications
+  submitted from the Mac/Claude workspace or this Windows/Codex workspace.
+- For each application touched, keep a dedicated report that records what was
+  done, what files were used, what answers were submitted, what evidence was
+  captured, and what remains blocked or pending. Do not store passwords,
+  cookies, CAPTCHA answers, raw session data, or one-time codes in reports.
 
 ## Automatic Job-Application Routing
 
@@ -90,6 +103,13 @@ portal record, or provider/API acceptance record. Never count blocked, skipped,
 staged, `needs-review`, email-unverified, or merely clicked submissions as fully
 verified.
 
+Before discovering or opening new roles, pull the latest `main` from GitHub and
+read all synced trackers and reports. This is required so another workspace does
+not apply to roles already submitted or attempted elsewhere. After material
+tracker/report updates, stage only tracker/report files, commit them with a
+clear sync message, and push `main` unless the worktree contains unrelated
+changes that make a safe tracker-only commit impossible.
+
 ## Model-Aware Subagent Delegation
 
 The master job-application workbench may use subagents when the user requests a
@@ -125,6 +145,7 @@ Subagents must:
 The main agent must verify and integrate subagent output, update
 `application-workbench.md`, enforce approvals and browser safety, and remain
 the sole owner of final external side effects.
+
 
 ## Claude Code Subagent Routing
 

@@ -26,6 +26,16 @@ When George prompts a goal like:
 Claude Code must activate the job-application workbench workflow immediately.
 The requested number means verified applications, not attempts.
 
+For the first run in a fresh Mac workspace, George may use a longer orientation
+prompt such as:
+
+> first refer to the whole repository entirely, analyze the workflow, how it is implemented, the application tracker and what has been done already so far and then follow the workflow to complete the goal of applying to 5 different job positions related to robotics relevant to my resume
+
+Treat that as the same workflow trigger, with the extra requirement to read the
+repository instructions and synced state before acting. After the first
+orientation run, shorter prompts such as `apply to 5 different jobs related to
+robotics relevant to my resume` are sufficient.
+
 Use these files first:
 
 1. `AGENTS.md`
@@ -46,15 +56,25 @@ Use these files first:
   mailbox/portal authorization.
 - Use `data/application-tracker.json` as the real workbench tracker and
   duplicate-prevention source of truth.
+- Before sourcing or opening jobs, run `git pull --rebase origin main` and read
+  the synced tracker/report state from GitHub. This repo is the data-flow source
+  between the Windows/Codex and Mac/Claude workspaces.
 - Record every touched role in the tracker, including failed, blocked,
   CAPTCHA/OTP-gated, duplicate, replaced, not-completed, and not-submitted
   roles.
 - Copy incomplete Codex/Claude attempts into `DYI applications.md`.
+- For every role touched, create or update
+  `data/application-reports/<role-id>.md` with what was done, submitted
+  non-secret answers, files used, evidence, blocker, next action, and final
+  status.
 - Do not mark a role fully verified from a success page alone. A verified
   submission requires immediate provider evidence plus confirmation email,
   employer/ATS portal evidence, or provider/API acceptance evidence.
 - If only the success page is available, mark the tracker status as
   `submitted - pending email verification`.
+- After material tracker/report updates, stage only tracker/report artifacts,
+  commit them, and push `main` so the other device does not repeat the same job
+  posting.
 
 ## Live Submission Ownership
 

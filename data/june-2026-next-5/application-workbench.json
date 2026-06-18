@@ -3,7 +3,7 @@
   "objective": "Submit 10 unique, confirmed US robotics-preferred job applications",
   "target_count": 10,
   "created_at": "2026-06-09T08:51:25+00:00",
-  "updated_at": "2026-06-17T21:09:22+00:00",
+  "updated_at": "2026-06-18T01:23:31+00:00",
   "workspace": "D:\\job-application-agent-kit",
   "candidate_answers": "data\\candidate-application-answers.md",
   "workbench_url": "http://localhost:4321/",
@@ -49,7 +49,8 @@
       "confirmation_url": "https://jobs.ashbyhq.com/corvus-robotics/e180a9e8-6611-485b-b76a-bbf995b69e7f/application",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\corvus-product-implementation-engineer\\submission-confirmation.png",
-      "submitted_at": "2026-06-12T01:03:41.877Z"
+      "submitted_at": "2026-06-12T01:03:41.877Z",
+      "application_report": "data/application-reports/corvus-product-implementation-engineer.md"
     },
     {
       "role_id": "arxlight-newgrad-engineering",
@@ -83,7 +84,8 @@
       "confirmation_url": "https://jobs.ashbyhq.com/arxlight-ai/ca17abfe-c253-4cc8-95ec-027a471ac734/application",
       "confirmation_number": "",
       "confirmation_screenshot": "data\\june-2026-next-5\\arxlight-newgrad-engineering\\submission-confirmation.png",
-      "submitted_at": "2026-06-09T19:27:22.066Z"
+      "submitted_at": "2026-06-09T19:27:22.066Z",
+      "application_report": "data/application-reports/arxlight-newgrad-engineering.md"
     },
     {
       "role_id": "fieldai-robotics-software-mapping",
@@ -117,7 +119,8 @@
       "confirmation_url": "",
       "confirmation_number": "",
       "confirmation_screenshot": "",
-      "submitted_at": ""
+      "submitted_at": "",
+      "application_report": "data/application-reports/fieldai-robotics-software-mapping.md"
     },
     {
       "role_id": "fieldai-robotics-qa-qc-engineer",
@@ -151,7 +154,8 @@
       "confirmation_url": "",
       "confirmation_number": "",
       "confirmation_screenshot": "",
-      "submitted_at": ""
+      "submitted_at": "",
+      "application_report": "data/application-reports/fieldai-robotics-qa-qc-engineer.md"
     },
     {
       "role_id": "humble-software-engineer-autonomous-systems",
@@ -185,7 +189,8 @@
       "confirmation_url": "",
       "confirmation_number": "",
       "confirmation_screenshot": "",
-      "submitted_at": ""
+      "submitted_at": "",
+      "application_report": "data/application-reports/humble-software-engineer-autonomous-systems.md"
     },
     {
       "role_id": "nuro-software-engineer-ai-platform-new-grad",
@@ -219,7 +224,8 @@
       "confirmation_url": "https://job-boards.greenhouse.io/embed/job_app/confirmation?for=nuro&token=7351066",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-ai-platform-new-grad\\submission-confirmation.png",
-      "submitted_at": "2026-06-12T00:31:17.909Z"
+      "submitted_at": "2026-06-12T00:31:17.909Z",
+      "application_report": "data/application-reports/nuro-software-engineer-ai-platform-new-grad.md"
     },
     {
       "role_id": "nuro-software-engineer-performance-new-grad",
@@ -253,7 +259,8 @@
       "confirmation_url": "https://job-boards.greenhouse.io/embed/job_app/confirmation?for=nuro&token=7978432",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\nuro-software-engineer-performance-new-grad\\submission-confirmation.png",
-      "submitted_at": "2026-06-12T00:32:42.856Z"
+      "submitted_at": "2026-06-12T00:32:42.856Z",
+      "application_report": "data/application-reports/nuro-software-engineer-performance-new-grad.md"
     },
     {
       "role_id": "skild-ai-robotics-software-engineer",
@@ -287,7 +294,8 @@
       "confirmation_url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4136373008/confirmation",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\skild-ai-robotics-software-engineer\\submission-confirmation.png",
-      "submitted_at": "2026-06-12T00:28:53.344Z"
+      "submitted_at": "2026-06-12T00:28:53.344Z",
+      "application_report": "data/application-reports/skild-ai-robotics-software-engineer.md"
     },
     {
       "role_id": "mvp-robotics-software-engineer",
@@ -321,7 +329,8 @@
       "confirmation_url": "",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\mvp-robotics-software-engineer\\submission-awaiting-security-code.png",
-      "submitted_at": ""
+      "submitted_at": "",
+      "application_report": "data/application-reports/mvp-robotics-software-engineer.md"
     },
     {
       "role_id": "verne-robotics-software-engineer",
@@ -355,7 +364,8 @@
       "confirmation_url": "https://jobs.ashbyhq.com/Verne%20Robotics/34b8ec26-2bb0-47b0-912c-09fa0389b2c6/application",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\verne-robotics-software-engineer\\submission-confirmation.png",
-      "submitted_at": "2026-06-12T01:03:09.476Z"
+      "submitted_at": "2026-06-12T01:03:09.476Z",
+      "application_report": "data/application-reports/verne-robotics-software-engineer.md"
     },
     {
       "role_id": "lila-software-engineer-i-instrument-software",
@@ -389,7 +399,8 @@
       "confirmation_url": "",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\lila-software-engineer-i-instrument-software\\submission-awaiting-security-code.png",
-      "submitted_at": ""
+      "submitted_at": "",
+      "application_report": "data/application-reports/lila-software-engineer-i-instrument-software.md"
     },
     {
       "role_id": "standard-subsea-swe-robotics",
@@ -423,7 +434,8 @@
       "confirmation_url": "https://jobs.ashbyhq.com/standardsubsea/6689c77a-fccf-47df-abb4-8bca5b28cf2a/application",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\standard-subsea-swe-robotics\\submission-confirmation.png",
-      "submitted_at": "2026-06-12T01:03:54.245Z"
+      "submitted_at": "2026-06-12T01:03:54.245Z",
+      "application_report": "data/application-reports/standard-subsea-swe-robotics.md"
     },
     {
       "role_id": "molg-robotics-engineer-path-planning",
@@ -457,7 +469,8 @@
       "confirmation_url": "https://jobs.ashbyhq.com/Molg/ed85e53f-dcb9-4f83-8044-01baa29313fd/application",
       "confirmation_number": "",
       "confirmation_screenshot": "D:\\job-application-agent-kit\\data\\june-2026-next-5\\molg-robotics-engineer-path-planning\\submission-confirmation.png",
-      "submitted_at": "2026-06-12T01:05:08.925Z"
+      "submitted_at": "2026-06-12T01:05:08.925Z",
+      "application_report": "data/application-reports/molg-robotics-engineer-path-planning.md"
     },
     {
       "role_id": "circuithub-full-stack-robotics-engineer",
@@ -491,7 +504,8 @@
       "confirmation_url": "https://jobs.ashbyhq.com/circuithub/6ce5e5f2-7dd4-4c5c-8978-ab6f3e2e1e1d/application",
       "confirmation_number": "",
       "confirmation_screenshot": "data\\june-2026-next-5\\circuithub-full-stack-robotics-engineer\\submission-confirmation.png",
-      "submitted_at": "2026-06-12T01:14:08.971Z"
+      "submitted_at": "2026-06-12T01:14:08.971Z",
+      "application_report": "data/application-reports/circuithub-full-stack-robotics-engineer.md"
     },
     {
       "role_id": "applied-intuition-software-engineer-cpp",
@@ -525,7 +539,8 @@
       "confirmation_url": "https://jobs.ashbyhq.com/applied/c9473dcb-f651-47bb-9a59-4150bddcdaa8/application",
       "confirmation_number": "",
       "confirmation_screenshot": "data\\june-2026-next-5\\applied-intuition-software-engineer-cpp\\submission-confirmation.png",
-      "submitted_at": "2026-06-12T01:15:31.264Z"
+      "submitted_at": "2026-06-12T01:15:31.264Z",
+      "application_report": "data/application-reports/applied-intuition-software-engineer-cpp.md"
     }
   ],
   "questions": [
