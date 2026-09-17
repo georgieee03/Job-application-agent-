@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import os as _profile_environment
+if __name__ == "__main__" and _profile_environment.environ.get("JOB_APPLICATION_REVIEWED_LOCAL_HELPERS") != "true":
+    raise SystemExit("Public example helper: configure local candidate facts, paths, role configuration, and authorization first; see docs/public-repository-setup.md.")
+
 import json
 import sys
 from html import escape
@@ -97,7 +101,7 @@ def render_resume(role: dict[str, Any]) -> Path:
     )
     story = [
         para("GEORGE JOBI PERANGATTU", name),
-        para("1900 E Apache Blvd, Tempe, AZ 85281 | (480) 742-9855 | gjobiper@asu.edu", contact),
+        para("Example City, Example State | +1 555-010-0200 | candidate@example.com", contact),
     ]
 
     for section in role["resume"]:

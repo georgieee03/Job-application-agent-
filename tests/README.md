@@ -4,7 +4,7 @@ These tests are the readiness contract for the workbench and automation code.
 
 ## Local Gate
 
-Run the same gate before pushing:
+Run the local readiness gate before treating changes as ready:
 
 ```bash
 npm run ci
@@ -34,16 +34,7 @@ Keep new UI polish covered by rendered tests whenever the behavior depends on la
 
 ## Repository Gates
 
-`tests/repository-gates.test.ts` checks the package scripts, local GitHub Actions workflow contract, remote workflow helper scripts, documentation branding rules, and Georgie handle convention.
+`tests/repository-gates.test.ts` checks the package scripts,
+documentation branding rules, and Georgie handle convention.
 
 When docs mention Georgie, tag the handle as `@georgieee`.
-
-## Remote CI Check
-
-Run this after pushing:
-
-```bash
-npm run check:remote-ci
-```
-
-It verifies the regular `github.com` repo has an active `.github/workflows/ci.yml` on `geo-track` and that the workflow runs `npm run ci`. Publishing that workflow requires a GitHub token with the `workflow` scope.

@@ -6,11 +6,6 @@
     "github": "https://github.com/your-handle",
     "website": "https://your-site.example.com"
   },
-  "textAnswers": {
-    "Why are you interested in this role?": "Replace this with a specific, truthful answer.",
-    "Will you now or in the future require visa sponsorship?": "No"
-  },
-  "selectAnswers": {
-    "Work authorization": "Authorized to work in the United States"
-  }
+  "textAnswers": {},
+  "selectAnswers": {}
 }

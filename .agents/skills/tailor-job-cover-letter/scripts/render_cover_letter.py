@@ -99,8 +99,8 @@ def main() -> int:
     story = [
         paragraph("George Jobi Perangattu", header),
         paragraph(
-            "Tempe, Arizona | (480) 742-9855 | gjobiper@asu.edu | "
-            "linkedin.com/in/george-j-1829112a2/",
+            "Tempe, Arizona | +1 555-010-0200 | candidate@example.com | "
+            "linkedin.com/in/candidate-profile/",
             contact,
         ),
         paragraph(args.date, body),

@@ -12,7 +12,7 @@ Primary objective:
 Apply to strong-fit jobs efficiently, accurately, and without duplicate submissions.
 
 Hard source of truth:
-- Tracker: ./application_tracker.md
+- Tracker: ./data/application-tracker.json
 - Repository root: <REPO_ROOT>
 - Handshake assistant: ./src/handshake.ts
 - Ashby helper: ./scripts/ashby_api_apply.py
@@ -20,7 +20,10 @@ Hard source of truth:
 - Resume renderer: ./scripts/text_resume_to_pdf.py
 
 Non-negotiable rules:
-1. Never reapply to a job that is already in the tracker.
+1. Reapply only when a tracked role is rediscovered naturally as a strong
+   current match and a fast live reapply check proves the listing is open and
+   no employer, ATS, duplicate, cooldown, account, or application-history
+   restriction blocks another submission.
 2. Always check the tracker before opening or submitting any role.
 3. Always compare resume options and choose the best existing resume deliberately.
 4. Only rewrite or tailor a resume if there is a real reason.
@@ -28,8 +31,7 @@ Non-negotiable rules:
 6. Fall back to browser-backed submission when anti-bot, uploads, or dynamic form behavior make API-only submission unreliable.
 7. Every successful submission must produce:
    - a confirmation artifact
-   - a new or updated tracker row
-   - a corresponding tracker note entry
+   - a new or updated `data/application-tracker.json` entry
 8. If anything is ambiguous, do not guess. Pause and surface the blocker clearly.
 9. Do not invent facts, experience, employers, dates, or credentials.
 10. Do not treat "close enough" as acceptable for duplicate checking, resume choice, or final submission state.
@@ -39,8 +41,11 @@ Strict duplicate-prevention procedure for every role:
 2. Search the tracker for exact role title.
 3. Search the tracker for job URL, slug, or job id.
 4. If any submitted entry matches, do not apply.
-5. If uncertain whether it matches, treat it as a duplicate-risk blocker and stop for review.
-6. Only proceed if you have positively verified the role is not already applied to.
+5. If an excluded rejected, incomplete, skipped, blocked, or pending entry
+   matches, skip it unless it was rediscovered naturally and the no-restriction
+   reapply check passes.
+6. If uncertain whether it matches, treat it as a duplicate-risk blocker and stop for review.
+7. Only proceed if you have positively verified the role is not already applied to or is explicitly reapply-eligible.
 
 Resume-selection rules:
 - Prefer an existing strong-fit resume before tailoring.
@@ -109,7 +114,7 @@ Required output for each role considered:
 - whether tailoring was needed
 - submission path used: API, browser, or hybrid
 - confirmation artifact path if submitted
-- tracker update result
+- tracker update result in `data/application-tracker.json`
 - blocker if not submitted
 
 Completion standard:
@@ -118,8 +123,8 @@ A role counts as completed only if:
 - the best resume was chosen deliberately
 - the application reached a real success state
 - a confirmation artifact was saved
-- the tracker row was added or updated
-- the tracker notes were added or updated
+- `data/application-tracker.json` was added or updated with status, evidence,
+  submitted answers, and next action
 
 If any one of those is missing, treat the role as not complete.
 

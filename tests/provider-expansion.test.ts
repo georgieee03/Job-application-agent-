@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
+import { buildProviderCoverage } from "../src/jobs/search.js";
 import { parseJobSourceConfig } from "../src/jobs/source-config.js";
 import { detectCompanyBoardSource } from "../src/jobs/source-discovery.js";
 import { BambooHrProvider } from "../src/jobs/providers/bamboohr.js";
@@ -32,6 +33,86 @@ test("config schema accepts expanded direct-employer board providers", () => {
 
   assert.equal(parsed.boards.length, 9);
   assert.deepEqual(parsed.filters.preferredProviders, ["workday", "personio"]);
+});
+
+test("config schema accepts search and direct board sources without provider preference", () => {
+  const parsed = parseJobSourceConfig({
+    searches: [
+      { provider: "jooble", query: "robotics engineer", location: "United States" },
+      { provider: "adzuna", query: "controls engineer", location: "United States" }
+    ],
+    boards: [
+      { provider: "greenhouse", source: "locusrobotics" },
+      { provider: "lever", source: "anduril" },
+      { provider: "ashby", source: "zipline" }
+    ]
+  });
+
+  assert.deepEqual(parsed.searches.map((search) => search.provider), ["jooble", "adzuna"]);
+  assert.deepEqual(parsed.boards.map((board) => board.provider), ["greenhouse", "lever", "ashby"]);
+  assert.deepEqual(parsed.filters.preferredProviders, []);
+});
+
+test("provider coverage summarizes configured, completed, and failed sources", () => {
+  const parsed = parseJobSourceConfig({
+    searches: [
+      { provider: "jooble", query: "robotics engineer", location: "United States" },
+      { provider: "adzuna", query: "robotics engineer", location: "United States" }
+    ],
+    boards: [
+      { provider: "greenhouse", source: "locusrobotics" },
+      { provider: "greenhouse", source: "mavenrobotics" },
+      { provider: "ashby", source: "zipline" }
+    ]
+  });
+
+  const coverage = buildProviderCoverage(
+    parsed,
+    [
+      { provider: "jooble", mode: "search", source: "robotics engineer", count: 12 },
+      { provider: "greenhouse", mode: "board", source: "locusrobotics", count: 3 },
+      { provider: "ashby", mode: "board", source: "zipline", count: 8 }
+    ],
+    [
+      { provider: "adzuna", mode: "search", source: "robotics engineer", message: "temporarily unavailable" },
+      { provider: "greenhouse", mode: "board", source: "mavenrobotics", message: "404 Not Found" }
+    ]
+  );
+
+  assert.deepEqual(coverage, [
+    {
+      provider: "ashby",
+      mode: "board",
+      configuredSources: 1,
+      completedSources: 1,
+      fetchedListings: 8,
+      errors: 0
+    },
+    {
+      provider: "greenhouse",
+      mode: "board",
+      configuredSources: 2,
+      completedSources: 1,
+      fetchedListings: 3,
+      errors: 1
+    },
+    {
+      provider: "adzuna",
+      mode: "search",
+      configuredSources: 1,
+      completedSources: 0,
+      fetchedListings: 0,
+      errors: 1
+    },
+    {
+      provider: "jooble",
+      mode: "search",
+      configuredSources: 1,
+      completedSources: 1,
+      fetchedListings: 12,
+      errors: 0
+    }
+  ]);
 });
 
 test("source discovery detects common public ATS URLs", () => {

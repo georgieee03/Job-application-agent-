@@ -17,18 +17,27 @@ import type {
   SearchProvider
 } from "./types.js";
 
-interface SearchRunSummary {
+export interface SearchRunSummary {
   provider: string;
   mode: "search" | "board";
   source: string;
   count: number;
 }
 
-interface SearchRunError {
+export interface SearchRunError {
   provider: string;
   mode: "search" | "board";
   source: string;
   message: string;
+}
+
+export interface ProviderCoverageSummary {
+  provider: string;
+  mode: "search" | "board";
+  configuredSources: number;
+  completedSources: number;
+  fetchedListings: number;
+  errors: number;
 }
 
 const DEFAULT_SEARCH_CONCURRENCY = 2;
@@ -63,6 +72,7 @@ export interface SearchOutput {
     alertMatches: number;
   };
   providers: SearchRunSummary[];
+  providerCoverage: ProviderCoverageSummary[];
   errors: SearchRunError[];
   filters: JobSourceConfig["filters"];
   ranking: JobSourceConfig["ranking"];
@@ -129,6 +139,7 @@ export async function runListingsSearch(): Promise<SearchOutput> {
       alertMatches: alertMatches.reduce((total, alert) => total + alert.count, 0)
     },
     providers: summaries,
+    providerCoverage: buildProviderCoverage(jobSourceConfig, summaries, errors),
     errors,
     filters: jobSourceConfig.filters,
     ranking: jobSourceConfig.ranking,
@@ -222,6 +233,56 @@ function buildRunError(
   message: string
 ): SearchRunError {
   return { provider, mode, source, message };
+}
+
+export function buildProviderCoverage(
+  configData: Pick<JobSourceConfig, "searches" | "boards">,
+  summaries: SearchRunSummary[],
+  errors: SearchRunError[]
+): ProviderCoverageSummary[] {
+  const coverage = new Map<string, ProviderCoverageSummary>();
+
+  const getCoverage = (provider: string, mode: "search" | "board") => {
+    const key = `${mode}:${provider}`;
+    const existing = coverage.get(key);
+    if (existing) {
+      return existing;
+    }
+
+    const created: ProviderCoverageSummary = {
+      provider,
+      mode,
+      configuredSources: 0,
+      completedSources: 0,
+      fetchedListings: 0,
+      errors: 0
+    };
+    coverage.set(key, created);
+    return created;
+  };
+
+  for (const search of configData.searches) {
+    getCoverage(search.provider, "search").configuredSources += 1;
+  }
+
+  for (const board of configData.boards) {
+    getCoverage(board.provider, "board").configuredSources += 1;
+  }
+
+  for (const summary of summaries) {
+    const current = getCoverage(summary.provider, summary.mode);
+    current.completedSources += 1;
+    current.fetchedListings += summary.count;
+  }
+
+  for (const error of errors) {
+    getCoverage(error.provider, error.mode).errors += 1;
+  }
+
+  return [...coverage.values()].sort((left, right) => {
+    const modeOrder = left.mode.localeCompare(right.mode);
+    return modeOrder || left.provider.localeCompare(right.provider);
+  });
 }
 
 function indexProviders<T extends { id: string }>(providers: T[]): Map<string, T> {

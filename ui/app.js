@@ -2695,9 +2695,19 @@ function renderTracker() {
           <option value="status:submitted - portal verified" ${filterStatus === "status:submitted - portal verified" ? "selected" : ""}>Portal verified</option>
           <option value="status:submitted - pending email verification" ${filterStatus === "status:submitted - pending email verification" ? "selected" : ""}>Pending email verification</option>
           <option value="status:submitted" ${filterStatus === "status:submitted" ? "selected" : ""}>Submitted (legacy)</option>
+          <option value="status:discovered" ${filterStatus === "status:discovered" ? "selected" : ""}>Discovered</option>
+          <option value="status:screened" ${filterStatus === "status:screened" ? "selected" : ""}>Screened</option>
+          <option value="status:tailoring" ${filterStatus === "status:tailoring" ? "selected" : ""}>Tailoring</option>
+          <option value="status:awaiting-approval" ${filterStatus === "status:awaiting-approval" ? "selected" : ""}>Awaiting approval</option>
+          <option value="status:approved" ${filterStatus === "status:approved" ? "selected" : ""}>Approved</option>
+          <option value="status:form-in-progress" ${filterStatus === "status:form-in-progress" ? "selected" : ""}>Form in progress</option>
+          <option value="status:awaiting-user" ${filterStatus === "status:awaiting-user" ? "selected" : ""}>Awaiting user</option>
           <option value="status:not submitted" ${filterStatus === "status:not submitted" ? "selected" : ""}>Not submitted</option>
           <option value="status:not completed" ${filterStatus === "status:not completed" ? "selected" : ""}>Not completed</option>
           <option value="status:manual submit needed" ${filterStatus === "status:manual submit needed" ? "selected" : ""}>Manual submit needed</option>
+          <option value="status:needs-review" ${filterStatus === "status:needs-review" ? "selected" : ""}>Needs review</option>
+          <option value="status:blocked" ${filterStatus === "status:blocked" ? "selected" : ""}>Blocked</option>
+          <option value="status:skipped" ${filterStatus === "status:skipped" ? "selected" : ""}>Skipped</option>
           <option value="status:interview" ${filterStatus === "status:interview" ? "selected" : ""}>Interview</option>
           <option value="status:accepted" ${filterStatus === "status:accepted" ? "selected" : ""}>Accepted</option>
           <option value="status:rejected" ${filterStatus === "status:rejected" ? "selected" : ""}>Rejected</option>
@@ -2729,9 +2739,19 @@ function renderTracker() {
                     <option value="submitted - portal verified" ${job.status === "submitted - portal verified" ? "selected" : ""}>Submitted - portal verified</option>
                     <option value="submitted - pending email verification" ${job.status === "submitted - pending email verification" ? "selected" : ""}>Submitted - pending email verification</option>
                     <option value="submitted" ${job.status === "submitted" ? "selected" : ""}>Submitted (legacy)</option>
+                    <option value="discovered" ${job.status === "discovered" ? "selected" : ""}>Discovered</option>
+                    <option value="screened" ${job.status === "screened" ? "selected" : ""}>Screened</option>
+                    <option value="tailoring" ${job.status === "tailoring" ? "selected" : ""}>Tailoring</option>
+                    <option value="awaiting-approval" ${job.status === "awaiting-approval" ? "selected" : ""}>Awaiting approval</option>
+                    <option value="approved" ${job.status === "approved" ? "selected" : ""}>Approved</option>
+                    <option value="form-in-progress" ${job.status === "form-in-progress" ? "selected" : ""}>Form in progress</option>
+                    <option value="awaiting-user" ${job.status === "awaiting-user" ? "selected" : ""}>Awaiting user</option>
                     <option value="not submitted" ${job.status === "not submitted" ? "selected" : ""}>Not submitted</option>
                     <option value="not completed" ${job.status === "not completed" ? "selected" : ""}>Not completed</option>
                     <option value="manual submit needed" ${job.status === "manual submit needed" ? "selected" : ""}>Manual submit needed</option>
+                    <option value="needs-review" ${job.status === "needs-review" ? "selected" : ""}>Needs review</option>
+                    <option value="blocked" ${job.status === "blocked" ? "selected" : ""}>Blocked</option>
+                    <option value="skipped" ${job.status === "skipped" ? "selected" : ""}>Skipped</option>
                     <option value="rejected" ${job.status === "rejected" ? "selected" : ""}>Rejected</option>
                     <option value="interview" ${job.status === "interview" ? "selected" : ""}>Interview</option>
                     <option value="accepted" ${job.status === "accepted" ? "selected" : ""}>Accepted</option>

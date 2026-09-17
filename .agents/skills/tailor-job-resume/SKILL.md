@@ -38,6 +38,9 @@ Create a truthful, job-specific application package while preserving the candida
 8. Target an estimated ATS alignment of 89-95. Treat it as a transparent local heuristic, never as a guarantee from an employer's ATS and never force a low result upward.
 9. If truthful alignment remains below 89, report the gap and ask for evidence or user guidance instead of adding unsupported claims.
 10. Do not add immigration, salary, EEO, favorite-fruit, or application-form answers to the resume or cover letter unless they are relevant and the user explicitly requests them.
+11. Do not keyword-stuff. Increase ATS alignment by naturally distributing
+   truthful terms across summary, skills, projects, and experience while
+   preserving verified content and readability.
 
 ## Render
 
@@ -52,6 +55,12 @@ Create a truthful, job-specific application package while preserving the candida
 7. Keep the uploaded filenames exact even when role-specific source files use internal names:
    - `George_Jobi_Resume.pdf`
    - `George_Jobi_CoverLetter.pdf`
+8. No page break may leave a section heading, project title, job title, degree
+   line, or other content anchor separated from the body it introduces.
+9. Keep the PDF ATS-readable: extractable text only, no image-only resume
+   pages, no icons, no tables, no text boxes, no form widgets, no annotations,
+   no overlapping text, and no decorative objects except the established
+   horizontal section rules.
 
 ## Validate
 
@@ -69,7 +78,11 @@ python .agents\skills\tailor-job-resume\scripts\validate_resume.py `
 4. Render every PDF page to PNG and visually inspect it.
 5. Compare page one against the approved reference. Verify hierarchy, margins, rules, font appearance, density, wrapping, clipping, and absence of overlap.
 6. Extract PDF text and confirm that all expected sections and verified content survived rendering.
-7. Generate an approval manifest:
+7. Treat any validator failure in filename, page size, page count, page fill,
+   ATS-readable extraction, image/text-box/widget/annotation checks,
+   overlapping text, orphan page-break checks, missing bold anchors, missing
+   verified content, or keyword coverage as blocking.
+8. Generate an approval manifest:
 
 ```powershell
 python .agents\skills\tailor-job-resume\scripts\build_package_manifest.py `

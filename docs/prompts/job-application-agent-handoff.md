@@ -8,8 +8,9 @@ Apply to strong-fit roles efficiently without duplicate submissions while keepin
 
 ## Source Of Truth
 
-- Tracker: `./application_tracker.md`
-- Profile answers: `./application-profile.json`
+- Tracker: `./data/application-tracker.json`
+- Candidate answers: `./data/candidate-application-answers.md`
+- Legacy Handshake profile mirror: `./application-profile.json`
 - Handshake assistant: `./src/handshake.ts`
 - Ashby helper: `./scripts/ashby_api_apply.py`
 - Board fetch helper: `./scripts/job_board_fetch.sh`
@@ -17,7 +18,7 @@ Apply to strong-fit roles efficiently without duplicate submissions while keepin
 
 ## Non-Negotiable Rules
 
-### 1. Never Reapply
+### 1. Reapply Only When Clearly Allowed
 
 Before opening or submitting any role, check the tracker by:
 
@@ -25,14 +26,21 @@ Before opening or submitting any role, check the tracker by:
 - exact role title
 - normalized job URL or job ID
 
-If there is ambiguity, treat it as a blocker.
+If there is ambiguity, treat it as a blocker for ordinary discovery.
+`workflowExcluded=true` means the role is visible for duplicate prevention and
+should be skipped by default, not that it can never be retried. Do not
+proactively recheck old excluded roles. Re-enter a rejected, incomplete,
+skipped, blocked, or pending role only when normal sourcing rediscovers it
+naturally as a strong current match and a fast live check records
+`reapplyAllowed=true` and proves the listing is open and no employer, ATS,
+duplicate, cooldown, account, or application-history restriction blocks another
+submission.
 
 ### 2. The Tracker Is Mandatory
 
-Every submitted application must update:
-
-- the main tracker table
-- the notes section with resume used, path taken, and confirmation artifact
+Every submitted application must update the matching
+`data/application-tracker.json` entry with resume used, path taken, submitted
+answers, confirmation evidence, status, blocker if any, and next action.
 
 ### 3. Resume Selection Must Be Deliberate
 
@@ -63,7 +71,7 @@ Prefer public board APIs and normalized search output before manual browsing.
 Search the tracker before any submission work:
 
 ```bash
-rg -n "Company Name|Exact Role Title|job-id-or-url-fragment" ./application_tracker.md
+rg -n "Company Name|Exact Role Title|job-id-or-url-fragment" ./data/application-tracker.json
 ```
 
 ### Phase 3: Choose Resume
@@ -77,7 +85,8 @@ For each role:
 
 ### Phase 4: Prepare Answers
 
-- Use `application-profile.json` for repeated answers.
+- Use `data/candidate-application-answers.md` for repeated answers. Search it
+  by exact wording and semantic equivalent before asking George a question.
 - Keep short-form answers concrete and truthful.
 - Prefer specific project examples over generic enthusiasm.
 
@@ -107,7 +116,7 @@ If a browser flow is blocked by Cloudflare, Turnstile, reCAPTCHA, hCaptcha, cook
 - whether tailoring happened
 - submission path
 - confirmation artifact path
-- tracker update result
+- tracker update result in `data/application-tracker.json`
 - blocker if not submitted
 
 ## Completion Standard
@@ -118,6 +127,6 @@ A role is complete only if:
 - the best resume was chosen deliberately
 - the application reached a real success state
 - a confirmation artifact was saved
-- the tracker was updated
+- `data/application-tracker.json` was updated
 
 If one of those is missing, the role is not complete.

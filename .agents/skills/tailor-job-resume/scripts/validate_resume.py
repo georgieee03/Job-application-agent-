@@ -20,6 +20,16 @@ REQUIRED_SECTIONS = [
     "PROJECT EXPERIENCE",
     "WORK EXPERIENCE",
 ]
+ORPHAN_HEADING_ANCHORS = REQUIRED_SECTIONS + [
+    "Project Experience (Continued)",
+    "Efficient TransFuser",
+    "Parrot MiniDrone",
+    "3D Motion Planning",
+    "Spider CAD Robot",
+    "Complementarity-Free Dexterous Manipulation with TacDrones",
+    "Backend Developer Intern",
+    "Full Stack Developer Intern",
+]
 CONTENT_ANCHORS = [
     "M.S. Robotics and Autonomous Systems",
     "B.S. Computer Science",
@@ -27,7 +37,7 @@ CONTENT_ANCHORS = [
     "Parrot MiniDrone",
     "3D Motion Planning",
     "Spider CAD Robot",
-    "Factory Automation System for Semiconductor Process Simulation",
+    "Complementarity-Free Dexterous Manipulation with TacDrones",
     "DigiClips Media",
     "Odoo",
     "TicketDex",
@@ -39,7 +49,7 @@ BOLD_ANCHORS = [
     "Parrot MiniDrone",
     "3D Motion Planning",
     "Spider CAD Robot",
-    "Factory Automation System for Semiconductor Process Simulation",
+    "Complementarity-Free Dexterous Manipulation with TacDrones",
     "Backend Developer Intern",
     "Full Stack Developer Intern",
 ]
@@ -120,6 +130,43 @@ def page_fill_ratio(page: fitz.Page) -> float:
     return round((bottom - top) / page.rect.height, 3)
 
 
+def text_block_count(page: fitz.Page) -> int:
+    return sum(1 for block in page.get_text("dict")["blocks"] if block.get("type") == 0 and block.get("lines"))
+
+
+def image_block_count(page: fitz.Page) -> int:
+    return sum(1 for block in page.get_text("dict")["blocks"] if block.get("type") == 1)
+
+
+def page_has_orphan_heading(page_lines: list[dict[str, Any]]) -> list[str]:
+    visible_lines = [line for line in page_lines if line["text"]]
+    if len(visible_lines) < 2:
+        return []
+    tail = visible_lines[-2:]
+    findings = []
+    for line in tail:
+        text = normalize(line["text"])
+        if any(normalize(anchor) in text for anchor in ORPHAN_HEADING_ANCHORS):
+            findings.append(line["text"])
+    return findings
+
+
+def overlapping_lines(page_lines: list[dict[str, Any]]) -> list[tuple[str, str]]:
+    overlaps: list[tuple[str, str]] = []
+    ordered = sorted(page_lines, key=lambda item: (round(item["bbox"][1], 1), round(item["bbox"][0], 1)))
+    for left, right in zip(ordered, ordered[1:]):
+        left_box = left["bbox"]
+        right_box = right["bbox"]
+        same_row = abs(left_box[1] - right_box[1]) < 2.0
+        if same_row:
+            continue
+        vertical_overlap = min(left_box[3], right_box[3]) - max(left_box[1], right_box[1])
+        horizontal_overlap = min(left_box[2], right_box[2]) - max(left_box[0], right_box[0])
+        if vertical_overlap > 1.0 and horizontal_overlap > 8.0:
+            overlaps.append((left["text"], right["text"]))
+    return overlaps
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate a tailored George Jobi resume PDF.")
     parser.add_argument("--pdf", required=True, type=Path)
@@ -138,7 +185,8 @@ def main() -> int:
 
     doc = fitz.open(pdf_path)
     pages = list(doc)
-    all_lines = [line for page in pages for line in text_lines(page)]
+    page_lines = [text_lines(page) for page in pages]
+    all_lines = [line for lines in page_lines for line in lines]
     text = "\n".join(page.get_text() for page in pages)
     normalized_text = normalize(text)
 
@@ -164,6 +212,39 @@ def main() -> int:
         failures.append(
             f"Each page must be substantially filled (minimum {args.min_page_fill:.0%}); found {page_fill}."
         )
+
+    text_blocks = [text_block_count(page) for page in pages]
+    image_blocks = [image_block_count(page) for page in pages]
+    if any(count == 0 for count in text_blocks):
+        failures.append(f"Every page must contain extractable text blocks; found {text_blocks}.")
+    if any(count > 0 for count in image_blocks):
+        failures.append(f"Resume must be ATS-readable text, not image content; image blocks found {image_blocks}.")
+
+    annotations = [len(list(page.annots() or [])) for page in pages]
+    widgets = [len(list(page.widgets() or [])) for page in pages]
+    if any(count > 0 for count in annotations):
+        failures.append(f"Resume must not include PDF annotations; found {annotations}.")
+    if any(count > 0 for count in widgets):
+        failures.append(f"Resume must not include form widgets; found {widgets}.")
+
+    orphan_headings = {
+        index + 1: page_has_orphan_heading(lines)
+        for index, lines in enumerate(page_lines[:-1])
+        if page_has_orphan_heading(lines)
+    }
+    if orphan_headings:
+        failures.append(
+            "Page break leaves a heading or content anchor separated from its body: "
+            + json.dumps(orphan_headings, ensure_ascii=False)
+        )
+
+    overlap_findings = {
+        index + 1: overlapping_lines(lines)[:5]
+        for index, lines in enumerate(page_lines)
+        if overlapping_lines(lines)
+    }
+    if overlap_findings:
+        failures.append("Overlapping text lines detected: " + json.dumps(overlap_findings, ensure_ascii=False))
 
     section_checks = {
         section: (
@@ -230,6 +311,20 @@ def main() -> int:
         "pageCount": {"value": doc.page_count, "ok": page_count_ok},
         "pageSizes": {"values": page_sizes, "letter": letter_ok},
         "pageFillRatios": {"values": page_fill, "minimum": args.min_page_fill, "ok": page_fill_ok},
+        "atsReadability": {
+            "textBlocks": text_blocks,
+            "imageBlocks": image_blocks,
+            "annotations": annotations,
+            "widgets": widgets,
+            "orphanHeadingsAtPageBreak": orphan_headings,
+            "overlappingLines": overlap_findings,
+            "ok": all(count == 0 for count in image_blocks)
+            and all(count == 0 for count in annotations)
+            and all(count == 0 for count in widgets)
+            and not orphan_headings
+            and not overlap_findings
+            and all(count > 0 for count in text_blocks),
+        },
         "sections": section_checks,
         "preservedContent": anchor_checks,
         "boldAnchors": bold_checks,

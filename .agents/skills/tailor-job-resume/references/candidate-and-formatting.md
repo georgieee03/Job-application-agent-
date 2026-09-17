@@ -1,25 +1,13 @@
 # Candidate And Formatting Contract
 
-## Verified Candidate Context
+## Candidate Context Must Be Restored Locally
 
-- Name: George Jobi Perangattu
-- Email: gjobiper@asu.edu
-- Phone: (480) 742-9855
-- Location: Tempe, Arizona
-- LinkedIn: https://www.linkedin.com/in/george-j-1829112a2/
-- Education:
-  - M.S. Robotics and Autonomous Systems, AI concentration, Arizona State University, expected July 2026
-  - B.S. Computer Science, Arizona State University, May 2025
-- Current status: pursuing the ASU master's degree
-- Work authorization: authorized or eligible to work in the United States through OPT
-- OPT: eligible and valid
-- Future sponsorship: will require H-1B sponsorship
-- Earliest start: two weeks
-- Relocation: willing to relocate anywhere in the United States
-- Salary: use the job's stated range or expectations
-- Linux: expert
+This public distribution omits the candidate's private contact, immigration,
+demographic, and availability answers. Read `data/candidate-application-answers.md`
+after the operator restores it locally. Do not treat example helper text as
+verified candidate facts. Confirm time-sensitive education and employment data.
 
-Do not place immigration, salary, EEO, favorite-fruit, or application-form answers on the resume unless the user explicitly requests it.
+Do not place immigration, salary, EEO, or unrelated application answers on the resume.
 
 ## Verified Resume Content
 
@@ -34,7 +22,7 @@ Required content anchors:
 - Parrot MiniDrone
 - 3D Motion Planning
 - Spider CAD Robot
-- Factory Automation System for Semiconductor Process Simulation
+- Complementarity-Free Dexterous Manipulation with TacDrones
 - Backend Developer Intern - DigiClips Media
 - Full Stack Developer Intern - Odoo
 - Full Stack Developer Intern - TicketDex
@@ -69,6 +57,11 @@ Do not convert fundamentals, coursework, planned work, or adjacent exposure into
   - every technical-skill category label before the colon
 - Required italic text: project institution/course context and location lines where the approved reference uses italics
 - Avoid tables, columns, icons, graphics, headers, footers, text boxes, or decorative elements that can reduce ATS extraction quality
+- The PDF must be text-extractable and ATS-readable. Do not render the resume
+  as a full-page image, do not introduce annotations or form widgets, and do
+  not allow overlapping text.
+- No page break may strand a section heading, project heading, job heading,
+  degree line, or bullet introduction away from the text it belongs to.
 
 ## File Contract
 

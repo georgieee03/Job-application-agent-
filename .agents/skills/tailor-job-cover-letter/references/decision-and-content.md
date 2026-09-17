@@ -15,8 +15,8 @@ candidate answers. Strong recurring examples include:
   fusion, PID control, logging, tests, and safety checks
 - 3D motion planning with Python RRT, ROS, and Gazebo
 - Spider CAD Robot
-- Factory Automation System for Semiconductor Process Simulation, phrased
-  honestly as coursework or work in progress where applicable
+- Complementarity-Free Dexterous Manipulation with TacDrones, phrased
+  honestly as an ASU applied project running from Jun 2026 to expected Dec 2026
 - DigiClips, Odoo, and TicketDex software-engineering internships and their
   verified metrics
 - Expert Linux proficiency

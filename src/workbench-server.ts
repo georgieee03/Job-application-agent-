@@ -20,6 +20,13 @@ const TRACKER_PATH = resolve(process.cwd(), "data", "application-tracker.json");
 const APPLIED_WORKBOOK_PATH = resolve(process.cwd(), "data", "applied-jobs.xls");
 const TRACKER_STATUSES = new Set([
   "",
+  "discovered",
+  "screened",
+  "tailoring",
+  "awaiting-approval",
+  "approved",
+  "form-in-progress",
+  "awaiting-user",
   "submitted - email verified",
   "submitted - portal verified",
   "submitted - pending email verification",
@@ -27,9 +34,18 @@ const TRACKER_STATUSES = new Set([
   "not submitted",
   "not completed",
   "manual submit needed",
+  "needs-review",
+  "blocked",
+  "skipped",
   "rejected",
   "interview",
   "accepted"
+]);
+const LEGACY_TRACKER_STATUS_ALIASES = new Map<string, string>([
+  ["ready-to-submit", "approved"],
+  ["submitted-pending-verification", "submitted - pending email verification"],
+  ["submitted - pending email/portal verification", "submitted - pending email verification"],
+  ["blocked - replaced", "skipped"]
 ]);
 const MAX_JSON_BODY_BYTES = 1_000_000;
 const MAX_TRACKER_TEXT_LENGTH = 50_000;
@@ -89,6 +105,13 @@ interface TrackedJob extends Required<Omit<TrackedJobInput, "applyUrl" | "descri
   appliedAt: string | null;
   status:
     | ""
+    | "discovered"
+    | "screened"
+    | "tailoring"
+    | "awaiting-approval"
+    | "approved"
+    | "form-in-progress"
+    | "awaiting-user"
     | "submitted - email verified"
     | "submitted - portal verified"
     | "submitted - pending email verification"
@@ -96,6 +119,9 @@ interface TrackedJob extends Required<Omit<TrackedJobInput, "applyUrl" | "descri
     | "not submitted"
     | "not completed"
     | "manual submit needed"
+    | "needs-review"
+    | "blocked"
+    | "skipped"
     | "rejected"
     | "interview"
     | "accepted";
@@ -613,6 +639,7 @@ async function recordTrackerVisit(body: unknown): Promise<TrackedJob> {
   const existingIndex = jobs.findIndex((job) => job.id === id);
   const existing = existingIndex >= 0 ? jobs[existingIndex] : undefined;
   const next: TrackedJob = {
+    ...(existing ?? {}),
     id,
     provider: listing.provider ?? existing?.provider ?? "unknown",
     title: listing.title,
@@ -861,7 +888,21 @@ function normalizeTrackedJobInput(input: TrackedJobInput | undefined): Normalize
 
 function normalizeTrackerStatus(status: unknown): TrackedJob["status"] {
   const value = typeof status === "string" ? status.trim().toLowerCase() : "";
-  return TRACKER_STATUSES.has(value) ? (value as TrackedJob["status"]) : "";
+  const normalized = LEGACY_TRACKER_STATUS_ALIASES.get(value) ?? value;
+  return TRACKER_STATUSES.has(normalized) ? (normalized as TrackedJob["status"]) : "";
+}
+
+function isTrackerStatus(status: unknown): boolean {
+  if (typeof status !== "string") {
+    return false;
+  }
+
+  const value = status.trim().toLowerCase();
+  if (LEGACY_TRACKER_STATUS_ALIASES.has(value)) {
+    return true;
+  }
+
+  return TRACKER_STATUSES.has(value);
 }
 
 function sanitizeTrackedApplyUrl(provider: string | undefined, applyUrl: string | null): string | null {
@@ -869,10 +910,6 @@ function sanitizeTrackedApplyUrl(provider: string | undefined, applyUrl: string 
     provider: provider ?? "unknown",
     applyUrl
   }).applyUrl;
-}
-
-function isTrackerStatus(status: unknown): boolean {
-  return typeof status === "string" && TRACKER_STATUSES.has(status.trim().toLowerCase());
 }
 
 function normalizeCount(value: unknown): number {

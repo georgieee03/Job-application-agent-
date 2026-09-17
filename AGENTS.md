@@ -38,7 +38,9 @@ fill an optional field.
 - Use the exact upload names `George_Jobi_Resume.pdf` and `George_Jobi_CoverLetter.pdf`.
 - Show all generated pages and the approval checklist before submitting an application.
 - Repeat approval whenever an approved file changes.
-- Read `data/candidate-application-answers.md` before asking repeated form questions.
+- Read and search `data/candidate-application-answers.md` before asking any
+  repeated form question. Treat it as the canonical answer source; use
+  `application-profile.json` only as a legacy compatibility mirror.
 - Verify the approval-manifest hashes immediately before uploading files.
 - Capture the provider success page or equivalent immediate submission response,
   but do not treat a success page alone as final verification.
@@ -47,23 +49,31 @@ fill an optional field.
   response that confirms the application was accepted.
 - If only the success page is available, record the role as submitted but
   pending email/portal verification.
-- Record every blocked, CAPTCHA/OTP-gated, replaced, or incomplete application
-  in `application_tracker.md` with the original job posting URL. Also copy
-  incomplete Codex attempts into `DYI applications.md` using the same table
-  format.
-- Update every durable tracker before and after application work:
-  `data/application-tracker.json`, `application_tracker.md`,
-  `DYI applications.md` when applicable, the active
-  `data/<run-name>/application-workbench.*` files, and the per-application
-  reports in `data/application-reports/`.
-- Push tracker and report updates to GitHub at every clean batch checkpoint
-  and before handing work to another device or session. Pull/rebase `main`
-  before sourcing new jobs so duplicate prevention includes applications
-  submitted from the Mac/Claude workspace or this Windows/Codex workspace.
-- For each application touched, keep a dedicated report that records what was
-  done, what files were used, what answers were submitted, what evidence was
-  captured, and what remains blocked or pending. Do not store passwords,
-  cookies, CAPTCHA answers, raw session data, or one-time codes in reports.
+- Record every submitted, blocked, CAPTCHA/OTP-gated, replaced, skipped, or
+  incomplete application in the workbench tracker:
+  `data/application-tracker.json`.
+- Treat `data/application-tracker.json` as the single durable tracking source
+  used by the workbench UI. Do not create or require dated batch ledgers,
+  Markdown tracker mirrors, or per-application report files for new work.
+- Before discovering new roles, run tracker hygiene and read-only Gmail
+  outcome reconciliation when available. Rejection emails must update matching
+  tracker entries to `rejected` and `workflowExcluded=true`; confirmation
+  emails may verify pending submissions only when the role match is clear.
+- Roles marked `workflowExcluded=true` are visible duplicate-prevention records,
+  not permanent "never apply" records. Exclude them from ordinary discovery,
+  and do not proactively recheck old excluded roles. If normal sourcing
+  rediscovers one naturally as a strong current match, allow a fast reapply
+  check when it proves the listing is open and there is no employer, ATS,
+  duplicate, cooldown, account, or application-history restriction. Record
+  `reapplyAllowed`, `reapplyCheckedAt`, and `reapplyRationale` before tailoring
+  or submitting; if restricted or unclear, record `reapplyAllowed=false` and
+  move on.
+- Keep coordination local to the workbench tracker unless the user explicitly
+  asks for a separate export.
+- For each application touched, store the status, submitted-answer summary,
+  package paths, confirmation evidence paths, blocker, and next action on the
+  corresponding tracker entry. Do not store passwords, cookies, CAPTCHA
+  answers, raw session data, or one-time codes in the tracker.
 
 ## Automatic Job-Application Routing
 
@@ -81,7 +91,7 @@ server, choose providers, restate their profile, or explain the workflow.
 
 Treat the request as standing authorization to:
 
-- create a uniquely named batch and durable application ledger;
+- use the existing workbench tracker as the durable application state;
 - source and screen currently open US jobs;
 - prioritize the candidate's recorded robotics preferences;
 - tailor, render, and validate role-specific application materials;
@@ -90,11 +100,12 @@ Treat the request as standing authorization to:
 - continue replacing closed, incompatible, blocked, duplicate, CAPTCHA-skipped,
   or unconfirmed roles until the requested number is authoritatively submitted.
 
-Proceed autonomously using `data/candidate-application-answers.md`. Ask the user
-only for an application-specific fact that is absent or ambiguous, a legal or
-immigration answer that cannot be inferred, a required login or one-time code,
-or human verification. Record the question and exact continuation step in the
-application ledger before asking.
+Proceed autonomously using `data/candidate-application-answers.md`. Search that
+file by exact and semantic wording before asking the user. Ask only for an
+application-specific fact that is absent or ambiguous, a legal or immigration
+answer that cannot be inferred, a required login or one-time code, or human
+verification. Record the question and exact continuation step in the workbench
+tracker before asking.
 
 The requested number means successfully and authoritatively confirmed
 applications, not attempts. A final verified application requires both the
@@ -103,18 +114,14 @@ portal record, or provider/API acceptance record. Never count blocked, skipped,
 staged, `needs-review`, email-unverified, or merely clicked submissions as fully
 verified.
 
-Before discovering or opening new roles, pull the latest `main` from GitHub and
-read all synced trackers and reports. This is required so another workspace does
-not apply to roles already submitted or attempted elsewhere. After material
-tracker/report updates, stage only tracker/report files, commit them with a
-clear sync message, and push `main` unless the worktree contains unrelated
-changes that make a safe tracker-only commit impossible.
+Before discovering or opening new roles, read `data/application-tracker.json`.
+This is the duplicate-prevention source for the local workbench.
 
 ## Model-Aware Subagent Delegation
 
 The master job-application workbench may use subagents when the user requests a
-multi-role batch. Divide independent research, package analysis, and
-verification work in parallel, but keep live browser submission and ledger
+multi-role run. Divide independent research, package analysis, and
+verification work in parallel, but keep live browser submission and tracker
 ownership with the main agent.
 
 Choose the subagent model according to task intensity:
@@ -127,7 +134,7 @@ Choose the subagent model according to task intensity:
   decisions, application-question mapping, and package/manifest review.
 - **High intensity - `gpt-5.5`:** ambiguous sponsorship or export-control
   wording, complex factual reconciliation, novel ATS forms, high-risk
-  application responses, conflicting evidence, and final batch forensic audit.
+  application responses, conflicting evidence, and final tracker audit.
 
 Use the lowest-capability model that can complete the task reliably. Increase
 the model level when a subagent reports uncertainty, conflicting evidence, or
@@ -138,71 +145,31 @@ Subagents must:
 - receive a concrete, bounded task and the exact source files they need;
 - use disjoint write scopes when editing artifacts;
 - never submit an application, click a final submit control, access OTPs, solve
-  CAPTCHAs, or alter the authoritative ledger;
+  CAPTCHAs, or alter the authoritative tracker;
 - never invent candidate facts or treat local ATS estimates as employer scores;
 - return structured findings and artifact paths to the main agent.
 
 The main agent must verify and integrate subagent output, update
-`application-workbench.md`, enforce approvals and browser safety, and remain
-the sole owner of final external side effects.
-
-
-## Claude Code Subagent Routing
-
-When this repository runs in Claude Code, use `CLAUDE.md` as the Claude-specific
-instruction layer and the agents in `.claude/agents/`.
-
-Claude Code routing mirrors the intensity strategy above:
-
-- **Low intensity - `job-discovery-haiku`:** use `claude-haiku-4-5` with low
-  effort for role discovery, freshness checks, duplicate checks, and simple
-  extraction.
-- **Medium intensity - `job-screening-sonnet`:** use `claude-sonnet-4-6` with
-  medium effort for eligibility, ATS gaps, package review, and form-question
-  mapping.
-- **Verification/audit - `verification-audit-opus`:** use `claude-opus-4-8`
-  with high effort for confirmation email/portal evidence, provider/API
-  acceptance evidence, tracker/ledger reconciliation, package-manifest
-  verification review, and final batch audit.
-- **High risk - `job-risk-opus`:** use `claude-opus-4-8` with xhigh effort
-  for sponsorship/export ambiguity, novel ATS flows, conflicting evidence,
-  high-risk application responses, and final forensic audits.
-
-The main Claude Code session remains the only actor that may click final submit,
-handle OTP/CAPTCHA handoffs, access mailbox verification, update the
-authoritative tracker, or mark a target count complete.
-
-For token efficiency in Claude Code, default the main session to
-`claude-sonnet-4-6` at medium effort for setup and ordinary application goals.
-Use Haiku subagents for bulk discovery and simple extraction. Escalate to
-`claude-opus-4-8` for every verification or audit judgment, ambiguous
-legal/sponsorship/export wording, novel ATS failures, contradictory evidence, or
-final forensic audit work; use Opus xhigh only when high effort is not enough or
-the batch evidence is disputed.
-
-Deterministic commands may calculate hashes, run tests, search mailbox metadata,
-or inspect files, but the decision to mark evidence verified, audit-passed, or
-countable must be made by an Opus agent. Sonnet and Haiku must not mark a role
-`submitted - email verified`, `submitted - portal verified`, or complete the
-requested verified target.
+`data/application-tracker.json`, enforce approvals and browser safety, and
+remain the sole owner of final external side effects.
 
 ## Job-Workbench Resource Cleanup
 
-At the end of a completed, stopped, or blocked batch, clean up resources created
-by that batch:
+At the end of a completed, stopped, or blocked run, clean up resources created
+by that run:
 
 - stop the localhost workbench server and background helper processes only
-  when the batch started them;
+  when the run started them;
 - close agent-created research, duplicate, blank, error, and completed
   application tabs;
 - retain only a confirmation tab explicitly useful to the user or an unfinished
   login, OTP, CAPTCHA, or required-input tab recorded as a handoff;
 - close completed subagents;
 - remove temporary OTP/security-code files and non-evidence temporary files;
-- preserve ledgers, approved packages, manifests, validation reports,
-  screenshots, and submission evidence.
+- preserve the workbench tracker, approved packages, manifests, validation
+  reports, screenshots, and submission evidence.
 
 Never stop a localhost server, browser, Chrome instance, terminal process, or
-other background application that was already running before the batch. Record
-the process IDs and browser tabs created by the batch so ownership can be
-verified before cleanup. Record the cleanup result in the authoritative ledger.
+other background application that was already running before the run. Record
+the process IDs and browser tabs created by the run in
+`data/application-tracker.json` when cleanup ownership matters.

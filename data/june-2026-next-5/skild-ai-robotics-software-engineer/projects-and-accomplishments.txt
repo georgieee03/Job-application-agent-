@@ -1,5 +1,0 @@
-1. Efficient TransFuser camera-LiDAR perception: I redesigned a multi-task autonomous-driving pipeline using EfficientNetV2-S, reducing model parameters by 70% while improving held-out loss by 8.7%. The system improved BEV segmentation by 25.4% and covered localization, depth, semantic segmentation, detection, and mapping.
-
-2. Parrot MiniDrone autonomous navigation: I implemented closed-loop PID control with inertial and visual sensor fusion on physical hardware. I built automated test sequences, logged sensor data, measured navigation performance, and added safety checks and failsafes for repeatable real-robot validation.
-
-3. Production ML and software performance: At DigiClips Media, I developed Python and PyTorch image-recognition and data-processing pipelines handling more than 10 million daily queries and reduced latency by 45% through data-driven analysis, testing, and performance optimization.

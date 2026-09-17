@@ -1462,6 +1462,7 @@ test("jooble listings offer safe direct source discovery actions", async () => {
       );
       await directMatch.click();
       assert.equal((await responsePromise).status(), 200);
+      await page.waitForFunction(() => (window as unknown as { __openedUrls: string[] }).__openedUrls.length === 1);
       assert.deepEqual(
         await page.evaluate(() => (window as unknown as { __openedUrls: string[] }).__openedUrls),
         ["https://jobs.example-robotics.com/apply/robotics-software"]

@@ -313,6 +313,53 @@ test("tracker normalizes legacy persisted records with stable defaults", async (
   });
 });
 
+test("tracker preserves workflow evidence fields when an existing role is revisited", async () => {
+  await withServer(
+    async ({ baseUrl }) => {
+      const visit = await postJson(baseUrl, "/api/tracker/visit", {
+        action: "apply",
+        listing: {
+          provider: "greenhouse",
+          title: "Robotics Engineer",
+          company: "Example Robotics",
+          listingUrl: "https://example.com/jobs/robotics",
+          applyUrl: "https://example.com/jobs/robotics"
+        }
+      });
+
+      assert.equal(visit.status, 200);
+      assert.equal(visit.body.packageDir, "data/application-packages/example-robotics");
+      assert.deepEqual(visit.body.submittedAnswers, ["authorized: yes"]);
+      assert.deepEqual(visit.body.confirmationEvidence, [{ type: "email", subject: "Application received" }]);
+      assert.equal(visit.body.status, "submitted - pending email verification");
+    },
+    {
+      setupCwd: async (cwd) => {
+        await mkdir(join(cwd, "data"), { recursive: true });
+        await writeFile(
+          join(cwd, "data", "application-tracker.json"),
+          JSON.stringify([
+            {
+              id: "aHR0cHM6Ly9leGFtcGxlLmNvbS9qb2JzL3JvYm90aWNz",
+              provider: "greenhouse",
+              title: "Robotics Engineer",
+              company: "Example Robotics",
+              listingUrl: "https://example.com/jobs/robotics",
+              applyUrl: "https://example.com/jobs/robotics",
+              firstVisitedAt: "2026-05-18T12:00:00.000Z",
+              lastVisitedAt: "2026-05-18T12:00:00.000Z",
+              status: "submitted-pending-verification",
+              packageDir: "data/application-packages/example-robotics",
+              submittedAnswers: ["authorized: yes"],
+              confirmationEvidence: [{ type: "email", subject: "Application received" }]
+            }
+          ])
+        );
+      }
+    }
+  );
+});
+
 test("tracker update endpoints return client errors for missing or unknown ids", async () => {
   await withServer(async ({ baseUrl }) => {
     const missingAppliedId = await postJson(baseUrl, "/api/tracker/applied", {

@@ -28,4 +28,5 @@ The rendered smoke tests cover desktop and mobile dashboard, settings, empty tra
 
 ## Collaboration
 
-The active polish branch is `geo-track`. When referencing Georgie's work in GitHub or docs, use `@georgieee`.
+Keep workbench state local in `data/application-tracker.json` and run
+`npm run ci` before treating UI changes as ready.

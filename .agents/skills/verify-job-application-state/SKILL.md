@@ -1,143 +1,122 @@
 ---
 name: verify-job-application-state
-description: Create, update, render, reconcile, sync, and audit the durable state of a job-application run. Use when Codex must initialize or resume a batch, record role status and evidence, preserve approvals and browser handoffs, list unresolved questions, verify manifest hashes and submission confirmations, maintain data/application-tracker.json, application_tracker.md, DYI applications.md, per-application reports, push tracker/report state for cross-device duplicate prevention, produce a complete application-workbench.md for another session, or decide whether the requested submitted-application target is actually complete.
+description: Create, update, reconcile, and audit the single workbench tracker for a job-application run. Use when Codex must resume a run, record role status and evidence, preserve approvals and browser handoffs, list unresolved questions, verify manifest hashes and submission confirmations, maintain data/application-tracker.json, or decide whether the requested submitted-application target is actually complete.
 ---
 
 # Verify Job Application State
 
-Keep the whole run understandable without chat history. The Markdown panel is
-the handoff; the JSON mirror enables deterministic updates and audits.
+Keep the whole run understandable from one file:
 
-## Files
+- `data/application-tracker.json`
 
-For each run directory maintain:
+That file is the durable source of truth and the workbench UI persistence
+layer. Do not create new dated run ledgers such as
+legacy run-specific sidecar files, Markdown tracker mirrors, or per-application
+report files for new workflow state.
 
-- `application-workbench.md`: complete human-readable state and next actions.
-- `application-workbench.json`: machine-readable mirror.
-
-Also maintain cross-device sync artifacts:
-
-- `data/application-tracker.json`: workbench tracker and duplicate-prevention source.
-- `application_tracker.md`: Markdown tracker mirror when present.
-- `DYI applications.md`: incomplete/failed-attempt mirror when present.
-- `data/application-reports/<role-id>.md`: one report per role touched, with process
-  summary, submitted answers, evidence, blocker, and next action.
+Generated packages, manifests, rendered previews, screenshots, and submission
+result files may remain separate artifacts. Their paths and meaning must be
+recorded on the corresponding tracker entry.
 
 Read [references/ledger-schema.md](references/ledger-schema.md) before adding
-new fields or statuses.
+new tracker fields or statuses.
 
-## Commands
+## Tracker Entry Requirements
 
-Initialize:
+Each touched role in `data/application-tracker.json` should be able to answer:
 
-```powershell
-python .agents\skills\verify-job-application-state\scripts\application_ledger.py init `
-  --run-dir "data\<run-name>" `
-  --objective "<objective>" `
-  --target-count 10
-```
+- company, role, provider, location, and authoritative job URL;
+- current status and when it changed;
+- duplicate-check outcome;
+- package directory and approved resume/cover-letter paths;
+- approval manifest path and SHA-256 binding when a package is approved;
+- submitted non-secret answers or an answer-summary field;
+- browser surface, URL, account context, form step, and handoff state when
+  unfinished;
+- confirmation type, text, URL/number, screenshot path, provider/API response
+  path, and submitted timestamp when submitted;
+- blocker, unresolved question, and exact next action when incomplete;
+- cleanup notes when a run created local resources that may need stopping.
 
-Add or update a role:
-
-```powershell
-python .agents\skills\verify-job-application-state\scripts\application_ledger.py upsert `
-  --run-dir "data\<run-name>" `
-  --role-id "<stable-slug>" `
-  --company "<company>" `
-  --role "<role>" `
-  --job-url "<authoritative URL>" `
-  --set "status=screened" `
-  --set "next_action=Tailor resume"
-```
-
-Add an event or unresolved question:
-
-```powershell
-python .agents\skills\verify-job-application-state\scripts\application_ledger.py event `
-  --run-dir "data\<run-name>" --role-id "<stable-slug>" --message "<event>"
-
-python .agents\skills\verify-job-application-state\scripts\application_ledger.py question `
-  --run-dir "data\<run-name>" --role-id "<stable-slug>" `
-  --question "<exact question>" --answer "<answer or blank>"
-```
-
-Update run-level handoff fields:
-
-```powershell
-python .agents\skills\verify-job-application-state\scripts\application_ledger.py set-run `
-  --run-dir "data\<run-name>" `
-  --set "next_action=Continue the first awaiting-user role"
-```
-
-Audit and re-render:
-
-```powershell
-python .agents\skills\verify-job-application-state\scripts\application_ledger.py audit `
-  --run-dir "data\<run-name>"
-```
+Unknown values stay blank or absent. Do not guess.
 
 ## Update Rules
 
-1. Update after every status transition, approval, blocker, user answer,
-   browser handoff, submission attempt, and confirmation.
+1. Update `data/application-tracker.json` after every status transition,
+   approval, blocker, user answer, browser handoff, submission attempt, and
+   confirmation.
 2. Store paths relative to the workspace when practical.
-3. Do not store passwords, cookies, CAPTCHA answers, or one-time codes.
-4. Bind approval to `approval_manifest` and `approval_manifest_sha256`.
+3. Do not store passwords, cookies, CAPTCHA answers, one-time codes, raw
+   session data, or private auth state in the tracker.
+4. Bind approval to an `approval_manifest` path and
+   `approval_manifest_sha256` when a tailored package is approved.
 5. Mark `submitted` only with non-empty authoritative confirmation evidence.
-6. Put the exact continuation instruction in `next_action`.
-7. Use the browser handoff fields for an unfinished live tab:
-   `browser_surface`, `browser_url`, `browser_account`, `browser_step`.
-8. Run `audit` before declaring the batch complete or handing it to another
-   session.
-9. Record every answer actually submitted in `submitted_answers` before marking
-   a role `submitted - email verified` or `submitted - portal verified`.
-10. Keep `application_report`, `tracker_sync_status`, `tracker_synced_at`, and
-    `tracker_sync_commit` current after each tracker/report push.
-11. Before starting discovery in a resumed run, pull/rebase `main` and reconcile
-    the latest synced trackers and reports from GitHub.
-12. After material tracker/report updates, stage only tracker/report artifacts,
-    commit them, and push to `main` so another workspace does not repeat the
-    same job posting.
+6. Put the exact continuation instruction in a `next_action` or tracker notes
+   field.
+7. Record every answer actually submitted before marking a role
+   `submitted - email verified` or `submitted - portal verified`.
+8. Before starting discovery in a resumed run, read
+   `data/application-tracker.json`.
+9. Run `python scripts/audit_application_tracker.py --fix` before discovery or
+   completion. Fix evidence gaps, status drift, and excluded-role state in the
+   tracker instead of relying on chat memory.
+10. When Gmail is available and authorized, reconcile rejection,
+   confirmation, interview, and follow-up messages across all available
+   mailbox history through read-only message searches. Store only bounded metadata/snippets needed for evidence in
+   `emailEvidence`; do not store raw mailbox exports, OTPs, auth state, or
+   sensitive message bodies.
+11. Keep tracker updates in the local workbench tracker unless the user
+   explicitly asks for a separate export.
 
 ## Reconcile
 
-Compare the ledger against:
+Compare the tracker against:
 
-- each role's `approval-manifest.json`;
-- validation reports and ATS heuristic;
-- submission result JSON;
+- each role's approval manifest, if present;
+- validation reports and ATS heuristic artifacts, if present;
+- submission result JSON, if present;
 - confirmation screenshots and text;
-- `data/application-tracker.json`;
-- `application_tracker.md`, if present;
-- `DYI applications.md`, if present;
-- per-application reports in `data/application-reports/`;
-- any employer confirmation email;
+- any employer confirmation email or portal/API acceptance evidence;
 - one-time code files, which must be absent after completion.
+- Gmail rejection and confirmation findings recorded in `emailEvidence`, when
+  mailbox access was available.
 
-Fix inconsistencies in evidence, not merely in the summary text.
+Fix inconsistencies in evidence, not merely in summary text.
 
-## Git Sync Contract
+## Completion Audit
 
-Use a tracker-only commit for cross-device state. Do not include unrelated code
-or local handoff edits in tracker sync commits.
+The requested target is met only when the count of unique tracker entries with
+`submitted - email verified` or `submitted - portal verified` is at least the
+target count.
 
-Before discovery or resume:
+Verified submissions must include:
 
-```powershell
-git pull --rebase origin main
-```
+- authoritative job URL;
+- approved package path or explicit no-tailoring rationale;
+- submitted-answer summary;
+- confirmation text/number/URL/screenshot and either email, employer/ATS portal
+  evidence, or provider/API acceptance evidence.
 
-After tracker/report updates:
+Roles in `submitted`, `submitted - pending email verification`,
+`awaiting-user`, `blocked`, `needs-review`, `manual submit needed`,
+`not submitted`, `not completed`, or `skipped` do not count.
 
-```powershell
-git add -- data\application-tracker.json application_tracker.md "DYI applications.md" `
-  data\application-reports data\<run-name>\application-workbench.md `
-  data\<run-name>\application-workbench.json
-git diff --cached --check
-git commit -m "Sync application tracker state"
-git push origin main
-```
+Roles marked `workflowExcluded=true` must not be selected for ordinary role
+discovery. They remain visible in `data/application-tracker.json` for duplicate
+prevention, outcome review, and reapply decisions. Do not proactively recheck
+old excluded roles. A later run may re-enter one only when normal sourcing
+rediscovered it naturally as a strong current match and a quick live reapply
+check records `reapplyAllowed=true`, `reapplyCheckedAt`, and
+`reapplyRationale`, and verifies that the current listing is open, candidate
+eligibility still passes, and the employer/ATS does not block another
+application through a duplicate, cooldown, account, or application-history
+restriction.
 
-If there are no tracker/report changes, skip the commit and record that no sync
-was needed. If unrelated local changes prevent a safe pull or commit, record the
-blocker and the exact continuation step in the ledger.
+## Local-Only Contract
+
+A clean handoff to a future local session consists of:
+
+1. `data/application-tracker.json` saved with all touched roles current.
+2. Referenced artifacts still present on disk.
+3. No active CAPTCHA, OTP, or login state left unrecorded.
+4. No one-time code files retained.

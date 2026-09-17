@@ -7,9 +7,8 @@ Use this checklist before treating the workbench as ready for daily use.
 - Run `npm run check`.
 - Run `npm run check:python`.
 - Run `npm test`.
-- Run `npm run ci` before pushing.
+- Run `npm run ci`.
 - Confirm the static app shell has unique IDs and valid label/ARIA references.
-- Confirm CI runs the same gates on push and pull request.
 - Launch `npm run ui` and verify the local URL prints successfully.
 
 ## UI Normalization

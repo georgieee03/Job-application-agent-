@@ -1,6 +1,16 @@
 # Job Application Agent Kit
 
-A private-ready repository for running a careful job-application workflow with:
+Current repository: [Job-application-agent-](https://github.com/georgieee03/Job-application-agent-)
+
+Owner: @georgieee03
+
+Start with the [public repository setup and migration guide](docs/public-repository-setup.md)
+and the [complete workflow, job targets, and resume-format handoff](docs/job-application-workflow-handoff.md).
+This checkout contains reusable code and sanitized examples. Restore private candidate
+answers, the real tracker, and referenced application packages locally before continuing a run.
+
+
+A locally operated repository for running a careful job-application workflow with:
 
 - a Playwright-based Handshake apply assistant
 - a job discovery workbench for public boards and aggregators
@@ -8,19 +18,18 @@ A private-ready repository for running a careful job-application workflow with:
 - a resume-tailoring workspace for job-specific prompt generation
 - reusable LLM prompts for application agents
 - portable skill docs for tracker management and Workday workflows
-- safe templates for profile answers and application tracking
+- safe templates for profile answers and application source setup
 - helper scripts for Ashby, public board discovery, and text-to-PDF resume generation
 
-This private handoff is set up to preserve the workbench tracker and historical
-application artifacts while keeping high-risk local auth state out of git.
-Runtime browser profiles, mailbox credentials, tokens, and `.env` values should
-be restored locally from `LOCAL_SECRETS_MANIFEST.md`, not committed.
+This public distribution keeps runtime application records, personal contact
+information, browser profiles, mailbox credentials, tokens, and `.env` values
+out of the current repository tree. Restore local state privately using
+`docs/public-repository-setup.md`; the historical analysis is retained as reference.
 
 ## Collaboration Notes
 
-- The active polish branch is `geo-track`.
-- When referencing Georgie's work in GitHub or docs, tag the GitHub handle as `@georgieee`.
-- Repository authorship and commits should still use `bmendonca3`.
+- Keep job tracking local in `data/application-tracker.json`.
+- Use the workbench UI as the shared view of application state.
 
 ## What Is Included
 
@@ -46,7 +55,7 @@ be restored locally from `LOCAL_SECRETS_MANIFEST.md`, not committed.
 - `src/workbench-server.ts`: local API server for search results, tracker persistence, applied-job status updates, client-safe error responses, and Excel-compatible applied-job export
 - [`ui/README.md`](ui/README.md): workbench behavior, validation, and security notes
 - [`scripts/README.md`](scripts/README.md): helper-script usage and smoke-test coverage
-- [`tests/README.md`](tests/README.md): local gate, rendered UI coverage, and remote CI verification notes
+- [`tests/README.md`](tests/README.md): local gate and rendered UI coverage notes
 - Jooble results are treated as discovery listings because Jooble returns aggregator redirect URLs. Paid lead sources such as JobLeads are filtered out, and direct `Apply` links are reserved for sources that expose a real application URL.
 
 ### Tracker And Resume Tailoring
@@ -58,6 +67,11 @@ be restored locally from `LOCAL_SECRETS_MANIFEST.md`, not committed.
 - Each tracked job supports applied/not-applied state, status values for rejected/interview/accepted outcomes, visit counts, and removal.
 - Applied jobs are exported to `data/applied-jobs.xls` and can be downloaded from `/api/tracker/export` with date applied, company, title, status, and job URL columns.
 - The tracker includes a local resume source field and per-job tailoring notes, job description overrides, AI prompt previews, copy-to-clipboard support, and a saved tailored draft area.
+- `npm run tracker:audit:fix` normalizes legacy statuses, flags incomplete/rejected/pending roles as excluded from ordinary future runs, and reports verified submissions that lack tracker-level evidence.
+- `npm run tracker:migrate-report-evidence` migrates historical `data/application-reports/*.md` evidence into the single tracker.
+- `npm run tracker:archive-incomplete` moves package artifacts for incomplete roles into `Incomplete Application/` and updates tracker paths, keeping those roles for duplicate prevention without leaving active packages in the main workspace.
+- `npm run tracker:sync-email` applies read-only Gmail outcome findings from `data/email-application-outcomes.json` so rejection and confirmation emails update matching tracker entries.
+- [`docs/email-outcome-sync.md`](docs/email-outcome-sync.md): read-only Gmail reconciliation procedure and normalized sync file shape.
 
 ### Prompts
 
@@ -73,23 +87,18 @@ be restored locally from `LOCAL_SECRETS_MANIFEST.md`, not committed.
 - [`docs/skills/workday-live-flow-capture.md`](docs/skills/workday-live-flow-capture.md)
 - [`docs/skills/ui-latency-normalization.md`](docs/skills/ui-latency-normalization.md)
 
-### Claude Code Handoff
+### Local Handoff Notes
 
-- [`CLAUDE.md`](CLAUDE.md): Claude Code operating instructions, including
-  autonomous goal-mode behavior and subagent model routing.
-- [`.claude/agents/`](.claude/agents/): Claude Code subagent definitions for
-  Haiku, Sonnet, and Opus task delegation by intensity.
-- [`MACOS_CLAUDE_CODE_SETUP.md`](MACOS_CLAUDE_CODE_SETUP.md): Mac setup guide
-  for cloning this private repo, installing dependencies, restoring local-only
-  secrets, and running the workbench.
-- [`LOCAL_SECRETS_MANIFEST.md`](LOCAL_SECRETS_MANIFEST.md): checklist of files
+- [Public repository setup](docs/public-repository-setup.md): checklist of files
   and credentials that should be restored locally rather than committed.
+- Job tracking handoff is local-first: keep `data/application-tracker.json`
+  current and use the workbench UI as the shared view of application state.
 
 ### Templates
 
-- [`application-profile.example.json`](application-profile.example.json): default truthful answers for repeated forms
+- `data/candidate-application-answers.md` (restore locally): canonical confirmed answers for repeated application questions
+- [`application-profile.example.json`](application-profile.example.json): legacy Handshake compatibility mirror for repeated form mappings
 - [`job-sources.example.json`](job-sources.example.json): public board and aggregator search config
-- [`templates/application_tracker.template.md`](templates/application_tracker.template.md): duplicate-safe tracker template
 
 ### Helper Scripts
 
@@ -176,15 +185,15 @@ python3 -m pip install -r requirements.txt
 cp .env.example .env
 cp application-profile.example.json application-profile.json
 cp job-sources.example.json job-sources.json
-cp templates/application_tracker.template.md application_tracker.md
 ```
 
 Then edit:
 
 - `.env`
-- `application-profile.json`
+- `data/candidate-application-answers.md`
+- `application-profile.json` only when using the legacy Handshake helper
 - `job-sources.json`
-- `application_tracker.md`
+- `data/application-tracker.json` through the workbench UI
 
 ## Commands
 
@@ -232,30 +241,24 @@ Run the full local CI gate:
 npm run ci
 ```
 
-The local CI gate currently runs TypeScript checks, Python helper smoke checks, and rendered workbench tests. The intended GitHub Actions workflow is in `.github/workflows/ci.yml`; it should run the same gate on `main`, `geo-track`, and pull requests once workflow-file publishing is available.
-
-After publishing the workflow, verify the remote Actions gate:
-
-```bash
-npm run check:remote-ci
-```
-
-When authenticated with a credential that includes `workflow` scope, publish the workflow with:
-
-```bash
-npm run publish:ci-workflow
-```
+The local CI gate runs TypeScript checks, Python helper smoke checks, and
+rendered workbench tests.
 
 Use [`docs/validation-checklist.md`](docs/validation-checklist.md) before treating UI or tracker changes as ready for daily use.
-Use [`docs/ci-workflow-publishing.md`](docs/ci-workflow-publishing.md) when publishing or verifying the GitHub Actions workflow.
 
 ## Recommended Workflow
 
 1. Start with public-board discovery using `job-sources.json`, `npm run search`, and the UI.
-2. Use `application_tracker.md` before touching any role.
-3. Pick the best existing resume before tailoring anything.
-4. Use the prompt docs when delegating work to another automation tool or collaborator.
-5. Keep final submission conservative. The Handshake flow pauses for review unless you explicitly enable auto-submit.
+2. Run `npm run tracker:audit:fix` before touching new roles so rejected,
+   incomplete, and pending applications remain duplicate-prevention records.
+3. Use read-only Gmail reconciliation for rejection and confirmation emails
+   before discovery when the mailbox connector is available.
+4. Use `data/application-tracker.json` before touching any role.
+5. Pick the best existing resume before tailoring anything.
+6. Validate every tailored resume with the preserved-layout validator before
+   approval; it checks ATS-readable text extraction, reference styling,
+   keyword coverage, page fill, bold anchors, and orphan page breaks.
+7. Keep final submission conservative. The Handshake flow pauses for review unless you explicitly enable auto-submit.
 
 ## Privacy And Safety
 
@@ -264,10 +267,9 @@ The repo ignores live local state by default:
 - `.env`
 - `application-profile.json`
 - `job-sources.json`
-- `application_tracker.md`
 - `data/`
 
-That keeps credentials, auth state, tracker history, and application answers out of version control while still preserving the reusable code and templates.
+That keeps credentials, auth state, tracker history, and application answers out of version control while still preserving the reusable code and templates. For the current workbench workflow, `data/candidate-application-answers.md` is the answer source agents must check before asking repeated questions.
 
 ## Notes
 

@@ -33,11 +33,12 @@ Terminal alternatives:
 | form-in-progress -> submitted - pending email verification | Immediate provider success text, confirmation URL/number, screenshot, or provider/API response |
 | submitted - pending email verification -> submitted - email verified | Matching confirmation email captured and recorded |
 | submitted - pending email verification -> submitted - portal verified | Employer/ATS portal or provider/API acceptance evidence captured and recorded |
-| any active state -> not submitted/not completed/manual submit needed | Job URL, blocker, next action, and DIY tracker row when incomplete |
+| any active state -> not submitted/not completed/manual submit needed | Job URL, blocker, and next action on the workbench tracker entry |
 
-For every role touched, write or update `data/application-reports/<role-id>.md`
-with the process steps, non-secret submitted answers, artifacts used, evidence,
-blocker, next action, and final status.
+For every role touched, write or update the corresponding
+`data/application-tracker.json` entry with the process steps, non-secret
+submitted answers, artifacts used, evidence, blocker, next action, and final
+status.
 
 ## Resume Rules
 
@@ -53,15 +54,15 @@ blocker, next action, and final status.
 
 At the start of a new session:
 
-1. Read the entire `application-workbench.md`.
-2. Confirm the JSON mirror has the same `updated_at`.
-3. Inspect only artifacts referenced by the active role's `Next action`.
-4. Re-open or claim the recorded browser handoff only after verifying the URL,
+1. Read `data/application-tracker.json`.
+2. Inspect only artifacts referenced by the active role's `next_action` or
+   tracker notes.
+3. Re-open or claim the recorded browser handoff only after verifying the URL,
    employer, role, account, and form step.
-5. Treat stale OTPs, stale form previews, and unconfirmed submit attempts as
+4. Treat stale OTPs, stale form previews, and unconfirmed submit attempts as
    invalid.
-6. Pull/rebase `main` before role discovery and read the synced trackers and
-   `data/application-reports/*.md` before opening a new posting.
+5. Continue from `data/application-tracker.json`; do not reconstruct state
+   from side ledgers or chat memory.
 
 ## Batch Completion
 
@@ -71,5 +72,6 @@ the target count. Roles in `submitted`, `submitted - pending email
 verification`, `awaiting-user`, `blocked`, `needs-review`, `manual submit
 needed`, `not submitted`, `not completed`, or `skipped` do not count.
 
-Before completion or device handoff, push a tracker-only commit containing the
-updated trackers, active ledger, and application reports.
+Before completion or handoff, ensure `data/application-tracker.json` contains
+the updated status, evidence, submitted-answer summary, blocker, and next
+action for every touched role.
